@@ -170,9 +170,11 @@
       </div>
       <div class="now"><span class="live" aria-hidden="true"></span><b id="nowName"></b><span class="badge" id="nowQ" hidden></span>
         <a class="btn ghost" id="vlc" href="#" title="Opens the stream in VLC (phone, tablet, Android TV). On a computer it saves a playlist that VLC opens">Open in VLC</a>
+        <button class="btn ghost" id="other" type="button" hidden title="Choose any video player installed on your phone or TV">Other player</button>
         <button class="btn ghost" id="copy" type="button" title="Copy the stream address. In VLC: Media, Open Network Stream, paste">Copy link</button>
         <button class="btn ghost" id="m3u" type="button" title="Saves a playlist file that VLC, Kodi or any IPTV player can open">Get .m3u</button>
         <button class="btn ghost" id="stop" type="button">Close</button></div>
+      <p class="note" id="vlcHint" hidden><span id="hintText"></span></p>
     </div>
     <div class="results">
       <p class="count" id="count" aria-live="polite"></p>
@@ -367,7 +369,7 @@ function cleanup() {
   if (hls) { try { hls.destroy(); } catch (e) {} hls = null; }
   video.onplaying = video.onerror = null; video.removeAttribute("src"); video.load();
 }
-function stop() { token++; cleanup(); say(""); current = null; $("player").hidden = true; $("watch").classList.remove("playing"); renderList(); }
+function stop() { $("vlcHint").hidden = true; token++; cleanup(); say(""); current = null; $("player").hidden = true; $("watch").classList.remove("playing"); renderList(); }
 
 function play(ch) {
   current = ch; store("channel", ch.key);
@@ -385,17 +387,34 @@ function play(ch) {
     var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type: "audio/x-mpegurl" }));
     a.download = ch.name.replace(/[^\w]+/g, "_") + ".m3u"; document.body.appendChild(a); a.click(); a.remove();
   }
-  var vlc = $("vlc"); vlc.onclick = null;
-  if (android) vlc.href = "intent:" + best.replace(/^https?:\/\//i, "//") + "#Intent;scheme=" + (/^https/i.test(best) ? "https" : "http") + ";package=org.videolan.vlc;type=video/*;end";
-  else if (ios) vlc.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(best);
-  else {
-    vlc.href = "#";
-    vlc.onclick = function (e) {
-      e.preventDefault();
-      if (!LOCAL) return saveM3u();                       // no helper running: save a playlist that VLC opens
-      fetch(LOCAL + "open?url=" + encodeURIComponent(best)).then(function (r) { if (!r.ok) saveM3u(); }).catch(saveM3u);
-    };
-  }   // computers and smart TVs: open the saved playlist with VLC or Kodi
+  var vlc = $("vlc"), hint = $("vlcHint"), other = $("other"), hintText = $("hintText");
+  var PLAY = "https://play.google.com/store/apps/details?id=org.videolan.vlc", APPLE = "https://apps.apple.com/app/vlc-for-mobile/id650377962";
+  other.hidden = !android;
+  function noOpen(textHtml) {            // shown when nothing opened: the player app is probably not installed
+    hintText.innerHTML = textHtml; hint.hidden = false;
+    var m = hintText.querySelector("[data-m3u]"); if (m) m.onclick = function (ev) { ev.preventDefault(); saveM3u(); };
+  }
+  function launch(url, textHtml) {       // navigate to an app link; if the page never loses focus, nothing opened
+    var gone = false, mark = function () { gone = true; };
+    window.addEventListener("blur", mark, { once: true }); document.addEventListener("visibilitychange", mark, { once: true });
+    hint.hidden = true; location.href = url;
+    setTimeout(function () { if (!gone) noOpen(textHtml); }, 1800);
+  }
+  var hostPath = best.replace(/^https?:\/\//i, "//"), scheme = /^https/i.test(best) ? "https" : "http";
+  vlc.href = "#";
+  vlc.onclick = function (e) {
+    e.preventDefault();
+    if (android) return launch("intent:" + hostPath + "#Intent;action=android.intent.action.VIEW;scheme=" + scheme + ";package=org.videolan.vlc;type=video/*;S.browser_fallback_url=" + encodeURIComponent(PLAY) + ";end",
+      'VLC did not open. <a href="' + PLAY + '">Install VLC (free)</a>, or press <b>Other player</b>.');
+    if (ios) return launch("vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(best),
+      'VLC did not open. <a href="' + APPLE + '">Install VLC (free)</a> and press the button again.');
+    if (LOCAL) return fetch(LOCAL + "open?url=" + encodeURIComponent(best)).then(function (r) { if (!r.ok) saveM3u(); }).catch(saveM3u);
+    launch("promptiootv://" + encodeURIComponent(best).replace(/'/g, "%27"),
+      'Nothing opened. On Windows, install VLC, then <a href="' + RAW + 'proxy/windows-open-in-vlc.reg" download>download this one-time link</a> and double-click it (say Yes). After that the button opens VLC (or Windows Media Player if VLC is missing) with one click. Or <a href="#" data-m3u>save a playlist file</a> instead.');
+  };
+  other.onclick = function () {          // Android: let the person pick any installed video player
+    launch("intent:" + hostPath + "#Intent;action=android.intent.action.VIEW;scheme=" + scheme + ";type=video/*;end", 'No video player opened. Install <a href="' + PLAY + '">VLC (free)</a>.');
+  };
   $("copy").onclick = function () {
     var b = $("copy"), done = function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy link"; }, 1600); };
     if (navigator.clipboard) navigator.clipboard.writeText(best).then(done, function () { window.prompt("Copy this address", best); });

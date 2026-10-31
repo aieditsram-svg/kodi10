@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\promptiootv]
+@="URL:Promptioo TV"
+"URL Protocol"=""
+
+[HKEY_CURRENT_USER\Software\Classes\promptiootv\shell\open\command]
+@="powershell.exe -NoProfile -WindowStyle Hidden -Command \"$u=[uri]::UnescapeDataString(('%1' -replace '^promptiootv:(//)?','').TrimEnd('/'));$v=@('C:\\Program Files\\VideoLAN\\VLC\\vlc.exe','C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe')|?{Test-Path $_}|select -First 1;if($v){Start-Process $v $u}else{Start-Process wmplayer.exe $u}\""
