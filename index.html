@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Promptioo TV</title>
+<meta name="description" content="Free live TV from India and around the world. Pick a category and a language and start watching.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #0e0b1f; --surface: #181433; --raised: #221c45; --line: #302960;
+    --text: #efeaff; --muted: #a49cd0;
+    --magenta: #ff2e88; --cyan: #19e3ff; --yellow: #ffd23f;
+    --display: "Chakra Petch", "Segoe UI", system-ui, sans-serif;
+    --body: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 400 15px/1.55 var(--body); }
+  button, select, input { font: inherit; color: inherit; }
+  a { color: var(--cyan); }
+  :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+
+  /* top bar */
+  .top { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 14px 0; }
+  .brand { display: flex; align-items: center; gap: 8px; text-decoration: none; color: var(--text);
+           font: 700 24px/1 var(--display); letter-spacing: .01em; }
+  .brand .tv { background: var(--magenta); color: #1a0010; padding: 3px 8px 2px; border-radius: 4px; font-size: 18px; }
+  .btn { display: inline-block; text-decoration: none; background: var(--cyan); color: #00222a; font-weight: 700;
+         padding: 9px 16px; border-radius: 8px; border: 0; cursor: pointer; }
+  .btn.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); font-weight: 600; }
+
+  /* hero */
+  .hero { padding: 18px 0 6px; }
+  h1 { margin: 0 0 6px; font: 700 clamp(32px, 6vw, 56px)/1.05 var(--display); letter-spacing: -.01em; }
+  .sub { margin: 0; color: var(--muted); max-width: 60ch; }
+  #stats { margin: 6px 0 0; color: var(--muted); font-size: 13px; }
+
+  /* pickers */
+  .pick { margin: 18px 0 12px; display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+  .group, .row { min-width: 0; }
+  .watch { grid-template-columns: minmax(0, 1fr); }
+  .group h2 { margin: 0 0 8px; font: 600 15px/1.2 var(--display); color: var(--muted); letter-spacing: .02em; }
+  .row { display: flex; gap: 8px; align-items: stretch; }
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 2px 8px; scrollbar-width: thin; flex: 1; min-width: 0; }
+  .chip { flex: none; cursor: pointer; background: var(--surface); border: 1px solid var(--line); border-bottom: 4px solid var(--c, var(--line));
+          border-radius: 8px 8px 4px 4px; padding: 9px 14px 6px; font-weight: 600; display: flex; align-items: baseline; gap: 7px; white-space: nowrap; }
+  .chip small { color: var(--muted); font-weight: 600; font-size: 12px; }
+  .chip:hover { background: var(--raised); }
+  .chip[aria-pressed=true] { background: var(--c, var(--cyan)); border-color: var(--c, var(--cyan)); color: #14102b; }
+  .chip[aria-pressed=true] small { color: #14102b; opacity: .75; }
+  .chip:disabled { opacity: .35; cursor: default; }
+  .langs .chip { --c: var(--cyan); border-bottom-color: var(--line); }
+  .langs .chip[aria-pressed=true] { border-bottom-color: var(--cyan); }
+  select.more { flex: none; align-self: flex-start; background: var(--surface); border: 1px solid var(--line); border-radius: 8px;
+                padding: 9px 10px; max-width: 190px; cursor: pointer; }
+  .tools { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  .tools input[type=search] { flex: 1 1 220px; min-width: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+  .tools label { display: flex; gap: 8px; align-items: center; cursor: pointer; user-select: none; }
+  .tools input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--magenta); }
+  .note { margin: 0 0 12px; padding: 10px 14px; background: var(--surface); border-left: 4px solid var(--yellow); border-radius: 4px; color: var(--muted); }
+
+  /* player + results */
+  .watch { display: grid; gap: 16px; align-items: start; }
+  .player { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+  .screen { position: relative; background: #000; aspect-ratio: 16 / 9; }
+  video { width: 100%; height: 100%; display: block; background: #000; }
+  .overlay { position: absolute; inset: 0; display: none; align-items: center; justify-content: center; padding: 24px; text-align: center;
+             background: rgba(14, 11, 31, .86); }
+  .overlay.show { display: flex; }
+  .overlay.bad { color: #ff9db8; }
+  .now { display: flex; align-items: center; gap: 10px; padding: 12px 14px; }
+  .now b { font: 700 18px/1.2 var(--display); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .live { width: 9px; height: 9px; border-radius: 50%; background: var(--magenta); flex: none; }
+  @media (prefers-reduced-motion: no-preference) { .live { animation: blink 1.6s ease-in-out infinite; } }
+  @keyframes blink { 50% { opacity: .25; } }
+  .count { color: var(--muted); margin: 0 0 10px; font-size: 13px; }
+  .grid { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+  .card { all: unset; box-sizing: border-box; cursor: pointer; display: flex; gap: 12px; align-items: center; padding: 10px;
+          background: var(--surface); border: 1px solid var(--line); border-radius: 10px; min-width: 0; }
+  .card:hover { background: var(--raised); }
+  .card:focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
+  .card[aria-current=true] { background: var(--magenta); border-color: var(--magenta); color: #1a0010; }
+  .card[aria-current=true] .meta { color: #3a0020; }
+  .logo { width: 46px; height: 46px; border-radius: 8px; background: #fff2 center / contain no-repeat; flex: none; display: grid; place-items: center;
+          font: 700 16px var(--display); color: var(--muted); }
+  .txt { flex: 1; min-width: 0; }
+  .name { display: block; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .meta { display: block; color: var(--muted); font-size: 12.5px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .badge { flex: none; font: 700 12px var(--display); padding: 2px 7px; border-radius: 4px; background: var(--yellow); color: #2b2200; }
+  .empty { padding: 28px 16px; color: var(--muted); text-align: center; border: 1px dashed var(--line); border-radius: 10px; }
+  #more { margin: 16px auto 0; display: block; }
+
+  .playing .watch { }
+  @media (min-width: 980px) {
+    .watch.playing { grid-template-columns: minmax(0, 1fr) 400px; }
+    .watch.playing .player { position: sticky; top: 12px; }
+    .watch.playing .grid { grid-template-columns: 1fr; max-height: calc(100vh - 40px); overflow: auto; padding-right: 4px; }
+  }
+  @media (max-width: 640px) {
+    .row { flex-direction: column; gap: 2px; }
+    select.more { max-width: none; width: 100%; align-self: stretch; }
+  }
+  @media (max-width: 979px) {
+    .watch.playing .player { position: sticky; top: 0; z-index: 5; box-shadow: 0 10px 24px #000a; }
+  }
+
+  /* Kodi */
+  .kodi { margin: 56px 0 24px; padding-top: 28px; border-top: 1px solid var(--line); }
+  .kodi h2 { margin: 0 0 6px; font: 700 28px/1.15 var(--display); }
+  .kodi p { margin: 0 0 14px; color: var(--muted); max-width: 62ch; }
+  .steps { margin: 0 0 18px; padding-left: 20px; color: var(--muted); max-width: 70ch; } .steps li { margin: 6px 0; } .steps b { color: var(--text); }
+  .lists { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 4px 16px; }
+  .lrow { display: flex; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid var(--line); }
+  .lrow:first-child { border-top: 0; }
+  .lrow .w { flex: 1; min-width: 0; } .lrow b { display: block; } .lrow span { color: var(--muted); font-size: 13px; }
+  .lrow code { display: block; font: 12px/1.4 ui-monospace, Menlo, Consolas, monospace; color: #c9c2f5; overflow-wrap: anywhere; margin-top: 2px; }
+  footer { color: var(--muted); font-size: 13px; padding: 8px 0 40px; }
+
+  /* embedded in another site: only the picker, the player and the channels */
+  .embed .top, .embed .hero, .embed .kodi, .embed footer { display: none; }
+  .embed .pick { margin-top: 12px; }
+</style>
+</head>
+<body>
+<div class="wrap" id="app">
+  <header class="top">
+    <a class="brand" href="./" aria-label="Promptioo TV home">Promptioo <span class="tv">TV</span></a>
+    <a class="btn" href="#kodi">Watch in Kodi</a>
+  </header>
+
+  <section class="hero">
+    <h1>Pick what to watch</h1>
+    <p class="sub">Free live TV from India and around the world. Choose a category and a language, then press a channel.</p>
+    <p id="stats">Links are checked every 5 minutes, so dead channels drop out and working ones come back.</p>
+  </section>
+
+  <section class="pick" aria-label="Choose channels">
+    <div class="group">
+      <h2 id="catH">Category</h2>
+      <div class="row">
+        <div class="chips" id="cats" role="group" aria-labelledby="catH"></div>
+        <select class="more" id="catMore" aria-label="More categories" hidden></select>
+      </div>
+    </div>
+    <div class="group langs">
+      <h2 id="langH">Language</h2>
+      <div class="row">
+        <div class="chips" id="langs" role="group" aria-labelledby="langH"></div>
+        <select class="more" id="langMore" aria-label="More languages" hidden></select>
+      </div>
+    </div>
+    <div class="tools">
+      <input id="search" type="search" placeholder="Search channels" aria-label="Search channels">
+      <label><input id="hd" type="checkbox"> HD only</label>
+    </div>
+  </section>
+
+  <p class="note" id="note" hidden></p>
+
+  <section class="watch" id="watch">
+    <div class="player" id="player" hidden>
+      <div class="screen">
+        <video id="video" controls playsinline></video>
+        <div id="overlay" class="overlay"></div>
+      </div>
+      <div class="now"><span class="live" aria-hidden="true"></span><b id="nowName"></b><span class="badge" id="nowQ" hidden></span>
+        <a class="btn ghost" id="vlc" href="#" title="Opens the stream in VLC (phone, tablet, Android TV). On a computer it saves a playlist that VLC opens">Open in VLC</a>
+        <button class="btn ghost" id="copy" type="button" title="Copy the stream address. In VLC: Media, Open Network Stream, paste">Copy link</button>
+        <button class="btn ghost" id="m3u" type="button" title="Saves a playlist file that VLC, Kodi or any IPTV player can open">Get .m3u</button>
+        <button class="btn ghost" id="stop" type="button">Close</button></div>
+    </div>
+    <div class="results">
+      <p class="count" id="count" aria-live="polite"></p>
+      <div class="grid" id="grid"></div>
+      <button class="btn ghost" id="more" type="button" hidden>Show more channels</button>
+    </div>
+  </section>
+
+  <section class="kodi" id="kodi">
+    <h2>Watch on your TV with Kodi</h2>
+    <p>Install the Promptioo TV add-on once. It lists every channel by category and language, and it switches to a working link by itself when one stops.</p>
+    <p><a class="btn" id="zip" href="repository.telugulive.zip" download>Download the Kodi add-on (.zip)</a></p>
+    <ol class="steps">
+      <li>In Kodi, open <b>Settings &gt; System &gt; Add-ons</b> and turn on <b>Unknown sources</b>.</li>
+      <li>Open <b>Add-ons &gt; Install from zip file</b> and choose the zip you downloaded. Or add <b id="site"></b> as a file source and pick the zip there.</li>
+      <li>Open <b>Install from repository &gt; Telugu Live Repository &gt; Video add-ons &gt; Telugu Live</b> and press Install.</li>
+      <li>When Kodi asks to load all channels into the TV section, answer <b>Yes</b>. Channels then appear under <b>TV</b>, grouped by language.</li>
+    </ol>
+    <h2 style="font-size:20px">Playlist links</h2>
+    <p>Paste a link into any IPTV player, or into Kodi's IPTV Simple Client.</p>
+    <div class="lists" id="lists"></div>
+  </section>
+
+  <footer>Promptioo TV lists free public streams. Channels come and go, and some only play in India or in Kodi.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/1.5.13/hls.min.js"></script>
+<script>
+var FALLBACK_LIST = "https://raw.githubusercontent.com/aieditsram-svg/kodi/main/channels_all.m3u";
+var HD_MIN = 720, LOAD_TIMEOUT_MS = 12000, PAGE = 120;
+var POP_CATS = ["Sports", "Cricket", "News", "Movies", "Shows & Series", "Entertainment", "Music", "Kids", "Anime & Animation", "Comedy", "Devotional", "Documentary"];
+var POP_LANGS = ["Telugu", "Hindi", "Tamil", "Kannada", "Malayalam", "Bengali", "Marathi", "English"];
+var HUES = { Sports: "#ff2e88", Cricket: "#ffd23f", News: "#19e3ff", Movies: "#a56bff", Entertainment: "#ff7a3d",
+             Music: "#3dffa8", Kids: "#5aa2ff", Devotional: "#ffb86b", Documentary: "#8be04e" };
+var CAT_NOTES = {
+  Cricket: "These channels show cricket, and many also show other sports. Big matches are often on paid channels or apps, so a match may not be on any free channel here.",
+  Sports: "Some big matches are only on paid channels or apps and may not be on any free channel here."
+};
+
+var $ = function (id) { return document.getElementById(id); };
+var params = new URLSearchParams(location.search);
+var EMBED = params.get("embed") === "1";
+if (EMBED) document.body.className = "embed";
+
+function defaultList() {
+  var m = /^([^.]+)\.github\.io$/i.exec(location.hostname), repo = location.pathname.split("/")[1];
+  if (m && repo && !/\.html?$/i.test(repo)) return "https://raw.githubusercontent.com/" + m[1] + "/" + repo + "/main/";
+  return "";
+}
+var RAW = defaultList() || FALLBACK_LIST.replace(/[^\/]*$/, "");
+var LIST_URL = params.get("list") || RAW + "channels_all.m3u";
+
+function store(k, v) { try { if (v === undefined) return localStorage.getItem("ptv." + k); localStorage.setItem("ptv." + k, v); } catch (e) {} return null; }
+
+var state = { cat: "", lang: "", hd: false, q: "", shown: PAGE };
+var channels = [], current = null, hls = null, token = 0;
+/* Stream proxy for http:// links (see proxy/worker.js). Paste your worker address here, or open the page with ?proxy=https://YOUR.workers.dev/ once. */
+var PROXY = "";
+try {
+  var pq = new URLSearchParams(location.search).get("proxy");
+  if (pq) localStorage.setItem("ptv_proxy", pq);
+  PROXY = localStorage.getItem("ptv_proxy") || PROXY;
+} catch (e) { PROXY = new URLSearchParams(location.search).get("proxy") || PROXY; }
+
+/* ---------- playlist ---------- */
+var QUALITY_RE = /\s*\((\d{3,4})[pi]\)(?:\s*\[[^\]]*\])*\s*$/, TAGS_RE = /(?:\s*\[[^\]]*\])+\s*$/;
+function cleanName(n) { return n.replace(QUALITY_RE, "").replace(TAGS_RE, "").trim(); }
+function baseName(n) { return cleanName(n).replace(/\s+hd$/i, "").trim().toLowerCase(); }
+
+function parseM3U(text) {
+  var out = [], cur = null, lines = text.split(/\r?\n/);
+  for (var i = 0; i < lines.length; i++) {
+    var line = lines[i].trim();
+    if (!line) continue;
+    if (line.indexOf("#EXTINF") === 0) {
+      var comma = line.lastIndexOf(","), attrs = {}, re = /([\w-]+)="([^"]*)"/g, m;
+      while ((m = re.exec(line.slice(0, comma)))) attrs[m[1]] = m[2];
+      cur = { name: line.slice(comma + 1).trim(), attrs: attrs };
+    } else if (line.charAt(0) !== "#" && cur) { cur.url = line; out.push(cur); cur = null; }
+  }
+  return out;
+}
+
+function buildChannels(entries) {
+  var map = {};
+  entries.forEach(function (e) {
+    if (!/^https?:\/\//i.test(e.url)) return;
+    var key = baseName(e.name), tag = QUALITY_RE.exec(e.name);
+    var h = Math.max(parseInt(e.attrs.height || "0", 10) || 0, tag ? parseInt(tag[1], 10) : 0);
+    var ch = map[key] || (map[key] = { key: key, name: cleanName(e.name), logo: "", langs: new Set(), cats: new Set(), links: [], best: -1 });
+    ch.langs.add(e.attrs["tvg-language"] || e.attrs["group-title"] || "Other");
+    (e.attrs["x-categories"] || e.attrs["x-category"] || "General").split(";").forEach(function (c) { if (c) ch.cats.add(c); });
+    if (!ch.logo && e.attrs["tvg-logo"]) ch.logo = e.attrs["tvg-logo"];
+    if (h > ch.best) { ch.best = h; ch.name = cleanName(e.name); }
+    if (!ch.links.some(function (l) { return l.url === e.url; })) ch.links.push({ url: e.url, h: h });
+  });
+  return Object.keys(map).map(function (k) { return map[k]; });
+}
+
+/* ---------- filters ---------- */
+function matches(c, skip) {
+  if (skip !== "cat" && state.cat && !c.cats.has(state.cat)) return false;
+  if (skip !== "lang" && state.lang && !c.langs.has(state.lang)) return false;
+  if (state.hd && c.best < HD_MIN) return false;
+  if (state.q && c.name.toLowerCase().indexOf(state.q) < 0) return false;
+  return true;
+}
+function countBy(field, skip) {
+  var n = {};
+  channels.forEach(function (c) { if (matches(c, skip)) c[field].forEach(function (v) { n[v] = (n[v] || 0) + 1; }); });
+  return n;
+}
+function chip(label, value, count, current, onPick, hue) {
+  var b = document.createElement("button");
+  b.type = "button"; b.className = "chip"; b.setAttribute("aria-pressed", current === value ? "true" : "false");
+  if (hue) b.style.setProperty("--c", hue);
+  b.innerHTML = "<span></span><small></small>";
+  b.firstChild.textContent = label; b.lastChild.textContent = count;
+  if (!count && current !== value) b.disabled = true;
+  b.addEventListener("click", function () { onPick(value); });
+  return b;
+}
+function fillGroup(boxId, moreId, field, skip, pop, current, onPick, hues, allLabel, moreLabel) {
+  var box = $(boxId), more = $(moreId), counts = countBy(field, skip), total = 0;
+  channels.forEach(function (c) { if (matches(c, skip)) total++; });
+  box.innerHTML = "";
+  box.appendChild(chip(allLabel, "", total, current, onPick, hues ? "#e8e6ff" : ""));
+  var rest = Object.keys(counts).filter(function (k) { return pop.indexOf(k) < 0; })
+    .sort(function (a, b) { return (a === "Other") - (b === "Other") || counts[b] - counts[a] || a.localeCompare(b); });
+  pop.forEach(function (k) { if (counts[k] || current === k) box.appendChild(chip(k, k, counts[k] || 0, current, onPick, hues ? (hues[k] || "") : "")); });
+  if (current && pop.indexOf(current) < 0 && rest.indexOf(current) >= 0) box.appendChild(chip(current, current, counts[current], current, onPick, ""));
+  more.innerHTML = "";
+  more.add(new Option(moreLabel, ""));
+  rest.forEach(function (k) { if (k !== current) more.add(new Option(k + " (" + counts[k] + ")", k)); });
+  more.hidden = more.options.length < 2;
+  more.value = "";
+}
+function pickCat(v) { state.cat = state.cat === v ? "" : v; store("cat", state.cat); update(); }
+function pickLang(v) { state.lang = state.lang === v ? "" : v; store("lang", state.lang); update(); }
+
+function update() {
+  state.shown = PAGE;
+  fillGroup("cats", "catMore", "cats", "cat", POP_CATS, state.cat, pickCat, HUES, "All", "More categories");
+  fillGroup("langs", "langMore", "langs", "lang", POP_LANGS, state.lang, pickLang, null, "All languages", "More languages");
+  var note = CAT_NOTES[state.cat];
+  $("note").hidden = !note; $("note").textContent = note || "";
+  renderList();
+}
+
+function renderList() {
+  var shown = channels.filter(function (c) { return matches(c); })
+    .sort(function (a, b) { return (b.best >= HD_MIN) - (a.best >= HD_MIN) || a.name.localeCompare(b.name); });
+  $("count").textContent = shown.length + (shown.length === 1 ? " channel" : " channels");
+  var grid = $("grid"); grid.innerHTML = "";
+  if (!shown.length) {
+    var e = document.createElement("div"); e.className = "empty";
+    e.textContent = "No channels match. Choose All, try another language, or turn off HD only.";
+    grid.appendChild(e); $("more").hidden = true; return;
+  }
+  var frag = document.createDocumentFragment();
+  shown.slice(0, state.shown).forEach(function (c) {
+    var b = document.createElement("button"); b.type = "button"; b.className = "card"; b.dataset.key = c.key;
+    if (current && current.key === c.key) b.setAttribute("aria-current", "true");
+    var logo = document.createElement("span"); logo.className = "logo";
+    if (c.logo) logo.style.backgroundImage = "url('" + c.logo.replace(/'/g, "%27") + "')"; else logo.textContent = c.name.charAt(0).toUpperCase();
+    var txt = document.createElement("span"); txt.className = "txt";
+    var nm = document.createElement("span"); nm.className = "name"; nm.textContent = c.name;
+    var mt = document.createElement("span"); mt.className = "meta";
+    mt.textContent = Array.from(c.langs).slice(0, 2).join(", ");
+    txt.appendChild(nm); txt.appendChild(mt); b.appendChild(logo); b.appendChild(txt);
+    if (c.best >= HD_MIN) { var bd = document.createElement("span"); bd.className = "badge"; bd.textContent = c.best + "p"; b.appendChild(bd); }
+    b.addEventListener("click", function () { play(c); });
+    frag.appendChild(b);
+  });
+  grid.appendChild(frag);
+  $("more").hidden = shown.length <= state.shown;
+}
+
+/* ---------- playback with automatic switching between a channel's links ---------- */
+var video = $("video"), overlay = $("overlay");
+function say(text, bad) { overlay.textContent = text || ""; overlay.className = "overlay" + (text ? " show" : "") + (bad ? " bad" : ""); }
+function cleanup() {
+  if (hls) { try { hls.destroy(); } catch (e) {} hls = null; }
+  video.onplaying = video.onerror = null; video.removeAttribute("src"); video.load();
+}
+function stop() { token++; cleanup(); say(""); current = null; $("player").hidden = true; $("watch").classList.remove("playing"); renderList(); }
+
+function play(ch) {
+  current = ch; store("channel", ch.key);
+  var my = ++token, i = 0, blocked = 0, links = ch.links.slice().sort(function (a, b) { return b.h - a.h; });
+  $("player").hidden = false; $("watch").classList.add("playing");
+  $("nowName").textContent = ch.name;
+  var q = $("nowQ"); q.hidden = ch.best < HD_MIN; q.textContent = ch.best + "p";
+  Array.prototype.forEach.call($("grid").querySelectorAll(".card"), function (b) {
+    if (b.dataset.key === ch.key) b.setAttribute("aria-current", "true"); else b.removeAttribute("aria-current");
+  });
+  var best = links[0] ? links[0].url : "";
+  var ua = navigator.userAgent, android = /Android/i.test(ua), ios = /iPhone|iPad|iPod/i.test(ua) || (/Mac/i.test(ua) && navigator.maxTouchPoints > 1);
+  function saveM3u() {
+    var text = "#EXTM3U\n" + links.map(function (l) { return "#EXTINF:-1," + ch.name + "\n" + l.url; }).join("\n") + "\n";
+    var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([text], { type: "audio/x-mpegurl" }));
+    a.download = ch.name.replace(/[^\w]+/g, "_") + ".m3u"; document.body.appendChild(a); a.click(); a.remove();
+  }
+  var vlc = $("vlc"); vlc.onclick = null;
+  if (android) vlc.href = "intent:" + best.replace(/^https?:\/\//i, "//") + "#Intent;scheme=" + (/^https/i.test(best) ? "https" : "http") + ";package=org.videolan.vlc;type=video/*;end";
+  else if (ios) vlc.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(best);
+  else { vlc.href = "#"; vlc.onclick = function (e) { e.preventDefault(); saveM3u(); }; }   // computers and smart TVs: open the saved playlist with VLC or Kodi
+  $("copy").onclick = function () {
+    var b = $("copy"), done = function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy link"; }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(best).then(done, function () { window.prompt("Copy this address", best); });
+    else window.prompt("Copy this address", best);
+  };
+  $("m3u").onclick = saveM3u;
+  var box = $("player").getBoundingClientRect();
+  if (box.top < 0 || box.bottom > window.innerHeight) $("player").scrollIntoView({ block: "start", behavior: "smooth" });
+
+  function next() {
+    if (my !== token) return;
+    cleanup();
+    if (i >= links.length) {
+      say(blocked === links.length
+        ? "This channel only has plain http links, which browsers block on secure pages. Use Open in VLC or Get .m3u above, or open it in Kodi."
+        : "This channel does not play in the browser right now. Many streams block web players. Pick another channel or watch it in Kodi.", true);
+      return;
+    }
+    var link = links[i++];
+    say("Connecting" + (links.length > 1 ? " (link " + i + " of " + links.length + ")" : "") + "…");
+    var isHttp = /^http:\/\//i.test(link.url);
+    if (location.protocol === "https:" && isHttp) {
+      // Browsers block plain http on secure pages: try the https version, then the proxy, else skip.
+      var tries = [link.url.replace(/^http:/i, "https:")];
+      if (PROXY) tries.push(PROXY + "?url=" + encodeURIComponent(link.url));
+      var n = 0;
+      (function tryOne() {
+        if (my !== token) return;
+        if (n >= tries.length) { blocked++; return next(); }
+        cleanup(); start(tries[n++], my, tryOne, 6000);
+      })();
+      return;
+    }
+    start(link.url, my, next);
+  }
+  next();
+}
+
+function start(url, my, fail, limit) {
+  var failed = false, timer;
+  function failOnce() { if (failed || my !== token) return; failed = true; clearTimeout(timer); fail(); }
+  function ok() { if (my !== token) return; clearTimeout(timer); say(""); }
+  timer = setTimeout(failOnce, limit || LOAD_TIMEOUT_MS);
+  if (window.Hls && Hls.isSupported()) {
+    hls = new Hls({ maxBufferLength: 20, manifestLoadingMaxRetry: 1, levelLoadingMaxRetry: 1, fragLoadingMaxRetry: 2 });
+    hls.on(Hls.Events.MANIFEST_PARSED, function () { var p = video.play(); if (p && p.catch) p.catch(function () {}); });
+    hls.on(Hls.Events.FRAG_LOADED, ok);
+    hls.on(Hls.Events.ERROR, function (e, d) { if (d.fatal) failOnce(); });
+    hls.loadSource(url); hls.attachMedia(video);
+  } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
+    video.onplaying = ok; video.onerror = failOnce; video.src = url;
+    var p = video.play(); if (p && p.catch) p.catch(function () {});
+  } else failOnce();
+}
+
+/* ---------- Kodi section ---------- */
+function setupKodi() {
+  var here = location.href.replace(/[?#].*$/, "").replace(/[^\/]*$/, "");
+  $("site").textContent = here;
+  var items = [
+    ["channels_pvr.m3u", "All channels for Kodi TV", "One link per channel, grouped by language"],
+    ["categories/sports.m3u", "Sports", "Every sports channel"],
+    ["categories/cricket.m3u", "Cricket", "Channels that show cricket"],
+    ["telugu_pvr.m3u", "Telugu", "Telugu channels only"],
+    ["channels_hd.m3u", "HD channels", "720p and higher"]
+  ];
+  var box = $("lists");
+  items.forEach(function (it) {
+    var url = RAW + it[0], row = document.createElement("div"); row.className = "lrow";
+    row.innerHTML = '<div class="w"><b></b><span></span><code></code></div>';
+    row.querySelector("b").textContent = it[1]; row.querySelector("span").textContent = it[2]; row.querySelector("code").textContent = url;
+    var btn = document.createElement("button"); btn.type = "button"; btn.className = "btn ghost"; btn.textContent = "Copy link";
+    btn.addEventListener("click", function () {
+      var done = function () { btn.textContent = "Copied"; setTimeout(function () { btn.textContent = "Copy link"; }, 1600); };
+      if (navigator.clipboard) navigator.clipboard.writeText(url).then(done, function () {});
+    });
+    row.appendChild(btn); box.appendChild(row);
+  });
+}
+
+/* ---------- start ---------- */
+$("catMore").addEventListener("change", function () { if (this.value) pickCat(this.value); });
+$("langMore").addEventListener("change", function () { if (this.value) pickLang(this.value); });
+$("hd").addEventListener("change", function () { state.hd = this.checked; store("hd", this.checked ? "1" : "0"); update(); });
+$("search").addEventListener("input", function () { state.q = this.value.trim().toLowerCase(); update(); });
+$("more").addEventListener("click", function () { state.shown += PAGE; renderList(); });
+$("stop").addEventListener("click", stop);
+
+setupKodi();
+$("grid").innerHTML = '<div class="empty">Loading channels…</div>';
+fetch(LIST_URL, { cache: "no-store" }).then(function (r) {
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return r.text();
+}).then(function (text) {
+  channels = buildChannels(parseM3U(text));
+  if (!channels.length) throw new Error("the playlist has no channels");
+  state.cat = params.has("cat") ? params.get("cat") : (store("cat") || "");
+  state.lang = params.has("lang") ? params.get("lang") : (store("lang") || "");
+  state.hd = params.has("hd") ? params.get("hd") === "1" : store("hd") === "1";
+  state.q = (params.get("q") || "").toLowerCase();
+  $("hd").checked = state.hd; $("search").value = params.get("q") || "";
+  if (state.cat && !channels.some(function (c) { return c.cats.has(state.cat); })) state.cat = "";
+  if (state.lang && !channels.some(function (c) { return c.langs.has(state.lang); })) state.lang = "";
+  update();
+}).catch(function (err) {
+  $("grid").innerHTML = "";
+  var e = document.createElement("div"); e.className = "empty";
+  e.textContent = "The channel list did not load (" + err.message + "). Check your internet connection and reload the page.";
+  $("grid").appendChild(e);
+});
+</script>
+</body>
+</html>

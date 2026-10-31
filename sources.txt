@@ -1,0 +1,25 @@
+# One source per line. Lines starting with # are ignored.
+# Optional settings after "|":
+#   group=India        keep only channels whose group-title matches
+#   keywords=a,b       keep only channels whose name contains one of the words
+#   language=Telugu    tag every channel from this source with a language
+#   enrich=iptv-org    look up language, logo and category in the iptv-org database
+# All sources are merged, de-duplicated by stream URL and re-tested every run.
+
+# iptv-org: all Indian channels (Telugu, Hindi, Tamil, Kannada, Malayalam, Bengali, Marathi, ...).
+# Language, logo and category come from the iptv-org database; adult and closed channels are dropped.
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u | enrich=iptv-org
+
+# iptv-org: community Telugu list (extra Telugu links not in the file above)
+https://iptv-org.github.io/iptv/languages/tel.m3u | language=Telugu
+
+# Free-TV/IPTV: officially free channels, Telugu ones from its India group
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8 | group=India | keywords=telugu | language=Telugu
+
+# Sports channels from every country (cricket, football, F1, tennis, wrestling, ...), plus the Indian ones
+iptv-org://streams | category=sports,animation,kids,entertainment,movies,series,comedy,music | enrich=iptv-org
+
+# Add more public playlists below, one per line, for example:
+# https://example.com/tamil.m3u | language=Tamil
+# Sports channels from other countries (free-to-air feeds listed by Free-TV)
+https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8 | keywords=sport,cricket,deportes,sportv,eurosport,espn,bein,golf,racing,football,futbol,tennis | tag=sports | enrich=iptv-org
