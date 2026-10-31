@@ -400,11 +400,11 @@ def pick_pvr(channels: list[dict], working: list[dict]) -> list[dict]:
     that only work inside India still appear: the server that tests links runs outside India.
     """
     ok = {c["url"] for c in working}
-    best: dict[tuple[str, str], tuple[tuple[bool, int], dict]] = {}
+    best: dict[tuple[str, str], tuple[tuple[bool, bool, int], dict]] = {}
     for ch in channels:
         for lang in ch["languages"]:
             key = (lang, base_name(ch["name"]))
-            score = (ch["url"] in ok, channel_height(ch))
+            score = (ch["url"] in ok, ch["url"].lower().startswith("https:"), channel_height(ch))
             if key not in best or score > best[key][0]:
                 best[key] = (score, ch)
     picks = []

@@ -139,7 +139,7 @@ def candidates(key, tried, urls=None):
         except Exception:
             continue
         matches = [c for c in chans if base_name(c["name"]) == key and c["url"] not in seen]
-        matches.sort(key=lambda c: -ch_height(c))
+        matches.sort(key=lambda c: (not c["url"].lower().startswith("https:"), -ch_height(c)))  # https before http
         for ch in matches:
             if ch["url"] not in seen:
                 seen.add(ch["url"])

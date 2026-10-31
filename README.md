@@ -71,12 +71,19 @@ Other countries' anime and animation, kids, entertainment, movies, shows and ser
 
 ## Playing http:// channels in the browser
 
+When a channel has both https and http links, https is always tried first (web page, Kodi add-on and the one-link-per-channel playlists), then http.
+
+
 Browsers refuse plain `http://` video on a secure (https) page, so those channels cannot play on the website by themselves. The page first tries the https version of each link. For the rest, deploy the free proxy in `proxy/worker.js`:
 
 1. Sign in at dash.cloudflare.com > Workers & Pages > Create > Worker > Deploy, then Edit code, paste `proxy/worker.js`, Deploy.
 2. Open your page once as `https://USER.github.io/REPO/?proxy=https://YOUR-WORKER.workers.dev/` (it is remembered in that browser). To make it permanent for everyone, put the address in `var PROXY = ""` near the top of the script in `index.html`.
 
 The free Cloudflare plan allows 100,000 requests a day, and video uses many small requests, so it suits a few viewers, not a busy site. Kodi and VLC never need the proxy.
+
+### Free and unlimited: the local helper
+
+`proxy/local_proxy.py` is a tiny program (Python only, nothing to install) that runs on **your own computer** and plays http:// channels in the web page. It costs nothing and has no limits, because your computer does the work. With the helper running, the **Open in VLC** button on a computer also launches VLC straight away (Windows, Mac and Linux). If VLC is not installed, the helper tries Windows Media Player on Windows. Be aware that Windows Media Player cannot play HLS (`.m3u8`) live streams, which most channels use, so it only helps with plain http video links; VLC or Kodi is the dependable choice. Download the `proxy` folder, double-click `start-helper-windows.bat` (or run `python local_proxy.py`), keep the window open, then open the Promptioo TV page in Chrome, Edge or Firefox. The page finds the helper by itself. It listens only on your own computer. Safari and phones cannot use it: use Open in VLC there.
 
 ### Free and unlimited: skip the browser
 

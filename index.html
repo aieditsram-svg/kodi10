@@ -191,6 +191,9 @@
       <li>Open <b>Install from repository &gt; Telugu Live Repository &gt; Video add-ons &gt; Telugu Live</b> and press Install.</li>
       <li>When Kodi asks to load all channels into the TV section, answer <b>Yes</b>. Channels then appear under <b>TV</b>, grouped by language.</li>
     </ol>
+    <h2 style="font-size:20px">Watch http channels on this website (free, on your computer)</h2>
+    <p>Browsers block plain http streams on secure pages. This small helper runs on your own computer and fixes that for free, with no limits. Download both files into one folder, double-click <b>start-helper-windows.bat</b> (or run <code>python local_proxy.py</code>), keep it open and reload this page. It also makes <b>Open in VLC</b> launch VLC directly on your computer. Works in Chrome, Edge and Firefox on a computer.</p>
+    <p><a class="btn ghost" id="helperPy" href="#" download>Download local_proxy.py</a> <a class="btn ghost" id="helperBat" href="#" download>Download start-helper-windows.bat</a></p>
     <h2 style="font-size:20px">Playlist links</h2>
     <p>Paste a link into any IPTV player, or into Kodi's IPTV Simple Client.</p>
     <div class="lists" id="lists"></div>
@@ -230,7 +233,13 @@ function store(k, v) { try { if (v === undefined) return localStorage.getItem("p
 var state = { cat: "", lang: "", hd: false, q: "", shown: PAGE };
 var channels = [], current = null, hls = null, token = 0;
 /* Stream proxy for http:// links (see proxy/worker.js). Paste your worker address here, or open the page with ?proxy=https://YOUR.workers.dev/ once. */
-var PROXY = "";
+var PROXY = "", LOCAL = "";
+/* Free local helper (proxy/local_proxy.py) running on the viewer's own computer: found automatically. */
+(function () {
+  var c = window.AbortController ? new AbortController() : null, t = setTimeout(function () { if (c) c.abort(); }, 1200);
+  fetch("http://127.0.0.1:8787/ping", c ? { signal: c.signal } : {}).then(function (r) { return r.text(); })
+    .then(function (x) { if (/promptioo-local/.test(x)) LOCAL = "http://127.0.0.1:8787/"; }).catch(function () {}).then(function () { clearTimeout(t); });
+})();
 try {
   var pq = new URLSearchParams(location.search).get("proxy");
   if (pq) localStorage.setItem("ptv_proxy", pq);
@@ -362,7 +371,7 @@ function stop() { token++; cleanup(); say(""); current = null; $("player").hidde
 
 function play(ch) {
   current = ch; store("channel", ch.key);
-  var my = ++token, i = 0, blocked = 0, links = ch.links.slice().sort(function (a, b) { return b.h - a.h; });
+  var my = ++token, i = 0, blocked = 0, links = ch.links.slice().sort(function (a, b) { return (/^https:/i.test(b.url) - /^https:/i.test(a.url)) || b.h - a.h; });   /* https first, then http; best quality first within each */
   $("player").hidden = false; $("watch").classList.add("playing");
   $("nowName").textContent = ch.name;
   var q = $("nowQ"); q.hidden = ch.best < HD_MIN; q.textContent = ch.best + "p";
@@ -379,7 +388,14 @@ function play(ch) {
   var vlc = $("vlc"); vlc.onclick = null;
   if (android) vlc.href = "intent:" + best.replace(/^https?:\/\//i, "//") + "#Intent;scheme=" + (/^https/i.test(best) ? "https" : "http") + ";package=org.videolan.vlc;type=video/*;end";
   else if (ios) vlc.href = "vlc-x-callback://x-callback-url/stream?url=" + encodeURIComponent(best);
-  else { vlc.href = "#"; vlc.onclick = function (e) { e.preventDefault(); saveM3u(); }; }   // computers and smart TVs: open the saved playlist with VLC or Kodi
+  else {
+    vlc.href = "#";
+    vlc.onclick = function (e) {
+      e.preventDefault();
+      if (!LOCAL) return saveM3u();                       // no helper running: save a playlist that VLC opens
+      fetch(LOCAL + "open?url=" + encodeURIComponent(best)).then(function (r) { if (!r.ok) saveM3u(); }).catch(saveM3u);
+    };
+  }   // computers and smart TVs: open the saved playlist with VLC or Kodi
   $("copy").onclick = function () {
     var b = $("copy"), done = function () { b.textContent = "Copied"; setTimeout(function () { b.textContent = "Copy link"; }, 1600); };
     if (navigator.clipboard) navigator.clipboard.writeText(best).then(done, function () { window.prompt("Copy this address", best); });
@@ -394,7 +410,7 @@ function play(ch) {
     cleanup();
     if (i >= links.length) {
       say(blocked === links.length
-        ? "This channel only has plain http links, which browsers block on secure pages. Use Open in VLC or Get .m3u above, or open it in Kodi."
+        ? "This channel only has plain http links, which browsers block on secure pages. Use Open in VLC or Get .m3u above, run the free helper on your computer (see the Kodi section), or open it in Kodi."
         : "This channel does not play in the browser right now. Many streams block web players. Pick another channel or watch it in Kodi.", true);
       return;
     }
@@ -404,6 +420,7 @@ function play(ch) {
     if (location.protocol === "https:" && isHttp) {
       // Browsers block plain http on secure pages: try the https version, then the proxy, else skip.
       var tries = [link.url.replace(/^http:/i, "https:")];
+      if (LOCAL) tries.push(LOCAL + "?url=" + encodeURIComponent(link.url));
       if (PROXY) tries.push(PROXY + "?url=" + encodeURIComponent(link.url));
       var n = 0;
       (function tryOne() {
@@ -437,6 +454,7 @@ function start(url, my, fail, limit) {
 
 /* ---------- Kodi section ---------- */
 function setupKodi() {
+  $("helperPy").href = RAW + "proxy/local_proxy.py"; $("helperBat").href = RAW + "proxy/start-helper-windows.bat";
   var here = location.href.replace(/[?#].*$/, "").replace(/[^\/]*$/, "");
   $("site").textContent = here;
   var items = [
