@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-10-31 20:53 UTC",
-  "fingerprint": "abdbbbc93bb319dd5383ca07daa4f012",
+  "updated_at": "2026-10-31 21:21 UTC",
+  "fingerprint": "2e2ad66c004c2f7a4b9861f514eb53d1",
   "total": 4528,
-  "working": 3457,
-  "in_grace_period": 63,
-  "dead": 1071,
-  "hd_channels": 1835,
+  "working": 3459,
+  "in_grace_period": 46,
+  "dead": 1069,
+  "hd_channels": 1836,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 124,
-      "working": 86,
+      "working": 85,
       "hd": 45
     },
     "Bhojpuri": {
@@ -90,7 +90,7 @@
     "English": {
       "total": 736,
       "working": 541,
-      "hd": 330
+      "hd": 329
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 707,
-      "working": 594,
-      "hd": 240
+      "working": 596,
+      "hd": 239
     },
     "Hungarian": {
       "total": 52,
@@ -140,7 +140,7 @@
     "Indonesian": {
       "total": 22,
       "working": 11,
-      "hd": 7
+      "hd": 8
     },
     "Italian": {
       "total": 78,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 215,
       "working": 133,
-      "hd": 73
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -234,8 +234,8 @@
     },
     "Portuguese": {
       "total": 141,
-      "working": 83,
-      "hd": 55
+      "working": 82,
+      "hd": 56
     },
     "Punjabi": {
       "total": 135,
@@ -249,7 +249,7 @@
     },
     "Russian": {
       "total": 386,
-      "working": 284,
+      "working": 285,
       "hd": 113
     },
     "Santali": {
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 726,
-      "working": 530,
+      "working": 529,
       "hd": 365
     },
     "Swahili": {
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 173,
-      "working": 139,
+      "working": 140,
       "hd": 57
     },
     "Thai": {
@@ -363,7 +363,7 @@
     },
     "Devotional": {
       "total": 248,
-      "working": 232
+      "working": 233
     },
     "Documentary": {
       "total": 15,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 886,
-      "working": 649
+      "working": 650
     },
     "Family": {
       "total": 12,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 422,
-      "working": 276
+      "working": 275
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 593,
-      "working": 422
+      "working": 421
     },
     "Music": {
       "total": 838,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 521,
-      "working": 308
+      "working": 310
     },
     "Travel": {
       "total": 6,
@@ -572,11 +572,6 @@
       "name": "ETV Cinema HD (1080p)",
       "url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "ETV Plus (396p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Plus HD (1080p)",
@@ -759,11 +754,6 @@
       "reason": "TimeoutError"
     },
     {
-      "name": "Dangal 2 (576p)",
-      "url": "https://tvsen3.aynaott.com/8KfZvBYS/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Goldmines Movies (576p)",
       "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
       "reason": "HTTP 404"
@@ -887,6 +877,11 @@
       "name": "Nickelodeon (576p) [Geo-blocked]",
       "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=1752848&extension=ts&play_token=8FNt7g9GJ5",
       "reason": "HTTP 456"
+    },
+    {
+      "name": "Star Jalsha (1080p) [Geo-blocked]",
+      "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+      "reason": "HTTP 458"
     },
     {
       "name": "Nickelodeon (576p)",
@@ -1127,11 +1122,6 @@
       "name": "Sarv Dharam Sangam (720p)",
       "url": "https://live.castmaxcloud.com/live/sdsangam2.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Mangalmay TV (576p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/mangalmay_1800/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "StarPlus HD (1080p)",
@@ -1649,6 +1639,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Disney Channel Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/DISNEY/DISNEY.isml/DISNEY.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "Disney Channel Latin America South",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/disney-channel-key/chunks.m3u8",
       "reason": "HTTP 403"
@@ -1756,11 +1751,6 @@
     {
       "name": "Belarus-2 HD (1080p)",
       "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
-      "name": "Belarus-5 (1080p) [Not 24/7]",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
       "reason": "not a valid HLS manifest"
     },
     {
@@ -2206,7 +2196,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2301,7 +2291,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "MaxTV [Not 24/7]",
@@ -2846,7 +2836,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "empty HLS manifest"
     },
     {
       "name": "AXN Spin",
@@ -5196,7 +5186,7 @@
     {
       "name": "Fox Deportes (720p)",
       "url": "http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "GMTV (1080p)",
@@ -5484,13 +5474,13 @@
       "reason": "URLError"
     },
     {
-      "name": "ESPN 3 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
+      "name": "Cinecanal (1080p)",
+      "url": "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8",
       "reason": "URLError"
     },
     {
-      "name": "ESPN 5 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
+      "name": "ESPN 3 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
       "reason": "URLError"
     },
     {
