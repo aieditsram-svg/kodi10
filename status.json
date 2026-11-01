@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-01 04:28 UTC",
-  "fingerprint": "f0c0a5198ee252e6ad718c62c9b26319",
+  "updated_at": "2026-11-01 05:14 UTC",
+  "fingerprint": "7b9d686a06d7c970db726609dedffd35",
   "total": 4557,
   "working": 3504,
-  "in_grace_period": 57,
+  "in_grace_period": 44,
   "dead": 1053,
   "hd_channels": 1845,
   "languages": {
@@ -35,7 +35,7 @@
     "Bengali": {
       "total": 121,
       "working": 87,
-      "hd": 45
+      "hd": 46
     },
     "Bhojpuri": {
       "total": 32,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 753,
-      "working": 577,
-      "hd": 338
+      "working": 580,
+      "hd": 337
     },
     "Estonian": {
       "total": 4,
@@ -99,8 +99,8 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 2,
-      "hd": 2
+      "working": 1,
+      "hd": 1
     },
     "French": {
       "total": 93,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 704,
-      "working": 588,
+      "working": 587,
       "hd": 240
     },
     "Hungarian": {
@@ -194,8 +194,8 @@
     },
     "Malayalam": {
       "total": 115,
-      "working": 98,
-      "hd": 42
+      "working": 99,
+      "hd": 43
     },
     "Marathi": {
       "total": 45,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 215,
       "working": 132,
-      "hd": 72
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 83,
-      "working": 57,
-      "hd": 26
+      "working": 58,
+      "hd": 27
     },
     "Russian": {
       "total": 386,
       "working": 286,
-      "hd": 114
+      "hd": 113
     },
     "Santali": {
       "total": 1,
@@ -260,7 +260,7 @@
     "Serbian": {
       "total": 13,
       "working": 6,
-      "hd": 4
+      "hd": 3
     },
     "Sinhala": {
       "total": 3,
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 739,
-      "working": 554,
+      "working": 552,
       "hd": 370
     },
     "Swahili": {
@@ -371,11 +371,11 @@
     },
     "Education": {
       "total": 30,
-      "working": 16
+      "working": 17
     },
     "Entertainment": {
       "total": 887,
-      "working": 653
+      "working": 652
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 210,
-      "working": 164
+      "working": 165
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 424,
-      "working": 291
+      "working": 292
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 597,
-      "working": 431
+      "working": 430
     },
     "Music": {
       "total": 845,
@@ -584,11 +584,6 @@
       "reason": "URLError"
     },
     {
-      "name": "KCL TV (720p)",
-      "url": "https://kcltv.livebox.co.in/kclhls/live.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "MTV HD (396p)",
       "url": "https://maamusic.keralive.workers.dev/out/v1/a797c00cba954265ba781f92a57e2cf5/index.m3u8",
       "reason": "HTTP 451"
@@ -646,7 +641,7 @@
     {
       "name": "Star Sports 2 HD (720p)",
       "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Star Sports 2 Hindi (720p)",
@@ -734,6 +729,11 @@
       "reason": "TimeoutError"
     },
     {
+      "name": "Goldmines (576p)",
+      "url": "https://tvsen3.aynaott.com/VamXuQH8/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Goldmines Movies (576p)",
       "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
       "reason": "HTTP 404"
@@ -741,11 +741,6 @@
     {
       "name": "Goldmines Bollywood (576p)",
       "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "News 1 India (576p)",
-      "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -851,7 +846,7 @@
     {
       "name": "Nickelodeon (576p) [Geo-blocked]",
       "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=1752848&extension=ts&play_token=8FNt7g9GJ5",
-      "reason": "HTTP 429"
+      "reason": "HTTP 456"
     },
     {
       "name": "Nickelodeon (576p)",
@@ -881,6 +876,11 @@
     {
       "name": "World Punjabi TV (576p)",
       "url": "https://mumt06.tangotv.in/qYyB8fXVWPNWORLDPUNJABI/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "KBP Times (1080p)",
+      "url": "https://kbpnews.cloud/Kbptimes/Kbptimeslive/video.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1091,11 +1091,6 @@
     {
       "name": "Prarthana Bhawan TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HPRATHANABHAWAN/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "HSTV (720p)",
-      "url": "https://live.castmaxcloud.com/live/hstv.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1387,6 +1382,11 @@
       "name": "Ind 24 (576p)",
       "url": "https://mumt06.tangotv.in/qYyB8fXVIND24/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "9XM (576p)",
+      "url": "https://yupplivegcp2.yuppcdn.net/28072023/smil:9xmusic4.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "FashionTV (576p)",
@@ -2206,7 +2206,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2544,6 +2544,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Liv (720p)",
+      "url": "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "YleX Studio Live (720p)",
       "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
       "reason": "HTTP 403"
@@ -2804,6 +2809,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Omega TV (720p) [Not 24/7]",
+      "url": "https://5caf24a595d94.streamlock.net:1937/8142/8142/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "RSV Honduras",
       "url": "https://live20.bozztv.com/dvrfl03/hondu/hondu-rsvhonduras/index.m3u8",
       "reason": "HTTP 403"
@@ -2846,7 +2856,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "AXN Spin",
@@ -3524,6 +3534,11 @@
       "reason": "URLError"
     },
     {
+      "name": "WTV Canal 20 (1080p)",
+      "url": "https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "AMusic Channel (720p)",
       "url": "http://mn-nl.mncdn.com/amusictv/amusicsrt.stream/playlist.m3u8",
       "reason": "ConnectionResetError"
@@ -4076,11 +4091,6 @@
     {
       "name": "Radio Romania Iasi (576i) [Not 24/7]",
       "url": "https://stream3.srr.ro/live/radio-iasi/chunklist_w1565024915.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
-      "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -5364,11 +5374,6 @@
       "reason": "URLError"
     },
     {
-      "name": "People Are Awesome (1080p)",
-      "url": "https://mumbai-edge.smartplaytv.in/PeopleAreAwesome/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Willow (720p) [Geo-blocked]",
       "url": "https://tvsen7.aynaott.com/rEBp38Ax/index.m3u8",
       "reason": "HTTP 403"
@@ -5551,11 +5556,6 @@
     {
       "name": "Nickelodeon Latin America (1080p)",
       "url": "https://zapster.trapemn.tv:1936/CD-LATAM/Nickelodeon/playlist.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "PBS Kids (720p)",
-      "url": "https://tvsen7.aynascope.net/pbskids/index.m3u8",
       "reason": "URLError"
     },
     {
