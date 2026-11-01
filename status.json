@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-01 03:39 UTC",
-  "fingerprint": "5c258047df8ac67077499e8d5ca1e981",
+  "updated_at": "2026-11-01 04:28 UTC",
+  "fingerprint": "f0c0a5198ee252e6ad718c62c9b26319",
   "total": 4557,
-  "working": 3508,
-  "in_grace_period": 62,
-  "dead": 1049,
-  "hd_channels": 1849,
+  "working": 3504,
+  "in_grace_period": 57,
+  "dead": 1053,
+  "hd_channels": 1845,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -49,7 +49,7 @@
     },
     "Bulgarian": {
       "total": 46,
-      "working": 42,
+      "working": 43,
       "hd": 8
     },
     "Catalan": {
@@ -90,7 +90,7 @@
     "English": {
       "total": 753,
       "working": 577,
-      "hd": 339
+      "hd": 338
     },
     "Estonian": {
       "total": 4,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 704,
-      "working": 590,
+      "working": 588,
       "hd": 240
     },
     "Hungarian": {
@@ -144,8 +144,8 @@
     },
     "Italian": {
       "total": 78,
-      "working": 54,
-      "hd": 44
+      "working": 52,
+      "hd": 43
     },
     "Japanese": {
       "total": 4,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 215,
       "working": 132,
-      "hd": 74
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 386,
       "working": 286,
-      "hd": 113
+      "hd": 114
     },
     "Santali": {
       "total": 1,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 739,
       "working": 554,
-      "hd": 371
+      "hd": 370
     },
     "Swahili": {
       "total": 3,
@@ -300,7 +300,7 @@
     "Telugu": {
       "total": 170,
       "working": 139,
-      "hd": 56
+      "hd": 57
     },
     "Thai": {
       "total": 10,
@@ -309,8 +309,8 @@
     },
     "Turkish": {
       "total": 51,
-      "working": 34,
-      "hd": 29
+      "working": 33,
+      "hd": 28
     },
     "Ukrainian": {
       "total": 74,
@@ -331,7 +331,7 @@
   "categories": {
     "Anime & Animation": {
       "total": 127,
-      "working": 88
+      "working": 87
     },
     "Auto": {
       "total": 4,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 424,
-      "working": 292
+      "working": 291
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 597,
-      "working": 432
+      "working": 431
     },
     "Music": {
       "total": 845,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 536,
-      "working": 337
+      "working": 335
     },
     "Travel": {
       "total": 6,
@@ -646,7 +646,7 @@
     {
       "name": "Star Sports 2 HD (720p)",
       "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Star Sports 2 Hindi (720p)",
@@ -732,6 +732,16 @@
       "name": "B4U Music (576p)",
       "url": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Goldmines Bollywood (576p)",
+      "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "News 1 India (576p)",
@@ -841,7 +851,7 @@
     {
       "name": "Nickelodeon (576p) [Geo-blocked]",
       "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=1752848&extension=ts&play_token=8FNt7g9GJ5",
-      "reason": "HTTP 456"
+      "reason": "HTTP 429"
     },
     {
       "name": "Nickelodeon (576p)",
@@ -2034,11 +2044,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "TV1000",
-      "url": "http://85.14.32.26:8800/udp/239.100.10.100:5000",
-      "reason": "TimeoutError"
-    },
-    {
       "name": "D Music (1280p) [Not 24/7]",
       "url": "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8",
       "reason": "HTTP 404"
@@ -2122,11 +2127,6 @@
       "name": "EnerGeek (720p) [Not 24/7]",
       "url": "https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH",
       "reason": "URLError"
-    },
-    {
-      "name": "La Clave (720p)",
-      "url": "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "BRTV Kaku Childrens Channel",
@@ -2846,7 +2846,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "empty HLS manifest"
     },
     {
       "name": "AXN Spin",
@@ -2984,14 +2984,19 @@
       "reason": "URLError"
     },
     {
+      "name": "Sportitalia (1080p)",
+      "url": "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8",
+      "reason": "HTTP 502"
+    },
+    {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -2999,9 +3004,14 @@
       "reason": "URLError"
     },
     {
+      "name": "Sportitalia Solocalcio (1080p)",
+      "url": "https://edge-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8",
+      "reason": "HTTP 502"
+    },
+    {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3351,7 +3361,7 @@
     {
       "name": "Public 4K TV",
       "url": "http://103.180.240.141:8080/hls/main1/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Ray TV HD (576p)",
@@ -3757,6 +3767,11 @@
       "name": "La Tele (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Metropolitana del Cuzco",
+      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Movistar Plus (576p)",
@@ -4839,6 +4854,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Spacetoon Turkey (720p) [Not 24/7]",
+      "url": "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
       "reason": "URLError"
@@ -5536,7 +5556,7 @@
     {
       "name": "PBS Kids (720p)",
       "url": "https://tvsen7.aynascope.net/pbskids/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "BIZ Cinema (1080p)",
