@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-01 20:27 UTC",
-  "fingerprint": "e3f96d5e04e18cb4025d97b34c545c86",
+  "updated_at": "2026-11-01 21:00 UTC",
+  "fingerprint": "6b411f0ebfcf0484145b68fb436c8e3a",
   "total": 4557,
-  "working": 3474,
-  "in_grace_period": 79,
-  "dead": 1083,
-  "hd_channels": 1828,
+  "working": 3470,
+  "in_grace_period": 27,
+  "dead": 1087,
+  "hd_channels": 1831,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 121,
-      "working": 90,
+      "working": 89,
       "hd": 45
     },
     "Bhojpuri": {
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 753,
-      "working": 550,
+      "working": 547,
       "hd": 332
     },
     "Estonian": {
@@ -99,8 +99,8 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 4,
-      "hd": 4
+      "working": 3,
+      "hd": 3
     },
     "French": {
       "total": 93,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 704,
-      "working": 597,
-      "hd": 241
+      "working": 596,
+      "hd": 240
     },
     "Hungarian": {
       "total": 52,
@@ -184,7 +184,7 @@
     },
     "Maithili": {
       "total": 4,
-      "working": 2,
+      "working": 1,
       "hd": 0
     },
     "Malay": {
@@ -204,7 +204,7 @@
     },
     "Nepali": {
       "total": 10,
-      "working": 7,
+      "working": 6,
       "hd": 2
     },
     "Norwegian": {
@@ -220,7 +220,7 @@
     "Other": {
       "total": 215,
       "working": 128,
-      "hd": 66
+      "hd": 69
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 83,
-      "working": 57,
+      "working": 56,
       "hd": 25
     },
     "Russian": {
       "total": 386,
       "working": 285,
-      "hd": 113
+      "hd": 114
     },
     "Santali": {
       "total": 1,
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 739,
-      "working": 536,
+      "working": 537,
       "hd": 363
     },
     "Swahili": {
@@ -294,8 +294,8 @@
     },
     "Tamil": {
       "total": 186,
-      "working": 147,
-      "hd": 71
+      "working": 148,
+      "hd": 72
     },
     "Telugu": {
       "total": 170,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 887,
-      "working": 652
+      "working": 648
     },
     "Family": {
       "total": 12,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 845,
-      "working": 671
+      "working": 669
     },
     "News": {
       "total": 664,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 536,
-      "working": 320
+      "working": 322
     },
     "Travel": {
       "total": 6,
@@ -581,7 +581,7 @@
     {
       "name": "Jonack TV (360p) [Not 24/7]",
       "url": "https://cdn.smartstream.video/smartstream-us/jonakk/jonakk/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Joy TV (576p)",
@@ -616,11 +616,6 @@
     {
       "name": "Oli TV (1080p)",
       "url": "https://live.olidigital.in/olitv/olitv/index.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
-      "name": "Raj Musix Tamil (1080p)",
-      "url": "https://livestream.rajtv.tv/hlslive/Admin/px08241087/live/Raj_Musix/master_1.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -874,6 +869,11 @@
       "reason": "HTTP 456"
     },
     {
+      "name": "Star Jalsha (1080p) [Geo-blocked]",
+      "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
+      "reason": "HTTP 458"
+    },
+    {
       "name": "Nickelodeon (576p)",
       "url": "http://202.70.146.135:8000/play/a04c/index.m3u8",
       "reason": "HTTP 404"
@@ -1097,6 +1097,11 @@
       "name": "Music India (576p) [Geo-blocked]",
       "url": "https://tvsen3.aynaott.com/Ydvf4ppw/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "Balle Balle (576p)",
+      "url": "https://mumt04.tangotv.in/m18aqlK4BALLEBALLE/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Bhagyam TV (576p) [Not 24/7]",
@@ -1730,8 +1735,8 @@
     },
     {
       "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
+      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -2171,7 +2176,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2404,6 +2409,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Galaxia TV (360p)",
+      "url": "https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Hits 360 TV (720p) [Not 24/7]",
       "url": "http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8",
       "reason": "URLError"
@@ -2504,6 +2514,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Jim (720p)",
+      "url": "https://live-fi.tvkaista.net/jim/live.m3u8?hd=true",
+      "reason": "URLError"
+    },
+    {
       "name": "YleX Studio Live (720p)",
       "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
       "reason": "HTTP 403"
@@ -2527,6 +2542,11 @@
       "name": "M6 Music",
       "url": "https://test.946985.filegear-sg.me/proxy/803c517b325bfafc",
       "reason": "URLError"
+    },
+    {
+      "name": "Mezzo Live",
+      "url": "http://45.84.187.172:3001/udp/239.10.10.76:5000",
+      "reason": "HTTP 401"
     },
     {
       "name": "Mezzo Live",
@@ -2836,7 +2856,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "empty HLS manifest"
     },
     {
       "name": "AXN Spin",
@@ -2971,12 +2991,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -2986,7 +3006,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3337,6 +3357,11 @@
       "name": "Kantipur Max [Geo-blocked]",
       "url": "https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Public 4K TV",
+      "url": "http://103.180.240.141:8080/hls/main1/playlist.m3u8",
+      "reason": "URLError"
     },
     {
       "name": "Ray TV HD (576p)",
@@ -4102,6 +4127,11 @@
       "name": "Nickelodeon",
       "url": "http://178.76.68.60:7442/64/mpegts",
       "reason": "URLError"
+    },
+    {
+      "name": "Smart Radio (576p)",
+      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Sport Extra",
@@ -5544,18 +5574,8 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "ESPN Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "ESPN 2 Latin America (1080p)",
       "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "ESPN 3 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
       "reason": "URLError"
     },
     {
