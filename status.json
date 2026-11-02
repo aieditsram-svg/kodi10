@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-02 01:31 UTC",
-  "fingerprint": "459b5b346810c7b8c69776eb1d1238fd",
+  "updated_at": "2026-11-02 02:23 UTC",
+  "fingerprint": "caaf977302bf3fa6a9b2e79609c56219",
   "total": 4568,
-  "working": 3488,
-  "in_grace_period": 31,
-  "dead": 1080,
-  "hd_channels": 1823,
+  "working": 3489,
+  "in_grace_period": 38,
+  "dead": 1079,
+  "hd_channels": 1819,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -29,8 +29,8 @@
     },
     "Belarusian": {
       "total": 3,
-      "working": 2,
-      "hd": 1
+      "working": 3,
+      "hd": 2
     },
     "Bengali": {
       "total": 121,
@@ -84,13 +84,13 @@
     },
     "Dutch": {
       "total": 69,
-      "working": 31,
+      "working": 30,
       "hd": 21
     },
     "English": {
       "total": 756,
       "working": 571,
-      "hd": 337
+      "hd": 333
     },
     "Estonian": {
       "total": 4,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 23,
       "working": 18,
-      "hd": 14
+      "hd": 13
     },
     "Gujarati": {
       "total": 34,
@@ -140,7 +140,7 @@
     "Indonesian": {
       "total": 21,
       "working": 10,
-      "hd": 8
+      "hd": 7
     },
     "Italian": {
       "total": 79,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 215,
-      "working": 128,
-      "hd": 70
+      "working": 127,
+      "hd": 69
     },
     "Persian": {
       "total": 19,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 387,
-      "working": 284,
-      "hd": 113
+      "working": 286,
+      "hd": 114
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 743,
-      "working": 554,
-      "hd": 370
+      "working": 555,
+      "hd": 372
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 650
+      "working": 651
     },
     "Family": {
       "total": 12,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 598,
-      "working": 426
+      "working": 424
     },
     "Music": {
       "total": 846,
-      "working": 674
+      "working": 675
     },
     "News": {
       "total": 665,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 538,
-      "working": 331
+      "working": 332
     },
     "Travel": {
       "total": 6,
@@ -1849,16 +1849,6 @@
       "reason": "TimeoutError"
     },
     {
-      "name": "Belarus-2 HD (1080p)",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
-      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "Bel RTL (1080p)",
       "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
       "reason": "HTTP 400"
@@ -2222,11 +2212,6 @@
       "name": "EnerGeek (720p) [Not 24/7]",
       "url": "https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH",
       "reason": "URLError"
-    },
-    {
-      "name": "La Clave (720p)",
-      "url": "https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "BRTV Kaku Childrens Channel",
@@ -2641,7 +2626,7 @@
     {
       "name": "Hero (720p) [Not 24/7]",
       "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
-      "reason": "HTTP 404"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Liv (720p)",
@@ -3111,12 +3096,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3126,7 +3111,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3484,6 +3469,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Canal+ Action Europe Czechia",
+      "url": "http://46.149.191.219:9106/play/a01g",
+      "reason": "URLError"
+    },
+    {
       "name": "DeepHouse District (1080p)",
       "url": "https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8",
       "reason": "URLError"
@@ -3512,6 +3502,11 @@
       "name": "Film1 Premiere",
       "url": "http://86.87.15.10:8008/play/a01n/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "FILMBOX+ One Nederland",
+      "url": "http://46.149.191.219:9100/play/a015",
+      "reason": "URLError"
     },
     {
       "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
@@ -4376,7 +4371,7 @@
     {
       "name": "NTV-Hit (576p)",
       "url": "http://178.134.1.158:8081/ntvhit/index.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "HTTP 404"
     },
     {
       "name": "Ani (576p)",
@@ -5386,7 +5381,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
