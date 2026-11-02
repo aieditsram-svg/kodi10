@@ -1,5 +1,5 @@
 #EXTM3U
-# Movies channels, one link per channel, all languages, updated 2026-11-02 08:54 UTC
+# Movies channels, one link per channel, all languages, updated 2026-11-02 09:45 UTC
 #EXTINF:-1 tvg-id="RTSHShqip.al@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/88kRsW3.png" x-category="Movies" tvg-language="Albanian" group-title="Albanian",RTSH Shqip
 http://178.33.11.6:8696/live/rtshshqip/playlist.m3u8
 #EXTINF:-1 tvg-id="Aflam.sa@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/cTLj7Yt.png" x-category="Movies" tvg-language="Arabic" group-title="Arabic" height="1080",Aflam
@@ -40,8 +40,9 @@ https://cdnb4u.wiseplayout.com/B4U_Bhojpuri/master.m3u8
 https://cc-t2mudtkmuz4wb.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t2mudtkmuz4wb/B4U_Bhojpuri/master.m3u8
 #EXTINF:-1 tvg-id="BhojpuriCinema.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142713_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Bhojpuri" group-title="Bhojpuri" height="720",Bhojpuri Cinema
 https://live-bhojpuri.akamaized.net/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="EpicBhojpuri.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540" x-category="Movies" tvg-language="Bhojpuri" group-title="Bhojpuri",Epic Bhojpuri
-https://mumt01.tangotv.in/O5aw8Zn3EPICBHOJPURI/index.m3u8
+#EXTINF:-1 tvg-id="EpicBhojpuri.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540" x-category="Movies" tvg-language="Bhojpuri" group-title="Bhojpuri" height="576",Epic Bhojpuri
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/467/master.m3u8
 #EXTINF:-1 tvg-id="EpicBhojpuri.in@Digital" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVJ8.png?lock=720x540" x-category="Movies" tvg-language="Bhojpuri" group-title="Bhojpuri" height="1080",Epic Bhojpuri Digital
 https://cc-8hy4a26pz2uos.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8hy4a26pz2uos/playlist.m3u8
 #EXTINF:-1 tvg-id="MahuaPlay.in@SD" x-categories="Movies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Mahua_Play.png" x-category="Movies" tvg-language="Bhojpuri" group-title="Bhojpuri" height="1080",Mahua Play
@@ -327,7 +328,7 @@ https://turnerlive.warnermediacdn.com/hls/live/2023187/tcmwest/noslate/VIDEO_1_5
 https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
 #EXTINF:-1 tvg-id="TVCARiBCinema.sx@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/fvGlwKo.png" x-category="Movies" tvg-language="English" group-title="English" height="720",TVCARiB Cinema
 https://cdn.mycloudstream.io/hls/live/broadcast/l3vslw4i/index.m3u8
-#EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/OR9APjb.png" x-category="Movies" tvg-language="English" group-title="English" height="360",TVS Drive In Movie
+#EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/OR9APjb.png" x-category="Movies" tvg-language="English" group-title="English" height="480",TVS Drive In Movie
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
 #EXTINF:-1 tvg-id="TVSFilmNoirNetwork.us@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/A4yWhQw.png" x-category="Movies" tvg-language="English" group-title="English",TVS Film Noir Network
 https://rpn.bozztv.com/trn01/gusa-TVSFilmNoir/index.m3u8
@@ -411,9 +412,11 @@ https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main
 #EXTINF:-1 tvg-id="Goldmines.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="720",Goldmines
 https://streams.tangotv.in/GOLDMINES/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="Goldmines2.in@SD" x-categories="Movies" x-category="Movies" tvg-language="Hindi" group-title="Hindi",Goldmines 2
-https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8
-#EXTINF:-1 tvg-id="GoldminesAction.in@SD" x-categories="Movies" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" x-category="Movies" tvg-language="Hindi" group-title="Hindi",Goldmines Action
-https://mumt03.tangotv.in/Dsly5z3HGOLDMINESACTION/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/46/46_0.m3u8
+#EXTINF:-1 tvg-id="GoldminesAction.in@SD" x-categories="Movies" tvg-logo="https://yt3.googleusercontent.com/_X6U6bMLF-pTu5wBMFwsSI6aubGrXk2B0kUKdGiLIMqFLyDIne4Ot4ro76BS1S8fX3pWcCwS=s900-c-k-c0x00ffffff-no-rj" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="576",Goldmines Action
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/584/master.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/6mNQ9mM.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="720",Goldmines Bollywood
 https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesMovies.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="720",Goldmines Movies
@@ -427,8 +430,9 @@ https://fta.ektv.in/live/48/48_0.m3u8
 https://streams.tangotv.in/MANORANJANGRAND/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="MBCBollywood.ae@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/TTAGFHG.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="1080",MBC Bollywood
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
-#EXTINF:-1 tvg-id="MHOneMovies.in@SD" x-categories="Movies" x-category="Movies" tvg-language="Hindi" group-title="Hindi",MH One Movies
-https://mumt03.tangotv.in/Dsly5z3HMHONEMOVIE/index.m3u8
+#EXTINF:-1 tvg-id="MHOneMovies.in@SD" x-categories="Movies" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="576",MH One Movies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/639/master.m3u8
 #EXTINF:-1 tvg-id="NHBollyFlix.in@HD" x-categories="Movies" tvg-logo="https://i.ibb.co/yF9MPTDK/blyflx.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="1080",NH BollyFlix
 https://jmp2.uk/stvp-IN46000140Q
 #EXTINF:-1 tvg-id="NHBollyGold.in@HD" x-categories="Movies" tvg-logo="https://i.ibb.co/x9PsrMy/NH-BOLLYGOLD.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi",NH BollyGold
@@ -544,7 +548,7 @@ https://shd-amg-fast.edgenextcdn.net/tx001/playlist.m3u8
 https://d1yl6bf4hrzbr0.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-5km3zs4zs9sp0/allo.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@SD" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" x-category="Movies" tvg-language="Other" group-title="Other",AMC Latin America
 http://45.171.108.253:8888/AMC/index.m3u8
-#EXTINF:-1 tvg-id="ArmeniaPremium.am@SD" x-categories="Movies" x-category="Movies" tvg-language="Other" group-title="Other" height="720",Armenia Premium
+#EXTINF:-1 tvg-id="ArmeniaPremium.am@SD" x-categories="Movies" x-category="Movies" tvg-language="Other" group-title="Other",Armenia Premium
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/123/index.m3u8
 #EXTINF:-1 tvg-id="AXNAsia.sg@Taiwan" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" x-category="Movies" tvg-language="Other" group-title="Other",AXN Asia Taiwan
@@ -797,7 +801,7 @@ http://stream.mcquack.net/208/index.m3u8
 http://stream.mcquack.net/204/index.m3u8
 #EXTINF:-1 tvg-id="Russkiyroman.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/cQN0P2B.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="576",Russkiy roman
 https://vod.tuva.ru/rusroman/index.m3u8
-#EXTINF:-1 tvg-id="Shokiruyushchee.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/UG63hZ0.png" x-category="Movies" tvg-language="Russian" group-title="Russian",Shokiruyushchee HD
+#EXTINF:-1 tvg-id="Shokiruyushchee.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/UG63hZ0.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="1080",Shokiruyushchee HD
 http://stream.mcquack.net/75/index.m3u8
 #EXTINF:-1 tvg-id="ShotTV.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/MLSG7tA.png" x-category="Movies" tvg-language="Russian" group-title="Russian",Shot TV
 http://hls127.freeott.top:8080/SHOT_TV/video.m3u8
@@ -855,9 +859,9 @@ https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8
 http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000russkoe.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/Meak2y4.png" x-category="Movies" tvg-language="Russian" group-title="Russian",viju TV1000 russkoe
 https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/oIQNddV.png" x-category="Movies" tvg-language="Russian" group-title="Russian",viju+ Megahit HD
+#EXTINF:-1 tvg-id="vijuPlusMegahit.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/oIQNddV.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="1080",viju+ Megahit HD
 http://stream.mcquack.net/200/index.m3u8
-#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/klRvhR5.png" x-category="Movies" tvg-language="Russian" group-title="Russian",viju+ Premiere HD
+#EXTINF:-1 tvg-id="vijuPlusPremiere.ru@HD" x-categories="Movies" tvg-logo="https://i.imgur.com/klRvhR5.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="1080",viju+ Premiere HD
 http://stream.mcquack.net/202/index.m3u8
 #EXTINF:-1 tvg-id="KinoTV.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/sMpamNO.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="576",КИНОТВ
 https://vod.tuva.ru/kinotv/index.m3u8
@@ -955,9 +959,9 @@ http://23.237.104.106:8080/USA_LMN/index.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
 #EXTINF:-1 tvg-id="Maxcine2.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/209163.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="480",Maxcine 2
 https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
-#EXTINF:-1 tvg-id="MaxcineComedy.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208730.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Comedy
+#EXTINF:-1 tvg-id="MaxcineComedy.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208730.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="480",Maxcine Comedy
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
-#EXTINF:-1 tvg-id="MaxcineFamily.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208817.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Family
+#EXTINF:-1 tvg-id="MaxcineFamily.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208817.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="560",Maxcine Family
 https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
 #EXTINF:-1 tvg-id="MaxcineKids.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/209909.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Kids
 https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
@@ -1030,7 +1034,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
 http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174
 #EXTINF:-1 tvg-id="4everCinema.ua@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/vFOgVbG.png" x-category="Movies" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",4ever Cinema
 http://stream.mcquack.net/258/index.m3u8
-#EXTINF:-1 tvg-id="Bolt.ua@SD" x-categories="Movies;Shows & Series" tvg-logo="https://i.imgur.com/YdIHXOR.png" x-category="Movies" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",Bolt
+#EXTINF:-1 tvg-id="Bolt.ua@SD" x-categories="Movies;Shows & Series" tvg-logo="https://i.imgur.com/YdIHXOR.png" x-category="Movies" tvg-language="Ukrainian" group-title="Ukrainian",Bolt
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/73/index.m3u8
 #EXTINF:-1 tvg-id="CinePlus.ua@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/SAtdShq.png" x-category="Movies" tvg-language="Ukrainian" group-title="Ukrainian",Cine+
