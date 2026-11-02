@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-11-02 21:07 UTC",
-  "fingerprint": "529e228213f7ac5b388bf117837cf3ec",
+  "updated_at": "2026-11-02 21:43 UTC",
+  "fingerprint": "450246471c2d30b1ba7c259a3bdcce4d",
   "total": 4570,
   "working": 3410,
-  "in_grace_period": 46,
+  "in_grace_period": 44,
   "dead": 1160,
   "hd_channels": 1795,
   "languages": {
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 754,
-      "working": 564,
+      "working": 563,
       "hd": 333
     },
     "Estonian": {
@@ -144,8 +144,8 @@
     },
     "Italian": {
       "total": 79,
-      "working": 54,
-      "hd": 43
+      "working": 53,
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 131,
-      "hd": 71
+      "hd": 73
     },
     "Persian": {
       "total": 19,
@@ -244,12 +244,12 @@
     },
     "Romanian": {
       "total": 82,
-      "working": 63,
-      "hd": 28
+      "working": 62,
+      "hd": 27
     },
     "Russian": {
       "total": 387,
-      "working": 284,
+      "working": 285,
       "hd": 111
     },
     "Santali": {
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 741,
-      "working": 564,
+      "working": 565,
       "hd": 379
     },
     "Swahili": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 639
+      "working": 640
     },
     "Family": {
       "total": 12,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 429,
-      "working": 295
+      "working": 294
     },
     "Legislative": {
       "total": 8,
@@ -969,11 +969,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "B4U Kadak (576p)",
-      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "B4U Music (576p)",
       "url": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
       "reason": "TimeoutError"
@@ -1086,6 +1081,11 @@
     {
       "name": "Disha TV (396p)",
       "url": "https://d1msejlow1t3l4.cloudfront.net/fta/dishatv/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "All Time Movies (576p)",
+      "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -2279,9 +2279,9 @@
       "reason": "not a valid HLS manifest"
     },
     {
-      "name": "Belarus-5 (1080p) [Not 24/7]",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
+      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
+      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -2736,7 +2736,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2831,7 +2831,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "MaxTV [Not 24/7]",
@@ -3081,7 +3081,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Littoral FM (720p)",
@@ -3536,12 +3536,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3551,7 +3551,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3587,6 +3587,11 @@
       "name": "Lazio Style Channel HD (720p)",
       "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Nick Jr. (720p)",
+      "url": "http://102.129.186.182:81/nick/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Twentyseven HD (1080p) [Geo-blocked]",
@@ -4279,11 +4284,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "Del Rey TV (1080p)",
-      "url": "https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Nande Portetepe TV",
       "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
       "reason": "HTTP 404"
@@ -4614,6 +4614,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
+      "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Mooz Dance HD (1080i) [Geo-blocked]",
       "url": "https://meta.vcdn.biz/bb45aeed3156b62f01b6ca222920d46b_megogo/live/hls/b/700_2500/u_sid/0/o/183161921/rsid/20877e0c-fb47-4c47-a29d-19fadadbccb7/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.41*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8",
       "reason": "HTTP 403"
@@ -4764,11 +4769,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Шансон ТВ (512p) [Geo-blocked]",
-      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "Setanta Sports 1",
       "url": "http://158.101.222.193:88/georgia_play.php?id=setanta_georgia",
       "reason": "URLError"
@@ -4781,7 +4781,7 @@
     {
       "name": "NTV-Hit (576p)",
       "url": "http://178.134.1.158:8081/ntvhit/index.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "HTTP 404"
     },
     {
       "name": "Ani (576p)",
@@ -5791,7 +5791,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -6181,7 +6181,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "returned HTML page"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
