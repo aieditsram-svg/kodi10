@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-02 23:30 UTC",
-  "fingerprint": "773ad88794142567a38c53b1c03290c2",
+  "updated_at": "2026-11-03 00:00 UTC",
+  "fingerprint": "f68a088647ad796a09754a2dc7646514",
   "total": 4570,
-  "working": 3418,
-  "in_grace_period": 61,
-  "dead": 1152,
-  "hd_channels": 1799,
+  "working": 3416,
+  "in_grace_period": 42,
+  "dead": 1154,
+  "hd_channels": 1794,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 121,
-      "working": 80,
+      "working": 82,
       "hd": 43
     },
     "Bhojpuri": {
@@ -49,7 +49,7 @@
     },
     "Bulgarian": {
       "total": 47,
-      "working": 43,
+      "working": 44,
       "hd": 8
     },
     "Catalan": {
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 705,
-      "working": 559,
+      "working": 558,
       "hd": 223
     },
     "Hungarian": {
@@ -145,7 +145,7 @@
     "Italian": {
       "total": 79,
       "working": 54,
-      "hd": 43
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 133,
-      "hd": 73
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 741,
-      "working": 565,
-      "hd": 380
+      "working": 561,
+      "hd": 376
     },
     "Swahili": {
       "total": 3,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 598,
-      "working": 424
+      "working": 425
     },
     "Music": {
       "total": 846,
-      "working": 672
+      "working": 669
     },
     "News": {
       "total": 665,
@@ -1459,19 +1459,9 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Khushboo Bangla (576p) [Geo-blocked]",
-      "url": "https://tvsen6.aynaott.com/mzwbzfZ4/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Mastiii (576p) [Geo-blocked]",
       "url": "https://tvsen3.aynaott.com/er7jmpVF/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Sangeet Bangla (576p) [Geo-blocked]",
-      "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Music India (576p) [Geo-blocked]",
@@ -1942,6 +1932,11 @@
       "name": "Ind 24 (576p)",
       "url": "https://mumt06.tangotv.in/qYyB8fXVIND24/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "9XM (576p)",
+      "url": "https://yupplivegcp2.yuppcdn.net/28072023/9xmusic_1800/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "9X Jalwa (576p)",
@@ -2529,11 +2524,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "TV1000",
-      "url": "http://stream.mcquack.net/100/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "D Music (1280p) [Not 24/7]",
       "url": "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8",
       "reason": "HTTP 404"
@@ -2977,6 +2967,11 @@
       "name": "Super7FM (720p)",
       "url": "https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Tele Dominicana TV (720p) [Not 24/7]",
+      "url": "https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "TV Canal Sur (720p) [Not 24/7]",
@@ -3521,12 +3516,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3536,7 +3531,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -4254,6 +4249,16 @@
       "reason": "HTTP 400"
     },
     {
+      "name": "Farra Play (720p) [Not 24/7]",
+      "url": "http://159.203.148.226/live/farra.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Farra Play (576p)",
+      "url": "https://stream.farra.com.py/live/farra_low.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Nande Portetepe TV",
       "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
       "reason": "HTTP 404"
@@ -4331,7 +4336,7 @@
     {
       "name": "Riku TV (1080p)",
       "url": "https://amixtv.com:8081/rikutv/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 503"
     },
     {
       "name": "Riku TV (720p)",
@@ -6082,6 +6087,11 @@
       "name": "MiMi TV (720p)",
       "url": "https://fl.biztv.media/MiMiTV_720/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "AbejalesTV (720p)",
+      "url": "https://183.bozztv.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Italianissimo (360p) [Not 24/7]",
