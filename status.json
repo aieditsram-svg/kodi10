@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 11:11 UTC",
-  "fingerprint": "7107753f6cd32dfbcb9ab1a1b41a7533",
+  "updated_at": "2026-11-03 11:53 UTC",
+  "fingerprint": "0ea84680eef846aed8ef687137ea0243",
   "total": 4569,
-  "working": 3430,
-  "in_grace_period": 44,
-  "dead": 1139,
-  "hd_channels": 1801,
+  "working": 3429,
+  "in_grace_period": 40,
+  "dead": 1140,
+  "hd_channels": 1806,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 121,
-      "working": 83,
+      "working": 82,
       "hd": 45
     },
     "Bhojpuri": {
@@ -90,7 +90,7 @@
     "English": {
       "total": 756,
       "working": 562,
-      "hd": 331
+      "hd": 333
     },
     "Estonian": {
       "total": 4,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 705,
-      "working": 560,
+      "working": 559,
       "hd": 223
     },
     "Hungarian": {
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 218,
-      "working": 133,
-      "hd": 72
+      "working": 134,
+      "hd": 73
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 141,
       "working": 83,
-      "hd": 56
+      "hd": 57
     },
     "Punjabi": {
       "total": 136,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 383,
       "working": 289,
-      "hd": 115
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 432,
-      "working": 298
+      "working": 299
     },
     "Legislative": {
       "total": 8,
@@ -407,11 +407,11 @@
     },
     "Music": {
       "total": 844,
-      "working": 672
+      "working": 671
     },
     "News": {
       "total": 665,
-      "working": 579
+      "working": 578
     },
     "Outdoor": {
       "total": 18,
@@ -786,7 +786,7 @@
     {
       "name": "Vision (576p)",
       "url": "http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "YRF Music (1080p)",
@@ -972,6 +972,11 @@
       "name": "B4U Music (576p)",
       "url": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "Bharat Samachar (576p)",
+      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Goldmines Movies (576p)",
@@ -1447,6 +1452,11 @@
       "name": "Mastiii (576p) [Geo-blocked]",
       "url": "https://tvsen3.aynaott.com/er7jmpVF/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "Sangeet Bangla (576p) [Geo-blocked]",
+      "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Music India (576p) [Geo-blocked]",
@@ -2666,7 +2676,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2761,7 +2771,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "MaxTV [Not 24/7]",
@@ -3011,7 +3021,7 @@
     {
       "name": "Hero (720p) [Not 24/7]",
       "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "YleX Studio Live (720p)",
@@ -3512,11 +3522,6 @@
       "name": "Fame95 FM (480p)",
       "url": "https://rjr-fame.akamaized.net/hls/live/2033820/RJR_FAME/master.m3u8",
       "reason": "HTTP 400"
-    },
-    {
-      "name": "Balapan International (1080p)",
-      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
-      "reason": "HTTP 503"
     },
     {
       "name": "Manas TV (1080p)",
