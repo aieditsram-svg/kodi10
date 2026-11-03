@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 10:19 UTC",
-  "fingerprint": "e8924a856e143aa302f5d2c68357738c",
+  "updated_at": "2026-11-03 11:11 UTC",
+  "fingerprint": "7107753f6cd32dfbcb9ab1a1b41a7533",
   "total": 4569,
-  "working": 3422,
-  "in_grace_period": 60,
-  "dead": 1147,
-  "hd_channels": 1797,
+  "working": 3430,
+  "in_grace_period": 44,
+  "dead": 1139,
+  "hd_channels": 1801,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 756,
       "working": 562,
-      "hd": 333
+      "hd": 331
     },
     "Estonian": {
       "total": 4,
@@ -104,8 +104,8 @@
     },
     "French": {
       "total": 93,
-      "working": 59,
-      "hd": 48
+      "working": 61,
+      "hd": 50
     },
     "German": {
       "total": 62,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 18,
-      "hd": 14
+      "hd": 13
     },
     "Gujarati": {
       "total": 34,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 705,
-      "working": 561,
+      "working": 560,
       "hd": 223
     },
     "Hungarian": {
@@ -140,12 +140,12 @@
     "Indonesian": {
       "total": 21,
       "working": 10,
-      "hd": 8
+      "hd": 7
     },
     "Italian": {
       "total": 79,
       "working": 54,
-      "hd": 42
+      "hd": 43
     },
     "Japanese": {
       "total": 4,
@@ -194,7 +194,7 @@
     },
     "Malayalam": {
       "total": 116,
-      "working": 88,
+      "working": 89,
       "hd": 35
     },
     "Marathi": {
@@ -220,7 +220,7 @@
     "Other": {
       "total": 218,
       "working": 133,
-      "hd": 74
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 141,
       "working": 83,
-      "hd": 57
+      "hd": 56
     },
     "Punjabi": {
       "total": 136,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 383,
-      "working": 288,
-      "hd": 113
+      "working": 289,
+      "hd": 115
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 555,
-      "hd": 369
+      "working": 560,
+      "hd": 374
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 633
+      "working": 637
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 166
+      "working": 167
     },
     "Interactive": {
       "total": 1,
@@ -399,19 +399,19 @@
     },
     "Lifestyle": {
       "total": 27,
-      "working": 19
+      "working": 20
     },
     "Movies": {
       "total": 594,
-      "working": 427
+      "working": 426
     },
     "Music": {
       "total": 844,
-      "working": 668
+      "working": 672
     },
     "News": {
       "total": 665,
-      "working": 578
+      "working": 579
     },
     "Outdoor": {
       "total": 18,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 539,
-      "working": 335
+      "working": 336
     },
     "Travel": {
       "total": 7,
@@ -654,11 +654,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Kalika TV (576p)",
-      "url": "http://server.applelive.in/kalikatv/kalikatv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Madhimugam TV (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3MATHIMUGAMTV/index.m3u8",
       "reason": "HTTP 403"
@@ -686,12 +681,12 @@
     {
       "name": "NK TV 24x7 (1080p)",
       "url": "https://nktv.smartstream.video/smartstream-us/nktvplus/nktvplus/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "NK TV Bangla (1080p)",
       "url": "https://nktv.smartstream.video/smartstream-us/nkbangla/nkbangla/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Pasand TV (576p)",
@@ -736,7 +731,7 @@
     {
       "name": "Spondon (1080p)",
       "url": "https://nktv.smartstream.video/smartstream-us/spondon/spondon/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Star Sports 2 HD (720p)",
@@ -977,6 +972,11 @@
       "name": "B4U Music (576p)",
       "url": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "Goldmines Movies (576p)",
+      "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Rupasi Bangla (576p)",
@@ -2224,11 +2224,6 @@
       "reason": "TimeoutError"
     },
     {
-      "name": "Belarus-5 (1080p) [Not 24/7]",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "Bel RTL (1080p)",
       "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
       "reason": "HTTP 400"
@@ -2291,11 +2286,6 @@
     {
       "name": "Alegria TV (720p)",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/confirmatv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "CEACOM TV (1080p) [Not 24/7]",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -2527,16 +2517,6 @@
       "name": "My TV (576p)",
       "url": "https://live.happywatch99.com/mytvhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Play TV (720p) [Not 24/7]",
-      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "PLEX TV",
-      "url": "http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "TR24 (720p)",
@@ -2917,11 +2897,6 @@
       "name": "Antena 21 (480p)",
       "url": "https://alba-do-antena7-c21.stream.mediatiquestream.com/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Cibaeña TV (720p)",
-      "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "COCO TV (1080p) [Not 24/7]",
@@ -4046,7 +4021,7 @@
     {
       "name": "M-Net Sport",
       "url": "https://live.mnet.mk/hls/mnet-sport.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "HTTP 500"
     },
     {
       "name": "Rock TV (1080p) [Not 24/7]",
@@ -4194,16 +4169,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "Del Rey TV (1080p)",
-      "url": "https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Oasis TV (720p)",
-      "url": "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Popu TV (1080p)",
       "url": "http://190.108.83.69:8000/play/a070/index.m3u8",
       "reason": "HTTP 404"
@@ -4257,11 +4222,6 @@
       "name": "La Tele (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Metropolitana del Cuzco",
-      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Movistar Plus (576p)",
@@ -5131,7 +5091,7 @@
     {
       "name": "Pequeradio (720p) [Not 24/7]",
       "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Rakuten Viki (1080p)",
@@ -5711,7 +5671,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -6051,7 +6011,7 @@
     {
       "name": "Italianissimo (360p) [Not 24/7]",
       "url": "https://vcp.myplaytv.com/italianissimo/italianissimo/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "KandelaTV (480p)",
@@ -6076,7 +6036,7 @@
     {
       "name": "Oxigeno TV (360p) [Not 24/7]",
       "url": "https://vcp.myplaytv.com/oxigenotv/oxigenotv/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Ve Plus Panregional (1080p)",
