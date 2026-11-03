@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 07:44 UTC",
-  "fingerprint": "f035ac992d45e030210284b51947b032",
+  "updated_at": "2026-11-03 08:38 UTC",
+  "fingerprint": "a18bc6d960cfdd68e941bf220f3f9094",
   "total": 4569,
-  "working": 3420,
-  "in_grace_period": 49,
-  "dead": 1149,
-  "hd_channels": 1789,
+  "working": 3425,
+  "in_grace_period": 38,
+  "dead": 1144,
+  "hd_channels": 1799,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -29,13 +29,13 @@
     },
     "Belarusian": {
       "total": 3,
-      "working": 2,
-      "hd": 1
+      "working": 3,
+      "hd": 2
     },
     "Bengali": {
       "total": 121,
       "working": 83,
-      "hd": 44
+      "hd": 45
     },
     "Bhojpuri": {
       "total": 32,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 756,
-      "working": 564,
-      "hd": 333
+      "working": 563,
+      "hd": 334
     },
     "Estonian": {
       "total": 4,
@@ -99,13 +99,13 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 1,
-      "hd": 1
+      "working": 3,
+      "hd": 3
     },
     "French": {
       "total": 93,
-      "working": 58,
-      "hd": 47
+      "working": 59,
+      "hd": 48
     },
     "German": {
       "total": 62,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 705,
-      "working": 558,
-      "hd": 222
+      "working": 561,
+      "hd": 223
     },
     "Hungarian": {
       "total": 57,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 218,
       "working": 133,
-      "hd": 72
+      "hd": 75
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 141,
       "working": 83,
-      "hd": 56
+      "hd": 55
     },
     "Punjabi": {
       "total": 136,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 383,
-      "working": 287,
-      "hd": 112
+      "working": 288,
+      "hd": 114
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 555,
-      "hd": 369
+      "working": 554,
+      "hd": 370
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 632
+      "working": 635
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 166
+      "working": 167
     },
     "Interactive": {
       "total": 1,
@@ -411,7 +411,7 @@
     },
     "News": {
       "total": 665,
-      "working": 576
+      "working": 577
     },
     "Outdoor": {
       "total": 18,
@@ -431,7 +431,7 @@
     },
     "Shows & Series": {
       "total": 141,
-      "working": 101
+      "working": 100
     },
     "Sports": {
       "total": 539,
@@ -974,19 +974,9 @@
       "reason": "TimeoutError"
     },
     {
-      "name": "Goldmines (576p)",
-      "url": "https://tvsen3.aynaott.com/VamXuQH8/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Rupasi Bangla (576p)",
       "url": "https://tvsen6.aynaott.com/a4L7Tcqv/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Taaza TV (576p)",
-      "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Zee 24 Ghanta (576p)",
@@ -1272,11 +1262,6 @@
       "name": "Mahimai TV (576p)",
       "url": "https://mahimai.iptelevision.live/mahimaitv/video.m3u8",
       "reason": "HTTP 400"
-    },
-    {
-      "name": "News Nation 81 (1080p)",
-      "url": "https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8",
-      "reason": "URLError"
     },
     {
       "name": "NH BollyGold (1080p)",
@@ -2226,7 +2211,7 @@
     {
       "name": "ATN Music (360p)",
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 500"
     },
     {
       "name": "T Sports (1080p)",
@@ -2237,11 +2222,6 @@
       "name": "Duronto TV (720p)",
       "url": "https://box.bbaria.net/DurontoTV/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Belarus-2 HD (1080p)",
-      "url": "https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -3049,16 +3029,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Jim (720p)",
-      "url": "https://live-fi.tvkaista.net/jim/live.m3u8?hd=true",
-      "reason": "URLError"
-    },
-    {
-      "name": "Liv (720p)",
-      "url": "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true",
-      "reason": "URLError"
-    },
-    {
       "name": "YleX Studio Live (720p)",
       "url": "https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8",
       "reason": "HTTP 403"
@@ -3341,7 +3311,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "AXN Spin",
@@ -4044,6 +4014,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "WTV Canal 20 (1080p)",
+      "url": "https://cootv.cootel.com.ni:8095/Canal40_WTV/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "AMusic Channel (720p)",
       "url": "http://mn-nl.mncdn.com/amusictv/amusicsrt.stream/playlist.m3u8",
       "reason": "ConnectionResetError"
@@ -4721,7 +4696,7 @@
     {
       "name": "NTV-Hit (576p)",
       "url": "http://178.134.1.158:8081/ntvhit/index.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "HTTP 404"
     },
     {
       "name": "Ani (576p)",
@@ -5259,11 +5234,6 @@
       "reason": "UnicodeEncodeError"
     },
     {
-      "name": "Chandel TV (720p)",
-      "url": "https://kali.vdopanel.com:3660/live/vj6jlam1rlive.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "NW Magazine (576p)",
       "url": "https://hls.newworldtv.com/nw-magazine/video/live.m3u8",
       "reason": "HTTP 403"
@@ -5756,6 +5726,11 @@
     {
       "name": "Starz Cinema (720p)",
       "url": "http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "SYFY (720p)",
+      "url": "http://tvsen7.aynascope.net/syfy/index.m3u8",
       "reason": "HTTP 404"
     },
     {
