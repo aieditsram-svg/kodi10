@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 02:29 UTC",
-  "fingerprint": "efa46434205d1bd940d4f94321351d41",
+  "updated_at": "2026-11-03 03:18 UTC",
+  "fingerprint": "29bd2c3189ab903e868ddebbfa84fbb9",
   "total": 4570,
-  "working": 3424,
-  "in_grace_period": 72,
-  "dead": 1146,
-  "hd_channels": 1788,
+  "working": 3415,
+  "in_grace_period": 54,
+  "dead": 1155,
+  "hd_channels": 1789,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 757,
       "working": 565,
-      "hd": 333
+      "hd": 337
     },
     "Estonian": {
       "total": 4,
@@ -99,8 +99,8 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 3,
-      "hd": 3
+      "working": 1,
+      "hd": 1
     },
     "French": {
       "total": 93,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 18,
-      "hd": 14
+      "hd": 13
     },
     "Gujarati": {
       "total": 34,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 705,
-      "working": 559,
+      "working": 555,
       "hd": 221
     },
     "Hungarian": {
@@ -144,8 +144,8 @@
     },
     "Italian": {
       "total": 79,
-      "working": 54,
-      "hd": 43
+      "working": 53,
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 383,
       "working": 288,
-      "hd": 111
+      "hd": 112
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 564,
-      "hd": 375
+      "working": 561,
+      "hd": 374
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 641
+      "working": 637
     },
     "Family": {
       "total": 12,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 432,
-      "working": 299
+      "working": 298
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 594,
-      "working": 424
+      "working": 423
     },
     "Music": {
       "total": 845,
@@ -411,7 +411,7 @@
     },
     "News": {
       "total": 665,
-      "working": 573
+      "working": 570
     },
     "Outdoor": {
       "total": 18,
@@ -979,6 +979,11 @@
       "reason": "TimeoutError"
     },
     {
+      "name": "Bharat Samachar (576p)",
+      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "News 1 India (576p)",
       "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
       "reason": "HTTP 404"
@@ -1081,6 +1086,11 @@
     {
       "name": "Disha TV (396p)",
       "url": "https://d1msejlow1t3l4.cloudfront.net/fta/dishatv/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "All Time Movies (576p)",
+      "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1197,6 +1207,11 @@
       "name": "Mercy TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HMERCYTV/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "India Voice (576p)",
+      "url": "https://mumt04.tangotv.in/m18aqlK4INDIAVOICE/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "MH One Movies (576p)",
@@ -1949,6 +1964,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Public First (576p)",
+      "url": "https://samitaorigin.tangotv.in/PUBLICFIRST/SAMITAORIGIN/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "FashionTV (576p)",
       "url": "https://fta.ektv.in/live/144/144_0.m3u8",
       "reason": "HTTP 404"
@@ -2126,7 +2146,7 @@
     {
       "name": "Film & Arts (1080p)",
       "url": "http://15.204.246.24:8080/FilmArtsHD/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "MusicTop (1080p)",
@@ -2706,7 +2726,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3039,13 +3059,18 @@
       "reason": "URLError"
     },
     {
-      "name": "Vantage Music UK (1080p) [Geo-blocked]",
-      "url": "https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8",
+      "name": "Hero (720p) [Not 24/7]",
+      "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
       "reason": "HTTP 404"
     },
     {
-      "name": "Hero (720p) [Not 24/7]",
-      "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
+      "name": "Jim (720p)",
+      "url": "https://live-fi.tvkaista.net/jim/live.m3u8?hd=true",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Liv (720p)",
+      "url": "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true",
       "reason": "HTTP 404"
     },
     {
@@ -3496,12 +3521,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3547,6 +3572,11 @@
       "name": "Lazio Style Channel HD (720p)",
       "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Nick Jr. (720p)",
+      "url": "http://102.129.186.182:81/nick/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Twentyseven HD (1080p) [Geo-blocked]",
@@ -4234,8 +4264,8 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Nande Portetepe TV",
-      "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
+      "name": "Oasis TV (720p)",
+      "url": "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -4279,6 +4309,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Kora TV",
+      "url": "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "L1 (1080p)",
       "url": "http://45.4.1.201:8000/play/a1ai/index.m3u8",
       "reason": "URLError"
@@ -4306,6 +4341,16 @@
     {
       "name": "Radio Chalaca",
       "url": "https://servilive.com:3414/hybrid/play.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "Radio Rumba TV (720p)",
+      "url": "https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Radio Rumba TV (720p)",
+      "url": "https://tv.sistemasandinos.org/rumbatv/video.m3u8",
       "reason": "URLError"
     },
     {
@@ -5296,7 +5341,7 @@
     {
       "name": "Number 1 TV (720p)",
       "url": "https://mn-nl.mncdn.com/blutv_nr12/live.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "URLError"
     },
     {
       "name": "S Sport 2",
@@ -5711,7 +5756,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -5731,7 +5776,7 @@
     {
       "name": "Nickelodeon Latin America (1080p)",
       "url": "http://15.204.246.24:8080/NickHD/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Sony Movies Latin America (720p)",
@@ -5816,7 +5861,7 @@
     {
       "name": "KidOO (1080p) [Geo-blocked]",
       "url": "http://15.204.246.24:8080/KidooHD/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AMC (1080p) [Geo-blocked]",
