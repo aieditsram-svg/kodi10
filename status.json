@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 20:03 UTC",
-  "fingerprint": "a5771b0c4c0559116355aa6b94deedf9",
+  "updated_at": "2026-11-03 20:44 UTC",
+  "fingerprint": "f4be9b09d674d9c4179a5b9e92e45384",
   "total": 4569,
-  "working": 3413,
-  "in_grace_period": 50,
-  "dead": 1156,
-  "hd_channels": 1795,
+  "working": 3412,
+  "in_grace_period": 61,
+  "dead": 1157,
+  "hd_channels": 1790,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,8 +34,8 @@
     },
     "Bengali": {
       "total": 121,
-      "working": 82,
-      "hd": 44
+      "working": 81,
+      "hd": 43
     },
     "Bhojpuri": {
       "total": 32,
@@ -90,7 +90,7 @@
     "English": {
       "total": 756,
       "working": 562,
-      "hd": 332
+      "hd": 333
     },
     "Estonian": {
       "total": 4,
@@ -124,13 +124,13 @@
     },
     "Hebrew": {
       "total": 13,
-      "working": 9,
+      "working": 10,
       "hd": 6
     },
     "Hindi": {
       "total": 705,
       "working": 554,
-      "hd": 223
+      "hd": 222
     },
     "Hungarian": {
       "total": 57,
@@ -165,7 +165,7 @@
     "Korean": {
       "total": 9,
       "working": 8,
-      "hd": 7
+      "hd": 6
     },
     "Latvian": {
       "total": 10,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 218,
       "working": 134,
-      "hd": 75
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 383,
       "working": 287,
-      "hd": 115
+      "hd": 113
     },
     "Santali": {
       "total": 1,
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 170,
-      "working": 131,
+      "working": 130,
       "hd": 54
     },
     "Thai": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 632
+      "working": 633
     },
     "Family": {
       "total": 12,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 844,
-      "working": 670
+      "working": 668
     },
     "News": {
       "total": 665,
@@ -582,6 +582,11 @@
       "name": "ETV Andhra Pradesh (1080p)",
       "url": "https://d1g35elx8qnif3.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_AP_H264_cloud_in/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "ETV Cinema (396p)",
+      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Cinema HD (1080p)",
@@ -794,6 +799,11 @@
       "reason": "URLError"
     },
     {
+      "name": "ZB Music (720p)",
+      "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Zee Cine Classic (1080p)",
       "url": "https://amg00862-amg00862c8-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c8-amgplt0173/playlist.m3u8",
       "reason": "HTTP 403"
@@ -979,6 +989,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Manoranjan TV (576p)",
+      "url": "https://tvsen6.aynaott.com/vhu6qz5Nsd/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Rupasi Bangla (576p)",
       "url": "https://tvsen6.aynaott.com/a4L7Tcqv/index.m3u8",
       "reason": "TimeoutError"
@@ -1076,11 +1091,6 @@
     {
       "name": "Disha TV (396p)",
       "url": "https://d1msejlow1t3l4.cloudfront.net/fta/dishatv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "All Time Movies (576p)",
-      "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -2646,7 +2656,7 @@
     {
       "name": "CND Film Middle School Channel",
       "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Golden Eagle Cartoon",
@@ -2777,6 +2787,11 @@
       "name": "QTV-3",
       "url": "http://119.166.53.110:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0",
       "reason": "URLError"
+    },
+    {
+      "name": "Buenisima Radio TV",
+      "url": "https://canal.mediaserver.com.co/live/buenisimatv.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Canal 14 Codazzi (720p) [Not 24/7]",
@@ -3284,11 +3299,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "TV Centro 27.2 HD (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "Picosa TV (720p)",
       "url": "http://45.167.2.101:8000/play/a0sd/index.m3u8",
       "reason": "URLError"
@@ -3399,11 +3409,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Reality Channel",
-      "url": "https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index_1.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "TeenNick (406p)",
       "url": "http://89.33.29.115:8080/TeenNick/index.m3u8",
       "reason": "HTTP 403"
@@ -3476,12 +3481,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3491,7 +3496,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -4451,7 +4456,7 @@
     {
       "name": "LiraTV (720p)",
       "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Super TV (1080i) [Not 24/7]",
@@ -5949,16 +5954,6 @@
       "reason": "URLError"
     },
     {
-      "name": "ESPN 2 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "ESPN 3 Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "ESPN 4 Latin America (1080p)",
       "url": "https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8",
       "reason": "URLError"
@@ -5966,6 +5961,16 @@
     {
       "name": "ESPN 5 Latin America (1080p)",
       "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "ESPN 6 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "ESPN 7 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_7/ESPN_7.isml/ESPN_7.m3u8",
       "reason": "URLError"
     },
     {
