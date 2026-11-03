@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-03 22:08 UTC",
-  "fingerprint": "08eaa696866f11c7d203ed1fc986b3a7",
+  "updated_at": "2026-11-03 22:44 UTC",
+  "fingerprint": "3b5bce8faedb4849b810ead4ee435229",
   "total": 4569,
-  "working": 3402,
-  "in_grace_period": 40,
-  "dead": 1167,
-  "hd_channels": 1787,
+  "working": 3409,
+  "in_grace_period": 55,
+  "dead": 1160,
+  "hd_channels": 1791,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,8 +34,8 @@
     },
     "Bengali": {
       "total": 121,
-      "working": 80,
-      "hd": 42
+      "working": 81,
+      "hd": 41
     },
     "Bhojpuri": {
       "total": 32,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 17,
-      "hd": 12
+      "hd": 13
     },
     "Gujarati": {
       "total": 34,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 705,
       "working": 554,
-      "hd": 222
+      "hd": 223
     },
     "Hungarian": {
       "total": 57,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 218,
-      "working": 130,
-      "hd": 72
+      "working": 133,
+      "hd": 73
     },
     "Persian": {
       "total": 19,
@@ -234,7 +234,7 @@
     },
     "Portuguese": {
       "total": 141,
-      "working": 82,
+      "working": 83,
       "hd": 55
     },
     "Punjabi": {
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 383,
       "working": 289,
-      "hd": 114
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 562,
-      "hd": 377
+      "working": 564,
+      "hd": 376
     },
     "Swahili": {
       "total": 3,
@@ -375,15 +375,15 @@
     },
     "Entertainment": {
       "total": 888,
-      "working": 627
+      "working": 630
     },
     "Family": {
       "total": 12,
-      "working": 4
+      "working": 5
     },
     "General": {
       "total": 211,
-      "working": 167
+      "working": 168
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 432,
-      "working": 297
+      "working": 298
     },
     "Legislative": {
       "total": 8,
@@ -407,11 +407,11 @@
     },
     "Music": {
       "total": 844,
-      "working": 668
+      "working": 670
     },
     "News": {
       "total": 665,
-      "working": 575
+      "working": 576
     },
     "Outdoor": {
       "total": 18,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 539,
-      "working": 332
+      "working": 333
     },
     "Travel": {
       "total": 7,
@@ -681,7 +681,7 @@
     {
       "name": "News 24 (576p)",
       "url": "http://tvsen5.aynascope.net/News24/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "News 24 (576p)",
@@ -751,7 +751,7 @@
     {
       "name": "Star Sports 2 HD (720p)",
       "url": "http://tvsen5.aynascope.net/cXPB2LKkErN9/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Star Sports 2 Hindi (720p)",
@@ -1187,11 +1187,6 @@
       "name": "Nickelodeon (576p) [Geo-blocked]",
       "url": "http://dksmedia.tv/play/live.php?mac=00:1A:79:B6:60:3D&stream=1752848&extension=ts&play_token=8FNt7g9GJ5",
       "reason": "HTTP 456"
-    },
-    {
-      "name": "Star Jalsha (1080p) [Geo-blocked]",
-      "url": "http://cdn98.com/play/live.php?mac=00:1A:79:99:54:11&stream=225805&extension=ts&play_token=o1cczsG9wV",
-      "reason": "HTTP 458"
     },
     {
       "name": "Sandesh News (576p)",
@@ -2499,11 +2494,6 @@
       "reason": "URLError"
     },
     {
-      "name": "TV Paraense (720p)",
-      "url": "https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "TVMatic Comedy (720p)",
       "url": "http://cdn.tvmatic.net/comedy.m3u8",
       "reason": "URLError"
@@ -2666,7 +2656,7 @@
     {
       "name": "CND Film Middle School Channel",
       "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Golden Eagle Cartoon",
@@ -2817,11 +2807,6 @@
       "name": "Eureka (1080p) [Geo-blocked]",
       "url": "https://mdstrm.com/live-stream-playlist/6952e02d19eabace52e2885f.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Fiesta TV",
-      "url": "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
@@ -3599,11 +3584,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "Balapan International (1080p)",
-      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "Manas TV (1080p)",
       "url": "http://212.42.111.152:8080/hls/manas.m3u8",
       "reason": "URLError"
@@ -3877,16 +3857,6 @@
       "name": "M Entertainment Channel (720p)",
       "url": "https://mmtvs.exliatycl.online/mchannel/stream.m3u8",
       "reason": "HTTP 530"
-    },
-    {
-      "name": "MRTV Entertainment",
-      "url": "https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "MRTV Sports [Not 24/7]",
-      "url": "https://mrtvott.com/cache/MRTV-SPORT/master.m3u8",
-      "reason": "URLError"
     },
     {
       "name": "Kantipur Max [Geo-blocked]",
@@ -4294,11 +4264,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Galactica TV",
-      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "L1 (1080p)",
       "url": "http://45.4.1.201:8000/play/a1ai/index.m3u8",
       "reason": "URLError"
@@ -4316,7 +4281,7 @@
     {
       "name": "Neo TV (720p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Prattel TV (720p)",
