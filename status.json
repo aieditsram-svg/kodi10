@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-04 07:51 UTC",
-  "fingerprint": "2495047857078a3e1fc3a2c269c1a533",
+  "updated_at": "2026-11-04 08:42 UTC",
+  "fingerprint": "a8fbdf2a65fede2138ddadb7df19c963",
   "total": 4564,
-  "working": 3418,
-  "in_grace_period": 89,
-  "dead": 1146,
+  "working": 3423,
+  "in_grace_period": 140,
+  "dead": 1141,
   "hd_channels": 1788,
   "languages": {
     "Afrikaans": {
@@ -84,13 +84,13 @@
     },
     "Dutch": {
       "total": 69,
-      "working": 33,
+      "working": 32,
       "hd": 23
     },
     "English": {
       "total": 754,
-      "working": 554,
-      "hd": 326
+      "working": 555,
+      "hd": 325
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 703,
-      "working": 558,
-      "hd": 220
+      "working": 559,
+      "hd": 221
     },
     "Hungarian": {
       "total": 57,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 217,
       "working": 133,
-      "hd": 73
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -239,18 +239,18 @@
     },
     "Punjabi": {
       "total": 136,
-      "working": 119,
+      "working": 120,
       "hd": 50
     },
     "Romanian": {
       "total": 79,
-      "working": 57,
-      "hd": 26
+      "working": 58,
+      "hd": 27
     },
     "Russian": {
       "total": 383,
-      "working": 288,
-      "hd": 113
+      "working": 290,
+      "hd": 111
     },
     "Santali": {
       "total": 1,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 886,
-      "working": 632
+      "working": 633
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 167
+      "working": 168
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 431,
-      "working": 301
+      "working": 302
     },
     "Legislative": {
       "total": 8,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 592,
-      "working": 426
+      "working": 425
     },
     "Music": {
       "total": 845,
-      "working": 669
+      "working": 672
     },
     "News": {
       "total": 665,
@@ -974,19 +974,9 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "9X Tashan (576p)",
-      "url": "https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "B4U Music (576p)",
       "url": "https://tvsen3.aynaott.com/8m7Vmh3K/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Network 10 (576p)",
-      "url": "https://tvsen6.aynaott.com/3Cb2WLFz/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Rupasi Bangla (576p)",
@@ -2321,7 +2311,7 @@
     {
       "name": "Blitstv",
       "url": "https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Cabo Frio TV (720p)",
@@ -3026,7 +3016,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Littoral FM (720p)",
@@ -3286,7 +3276,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "AXN Spin",
@@ -3426,12 +3416,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3441,7 +3431,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3504,11 +3494,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "Balapan International (1080p)",
-      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "Manas TV (1080p)",
       "url": "http://212.42.111.152:8080/hls/manas.m3u8",
       "reason": "URLError"
@@ -3536,22 +3521,22 @@
     {
       "name": "Balapan (576p)",
       "url": "https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "Mirovoe kino (1080p)",
       "url": "https://fs.uplink.kz/mirovoe_kino/mono.m3u8?token=onlinetv",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "KinoBoevik (1080p)",
       "url": "https://fs.uplink.kz/kinoboevik/mono.m3u8?token=onlinetv",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "Sport+ Qazaqstan (1080p)",
       "url": "https://fs.uplink.kz/sport+/mono.m3u8?token=onlinetv",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "TV Arbëria 3 Fëmijë (720p)",
@@ -3809,6 +3794,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Canal+ Action Europe Czechia",
+      "url": "http://46.149.191.219:9106/play/a01g",
+      "reason": "URLError"
+    },
+    {
       "name": "DeepHouse District (1080p)",
       "url": "https://eu-nl-012.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8",
       "reason": "URLError"
@@ -3837,6 +3827,11 @@
       "name": "Film1 Premiere",
       "url": "http://86.87.15.10:8008/play/a01n/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "FILMBOX+ One Nederland",
+      "url": "http://46.149.191.219:9100/play/a015",
+      "reason": "URLError"
     },
     {
       "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
@@ -4251,7 +4246,7 @@
     {
       "name": "Radio San Borja TV (1080p)",
       "url": "https://stream.mediacorp.pe/srt/3/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Riku TV (1080p)",
@@ -4429,11 +4424,6 @@
       "reason": "URLError"
     },
     {
-      "name": "LiraTV (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Super TV (1080i) [Not 24/7]",
       "url": "https://live.supertv.ro/live/supertv/playlist.m3u8",
       "reason": "URLError"
@@ -4589,11 +4579,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Premialnoe HD (1080p)",
-      "url": "http://stream.mcquack.net/421/index.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "Radost Moya (576p)",
       "url": "http://31.148.48.15/Radost_moya/index.m3u8",
       "reason": "URLError"
@@ -4677,11 +4662,6 @@
       "name": "TiJi (576p)",
       "url": "http://flussonic.linkintel.ru/tiji/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "BRIDGE Hits (576p)",
-      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "TNT4 International (576p)",
@@ -5272,11 +5252,6 @@
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "FORT TV (480p)",
-      "url": "https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
