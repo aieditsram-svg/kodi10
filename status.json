@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-05 11:56 UTC",
-  "fingerprint": "36ffa2309dcef0257aa55ae2b26993ab",
+  "updated_at": "2026-11-05 12:46 UTC",
+  "fingerprint": "8daf0483c542579c39f587046a4c9733",
   "total": 4565,
-  "working": 3402,
-  "in_grace_period": 272,
-  "dead": 1163,
+  "working": 3405,
+  "in_grace_period": 41,
+  "dead": 1160,
   "hd_channels": 1782,
   "languages": {
     "Afrikaans": {
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 755,
-      "working": 553,
-      "hd": 322
+      "working": 554,
+      "hd": 324
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 703,
-      "working": 556,
-      "hd": 222
+      "working": 558,
+      "hd": 223
     },
     "Hungarian": {
       "total": 57,
@@ -145,7 +145,7 @@
     "Italian": {
       "total": 79,
       "working": 53,
-      "hd": 41
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 217,
       "working": 135,
-      "hd": 75
+      "hd": 70
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 142,
       "working": 81,
-      "hd": 53
+      "hd": 54
     },
     "Punjabi": {
       "total": 136,
@@ -249,7 +249,7 @@
     },
     "Russian": {
       "total": 383,
-      "working": 284,
+      "working": 283,
       "hd": 116
     },
     "Santali": {
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 548,
+      "working": 550,
       "hd": 368
     },
     "Swahili": {
@@ -314,8 +314,8 @@
     },
     "Ukrainian": {
       "total": 74,
-      "working": 59,
-      "hd": 41
+      "working": 58,
+      "hd": 40
     },
     "Urdu": {
       "total": 43,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 169
+      "working": 170
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 431,
-      "working": 293
+      "working": 294
     },
     "Legislative": {
       "total": 8,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 845,
-      "working": 671
+      "working": 672
     },
     "News": {
       "total": 665,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 538,
-      "working": 324
+      "working": 325
     },
     "Travel": {
       "total": 8,
@@ -546,11 +546,6 @@
     {
       "name": "Aradana TV (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/AradanaTV/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Aryan TV National (576p)",
-      "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -899,11 +894,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Eurosport (720p)",
-      "url": "https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "FashionTV (576p)",
       "url": "https://fta.ektv.in/live/144/144_0.m3u8",
       "reason": "HTTP 404"
@@ -934,11 +924,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Goldmines (576p)",
-      "url": "https://tvsen3.aynaott.com/VamXuQH8/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Goldmines 2 (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINES2/index.m3u8",
       "reason": "HTTP 403"
@@ -961,7 +946,7 @@
     {
       "name": "Goldmines Movies (576p)",
       "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Good News Today (720p)",
@@ -1439,6 +1424,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Q TV (576p) [Geo-blocked]",
+      "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "R Plus Gold (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HRPLUSGOLD/index.m3u8",
       "reason": "HTTP 403"
@@ -1562,11 +1552,6 @@
       "name": "Shemaroo Filmi Gaane (1080p)",
       "url": "https://prod-runn.cdn.runn.tv/shemaroo/stream/smrfgn/playlist.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Shemaroo TV (576p)",
-      "url": "https://tvsen3.aynaott.com/27jCLCUX/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Shubh Cinema TV (576p)",
@@ -2274,6 +2259,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Radio Clasica TV (720p)",
+      "url": "https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8",
+      "reason": "TimeoutError"
+    },
+    {
       "name": "Tigo Sports (720p) [Geo-blocked]",
       "url": "https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8",
       "reason": "not a valid HLS manifest"
@@ -2471,7 +2461,7 @@
     {
       "name": "RTNB Divertissement",
       "url": "https://tv2-stream.rtnb.bi/hls/master.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 503"
     },
     {
       "name": "D Music (1280p) [Not 24/7]",
@@ -2656,7 +2646,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3021,7 +3011,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "Eurosport 1 Turkiye",
@@ -3476,12 +3466,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3491,7 +3481,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3706,11 +3696,6 @@
     {
       "name": "Azteca Deportes Network (720p)",
       "url": "http://38.194.226.190:8000/play/a02r/index.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "Bandamax (1080p)",
-      "url": "http://181.78.106.127:5000/play/ca064/index.m3u8",
       "reason": "URLError"
     },
     {
@@ -4184,11 +4169,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "GO TV (720p)",
-      "url": "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
-      "reason": "TimeoutError"
-    },
-    {
       "name": "Popu TV (1080p)",
       "url": "http://190.108.83.69:8000/play/a070/index.m3u8",
       "reason": "HTTP 404"
@@ -4236,7 +4216,7 @@
     {
       "name": "Kora TV",
       "url": "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "L1 (1080p)",
@@ -4522,6 +4502,11 @@
       "name": ".red HD (1080p)",
       "url": "http://178.134.1.158:8081/red/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": ".red (576p)",
+      "url": "http://5.188.159.128:8070/RED/index.m3u8",
+      "reason": "TimeoutError"
     },
     {
       "name": "Ani (576p)",
@@ -5309,6 +5294,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Enter-Film (1080p)",
+      "url": "http://stream.mcquack.net/322/index.m3u8",
+      "reason": "not a valid HLS manifest"
+    },
+    {
       "name": "FilmUADrama (1080p)",
       "url": "http://88.99.215.227/FilmUADrama/index.m3u8",
       "reason": "HTTP 404"
@@ -5651,11 +5641,6 @@
     {
       "name": "AXS TV (720p)",
       "url": "http://23.239.31.26:8989/axstv/index.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "BabyFirst Spanish (480p)",
-      "url": "http://181.78.106.127:5000/play/a0sa/index.m3u8",
       "reason": "URLError"
     },
     {
