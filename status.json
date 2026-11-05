@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05 10:07 UTC",
-  "fingerprint": "7a961a118bfa9f9479fd8b957c35ef45",
+  "updated_at": "2026-11-05 11:05 UTC",
+  "fingerprint": "2d5226864bd99ede6f6dbfa46d3bf395",
   "total": 4565,
-  "working": 3402,
-  "in_grace_period": 55,
-  "dead": 1163,
-  "hd_channels": 1777,
+  "working": 3406,
+  "in_grace_period": 46,
+  "dead": 1159,
+  "hd_channels": 1779,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 755,
-      "working": 554,
-      "hd": 324
+      "working": 555,
+      "hd": 323
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 703,
-      "working": 558,
-      "hd": 220
+      "working": 559,
+      "hd": 221
     },
     "Hungarian": {
       "total": 57,
@@ -139,8 +139,8 @@
     },
     "Indonesian": {
       "total": 21,
-      "working": 9,
-      "hd": 7
+      "working": 10,
+      "hd": 8
     },
     "Italian": {
       "total": 79,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 217,
       "working": 135,
-      "hd": 73
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 79,
-      "working": 59,
+      "working": 60,
       "hd": 27
     },
     "Russian": {
       "total": 383,
       "working": 284,
-      "hd": 115
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 547,
+      "working": 548,
       "hd": 365
     },
     "Swahili": {
@@ -331,7 +331,7 @@
   "categories": {
     "Anime & Animation": {
       "total": 131,
-      "working": 89
+      "working": 90
     },
     "Auto": {
       "total": 4,
@@ -363,7 +363,7 @@
     },
     "Devotional": {
       "total": 248,
-      "working": 214
+      "working": 215
     },
     "Documentary": {
       "total": 15,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 169
+      "working": 170
     },
     "Interactive": {
       "total": 1,
@@ -399,7 +399,7 @@
     },
     "Lifestyle": {
       "total": 27,
-      "working": 19
+      "working": 20
     },
     "Movies": {
       "total": 592,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 845,
-      "working": 667
+      "working": 671
     },
     "News": {
       "total": 665,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 538,
-      "working": 325
+      "working": 324
     },
     "Travel": {
       "total": 8,
@@ -1157,11 +1157,6 @@
       "name": "Makkal TV (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3MAKKALTV/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Mangalmay TV (576p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/mangalmay_1800/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Mastiii (576p) [Geo-blocked]",
@@ -2259,11 +2254,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "CEACOM TV (1080p) [Not 24/7]",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Cinerama Television (720p)",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
       "reason": "HTTP 404"
@@ -2884,11 +2874,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Fuego TV [Not 24/7]",
-      "url": "https://streamunoapp.com:3553/live/cromtvlive.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Hits 360 TV (720p) [Not 24/7]",
       "url": "http://cm.hostlagarto.com:8081/hits360tv/hits360HD.myStream/playlist.m3u8",
       "reason": "URLError"
@@ -3021,7 +3006,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "Eurosport 1 Turkiye",
@@ -3191,7 +3176,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 401"
     },
     {
       "name": "Gardenias TV (720p) [Not 24/7]",
@@ -3312,11 +3297,6 @@
       "name": "Biznet Kids (1080p)",
       "url": "http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Kids TV",
-      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-      "reason": "HTTP 503"
     },
     {
       "name": "Music Information Channel (720p)",
@@ -3471,12 +3451,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3486,7 +3466,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3522,6 +3502,11 @@
       "name": "Balapan (576p)",
       "url": "https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Balapan International (1080p)",
+      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
+      "reason": "HTTP 503"
     },
     {
       "name": "KinoBoevik (1080p)",
@@ -3794,14 +3779,9 @@
       "reason": "HTTP 530"
     },
     {
-      "name": "MRTV Entertainment",
-      "url": "https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "Kantipur Max [Geo-blocked]",
       "url": "https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Ray TV HD (576p)",
@@ -4249,11 +4229,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Metropolitana del Cuzco",
-      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Movistar Deportes (1080p)",
       "url": "http://170.244.209.30:8000/play/a1i8/index.m3u8",
       "reason": "URLError"
@@ -4507,11 +4482,6 @@
       "name": "Radio Romania Resita (576p) [Not 24/7]",
       "url": "https://stream3.srr.ro/RadioResita/live/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Smart Radio (576p)",
-      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Super TV (1080i) [Not 24/7]",
@@ -5814,6 +5784,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "E! Latin America Mexico (720p)",
+      "url": "http://72.1.184.5:8089/play/a05d/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "ESPN 2 Latin America Argentina",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8",
       "reason": "HTTP 403"
@@ -5872,6 +5847,11 @@
       "name": "Golf Channel Latin America (1080p)",
       "url": "http://38.252.238.18:8000/play/a01i/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Golf Channel Latin America (1080p)",
+      "url": "http://72.1.184.5:8089/play/a0cw/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Golf Channel Latin America (720p)",
@@ -5951,7 +5931,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
