@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-06 01:01 UTC",
-  "fingerprint": "351201cf7caa4ff309f99d4e59f4db27",
+  "updated_at": "2026-11-06 02:01 UTC",
+  "fingerprint": "19020dac996081cd52af998dec1ce0b0",
   "total": 4565,
   "working": 3380,
-  "in_grace_period": 27,
+  "in_grace_period": 47,
   "dead": 1185,
-  "hd_channels": 1775,
+  "hd_channels": 1774,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -84,7 +84,7 @@
     },
     "Dutch": {
       "total": 69,
-      "working": 31,
+      "working": 29,
       "hd": 22
     },
     "English": {
@@ -194,7 +194,7 @@
     },
     "Malayalam": {
       "total": 116,
-      "working": 89,
+      "working": 88,
       "hd": 34
     },
     "Marathi": {
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 79,
-      "working": 57,
-      "hd": 25
+      "working": 58,
+      "hd": 24
     },
     "Russian": {
       "total": 384,
       "working": 290,
-      "hd": 117
+      "hd": 115
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 553,
-      "hd": 372
+      "working": 555,
+      "hd": 373
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 886,
-      "working": 628
+      "working": 629
     },
     "Family": {
       "total": 12,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 431,
-      "working": 289
+      "working": 287
     },
     "Legislative": {
       "total": 8,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 845,
-      "working": 668
+      "working": 669
     },
     "News": {
       "total": 665,
@@ -1107,6 +1107,11 @@
       "name": "Kairali We (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3WETV/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Kalika TV (576p)",
+      "url": "http://server.applelive.in/kalikatv/kalikatv.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Kalinga TV (576p)",
@@ -2306,7 +2311,7 @@
     {
       "name": "Flex Studio Radio TV [Not 24/7]",
       "url": "https://live20.bozztv.com/akamaissh101/ssh101/fsradiotv/playlist.m3u8",
-      "reason": "HTTP 502"
+      "reason": "HTTP 404"
     },
     {
       "name": "Alegria TV (720p)",
@@ -2914,11 +2919,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Claro Visión TV (720p)",
-      "url": "https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "COCO TV (1080p) [Not 24/7]",
       "url": "https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8",
       "reason": "HTTP 404"
@@ -2952,11 +2952,6 @@
       "name": "Super7FM (720p)",
       "url": "https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Tele Dominicana TV (720p) [Not 24/7]",
-      "url": "https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "TV Canal Sur (720p) [Not 24/7]",
@@ -3556,12 +3551,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3571,7 +3566,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3929,6 +3924,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Disney Channel",
+      "url": "http://185.77.12.179:9981/stream/channelid/2102298310?profile=pass",
+      "reason": "URLError"
+    },
+    {
       "name": "ESPN (360p)",
       "url": "https://lb.iptvnetwork.net/ls28/10041/playlist.m3u8",
       "reason": "URLError"
@@ -3977,6 +3977,11 @@
       "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
       "url": "https://s70378.cdn.ngenix.net/filmbox/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Nickelodeon",
+      "url": "http://185.77.12.179:9981/stream/channelid/788918401?profile=pass",
+      "reason": "URLError"
     },
     {
       "name": "Qmusic (Netherlands) (720p)",
@@ -4592,11 +4597,6 @@
       "name": "Radio Romania Resita (576p) [Not 24/7]",
       "url": "https://stream3.srr.ro/RadioResita/live/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Smart Radio (576p)",
-      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Super TV (1080i) [Not 24/7]",
@@ -6031,7 +6031,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
