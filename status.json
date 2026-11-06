@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-06 22:34 UTC",
-  "fingerprint": "dff5fa7f5d3d86662096e091f830fb39",
+  "updated_at": "2026-11-06 23:14 UTC",
+  "fingerprint": "0d81a494a8c091de08e855730529d2e4",
   "total": 4565,
-  "working": 3387,
-  "in_grace_period": 80,
-  "dead": 1178,
-  "hd_channels": 1770,
+  "working": 3388,
+  "in_grace_period": 60,
+  "dead": 1177,
+  "hd_channels": 1771,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 755,
       "working": 553,
-      "hd": 324
+      "hd": 325
     },
     "Estonian": {
       "total": 4,
@@ -145,7 +145,7 @@
     "Italian": {
       "total": 79,
       "working": 53,
-      "hd": 42
+      "hd": 41
     },
     "Japanese": {
       "total": 4,
@@ -219,7 +219,7 @@
     },
     "Other": {
       "total": 217,
-      "working": 136,
+      "working": 135,
       "hd": 72
     },
     "Persian": {
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 384,
-      "working": 290,
-      "hd": 113
+      "working": 291,
+      "hd": 115
     },
     "Santali": {
       "total": 1,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 745,
       "working": 546,
-      "hd": 371
+      "hd": 370
     },
     "Swahili": {
       "total": 3,
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 170,
-      "working": 130,
+      "working": 131,
       "hd": 54
     },
     "Thai": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 886,
-      "working": 625
+      "working": 624
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 211,
-      "working": 169
+      "working": 170
     },
     "Interactive": {
       "total": 1,
@@ -431,7 +431,7 @@
     },
     "Shows & Series": {
       "total": 141,
-      "working": 97
+      "working": 98
     },
     "Sports": {
       "total": 538,
@@ -621,7 +621,7 @@
     {
       "name": "Bharat AtoZ (720p)",
       "url": "https://live.ekamraott.com/4tv/bharata2z/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "URLError"
     },
     {
       "name": "Bharat Samachar (576p)",
@@ -864,11 +864,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "ETV Cinema (396p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "ETV Cinema HD (1080p)",
       "url": "https://d27zlkxhgwrfgo.cloudfront.net/v1/master/9d43eacaed199f8d5883927e7aef514a8a08e108/ETV_CINEMA_H264_cloud_in/index.m3u8",
       "reason": "URLError"
@@ -962,6 +957,11 @@
       "name": "Goldmines Bollywood (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Goldmines Bollywood (576p)",
+      "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Goldmines Bollywood",
@@ -1839,11 +1839,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Taaza TV (576p)",
-      "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Tabbar Hits (576p)",
       "url": "https://fta.ektv.in/live/179/master.m3u8",
       "reason": "HTTP 404"
@@ -1946,7 +1941,7 @@
     {
       "name": "Vistaar News (576p)",
       "url": "https://vistaarnews.com/livetv-stream/test.m3u8",
-      "reason": "HTTP 502"
+      "reason": "HTTP 404"
     },
     {
       "name": "Win TV (576p)",
@@ -2271,7 +2266,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2731,7 +2726,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3106,7 +3101,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "HTTP 403"
+      "reason": "TimeoutError"
     },
     {
       "name": "Eurosport 1 Turkiye",
@@ -3566,12 +3561,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3581,7 +3576,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3907,6 +3902,11 @@
       "name": "M Entertainment Channel (720p)",
       "url": "https://mmtvs.exliatycl.online/mchannel/stream.m3u8",
       "reason": "HTTP 530"
+    },
+    {
+      "name": "MRTV Entertainment",
+      "url": "https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8",
+      "reason": "URLError"
     },
     {
       "name": "Kantipur Max [Geo-blocked]",
@@ -4396,12 +4396,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4451,7 +4451,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "TVP Sport (1080p)",
@@ -4581,7 +4581,7 @@
     {
       "name": "LiraTV (720p)",
       "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Minimax",
@@ -4842,11 +4842,6 @@
       "name": "Muzhskoe kino (576p)",
       "url": "https://fs.uplink.kz/muzhskoe_kino/mono.m3u8?token=onlinetv",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Nevskiy (1080p)",
-      "url": "https://cdn-dvr.ntv.ru/Nevskiy/index.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Okko Prajm Sport (1080p)",
@@ -5256,7 +5251,7 @@
     {
       "name": "Univers TV (720p)",
       "url": "https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Asia TV (720p)",
@@ -5366,7 +5361,7 @@
     {
       "name": "MovieSmart Turk (576p)",
       "url": "http://playhdnewjj.xyz:8080/recc121412/KVqfhtdJ2nQ7/174",
-      "reason": "ConnectionResetError"
+      "reason": "HTTP 512"
     },
     {
       "name": "Number 1 TV (720p)",
@@ -6271,7 +6266,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "not a valid HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
