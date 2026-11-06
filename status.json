@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-06 02:47 UTC",
-  "fingerprint": "011c1ed05d58aca5adab669cf7f74237",
+  "updated_at": "2026-11-06 03:35 UTC",
+  "fingerprint": "afd2fd873236bbb488887ac3d6a33ec2",
   "total": 4565,
-  "working": 3378,
-  "in_grace_period": 47,
-  "dead": 1187,
+  "working": 3372,
+  "in_grace_period": 34,
+  "dead": 1193,
   "hd_channels": 1769,
   "languages": {
     "Afrikaans": {
@@ -49,7 +49,7 @@
     },
     "Bulgarian": {
       "total": 46,
-      "working": 45,
+      "working": 44,
       "hd": 8
     },
     "Catalan": {
@@ -90,7 +90,7 @@
     "English": {
       "total": 755,
       "working": 535,
-      "hd": 319
+      "hd": 318
     },
     "Estonian": {
       "total": 4,
@@ -99,13 +99,13 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 3,
-      "hd": 3
+      "working": 2,
+      "hd": 2
     },
     "French": {
       "total": 94,
-      "working": 59,
-      "hd": 48
+      "working": 60,
+      "hd": 49
     },
     "German": {
       "total": 62,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 703,
-      "working": 557,
+      "working": 556,
       "hd": 221
     },
     "Hungarian": {
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 142,
       "working": 81,
-      "hd": 54
+      "hd": 53
     },
     "Punjabi": {
       "total": 136,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 384,
-      "working": 290,
-      "hd": 114
+      "working": 291,
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 745,
-      "working": 554,
-      "hd": 372
+      "working": 549,
+      "hd": 371
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 886,
-      "working": 626
+      "working": 623
     },
     "Family": {
       "total": 12,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 592,
-      "working": 418
+      "working": 416
     },
     "Music": {
       "total": 845,
-      "working": 672
+      "working": 670
     },
     "News": {
       "total": 665,
@@ -431,7 +431,7 @@
     },
     "Shows & Series": {
       "total": 141,
-      "working": 96
+      "working": 97
     },
     "Sports": {
       "total": 538,
@@ -932,6 +932,11 @@
       "name": "Food Food (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HFOODFOOD/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Goldmines (576p)",
+      "url": "https://tvsen3.aynaott.com/VamXuQH8/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Goldmines 2 (576p)",
@@ -2279,11 +2284,6 @@
       "reason": "URLError"
     },
     {
-      "name": "La Une (1080p)",
-      "url": "http://41.205.93.154/LA-UNE/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "MNM (720p)",
       "url": "https://live-radio-cf-vrt.akamaized.net/groupa/live/bac277a1-306d-44a0-8e2e-e5b9c07fa270/live.isml/.m3u8",
       "reason": "HTTP 400"
@@ -2532,6 +2532,11 @@
       "name": "VRT Channel (720p)",
       "url": "https://sistemavrt.vrtchannel.tv.br:3473/stream/play.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "TV1000",
+      "url": "http://stream.mcquack.net/100/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "RTNB Divertissement",
@@ -2974,6 +2979,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "TVS (540p) [Not 24/7]",
+      "url": "https://imagenuniversaltv.net:3741/live/tvslive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "EcuaMundo Radio TV (720p) [Not 24/7]",
       "url": "https://pacific.direcnode.com:3353/live/ecuamundotvlive.m3u8",
       "reason": "URLError"
@@ -3056,6 +3066,11 @@
     {
       "name": "Hero (720p) [Not 24/7]",
       "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Jim (720p)",
+      "url": "https://live-fi.tvkaista.net/jim/live.m3u8?hd=true",
       "reason": "HTTP 404"
     },
     {
@@ -4314,9 +4329,19 @@
       "reason": "URLError"
     },
     {
+      "name": "Galactica TV",
+      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Karibena",
       "url": "http://201.77.61.226:8000/play/a0qd/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Kora TV",
+      "url": "https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "L1 (1080p)",
@@ -4332,6 +4357,11 @@
       "name": "La Tele (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Metropolitana del Cuzco",
+      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Movistar Deportes (1080p)",
@@ -4379,6 +4409,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "TV Kaliente (720p)",
+      "url": "https://lbgo.bozztv.com/ssh101/ssh101/kalientecusco/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "WEST (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/west/playlist.m3u8",
       "reason": "HTTP 403"
@@ -4386,12 +4421,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4617,11 +4652,6 @@
       "name": "Tele7music (576i)",
       "url": "https://live.tele7music.ro/hls/stream/index.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "5 minut tishiny (1080p)",
-      "url": "https://cdn-dvr.ntv.ru/5_minut_tishiny/index.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Ani (576p)",
@@ -6041,7 +6071,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
