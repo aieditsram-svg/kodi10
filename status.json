@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07 09:51 UTC",
-  "fingerprint": "088697c50d8ca188d65bfe8643ae38a2",
+  "updated_at": "2026-11-07 10:27 UTC",
+  "fingerprint": "6df429c8d0afbc90af1d23c92e71a1ea",
   "total": 4719,
   "working": 3578,
-  "in_grace_period": 45,
+  "in_grace_period": 43,
   "dead": 1141,
-  "hd_channels": 1822,
+  "hd_channels": 1825,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 763,
-      "working": 572,
+      "working": 573,
       "hd": 333
     },
     "Estonian": {
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 784,
       "working": 644,
-      "hd": 237
+      "hd": 236
     },
     "Hungarian": {
       "total": 57,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 217,
       "working": 137,
-      "hd": 75
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 386,
       "working": 295,
-      "hd": 114
+      "hd": 118
     },
     "Santali": {
       "total": 1,
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 178,
-      "working": 140,
+      "working": 139,
       "hd": 57
     },
     "Thai": {
@@ -872,6 +872,11 @@
       "name": "ETV Music (1080p)",
       "url": "https://mumbai-edge.smartplaytv.in/ETVABHIRUCHI/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "ETV Plus (396p)",
+      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Plus HD (1080p)",
@@ -2041,7 +2046,7 @@
     {
       "name": "Europa Europa (1080p)",
       "url": "http://45.228.234.9:8000/play/a06z/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Film & Arts (1080p)",
@@ -2051,7 +2056,7 @@
     {
       "name": "Film & Arts (480p)",
       "url": "http://45.228.234.9:8000/play/a06g/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "HTTP 404"
     },
     {
       "name": "MusicTop (1080p)",
@@ -2611,7 +2616,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3416,12 +3421,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3431,7 +3436,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3681,7 +3686,7 @@
     {
       "name": "Claro Sports (1080p)",
       "url": "http://45.228.234.9:8000/play/a06i/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "De Pelicula Latin America (1080p)",
@@ -3716,7 +3721,7 @@
     {
       "name": "Sky Sports 1 (1080p)",
       "url": "http://45.228.234.9:8000/play/a06b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Telehit Musica",
@@ -5234,11 +5239,6 @@
       "reason": "URLError"
     },
     {
-      "name": "FORT TV (480p)",
-      "url": "https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Galaxy TV (720p) [Not 24/7]",
       "url": "https://stream.castr.com/6463248048d6cd3e143655b2/live_43351ad0f3b411ed81c78fcc31887c54/index.fmp4.m3u8",
       "reason": "HTTP 403"
@@ -5846,7 +5846,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -6086,7 +6086,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "not a valid HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
