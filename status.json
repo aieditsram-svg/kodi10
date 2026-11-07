@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07 09:12 UTC",
-  "fingerprint": "9421e9c2a808d4329a1a9eb446145bc5",
+  "updated_at": "2026-11-07 09:51 UTC",
+  "fingerprint": "088697c50d8ca188d65bfe8643ae38a2",
   "total": 4719,
-  "working": 3574,
-  "in_grace_period": 57,
-  "dead": 1145,
-  "hd_channels": 1819,
+  "working": 3578,
+  "in_grace_period": 45,
+  "dead": 1141,
+  "hd_channels": 1822,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -35,7 +35,7 @@
     "Bengali": {
       "total": 142,
       "working": 105,
-      "hd": 49
+      "hd": 50
     },
     "Bhojpuri": {
       "total": 33,
@@ -64,7 +64,7 @@
     },
     "Chinese": {
       "total": 61,
-      "working": 21,
+      "working": 22,
       "hd": 14
     },
     "Croatian": {
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 763,
-      "working": 573,
-      "hd": 335
+      "working": 572,
+      "hd": 333
     },
     "Estonian": {
       "total": 4,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 784,
       "working": 644,
-      "hd": 236
+      "hd": 237
     },
     "Hungarian": {
       "total": 57,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 217,
       "working": 137,
-      "hd": 73
+      "hd": 75
     },
     "Persian": {
       "total": 19,
@@ -234,8 +234,8 @@
     },
     "Portuguese": {
       "total": 144,
-      "working": 83,
-      "hd": 53
+      "working": 84,
+      "hd": 54
     },
     "Punjabi": {
       "total": 147,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 86,
-      "working": 67,
-      "hd": 30
+      "working": 68,
+      "hd": 31
     },
     "Russian": {
       "total": 386,
-      "working": 294,
-      "hd": 116
+      "working": 295,
+      "hd": 114
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 753,
-      "working": 550,
-      "hd": 373
+      "working": 552,
+      "hd": 375
     },
     "Swahili": {
       "total": 3,
@@ -294,7 +294,7 @@
     },
     "Tamil": {
       "total": 197,
-      "working": 154,
+      "working": 153,
       "hd": 77
     },
     "Telugu": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 918,
-      "working": 657
+      "working": 659
     },
     "Family": {
       "total": 11,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 219,
-      "working": 176
+      "working": 175
     },
     "Interactive": {
       "total": 1,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 628,
-      "working": 461
+      "working": 462
     },
     "Music": {
       "total": 849,
-      "working": 670
+      "working": 672
     },
     "News": {
       "total": 716,
@@ -519,6 +519,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "AMN TV (576p)",
+      "url": "https://live.onecloudlive.in/amn/amntv/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Anand Wari TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HANANDWARITV/index.m3u8",
       "reason": "HTTP 403"
@@ -551,6 +556,11 @@
     {
       "name": "Aradana TV (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/AradanaTV/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Aryan TV National (576p)",
+      "url": "https://mumt04.tangotv.in/m18aqlK4ARYANTVNATIONAL/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1237,11 +1247,6 @@
       "name": "Network 10 (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3NETWORK10/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Network 10 (576p)",
-      "url": "https://tvsen6.aynaott.com/3Cb2WLFz/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "News 1st (576p)",
@@ -2426,7 +2431,7 @@
     {
       "name": "RTNB Divertissement",
       "url": "https://tv2-stream.rtnb.bi/hls/master.m3u8",
-      "reason": "HTTP 503"
+      "reason": "URLError"
     },
     {
       "name": "D Music (1280p) [Not 24/7]",
@@ -2534,11 +2539,6 @@
       "reason": "HTTP 500"
     },
     {
-      "name": "CCTV-6 (1080p)",
-      "url": "http://198.204.240.250:82/live/cctv6.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "CCTV-6 [Geo-blocked]",
       "url": "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
       "reason": "HTTP 500"
@@ -2611,7 +2611,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2746,7 +2746,7 @@
     {
       "name": "FUTV (1080p)",
       "url": "http://45.228.234.9:8000/play/a06o/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "FUTV",
@@ -4154,11 +4154,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Oasis TV (720p)",
-      "url": "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Popu TV (1080p)",
       "url": "http://190.108.83.69:8000/play/a070/index.m3u8",
       "reason": "HTTP 404"
@@ -4271,11 +4266,6 @@
     {
       "name": "Riku TV (720p)",
       "url": "https://live-evg7.tv360.bitel.com.pe/bitel/riku/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "TV Kaliente (720p)",
-      "url": "https://lbgo.bozztv.com/ssh101/ssh101/kalientecusco/playlist.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -4452,11 +4442,6 @@
       "name": "Film Now",
       "url": "https://thor1.syndula1.cfd/df/usergendlg1ks0t2n.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "LiraTV (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Minimax",
@@ -4892,11 +4877,6 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Шансон ТВ (512p) [Geo-blocked]",
-      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
-      "reason": "HTTP 403"
     },
     {
       "name": "Nidae AlIslam Radio (1080p)",
@@ -5604,11 +5584,6 @@
       "reason": "URLError"
     },
     {
-      "name": "AXN White Portugal (480p)",
-      "url": "http://50.7.120.34:8080/AXN_WHITE/index.m3u8",
-      "reason": "TimeoutError"
-    },
-    {
       "name": "AXS TV (720p)",
       "url": "http://23.239.31.26:8989/axstv/index.m3u8",
       "reason": "URLError"
@@ -5884,6 +5859,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "MTV (1080p)",
+      "url": "http://23.237.104.106:8080/USA_MTV/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "MTV (720p)",
       "url": "http://198.58.104.90:8989/mtv/index.m3u8",
       "reason": "URLError"
@@ -6056,7 +6036,7 @@
     {
       "name": "MAX Anime (720p)",
       "url": "http://45.228.234.9:8000/play/a06u/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "Maxima TV",
