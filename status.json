@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07 21:33 UTC",
-  "fingerprint": "a3f8916403c4317a829d90036ad68b1e",
+  "updated_at": "2026-11-07 22:09 UTC",
+  "fingerprint": "8aa26ce182f7cb82bef069d413f4850c",
   "total": 4719,
-  "working": 3535,
-  "in_grace_period": 51,
-  "dead": 1184,
-  "hd_channels": 1817,
+  "working": 3533,
+  "in_grace_period": 68,
+  "dead": 1186,
+  "hd_channels": 1807,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -14,8 +14,8 @@
     },
     "Albanian": {
       "total": 15,
-      "working": 5,
-      "hd": 3
+      "working": 6,
+      "hd": 4
     },
     "Arabic": {
       "total": 73,
@@ -90,7 +90,7 @@
     "English": {
       "total": 763,
       "working": 572,
-      "hd": 337
+      "hd": 334
     },
     "Estonian": {
       "total": 4,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 36,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 217,
-      "working": 135,
-      "hd": 74
+      "working": 134,
+      "hd": 73
     },
     "Persian": {
       "total": 19,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 386,
-      "working": 292,
-      "hd": 120
+      "working": 293,
+      "hd": 115
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 753,
-      "working": 552,
-      "hd": 370
+      "working": 549,
+      "hd": 367
     },
     "Swahili": {
       "total": 3,
@@ -347,7 +347,7 @@
     },
     "Comedy": {
       "total": 60,
-      "working": 45
+      "working": 44
     },
     "Cooking": {
       "total": 4,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 918,
-      "working": 648
+      "working": 646
     },
     "Family": {
       "total": 11,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 849,
-      "working": 668
+      "working": 669
     },
     "News": {
       "total": 716,
@@ -2299,11 +2299,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
-      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
-      "reason": "RemoteDisconnected"
-    },
-    {
       "name": "Bel RTL (1080p)",
       "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
       "reason": "HTTP 400"
@@ -2766,7 +2761,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3369,6 +3364,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Asian Drama (1080p)",
+      "url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Celestial Movies (576i)",
       "url": "http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8",
       "reason": "HTTP 401"
@@ -3436,7 +3436,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "empty HLS manifest"
     },
     {
       "name": "Biznet Kids (1080p)",
@@ -4174,11 +4174,6 @@
       "reason": "URLError"
     },
     {
-      "name": "TopEstrada TV (720p)",
-      "url": "http://live.topestrada.com/live/topestrada/playlist.m3u8",
-      "reason": "TimeoutError"
-    },
-    {
       "name": "TV ERA [Geo-blocked]",
       "url": "https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(ERA)/index.m3u8",
       "reason": "URLError"
@@ -4416,12 +4411,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Crime + Investigation Polsat (576i)",
@@ -4476,7 +4471,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN (1080p)",
@@ -5829,6 +5824,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Comedy Central Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "DHE (1080p)",
       "url": "http://38.252.238.18:8000/play/a01f/index.m3u8",
       "reason": "URLError"
@@ -5894,6 +5894,11 @@
       "reason": "URLError"
     },
     {
+      "name": "ESPN 2 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "ESPN 2 Latin America Argentina",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8",
       "reason": "HTTP 403"
@@ -5914,6 +5919,11 @@
       "reason": "URLError"
     },
     {
+      "name": "ESPN 5 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_5/ESPN_5.isml/ESPN_5.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "ESPN 5 Latin America (720p)",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn5-mux/playlist.m3u8",
       "reason": "HTTP 403"
@@ -5931,11 +5941,6 @@
     {
       "name": "ESPN Deportes HD (720p)",
       "url": "http://168.228.44.241:9998/play/a0dz/index.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "ESPN Extra Latin America (1080p)",
-      "url": "https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd",
       "reason": "URLError"
     },
     {
@@ -5961,6 +5966,11 @@
     {
       "name": "FX Latin America (1080p)",
       "url": "http://38.252.238.18:8000/play/a01c/index.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "FX Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/FX/FX.isml/FX.m3u8",
       "reason": "URLError"
     },
     {
