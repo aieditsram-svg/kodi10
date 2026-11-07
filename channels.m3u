@@ -1,5 +1,5 @@
 #EXTM3U
-# Working channels, all languages, updated 2026-11-07 14:23 UTC
+# Working channels, all languages, updated 2026-11-07 15:00 UTC
 #EXTINF:-1 tvg-id="BOKTV.za@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mcNjuuO.png" x-category="Music" tvg-language="Afrikaans" group-title="Afrikaans" height="720",BOKTV (720p) [Not 24/7]
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 #EXTINF:-1 tvg-id="TjilTV.na@SD" x-categories="Music" tvg-logo="https://i.imgur.com/iBbawJ0.png" x-category="Music" tvg-language="Afrikaans" group-title="Afrikaans" height="720",Tjil TV (720p)
@@ -376,6 +376,8 @@ https://mumbai-edge.smartplaytv.in/SamayKolkata/index.m3u8
 https://fta.ektv.in/live/379/master.m3u8
 #EXTINF:-1 tvg-id="SangeetBangla.in@SD" x-categories="Music" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00211H7T.png?lock=720x540" x-category="Music" tvg-language="Bengali" group-title="Bengali" height="720",Sangeet Bangla (576p)
 https://mumt05.tangotv.in/87NeALx2SANGEETBANGLA/index.m3u8
+#EXTINF:-1 tvg-id="SangeetBangla.in@SD" x-categories="Music" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00211H7T.png?lock=720x540" x-category="Music" tvg-language="Bengali" group-title="Bengali" height="576",Sangeet Bangla (576p) [Geo-blocked]
+https://tvsen6.aynaott.com/hT5jHczt/index.m3u8
 #EXTINF:-1 tvg-id="ShikshaTV.in@SD" x-categories="Culture;Education" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Shiksha_TV.png" x-category="Culture" tvg-language="Bengali" group-title="Bengali" height="1080",Shiksha TV (720p)
 http://103.89.46.106:8080/hls/shikshatvhd/index.m3u8
 #EXTINF:-1 tvg-id="SonarBangla.in@SD" x-categories="Movies" tvg-logo="https://papaji.freetvindia.com/media/1518_FreeTV_Sonar_Bangla.png" x-category="Movies" tvg-language="Bengali" group-title="Bengali" height="720",Sonar Bangla (360p)
@@ -384,8 +386,6 @@ https://samitaorigin.tangotv.in/SONARBANGLA/SAMITAORIGIN/index.m3u8
 http://103.135.253.32:8080/SONY_AATH/index.m3u8
 #EXTINF:-1 tvg-id="SonyAath.in@SD" x-categories="Entertainment" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YP08L.png?lock=720x540" x-category="Entertainment" tvg-language="Bengali" group-title="Bengali" height="576",Sony Aath (576p)
 https://livetv.shamon-cable.net:8443/Sony-8/index.m3u8
-#EXTINF:-1 tvg-id="StarJalsha.in@SD" x-categories="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg" x-category="Entertainment" tvg-language="Bengali" group-title="Bengali" height="1080",Star Jalsha (1080p) [Geo-blocked]
-http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805
 #EXTINF:-1 tvg-id="StarJalsha.in@HD" x-categories="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg" x-category="Entertainment" tvg-language="Bengali" group-title="Bengali" height="1080",Star Jalsha HD (1080p)
 http://103.135.253.32:8080/STAR-JALSHA-HD/index.m3u8
 #EXTINF:-1 tvg-id="StarJalsha.in@HD" x-categories="Entertainment" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/4452/1782290464452-h.jpg" x-category="Entertainment" tvg-language="Bengali" group-title="Bengali" height="1080",Star Jalsha HD (1080p)
@@ -727,7 +727,7 @@ http://88.212.15.50/live/test_hbo2_hd_hevc/playlist.m3u8
 http://88.212.15.50/live/test_hbo3_hd_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Czech" group-title="Czech" height="576",JimJam Europe (576p)
 http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Czech" group-title="Czech" height="1080",JimJam Europe (720p)
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Czech" group-title="Czech" height="720",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="KinoBarrandov.cz@SD" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kino_Barrandov_logo.png/960px-Kino_Barrandov_logo.png" x-category="Movies" tvg-language="Czech" group-title="Czech",Kino Barrandov
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
@@ -1202,7 +1202,7 @@ http://92.114.85.87:8002/play/a00g/index.m3u8
 http://92.114.85.87:8002/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="ESPN.us@SD" x-categories="Sports" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" x-category="Sports" tvg-language="English" group-title="English" height="432",ESPN (432p)
 http://tvsen7.aynascope.net/espn/index.m3u8
-#EXTINF:-1 tvg-id="ESPN.us@SD" x-categories="Sports" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",ESPN (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ESPN.us@SD" x-categories="Sports" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd_c.png" x-category="Sports" tvg-language="English" group-title="English" height="720",ESPN (720p) [Geo-blocked]
 http://212.5.144.156:8080/espn/index.m3u8
 #EXTINF:-1 tvg-id="ESPN2.us@HD" x-categories="Sports" tvg-logo="https://i.imgur.com/00tsvjE.png" x-category="Sports" tvg-language="English" group-title="English" height="720",ESPN 2 HD (720p)
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
@@ -1319,7 +1319,7 @@ https://amg01753-narrativeuk-amg01753c2-lg-gb-1832.playouts.now.amagi.tv/playlis
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" x-categories="Movies" tvg-logo="https://provider-static.plex.tv/epg/cms/production/29af70d1-d3ba-4a16-bc4d-bd99e7e7def4/hallmark-movies-and-more_color.png" x-category="Movies" tvg-language="English" group-title="English" height="1080",Hallmark Movies & More (1080p)
 https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
-#EXTINF:-1 tvg-id="HallmarkMystery.us@East" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg" x-category="Movies" tvg-language="English" group-title="English" height="720",Hallmark Mystery (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="HallmarkMystery.us@East" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/32/Hallmark_Mystery_2024.svg" x-category="Movies" tvg-language="English" group-title="English" height="1080",Hallmark Mystery (720p) [Geo-blocked]
 http://41.205.93.154/HALLMARK/index.m3u8
 #EXTINF:-1 tvg-id="HappyRadioTV.ua@HD" x-categories="Music" tvg-logo="https://i.imgur.com/PAw36qJ.png" x-category="Music" tvg-language="English" group-title="English" height="1080",Happy Radio TV (1080p)
 https://tv.mediacp.eu:8081/happyradio/index.m3u8
@@ -1417,7 +1417,7 @@ https://vodzong.mjunoon.tv:8087/streamtest/JalwaTV-135/live/135M/chunks.m3u8
 http://88.212.7.14/live/jim_jam_hun/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="English" group-title="English" height="576",JimJam Europe (576p)
 http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="English" group-title="English" height="1080",JimJam Europe (720p)
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="English" group-title="English" height="720",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="JooMusic.pk@SD" x-categories="Music" tvg-logo="https://i.imgur.com/KHuKQQL.png" x-category="Music" tvg-language="English" group-title="English" height="720",JooMusic (720p)
 https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8
@@ -1545,7 +1545,7 @@ https://op-group1-densxvisionhd-1.dens.tv/h/h18/index.m3u8
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-id="NBATV.us@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",NBA TV (720p)
 http://23.237.104.106:8080/USA_NBA/index.m3u8
-#EXTINF:-1 tvg-id="NBATV.us@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",NBA TV (720p)
+#EXTINF:-1 tvg-id="NBATV.us@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" x-category="Sports" tvg-language="English" group-title="English" height="720",NBA TV (720p)
 http://rezofoot.tv/NBATV/index.m3u8
 #EXTINF:-1 tvg-id="NBCLXHome.us@HD" x-categories="Lifestyle;Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/70/NBC_LX_Home_2023.svg" x-category="Lifestyle" tvg-language="English" group-title="English" height="1080",NBC LX Home (1080p)
 https://plex-xumoent-ch485-e7l5l.fast.nbcuni.com/live/master_5.m3u8
@@ -1914,15 +1914,15 @@ https://cdn.mycloudstream.io/hls/live/broadcast/nro19k2h/index.m3u8
 https://fastly.live.brightcove.com/6369851620112/us-east-1/15364602001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoicGZncmlmLmVncmVzcy50N2M3emwiLCJhY2NvdW50X2lkIjoiMTUzNjQ2MDIwMDEiLCJlaG4iOiJmYXN0bHkubGl2ZS5icmlnaHRjb3ZlLmNvbSIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiMTUzNjQ2MDIwMDEiXSwianRpIjoiNjM2OTg1MTYyMDExMiJ9.zRE6fD9JwdbNLUIK5zgvlTAvXCQ3HeeE5p0yH0Pd3-Q/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="TVSBowlingNetwork.us@SD" x-categories="Sports" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-bowling-network.jpg" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Bowling Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
-#EXTINF:-1 tvg-id="TVSBoxing.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/30ZoF75.png" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Boxing (360p)
+#EXTINF:-1 tvg-id="TVSBoxing.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/30ZoF75.png" x-category="Sports" tvg-language="English" group-title="English" height="360",TVS Boxing (360p)
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
 #EXTINF:-1 tvg-id="TVSClassicSports.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/auR0Mi6.png" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Classic Sports (360p)
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
 #EXTINF:-1 tvg-id="TVSComedyNetwork.us@SD" x-categories="Comedy" tvg-logo="https://i.imgur.com/rXORbti.png" x-category="Comedy" tvg-language="English" group-title="English" height="720",TVS Comedy Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvscomedy/index.m3u8
-#EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/OR9APjb.png" x-category="Movies" tvg-language="English" group-title="English" height="720",TVS Drive In Movie (360p)
+#EXTINF:-1 tvg-id="TVSDriveInMovie.us@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/OR9APjb.png" x-category="Movies" tvg-language="English" group-title="English" height="360",TVS Drive In Movie (360p)
 https://rpn.bozztv.com/gusa/gusa-tvsdriveinmovie/index.m3u8
-#EXTINF:-1 tvg-id="TVSFlashbackNetwork.us@SD" x-categories="Entertainment" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-flashback-network.jpg" x-category="Entertainment" tvg-language="English" group-title="English" height="480",TVS Flashback Network (360p)
+#EXTINF:-1 tvg-id="TVSFlashbackNetwork.us@SD" x-categories="Entertainment" tvg-logo="https://www.watchyour.tv/channels/logo/tvs-flashback-network.jpg" x-category="Entertainment" tvg-language="English" group-title="English" height="360",TVS Flashback Network (360p)
 https://rpn.bozztv.com/gusa/gusa-TVSFlashback/index.m3u8
 #EXTINF:-1 tvg-id="TVSHiTops.us@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/RiWg1IA.png" x-category="Kids" tvg-language="English" group-title="English" height="720",TVS Hi Tops (720p)
 https://rpn.bozztv.com/gusa/gusa-hitops/index.m3u8
@@ -2310,7 +2310,7 @@ https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="PanikTV.gr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/13C3CPr.png" x-category="Music" tvg-language="Greek" group-title="Greek" height="1080",Panik TV (1080p)
 https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
-#EXTINF:-1 tvg-id="PlayTV.gr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/JWFOYuD.png" x-category="Music" tvg-language="Greek" group-title="Greek" height="480",Play TV (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="PlayTV.gr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/JWFOYuD.png" x-category="Music" tvg-language="Greek" group-title="Greek" height="720",Play TV (480p) [Not 24/7]
 http://web.onair-radio.eu:1935/Alpha-Host/Alpha-Host/playlist.m3u8
 #EXTINF:-1 tvg-id="StarChannelInternational.gr@HD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/6NUpxhr.png" x-category="Entertainment" tvg-language="Greek" group-title="Greek",Star Channel International
 https://livestar.siliconweb.com/starvod/star_int/star_inthd.m3u8
@@ -2403,7 +2403,7 @@ http://stream.mcquack.net/44/index.m3u8
 http://stream.mcquack.net/381/index.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Hebrew" group-title="Hebrew" height="576",JimJam Europe (576p)
 http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Hebrew" group-title="Hebrew" height="1080",JimJam Europe (720p)
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Hebrew" group-title="Hebrew" height="720",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="RealityChannel.il@SD" x-categories="Entertainment" tvg-logo="https://static.g-cdn.app/streams/yes-reality-channel-il-hd.png" x-category="Entertainment" tvg-language="Hebrew" group-title="Hebrew",Reality Channel
 https://d2dffl3588mvfk.cloudfront.net/out/v1/d8e15050ca4148aab0ee387a5e2eb46b/index_1.m3u8
@@ -2589,8 +2589,6 @@ https://stream.ottlive.co.in/asiannews/index.m3u8
 https://fta.ektv.in/live/449/master.m3u8
 #EXTINF:-1 tvg-id="Astroscience.in@SD" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/yupptvnew/content/common/channel/logos/bvwquh.png" x-categories="General" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",Astroscience (576p)
 https://yuppnimrestreammum.akamaized.net/181224/smil:astrotech.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
-#EXTINF:-1 tvg-id="ATNSamachar.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ATN_Samachar.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",ATN Samachar (1080p)
-https://newsliveindia.com:4433/atn/index.m3u8
 #EXTINF:-1 tvg-id="AwaazIndiaTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/eKQs51V.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="720",Awaaz India TV (720p) [Not 24/7]
 https://awaazindia.livebox.co.in/AwaazIndaTVhls/Live.m3u8
 #EXTINF:-1 tvg-id="AwakeningTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/p26iWOi.png" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="576",Awakening TV (576p)
@@ -2660,7 +2658,7 @@ https://mcncdndigital.com/balleballetv/index.m3u8
 https://d1msejlow1t3l4.cloudfront.net/fta/bansalnews/playlist.m3u8
 #EXTINF:-1 tvg-id="BansalNews.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142702_ld_h9_aa.png?lock=720x540" x-category="News" tvg-language="Hindi" group-title="Hindi" height="576",Bansal News (576p)
 https://mumt07.tangotv.in/zHjX9OFlBANSALNEWS/index.m3u8
-#EXTINF:-1 tvg-id="BhaktiDhara.in@SD" x-categories="Devotional" tvg-logo="https://papaji.freetvindia.com/media/channels/Bhakti_dhara1.png" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="1080",Bhakti Dhara (720p)
+#EXTINF:-1 tvg-id="BhaktiDhara.in@SD" x-categories="Devotional" tvg-logo="https://papaji.freetvindia.com/media/channels/Bhakti_dhara1.png" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="720",Bhakti Dhara (720p)
 https://newsliveindia.com:4433/bhaktidhara/index.m3u8
 #EXTINF:-1 tvg-id="BhaktiSagar.in@SD" x-categories="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bhaktisagar.png" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="720",Bhakti Sagar (576p)
 https://mumt05.tangotv.in/87NeALx2BHAKTISAGAR/index.m3u8
@@ -2759,7 +2757,7 @@ https://cdn.pishow.tv/ott/live/1141/master.m3u8
 https://fta.ektv.in/live/17/master.m3u8
 #EXTINF:-1 tvg-id="DangalTV.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142771_ld_h9_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="720",Dangal TV (576p)
 https://mumt04.tangotv.in/m18aqlK4DANGAL/index.m3u8
-#EXTINF:-1 tvg-id="DangalTV.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142771_ld_h9_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="720",Dangal TV (576p)
+#EXTINF:-1 tvg-id="DangalTV.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142771_ld_h9_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",Dangal TV (576p)
 https://streams.tangotv.in/DANGAL/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="DangalTV.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142771_ld_h9_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",Dangal TV (576p)
 https://tvsen3.aynaott.com/qPNg4LJK/index.m3u8
@@ -2968,6 +2966,8 @@ https://fta.ektv.in/live/584/master.m3u8
 https://fta.ektv.in/live/52/52_0.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/6mNQ9mM.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="720",Goldmines Bollywood (576p)
 https://streams.tangotv.in/GOLDMINESBOLLYWOOD/ORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/6mNQ9mM.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="576",Goldmines Bollywood (576p)
+https://tvsen6.aynaott.com/55xNrLdf/index.m3u8
 #EXTINF:-1 tvg-id="GoldminesBollywood.in@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/6mNQ9mM.png" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="576",Goldmines Bollywood (576p)
 http://163.61.226.31:9981/stream/channelid/1436412639?profile=pass
 #EXTINF:-1 tvg-id="GoldminesMovies.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s142881_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Hindi" group-title="Hindi" height="576",Goldmines Movies (576p)
@@ -3421,7 +3421,7 @@ https://mumt04.tangotv.in/m18aqlK4PARASGOLD/index.m3u8
 #EXTINF:-1 tvg-id="PeaceofMindTV.in@SD" x-categories="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143646_ld_h15_aa.png?lock=720x540" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="576",Peace of Mind TV (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/170/master.m3u8
-#EXTINF:-1 tvg-id="PeaceofMindTV.in@SD" x-categories="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143646_ld_h15_aa.png?lock=720x540" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="576",Peace of Mind TV (576p)
+#EXTINF:-1 tvg-id="PeaceofMindTV.in@SD" x-categories="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143646_ld_h15_aa.png?lock=720x540" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="1080",Peace of Mind TV (576p)
 https://mumbai-edge.smartplaytv.in/PeaceOfMind/index.m3u8
 #EXTINF:-1 tvg-id="PeaceofMindTV.in@SD" x-categories="Devotional" tvg-logo="https://dtil.tmsimg.com/assets/s143646_ld_h15_aa.png?lock=720x540" x-category="Devotional" tvg-language="Hindi" group-title="Hindi" height="576",Peace of Mind TV (576p)
 https://yuppnimrestreammum.akamaized.net/181224/smil:peaceofmind.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
@@ -3827,7 +3827,7 @@ https://duw35ict5q7th.cloudfront.net/index_3.m3u8
 https://stream.ottlive.co.in/zingabad/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.in@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mxx05Z9.png" x-category="Music" tvg-language="Hindi" group-title="Hindi" height="720",Zoom (576p)
 https://d2esfk1pb9cdob.cloudfront.net/master.m3u8
-#EXTINF:-1 tvg-id="Zoom.in@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mxx05Z9.png" x-category="Music" tvg-language="Hindi" group-title="Hindi" height="576",Zoom (576p)
+#EXTINF:-1 tvg-id="Zoom.in@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mxx05Z9.png" x-category="Music" tvg-language="Hindi" group-title="Hindi" height="720",Zoom (576p)
 https://mumbai-edge.smartplaytv.in/Zoom/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.in@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mxx05Z9.png" x-category="Music" tvg-language="Hindi" group-title="Hindi" height="720",Zoom (720p)
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
@@ -4215,7 +4215,7 @@ https://streams.tangotv.in/REPUBLICKANNADA/ORIGIN/index.m3u8
 https://mumbai-edge.smartplaytv.in/republickannada/index.m3u8
 #EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Kannada" group-title="Kannada" height="720",Sankara TV (576p)
 https://mumbai-edge.smartplaytv.in/SriSankara/index.m3u8
-#EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Kannada" group-title="Kannada" height="576",Sankara TV (576p)
+#EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Kannada" group-title="Kannada" height="720",Sankara TV (576p)
 https://mumt05.tangotv.in/87NeALx2SRISANKARA/index.m3u8
 #EXTINF:-1 tvg-id="SiriKannadaAllTime.in@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/IR0BrEX.jpeg" x-category="Entertainment" tvg-language="Kannada" group-title="Kannada" height="720",Siri Kannada All Time (576p)
 https://mumt07.tangotv.in/zHjX9OFlSIRIKANNADAALLTIME/index.m3u8
@@ -4869,9 +4869,9 @@ https://cdn4.skygo.mn/live/disk1/MNplus91/HLSv3-FTA/MNplus91.m3u8
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #EXTINF:-1 tvg-id="MrBeanLiveAction.uk@English" x-categories="Comedy;Kids" tvg-logo="https://d2yv6y0n3qsl5c.cloudfront.net/MBEANP/MrBeanLiveAction-LG_LOGO_800x200.png" x-category="Comedy" tvg-language="Other" group-title="Other" height="1080",Mr Bean Live Action (1080p)
 https://amg00627-amg00627c40-rakuten-uk-5725.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanpopupcc-rakutenuk/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/c9q6oT0.png" x-category="Entertainment" tvg-language="Other" group-title="Other",MRTV Entertainment
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/c9q6oT0.png" x-category="Entertainment" tvg-language="Other" group-title="Other" height="1080",MRTV Entertainment
 https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
-#EXTINF:-1 tvg-id="MRTVSports.mm@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/cFTR4kC.png" x-category="Sports" tvg-language="Other" group-title="Other",MRTV Sports [Not 24/7]
+#EXTINF:-1 tvg-id="MRTVSports.mm@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/cFTR4kC.png" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",MRTV Sports [Not 24/7]
 https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MTVAva.fi@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/WxNCiAk.png" x-category="Entertainment" tvg-language="Other" group-title="Other" height="720",MTV Ava (720p)
 https://live-fi.tvkaista.net/ava/live.m3u8
@@ -4915,7 +4915,7 @@ https://stream.qazcdn.net/ex6r514/silkwaycinema/index.m3u8
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 tvg-id="SmileTV.ru@SD" x-categories="Kids" tvg-logo="https://static.tildacdn.com/tild3936-3138-4234-b536-326531343933/-_13x.png" x-category="Kids" tvg-language="Other" group-title="Other" height="720",Smile TV (720p)
 https://stream8.cinerama.uz/1425/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="Sport.uz@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/2WJE9CM.png" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",Sport
+#EXTINF:-1 tvg-id="Sport.uz@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/2WJE9CM.png" x-category="Sports" tvg-language="Other" group-title="Other",Sport
 https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Sport – Pluto TV" tvg-logo="https://i.imgur.com/o2psAYW.png" tvg-id="PlutoTVSportItaly.it" x-categories="Sports" x-category="Sports" tvg-language="Other" group-title="Other",Sport – Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
@@ -4980,7 +4980,7 @@ https://live2.tensila.com/onair-v-1.xfm1027/hls/master.m3u8
 http://cdnua05.hls.tv/946/hls/8743361621b245838bee193c9ec28322/3999/stream.m3u8
 #EXTINF:-1 tvg-id="YamTichoni.il@SD" x-categories="Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/58/YamTichoniChannel.svg/1280px-YamTichoniChannel.svg.png" x-category="Shows & Series" tvg-language="Other" group-title="Other" height="1080",Yam Tichoni (1080p)
 http://stream.mcquack.net/46/index.m3u8
-#EXTINF:-1 tvg-id="ZorTV.uz@SD" x-categories="Entertainment;Music" tvg-logo="https://i.imgur.com/NuzyhVM.png" x-category="Entertainment" tvg-language="Other" group-title="Other" height="1080",Zo'r TV (576p)
+#EXTINF:-1 tvg-id="ZorTV.uz@SD" x-categories="Entertainment;Music" tvg-logo="https://i.imgur.com/NuzyhVM.png" x-category="Entertainment" tvg-language="Other" group-title="Other" height="576",Zo'r TV (576p)
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Tamyr.ru@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/Ia3acCB.png" x-category="Kids" tvg-language="Other" group-title="Other" height="576",Тамыр (Уфа)
 https://bstonline.mediacdn.ru/cdn/tamyr/playlist.m3u8
@@ -5199,7 +5199,7 @@ http://185.228.163.146:8000/play/a048/index.m3u8
 https://e3be9ac5.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctYnJfRklGQVBsdXNQb3J0dWd1ZXNlX0hMUw/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Portuguese" group-title="Portuguese" height="576",JimJam Europe (576p)
 http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Portuguese" group-title="Portuguese" height="1080",JimJam Europe (720p)
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Portuguese" group-title="Portuguese" height="720",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="KpopTVPlay.br@SD" x-categories="Music" tvg-logo="https://i.imgur.com/Tf0vweF.png" x-category="Music" tvg-language="Portuguese" group-title="Portuguese" height="720",KpopTV Play (576p)
 https://giatv.bozztv.com/giatv/giatv-kpoptvplay/kpoptvplay/playlist.m3u8
@@ -5320,6 +5320,8 @@ https://streams.tangotv.in/CHARDIKALATIMETV/ORIGIN/index.m3u8
 https://d1msejlow1t3l4.cloudfront.net/211125/chardiklatv/playlist.m3u8
 #EXTINF:-1 tvg-id="ChardiklaTimeTVNorthAmerica.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/IUeMFey.jpg" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="1080",Chardikla Time TV North America (1080p)
 https://chardikalanorthamerica.gigabitcdn.net/in-chardikala/chardikala-north-usa/playlist.m3u8
+#EXTINF:-1 tvg-id="ChintpurniLive.in@SD" x-categories="Devotional" tvg-logo="https://papaji.freetvindia.com/media/Chintpurni_Live.png" x-category="Devotional" tvg-language="Punjabi" group-title="Punjabi" height="720",Chintpurni Live (720p)
+https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="DailyPostTV.in@SD" x-categories="News" tvg-logo="https://papaji.freetvindia.com/media/Daily_post.png" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="1080",Daily Post TV (1080p)
 https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/103b8dd3-a888-4d1d-89a5-8a4bc25e48c1/index.m3u8
 #EXTINF:-1 tvg-id="DailyPostTV.in@SD" x-categories="News" tvg-logo="https://papaji.freetvindia.com/media/Daily_post.png" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="1080",Daily Post TV (1080p)
@@ -5397,7 +5399,7 @@ https://mumt04.tangotv.in/m18aqlK4MANORANJANMOVIES/index.m3u8
 http://163.61.226.31:9981/stream/channelid/509213855?profile=pass
 #EXTINF:-1 tvg-id="Mh1Music.in@SD" x-categories="Music" tvg-logo="https://dtil.tmsimg.com/assets/s143539_ld_h15_aa.png?lock=720x540" x-category="Music" tvg-language="Punjabi" group-title="Punjabi" height="1080",Mh 1 Music (720p)
 https://livestream.jswk.online/playlisttest/live/playlist.m3u8
-#EXTINF:-1 tvg-id="Mh1News.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143540_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="576",Mh 1 News (360p)
+#EXTINF:-1 tvg-id="Mh1News.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143540_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="360",Mh 1 News (360p)
 https://livestream.jswk.online/mhonenews/live/index.m3u8
 #EXTINF:-1 tvg-id="Mh1News.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143540_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="576",Mh 1 News (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -5437,7 +5439,7 @@ https://pitaara-lg.vgcdn.net/v1/vglive-sk-326599/playlist.m3u8
 #EXTINF:-1 tvg-id="Pitaara.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143650_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Punjabi" group-title="Punjabi" height="576",Pitaara (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/352/master.m3u8
-#EXTINF:-1 tvg-id="Pitaara.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143650_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Punjabi" group-title="Punjabi" height="720",Pitaara (576p)
+#EXTINF:-1 tvg-id="Pitaara.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143650_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Punjabi" group-title="Punjabi" height="576",Pitaara (576p)
 https://mumt04.tangotv.in/m18aqlK4PITAARA/index.m3u8
 #EXTINF:-1 tvg-id="Pitaara.in@SD" x-categories="Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143650_ld_h15_aa.png?lock=720x540" x-category="Movies" tvg-language="Punjabi" group-title="Punjabi" height="720",Pitaara (576p)
 https://streams.tangotv.in/PITAARA/ORIGIN/index.m3u8
@@ -5693,7 +5695,7 @@ https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
 #EXTINF:-1 tvg-id="black.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Q4A6ci4.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",.black (576p)
 http://stream.mcquack.net/263/index.m3u8
-#EXTINF:-1 tvg-id="red.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/GET9Qut.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",.red (576p)
+#EXTINF:-1 tvg-id="red.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/GET9Qut.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="576",.red (576p)
 http://5.188.159.128:8070/RED/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/GET9Qut.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",.red (576p)
 http://stream.mcquack.net/69/index.m3u8
@@ -5910,7 +5912,7 @@ http://stream.mcquack.net/64/index.m3u8
 https://stream8.cinerama.uz/1207/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/s0UYT8T.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="1080",Kinopremyera (1080p)
 http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
-#EXTINF:-1 tvg-id="Kinosemja.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/4BF5VeK.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="1080",Kinosemja (576p)
+#EXTINF:-1 tvg-id="Kinosemja.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/4BF5VeK.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="576",Kinosemja (576p)
 http://stream.mcquack.net/170/index.m3u8
 #EXTINF:-1 tvg-id="Kinoseriya.ru@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/iao7zLZ.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="576",Kinoseriya (576p)
 https://fs.uplink.kz/kinoseria/mono.m3u8?token=onlinetv
@@ -6130,7 +6132,7 @@ https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 http://176.118.197.101/START_AIR/index.m3u8
 #EXTINF:-1 tvg-id="STARTAir.ru@SD" x-categories="Movies" tvg-logo="https://images.iptv.rt.ru/images/d60qp8omife4gis72tk0.png" x-category="Movies" tvg-language="Russian" group-title="Russian" height="576",START Air (576p)
 http://stream.mcquack.net/128/index.m3u8
-#EXTINF:-1 tvg-id="STSkids.ru@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/o9kLpAL.png" x-category="Kids" tvg-language="Russian" group-title="Russian" height="576",STS kids (576p)
+#EXTINF:-1 tvg-id="STSkids.ru@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/o9kLpAL.png" x-category="Kids" tvg-language="Russian" group-title="Russian" height="1080",STS kids (576p)
 http://stream.mcquack.net/197/index.m3u8
 #EXTINF:-1 tvg-id="Subbota.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/nsk8PpB.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",Subbota! (1080p)
 https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?e=2066519758&s=dmUf6BUQzDBTwtQOseAfog&scheme=https
@@ -6264,7 +6266,7 @@ https://live20.bozztv.com/akamaissh101/ssh101/vivarussia/playlist.m3u8
 https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
 #EXTINF:-1 tvg-id="VoprosyiOtvety.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/yjETxk1.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="576",Voprosy i Otvety (576p)
 http://stream.mcquack.net/76/index.m3u8
-#EXTINF:-1 tvg-id="ZorTV.uz@SD" x-categories="Entertainment;Music" tvg-logo="https://i.imgur.com/NuzyhVM.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",Zo'r TV (576p)
+#EXTINF:-1 tvg-id="ZorTV.uz@SD" x-categories="Entertainment;Music" tvg-logo="https://i.imgur.com/NuzyhVM.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="576",Zo'r TV (576p)
 https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/BKaEtqL.png" x-category="Sports" tvg-language="Russian" group-title="Russian" height="1080",Астрахань.Ru Sport (720p)
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
@@ -6348,7 +6350,7 @@ https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
 https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Slovak" group-title="Slovak" height="576",JimJam Europe (576p)
 http://stream.mcquack.net/150/index.m3u8
-#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Slovak" group-title="Slovak" height="1080",JimJam Europe (720p)
+#EXTINF:-1 tvg-id="JimJamEurope.uk@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/ODhkYyx.png" x-category="Kids" tvg-language="Slovak" group-title="Slovak" height="720",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="SpektrumHome.cz@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/VaVi65F.png" x-category="Entertainment" tvg-language="Slovak" group-title="Slovak",Spektrum Home
 http://88.212.15.50/live/test_home_hevc/playlist.m3u8
@@ -6482,7 +6484,7 @@ https://canal.mediaserver.com.co/live/buenisimatv.m3u8
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="Canal3KMKTV.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/sgRDRBK.jpg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Canal 3 KMK TV (720p)
 https://live20.bozztv.com/giatv/giatv-KMKTV/KMKTV/chunks.m3u8
-#EXTINF:-1 tvg-id="Canal9Link.ar@SD" x-categories="Entertainment" tvg-logo="https://audios.radiosnet.com.ar/imgwikidat/img_cuerpo/canal+9+buenos+aires9.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Canal 9 Link
+#EXTINF:-1 tvg-id="Canal9Link.ar@SD" x-categories="Entertainment" tvg-logo="https://audios.radiosnet.com.ar/imgwikidat/img_cuerpo/canal+9+buenos+aires9.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",Canal 9 Link
 https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalChilote.cl@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/mdYIKyt.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Canal Chilote (720p)
 https://videostream.chileservidores.com:8081/chiloe2/index.m3u8
@@ -6500,7 +6502,7 @@ https://video.ejeserver.com/live/nets.m3u8
 https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/0L9tW3Z.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",Canal Showsport (720p)
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
-#EXTINF:-1 tvg-id="CanalWomtv.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Canal Womtv (720p)
+#EXTINF:-1 tvg-id="CanalWomtv.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Canal Womtv (720p)
 https://live.amelbatv.co:81/womtvlive/index.m3u8
 #EXTINF:-1 tvg-id="CanicaTV.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/RuQDwTt.jpeg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="240",Canica TV (240p)
 https://stmv4.voxtvhd.com.br/canicatv/canicatv/playlist.m3u8
@@ -6824,7 +6826,7 @@ https://canal.gitelevisionserver.com/live/DIEEFIh506fL8huspvl0f0c2PZF3/index.m3u
 https://pistream.ddns.net/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GirasolTV.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/2t7A2yg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Girasol TV (1080i)
 https://s.emisoras.tv:8081/girasoltv/index.m3u8
-#EXTINF:-1 tvg-id="GOTV.py@SD" x-categories="Entertainment;Music" tvg-logo="https://i.ibb.co/jkvYVyz/Captura.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",GO TV (720p)
+#EXTINF:-1 tvg-id="GOTV.py@SD" x-categories="Entertainment;Music" tvg-logo="https://i.ibb.co/jkvYVyz/Captura.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",GO TV (720p)
 https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8
 #EXTINF:-1 tvg-id="GoldenPremier.mx@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/JMa7jws.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",Golden Premier (1080p)
 http://200.57.28.141:8540/play/a0ln
@@ -7434,7 +7436,7 @@ https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 http://186.148.196.100:8000/play/a01d
 #EXTINF:-1 tvg-id="VenusMedia.py@SD" x-categories="Music" tvg-logo="https://i.imgur.com/XwmUbfp.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Venus Media (1080p)
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
-#EXTINF:-1 tvg-id="VintageMusic.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/KImqYnN.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Vintage Music (720p)
+#EXTINF:-1 tvg-id="VintageMusic.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/KImqYnN.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="972",Vintage Music (720p)
 https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
 #EXTINF:-1 tvg-id="VisionNDV.do@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/4gj5NMa.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Vision NDV (720p) [Not 24/7]
 https://soportedvb.click:3891/live/visionndvlive.m3u8
@@ -7682,7 +7684,7 @@ http://103.135.253.32:8080/NICK/index.m3u8
 https://galaxyott.live/hls/ntv.m3u8
 #EXTINF:-1 tvg-id="OliTV.in@SD" x-categories="Entertainment" tvg-logo="https://i.ibb.co/XfvTQyJn/main-removebg-preview.png" x-category="Entertainment" tvg-language="Tamil" group-title="Tamil" height="1080",Oli TV (1080p)
 https://live.olidigital.in/olitv/olitv/index.m3u8
-#EXTINF:-1 tvg-id="OMTV.in@SD" x-categories="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="720",OM TV (576p)
+#EXTINF:-1 tvg-id="OMTV.in@SD" x-categories="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="576",OM TV (576p)
 https://mumt01.tangotv.in/O5aw8Zn3OMTV/index.m3u8
 #EXTINF:-1 tvg-id="OMTV.in@SD" x-categories="Devotional" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="720",OM TV (576p)
 https://samitaorigin.tangotv.in/OMTV/SAMITAORIGIN/index.m3u8
@@ -7746,7 +7748,7 @@ https://galaxyott.live/hls/sanaplus.m3u8
 https://vglivessai.akamaized.net/us/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/b6d9e864-ec16-410a-804d-ccf8f720bfaa/index.m3u8
 #EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="720",Sankara TV (576p)
 https://mumbai-edge.smartplaytv.in/SriSankara/index.m3u8
-#EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="576",Sankara TV (576p)
+#EXTINF:-1 tvg-id="SankaraTV.in@SD" x-categories="Devotional" tvg-logo="https://i.imgur.com/2z0bDRD.png" x-category="Devotional" tvg-language="Tamil" group-title="Tamil" height="720",Sankara TV (576p)
 https://mumt05.tangotv.in/87NeALx2SRISANKARA/index.m3u8
 #EXTINF:-1 tvg-id="SathiyamTV.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143765_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Tamil" group-title="Tamil" height="720",Sathiyam TV (576p)
 https://mumt07.tangotv.in/zHjX9OFlSATHIYAMTV/index.m3u8
@@ -8345,6 +8347,8 @@ http://stream.mcquack.net/285/index.m3u8
 https://fta.ektv.in/live/647/master.m3u8
 #EXTINF:-1 tvg-id="8XM.pk@HD" x-categories="Music" tvg-logo="https://i.imgur.com/KLrfKRn.png" x-category="Music" tvg-language="Urdu" group-title="Urdu",8XM HD
 https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8
+#EXTINF:-1 tvg-id="APlusTV.pk@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/uu0UJme.png" x-category="Entertainment" tvg-language="Urdu" group-title="Urdu",A-Plus TV
+https://cdn4.mjunoon.tv:8087/streamtest/118M/chunks.m3u8
 #EXTINF:-1 tvg-id="BharatExpress.in@SD" x-categories="News" tvg-logo="https://bharatexpress.com/wp-content/themes/newstrackcms/images/bharat-express-new-logo.png" x-category="News" tvg-language="Urdu" group-title="Urdu" height="480",Bharat Express (480p)
 https://stream1.livebox.co.in/VCAREhls/live.m3u8
 #EXTINF:-1 tvg-id="BharatExpress.in@SD" x-categories="News" tvg-logo="https://bharatexpress.com/wp-content/themes/newstrackcms/images/bharat-express-new-logo.png" x-category="News" tvg-language="Urdu" group-title="Urdu" height="576",Bharat Express (576p)
@@ -8414,15 +8418,15 @@ https://tv.angiangtv.vn/live/kgtv1/kgtv1.m3u8
 https://freem3u.xyz/api/live/play.m3u8?vid=255
 #EXTINF:-1 tvg-id="DongNaiTV2.vn@SD" x-categories="Sports;Entertainment" tvg-logo="https://i.imgur.com/tNKPSkO.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="720",Dong Nai TV 2 (720p)
 https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8
-#EXTINF:-1 tvg-id="HTVSports.vn@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese",HTV Sports
+#EXTINF:-1 tvg-id="HTVSports.vn@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTV Sports
 https://dethich.pw/htvthethao/index.m3u8
 #EXTINF:-1 tvg-id="HTVSports.vn@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTV Sports (1080i)
 https://vmttv.dpdns.org/tv360?id=htv-the-thao
-#EXTINF:-1 tvg-id="HTV2.vn@SD" x-categories="Entertainment;General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png" x-category="Entertainment" tvg-language="Vietnamese" group-title="Vietnamese" height="720",HTV2 (720p)
+#EXTINF:-1 tvg-id="HTV2.vn@SD" x-categories="Entertainment;General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png" x-category="Entertainment" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTV2 (720p)
 https://dethich.pw/htv2/index.m3u8
-#EXTINF:-1 tvg-id="HTV3.vn@SD" x-categories="Shows & Series;Entertainment;General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/HTV3-2018.png" x-category="Shows & Series" tvg-language="Vietnamese" group-title="Vietnamese" height="720",HTV3 (720p)
+#EXTINF:-1 tvg-id="HTV3.vn@SD" x-categories="Shows & Series;Entertainment;General" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/65/HTV3-2018.png" x-category="Shows & Series" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTV3 (720p)
 https://dethich.pw/htv3/index.m3u8
-#EXTINF:-1 tvg-id="HTVCMovies.vn@SD" x-categories="Shows & Series;Movies" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png" x-category="Shows & Series" tvg-language="Vietnamese" group-title="Vietnamese" height="720",HTVC Movies (720p)
+#EXTINF:-1 tvg-id="HTVCMovies.vn@SD" x-categories="Shows & Series;Movies" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png" x-category="Shows & Series" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTVC Movies (720p)
 https://dethich.pw/htvcphim/index.m3u8
 #EXTINF:-1 tvg-id="ONBiBi.vn@SD" x-categories="Kids" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab8%20-%20ON%20BiBi.png" x-category="Kids" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",ON BiBi (1080p)
 https://freem3u.xyz/api/live/play.m3u8?vid=178
@@ -8450,11 +8454,11 @@ https://freem3u.xyz/api/live/play.m3u8?vid=180
 https://freem3u.xyz/api/live/play.m3u8?vid=91
 #EXTINF:-1 tvg-id="TraVinhTV.vn@SD" x-categories="Culture;Entertainment;Music;News" tvg-logo="https://i.imgur.com/F12VdKO.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="720",Tra Vinh TV (720p)
 https://dethich.pw/thvl5/index.m3u8
-#EXTINF:-1 tvg-id="VinhLongTV2.vn@SD" x-categories="Culture;Entertainment" tvg-logo="https://i.imgur.com/iluoazf.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="720",Vinh Long TV 2 (720p)
+#EXTINF:-1 tvg-id="VinhLongTV2.vn@SD" x-categories="Culture;Entertainment" tvg-logo="https://i.imgur.com/iluoazf.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",Vinh Long TV 2 (720p)
 https://dethich.pw/thvl2/index.m3u8
-#EXTINF:-1 tvg-id="VinhLongTV3.vn@SD" x-categories="Movies;Entertainment" tvg-logo="https://i.imgur.com/OQXEhqu.png" x-category="Movies" tvg-language="Vietnamese" group-title="Vietnamese" height="720",Vinh Long TV 3 (720p)
+#EXTINF:-1 tvg-id="VinhLongTV3.vn@SD" x-categories="Movies;Entertainment" tvg-logo="https://i.imgur.com/OQXEhqu.png" x-category="Movies" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",Vinh Long TV 3 (720p)
 https://dethich.pw/thvl3/index.m3u8
-#EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" x-categories="Culture;Travel;Sports;Entertainment" tvg-logo="https://i.imgur.com/ARhIkvR.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="720",Vinh Long TV 4 (720p)
+#EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" x-categories="Culture;Travel;Sports;Entertainment" tvg-logo="https://i.imgur.com/ARhIkvR.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",Vinh Long TV 4 (720p)
 https://dethich.pw/thvl4/index.m3u8
-#EXTINF:-1 tvg-id="VTV6.vn@HD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/VTV6_new_logo_2026.webp" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="720",VTV6 (720p)
+#EXTINF:-1 tvg-id="VTV6.vn@HD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/VTV6_new_logo_2026.webp" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",VTV6 (720p)
 https://dethich.pw/vtv6/index.m3u8

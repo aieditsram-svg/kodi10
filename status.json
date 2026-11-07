@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-07 14:23 UTC",
-  "fingerprint": "beb371a99eafb734f3d4ed4bcf90a707",
+  "updated_at": "2026-11-07 15:00 UTC",
+  "fingerprint": "bc72c21521525c5172426bf4d3526455",
   "total": 4719,
-  "working": 3575,
-  "in_grace_period": 81,
-  "dead": 1144,
-  "hd_channels": 1823,
+  "working": 3577,
+  "in_grace_period": 100,
+  "dead": 1142,
+  "hd_channels": 1821,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 763,
       "working": 574,
-      "hd": 334
+      "hd": 332
     },
     "Estonian": {
       "total": 4,
@@ -239,8 +239,8 @@
     },
     "Punjabi": {
       "total": 147,
-      "working": 130,
-      "hd": 52
+      "working": 131,
+      "hd": 53
     },
     "Romanian": {
       "total": 86,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 386,
       "working": 295,
-      "hd": 119
+      "hd": 118
     },
     "Santali": {
       "total": 1,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 753,
       "working": 557,
-      "hd": 378
+      "hd": 377
     },
     "Swahili": {
       "total": 3,
@@ -319,7 +319,7 @@
     },
     "Urdu": {
       "total": 44,
-      "working": 31,
+      "working": 32,
       "hd": 12
     },
     "Vietnamese": {
@@ -363,7 +363,7 @@
     },
     "Devotional": {
       "total": 253,
-      "working": 218
+      "working": 219
     },
     "Documentary": {
       "total": 16,
@@ -403,15 +403,15 @@
     },
     "Movies": {
       "total": 628,
-      "working": 462
+      "working": 463
     },
     "Music": {
       "total": 849,
-      "working": 672
+      "working": 673
     },
     "News": {
       "total": 716,
-      "working": 629
+      "working": 628
     },
     "Outdoor": {
       "total": 18,
@@ -554,6 +554,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "ATN Samachar (1080p)",
+      "url": "https://newsliveindia.com:4433/atn/index.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "Awakening TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8",
       "reason": "HTTP 403"
@@ -622,11 +627,6 @@
       "name": "Captain (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/captain/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Chintpurni Live (720p)",
-      "url": "https://samitaorigin.tangotv.in/CHINTPURNILIVE/SAMITAORIGIN/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Chintpurni Live (360p)",
@@ -937,11 +937,6 @@
       "name": "Goldmines Bollywood (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HGOLDMINESBOLLYWOOD/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Goldmines Bollywood (576p)",
-      "url": "https://tvsen6.aynaott.com/55xNrLdf/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Goldmines Bollywood",
@@ -1519,11 +1514,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Sangeet Bangla (576p) [Geo-blocked]",
-      "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Sangeet Bhojpuri (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3SANGEETBHOJPURI/index.m3u8",
       "reason": "HTTP 403"
@@ -1692,6 +1682,11 @@
       "name": "Star Jalsha (576p)",
       "url": "http://103.151.60.162:2122/play/a00w/index.m3u8?hls",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Star Jalsha (1080p) [Geo-blocked]",
+      "url": "http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805",
+      "reason": "HTTP 458"
     },
     {
       "name": "Star Kiran (576p)",
@@ -2771,7 +2766,7 @@
     {
       "name": "FUTV (1080p)",
       "url": "http://45.228.234.9:8000/play/a06o/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "FUTV",
@@ -3436,12 +3431,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3451,7 +3446,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -4074,11 +4069,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "A-Plus TV",
-      "url": "https://cdn4.mjunoon.tv:8087/streamtest/118M/chunks.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Aaj Entertainment (1080p)",
       "url": "https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8",
       "reason": "URLError"
@@ -4291,12 +4281,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4346,7 +4336,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "AXN (1080p)",
@@ -5866,7 +5856,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -6051,7 +6041,7 @@
     {
       "name": "MAX Anime (720p)",
       "url": "http://45.228.234.9:8000/play/a06u/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Maxima TV",
