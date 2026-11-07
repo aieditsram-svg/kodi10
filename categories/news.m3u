@@ -1,5 +1,5 @@
 #EXTM3U
-# News channels, one link per channel, all languages, updated 2026-11-07 02:52 UTC
+# News channels, one link per channel, all languages, updated 2026-11-07 03:33 UTC
 #EXTINF:-1 tvg-id="AsomLive24.in@SD" x-categories="News" tvg-logo="https://papaji.freetvindia.com/media/channels/asom_live_24x7.png" x-category="News" tvg-language="Assamese" group-title="Assamese",Asom Live 24
 https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8
 #EXTINF:-1 tvg-id="AssamTalks.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Assamese" group-title="Assamese" height="720",Assam Talks
@@ -54,9 +54,8 @@ https://server.playontv.in/raatdinbangla/index.m3u8
 https://streams.tangotv.in/RBANGLA/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="SamayKolkata.in@SD" x-categories="News" tvg-logo="https://i.ibb.co/3mrYZDG/cropped-LOGO-web1.jpg" x-category="News" tvg-language="Bengali" group-title="Bengali" height="720",Samay Kolkata
 https://server.livelegitpro.in/samaykolkata/samaykolkata/index.m3u8
-#EXTINF:-1 tvg-id="TV9Bangla.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144026_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Bengali" group-title="Bengali" height="1080",TV9 Bangla
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-https://fta.ektv.in/live/201/master.m3u8
+#EXTINF:-1 tvg-id="TV9Bangla.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144026_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Bengali" group-title="Bengali" height="720",TV9 Bangla
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="Zee24Ghanta.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022KGXP.png?lock=720x540" x-category="News" tvg-language="Bengali" group-title="Bengali",Zee 24 Ghanta
 https://d2dsoyvkr33m05.cloudfront.net/index_4.m3u8
 #EXTINF:-1 tvg-id="ZillarBartaNews.in@HD" x-categories="News;Classic" tvg-logo="https://i.imgur.com/6uestzY.jpeg" x-category="News" tvg-language="Bengali" group-title="Bengali" height="720",ZillarBarta News
@@ -300,7 +299,7 @@ https://stream.ottlive.co.in/newsindia/index.m3u8
 https://stream.ottlive.co.in/newsleader/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News Nation
 https://cc-52950m0v2qv0p.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-52950m0v2qv0p/nntv/national/index.m3u8
-#EXTINF:-1 tvg-id="NewsNation81.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News Nation 81
+#EXTINF:-1 tvg-id="NewsNation81.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png" x-category="News" tvg-language="Hindi" group-title="Hindi",News Nation 81
 https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8
 #EXTINF:-1 tvg-id="NewsStateMPCHG.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/KS5xcx2.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News State MP & CHG
 https://jmp2.uk/stvp-IN4000012ML
@@ -484,8 +483,9 @@ https://n18syndication.akamaized.net/bpk-tv/News18_Lokmat_NW18_MOB/output01/mast
 https://streams.tangotv.in/PUDHARINEWS/ORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="TopNewsMarathi.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/topnewsmarathi.png" x-category="News" tvg-language="Marathi" group-title="Marathi" height="1080",Top News Marathi
 https://live1.ottlive.co.in/topnewsmarathi/topnewsmarathi/index.m3u8
-#EXTINF:-1 tvg-id="TV9Marathi.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144030_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Marathi" group-title="Marathi" height="720",TV9 Marathi
-https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="TV9Marathi.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144030_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Marathi" group-title="Marathi" height="1080",TV9 Marathi
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/190/master.m3u8
 #EXTINF:-1 tvg-id="Zee24Taas.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG00230LKE.png?lock=720x540" x-category="News" tvg-language="Marathi" group-title="Marathi",Zee 24 Taas
 https://dgrvlduwztkd4.cloudfront.net/index_5.m3u8
 #EXTINF:-1 tvg-id="BadaKhabar.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/XiwygDJ.png" x-category="News" tvg-language="Odia" group-title="Odia",Bada Khabar
@@ -534,7 +534,7 @@ https://gtc.ottlive.co.in/gtcnews/index.m3u8
 #EXTINF:-1 tvg-id="GulistanNews.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143097_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="576",Gulistan News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/427/master.m3u8
-#EXTINF:-1 tvg-id="HamdardTV.ca@SD" x-categories="News" tvg-logo="https://i.ibb.co/JcD2xck/logo-hamda.png" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="1080",Hamdard TV
+#EXTINF:-1 tvg-id="HamdardTV.ca@SD" x-categories="News" tvg-logo="https://i.ibb.co/JcD2xck/logo-hamda.png" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="720",Hamdard TV
 https://tv.hamdardtv.com/hamdard/index.m3u8
 #EXTINF:-1 tvg-id="IndiaNewsPunjabHimachal.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/Mu1MPvt.png" x-category="News" tvg-language="Punjabi" group-title="Punjabi" height="576",India News Punjab/Himachal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -608,13 +608,14 @@ https://streams.tangotv.in/THANTHITV/ORIGIN/index.m3u8
 https://mumt05.tangotv.in/87NeALx2VALICHAMPLUS/index.m3u8
 #EXTINF:-1 tvg-id="ZeeTamilNews.in@SD" x-categories="News" tvg-logo="https://english.cdn.zeenews.com/images/logo/zee-tamil-logo-20.svg" x-category="News" tvg-language="Tamil" group-title="Tamil" height="720",Zee Tamil News
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/ZMCL/ZeeTamilNews.m3u8
-#EXTINF:-1 tvg-id="10TV.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142495_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="720",10 TV
-https://mumbai-edge.smartplaytv.in/10TV/index.m3u8
+#EXTINF:-1 tvg-id="10TV.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142495_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",10 TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/686/master.m3u8
 #EXTINF:-1 tvg-id="4SiDESTV.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4sites.png" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",4 SiDES TV
 https://stream.ottlive.co.in/4sidestv/index.m3u8
 #EXTINF:-1 tvg-id="6TVTelugu.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/l3EcRnZ.png" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",6 TV Telugu
 https://mumbai-edge.smartplaytv.in/6TVTelugu/index.m3u8
-#EXTINF:-1 tvg-id="9PlusNews.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",9 Plus News
+#EXTINF:-1 tvg-id="9PlusNews.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/9plusnews.png" x-category="News" tvg-language="Telugu" group-title="Telugu",9 Plus News
 https://stream.ottlive.co.in/9plusnews/index.m3u8
 #EXTINF:-1 tvg-id="ABNAndhraJyoti.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142517_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="720",ABN Andhra Jyoti
 https://mumbai-edge.smartplaytv.in/ABNAJ/index.m3u8
@@ -653,7 +654,8 @@ https://mumbai-edge.smartplaytv.in/TV5Telugu/index.m3u8
 #EXTINF:-1 tvg-id="TV9Telugu.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144031_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="720",TV9 Telugu
 https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9telcmjhcs/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="V6News.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144047_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",V6 News
-https://mumbai-edge.smartplaytv.in/V6News/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/694/master.m3u8
 #EXTINF:-1 tvg-id="ZeeTeluguNews.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0023178R.png?lock=720x540" x-category="News" tvg-language="Telugu" group-title="Telugu" height="1080",Zee Telugu News
 https://d116gfrn8orazi.cloudfront.net/index.m3u8?akes=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NjcxOTc5NzJ9.O4qmdMPbHwKrCg6hFXvD70vjSPWKQd0a7NrjmFdeMB8
 #EXTINF:-1 tvg-id="4TVNews.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/DSAaC2b.png" x-category="News" tvg-language="Urdu" group-title="Urdu" height="576",4TV News
