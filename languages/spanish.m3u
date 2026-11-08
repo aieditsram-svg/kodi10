@@ -1,5 +1,5 @@
 #EXTM3U
-# Working Spanish channels, updated 2026-11-08 21:23 UTC
+# Working Spanish channels, updated 2026-11-08 21:57 UTC
 #EXTINF:-1 tvg-id="123TV.ve@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/xXGeZms.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="480",123TV (480p)
 http://200.59.191.177:8000/play/a0lb/index.m3u8
 #EXTINF:-1 tvg-id="13Festival.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/Ymk6j5o.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",13 Festival (1080p)
@@ -334,9 +334,6 @@ http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8
 http://190.61.47.54:8000/play/a028/index.m3u8
 #EXTINF:-1 tvg-id="Doraemon.us@SD" x-categories="Anime & Animation;Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/01/Doraemon_Merch_EN_Logo.svg" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="720",Doraemon (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="DreamWorksChannelLatinAmerica.us@Panregional" x-categories="Anime & Animation" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="1080",DreamWorks Channel Latin America (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-https://barinaslive1.boldmss.com/DREAMWORKS/DREAMWORKS.isml/index.m3u8
 #EXTINF:-1 tvg-id="DreikoTV.pa@SD" x-categories="Anime & Animation" tvg-logo="https://i.imgur.com/k8U0e0b.png" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="720",Dreiko TV (720p) [Not 24/7]
 https://cloudvideo.servers10.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="E40.py@SD" x-categories="Music" tvg-logo="https://i.imgur.com/0RypDUY.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",E40 (1080p)
@@ -362,12 +359,17 @@ https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="ENTFamily.uk@HD" x-categories="Entertainment" tvg-logo="https://static.elektamedia.com/ch/entf.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",ENT Family (720p)
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@South" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN 2 Latin America (1080p)
+https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
 #EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@Colombia" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN 2 Latin America Colombia (1080p)
 http://190.61.47.54:8000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3LatinAmerica.us@South" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN 3 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_3/ESPN_3.isml/ESPN_3.m3u8
 #EXTINF:-1 tvg-id="ESPN4LatinAmerica.us@South" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/ESPN_4_logo.svg/960px-ESPN_4_logo.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN 4 Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN_4/ESPN_4.isml/ESPN_4.m3u8
+#EXTINF:-1 tvg-id="ESPNExtraLatinAmerica.us@Argentine" x-categories="Sports" tvg-logo="https://i.imgur.com/8P8N2Ov.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN Extra Latin America (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.mpd
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us@South" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN Latin America (1080p)
 https://barinaslive1.boldmss.com/ESPN/ESPN.isml/ESPN.m3u8
 #EXTINF:-1 tvg-id="ESPNLatinAmerica.us@Colombia" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/960px-ESPN_wordmark.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN Latin America Colombia (1080p)
@@ -460,7 +462,7 @@ http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 https://stream.guarotv.net:3592/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",HBO 2 Latin America HD (1080p)
 http://45.171.64.30:6060/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",HBO 2 Latin America HD (720p) [Geo-blocked]
+#EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" x-categories="Movies;Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/HBO2_logo.svg/960px-HBO2_logo.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",HBO 2 Latin America HD (720p) [Geo-blocked]
 http://15.204.246.24:8080/HBO2HD/index.m3u8
 #EXTINF:-1 tvg-id="HBOPopLatinAmerica.us@SD" x-categories="Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/HBO_Pop.svg/960px-HBO_Pop.svg.png" x-category="Comedy" tvg-language="Spanish" group-title="Spanish" height="1080",HBO Pop Latin America (1080p) [Geo-blocked]
 http://15.204.246.24:8080/HBOPOPHD/index.m3u8
@@ -477,8 +479,6 @@ https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/mas
 http://15.204.246.24:8080/HOLATVHD/index.m3u8
 #EXTINF:-1 tvg-id="HolaTVLatinAmerica.us@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/i0Qexxd.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Hola! TV Latin America (1080p)
 http://168.196.127.137:6001/play/a03q/index.m3u8
-#EXTINF:-1 tvg-id="HopeChannelPROYECTOJA.cr@SD" x-categories="Music;Devotional;Family" tvg-logo="https://i.imgur.com/VDyf36C.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="360",Hope Channel PROYECTO JA (360p)
-https://edge1-us-miami.picarto.tv/stream/hls/golive%2bXSTUDIOCODE/0_1/index.m3u8
 #EXTINF:-1 tvg-id="HTV.us@SD" x-categories="Music" tvg-logo="https://i.imgur.com/NlKFNHS.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",HTV (720p)
 http://45.171.64.30:6060/play/a012/index.m3u8
 #EXTINF:-1 tvg-id="HTV.us@SD" x-categories="Music" tvg-logo="https://i.imgur.com/NlKFNHS.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",HTV (720p)
@@ -589,14 +589,8 @@ https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 http://45.228.234.9:8000/play/a06u/index.m3u8
 #EXTINF:-1 tvg-id="Maxcine.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208138.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208138/playlist.m3u8
-#EXTINF:-1 tvg-id="Maxcine2.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/209163.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine 2 (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-209163/playlist.m3u8
 #EXTINF:-1 tvg-id="MaxcineComedy.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208730.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Comedy (720p)
 https://live20.bozztv.com/giatvplayout7/giatv-208730/playlist.m3u8
-#EXTINF:-1 tvg-id="MaxcineFamily.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/208817.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Family (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-208817/playlist.m3u8
-#EXTINF:-1 tvg-id="MaxcineKids.us@HD" x-categories="Movies" tvg-logo="https://gia.tv/streams/pptv/209909.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Maxcine Kids (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-209909/playlist.m3u8
 #EXTINF:-1 tvg-id="MaxivisionTV.gt@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/UC8WrEN.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Maxivisión TV (720p)
 https://video03.logicahost.com.br/maxivisiontv/maxivisiontv/playlist.m3u8
 #EXTINF:-1 tvg-id="MCITelevision.co@SD" x-categories="Movies;Family;General" tvg-logo="https://pbs.twimg.com/profile_images/1836009952420274177/FfYonU6r_400x400.jpg" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",MCI Televisión (1080p)
@@ -673,6 +667,8 @@ https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" x-categories="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="1080",Nickelodeon Latin America (1080p)
 http://190.93.224.42/NICK/index.m3u8
+#EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" x-categories="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="1080",Nickelodeon Latin America (1080p)
+https://barinaslive1.boldmss.com/NICK/NICK.isml/NICK.m3u8
 #EXTINF:-1 tvg-id="NortenaTv.ve@HD" x-categories="Entertainment" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxdsPdnBB5hs1XZHDHtf0p8T861Vl1UlHE1ljD_IEtI9KlFtEAYsesMHh8RLuW6nIFLY&usqp=CAU" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="576",Norteña TV (576p)
 https://lbgo.bozztv.com/ssh101/ssh101/nortenatv1234/playlist.m3u8
 #EXTINF:-1 tvg-id="Novelisima.us@SD" x-categories="Shows & Series" tvg-logo="https://i.imgur.com/8dUS3Ih.png" x-category="Shows & Series" tvg-language="Spanish" group-title="Spanish" height="1080",Novelisima (1080p)
@@ -697,7 +693,7 @@ http://45.173.231.22:8000/play/a06n/index.m3u8
 http://45.224.97.181:9999/Pasiones/index.m3u8
 #EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/VGnbWjO.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Pasiones Latin America (1080p)
 http://190.93.224.42/PASIONES/index.m3u8
-#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Patagonia Radio TV (720p)
+#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Patagonia Radio TV (720p)
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/UAKLJAt.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Pauta (1080p)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
@@ -866,7 +862,7 @@ https://5ff3d9babae13.streamlock.net/8000/8000/playlist.m3u8
 https://5ff3d9babae13.streamlock.net/8016/8016/playlist.m3u8
 #EXTINF:-1 tvg-id="SolTV.gq@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/TJHk6Va.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",SolTV (720p)
 https://stream.solmediaeg.com/soltv/soltv.m3u8
-#EXTINF:-1 tvg-id="SonyMoviesLatinAmerica.us@SD" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="720",Sony Movies Latin America (720p)
+#EXTINF:-1 tvg-id="SonyMoviesLatinAmerica.us@SD" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sony_Movies_Logo.svg/500px-Sony_Movies_Logo.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",Sony Movies Latin America (720p)
 http://15.204.246.24:8080/SonyMoviesHD/index.m3u8
 #EXTINF:-1 tvg-id="SOYPlanchaTV.cr@SD" x-categories="Music" tvg-logo="https://i.ibb.co/P4kpMgk/1689344714578.jpg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",SOY Plancha TV (720p)
 https://59ef525c24caa.streamlock.net/vmtv/soyplancha/playlist.m3u8
@@ -978,6 +974,8 @@ https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_80s/SA_LIVE_hls_enc/mas
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Concerts/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="TotalmusicDance.uk@HD" x-categories="Music" tvg-logo="https://static.elektamedia.com/ch/tmc_dance.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Totalmusic Dance (720p)
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic_Dance/SA_LIVE_hls_enc/master.m3u8
+#EXTINF:-1 tvg-id="TourSpotTV.do@HD" x-categories="Sports" tvg-logo="https://imgur.com/khj869k.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1280",Tour Spot TV (1280p) [Not 24/7]
+https://fox.hostlagarto.com:8081/toursporttv/playlist.m3u8
 #EXTINF:-1 tvg-id="TropiQ997FM.pa@SD" x-categories="Music" tvg-logo="https://i.imgur.com/5rPdHhb.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Tropi Q 99.7 FM (1080p)
 https://www.streaming507.net:19360/videotropiq/videotropiq.m3u8
 #EXTINF:-1 tvg-id="TropicalMoonUrbanTV.pa@SD" x-categories="Music" tvg-logo="https://i.imgur.com/WcM7BP5.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Tropical Moon Urban TV [Not 24/7]
@@ -990,8 +988,6 @@ https://7.innovatestream.pe:19360/turbomixoficial/turbomixoficial.m3u8
 https://live-evg11.tv360.bitel.com.pe/bitel/turbomixSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TurfMovil.cl@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/TwIe4lK.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",Turf Movil (720p)
 https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
-#EXTINF:-1 tvg-id="TurismoHD.do@HD" x-categories="Entertainment" tvg-logo="https://gia.tv/streams/pptv/208343.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Turismo HD (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-208343/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCentro272HD.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Wo2scQf.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",TV Centro 27.2 HD (720p)
 https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Nd5axnS.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",TV Golfo Uraba
