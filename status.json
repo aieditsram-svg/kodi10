@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-08 23:24 UTC",
-  "fingerprint": "ebba758120b2c326fc050477f9f4a717",
+  "updated_at": "2026-11-08 23:55 UTC",
+  "fingerprint": "88b004b9341294619e82ee5209dee619",
   "total": 4726,
-  "working": 3457,
-  "in_grace_period": 52,
-  "dead": 1269,
-  "hd_channels": 1755,
+  "working": 3458,
+  "in_grace_period": 37,
+  "dead": 1268,
+  "hd_channels": 1753,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 763,
       "working": 615,
-      "hd": 226
+      "hd": 227
     },
     "Hungarian": {
       "total": 56,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 129,
-      "hd": 70
+      "hd": 67
     },
     "Persian": {
       "total": 19,
@@ -234,8 +234,8 @@
     },
     "Portuguese": {
       "total": 148,
-      "working": 86,
-      "hd": 52
+      "working": 87,
+      "hd": 54
     },
     "Punjabi": {
       "total": 147,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 288,
-      "hd": 118
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 761,
       "working": 536,
-      "hd": 356
+      "hd": 355
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 904,
-      "working": 622
+      "working": 623
     },
     "Family": {
       "total": 11,
@@ -2336,7 +2336,7 @@
     {
       "name": "ATN Music (360p)",
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/atnmusic.stream/playlist.m3u8",
-      "reason": "HTTP 500"
+      "reason": "HTTP 404"
     },
     {
       "name": "Duronto TV (720p)",
@@ -3776,12 +3776,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3791,7 +3791,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -4621,12 +4621,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4676,7 +4676,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN (1080p)",
@@ -5984,11 +5984,6 @@
       "reason": "URLError"
     },
     {
-      "name": "AXN White Portugal (480p)",
-      "url": "http://50.7.120.34:8080/AXN_WHITE/index.m3u8",
-      "reason": "TimeoutError"
-    },
-    {
       "name": "AXS TV (720p)",
       "url": "http://23.239.31.26:8989/axstv/index.m3u8",
       "reason": "URLError"
@@ -6361,7 +6356,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -6671,7 +6666,7 @@
     {
       "name": "LaPuraCrema Television",
       "url": "https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Maxima TV",
@@ -6726,7 +6721,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "returned HTML page"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
