@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-08 17:28 UTC",
-  "fingerprint": "4ee9d4326a98a4c1352388f014821414",
+  "updated_at": "2026-11-08 17:57 UTC",
+  "fingerprint": "59c14b2a26add6d38fb528d4ddabb9d3",
   "total": 4726,
-  "working": 3518,
-  "in_grace_period": 64,
-  "dead": 1208,
-  "hd_channels": 1790,
+  "working": 3509,
+  "in_grace_period": 46,
+  "dead": 1217,
+  "hd_channels": 1786,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -64,8 +64,8 @@
     },
     "Chinese": {
       "total": 58,
-      "working": 21,
-      "hd": 14
+      "working": 17,
+      "hd": 12
     },
     "Croatian": {
       "total": 7,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 219,
-      "working": 132,
-      "hd": 72
+      "working": 131,
+      "hd": 67
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 85,
-      "working": 70,
-      "hd": 31
+      "working": 69,
+      "hd": 30
     },
     "Russian": {
       "total": 387,
-      "working": 289,
-      "hd": 117
+      "working": 288,
+      "hd": 118
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 761,
-      "working": 550,
-      "hd": 364
+      "working": 546,
+      "hd": 365
     },
     "Swahili": {
       "total": 3,
@@ -294,7 +294,7 @@
     },
     "Tamil": {
       "total": 191,
-      "working": 143,
+      "working": 144,
       "hd": 72
     },
     "Telugu": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 904,
-      "working": 636
+      "working": 634
     },
     "Family": {
       "total": 11,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 438,
-      "working": 305
+      "working": 304
     },
     "Legislative": {
       "total": 8,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 620,
-      "working": 450
+      "working": 448
     },
     "Music": {
       "total": 850,
-      "working": 668
+      "working": 666
     },
     "News": {
       "total": 716,
@@ -431,11 +431,11 @@
     },
     "Shows & Series": {
       "total": 144,
-      "working": 102
+      "working": 101
     },
     "Sports": {
       "total": 568,
-      "working": 350
+      "working": 349
     },
     "Travel": {
       "total": 7,
@@ -1775,11 +1775,6 @@
     },
     {
       "name": "Suriyan TV (576p)",
-      "url": "https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
-      "name": "Suriyan TV (576p)",
       "url": "https://stream.sscloud7.com/live/suriyantv/index.m3u8",
       "reason": "URLError"
     },
@@ -2704,6 +2699,11 @@
       "reason": "URLError"
     },
     {
+      "name": "FunBox",
+      "url": "http://186.148.196.100:8000/play/a00d",
+      "reason": "TimeoutError"
+    },
+    {
       "name": "Radio Edelweiss (720p)",
       "url": "https://vmix.dyndns.biz/Edelweiss/index.m3u8",
       "reason": "URLError"
@@ -2712,6 +2712,11 @@
       "name": "Rewind TV (1080p)",
       "url": "https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "V Classic TV (1080p)",
+      "url": "http://186.148.196.100:8000/play/a02z",
+      "reason": "URLError"
     },
     {
       "name": "BRTV Kaku Childrens Channel",
@@ -3334,6 +3339,11 @@
       "reason": "URLError"
     },
     {
+      "name": "TVRUS+ (576p)",
+      "url": "http://91.235.255.32:8001/1:0:1:6AC:3138:13E:820000:0:0:0",
+      "reason": "URLError"
+    },
+    {
       "name": "ANT1 (1080p) [Geo-blocked]",
       "url": "https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8",
       "reason": "HTTP 403"
@@ -3341,7 +3351,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 401"
     },
     {
       "name": "Gardenias TV (720p) [Not 24/7]",
@@ -3414,6 +3424,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "TV Centro 27.2 HD (720p)",
+      "url": "https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8",
+      "reason": "URLError"
+    },
+    {
       "name": "Asian Drama (1080p)",
       "url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
       "reason": "HTTP 404"
@@ -3422,6 +3437,26 @@
       "name": "Celestial Movies (576i)",
       "url": "http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8",
       "reason": "HTTP 401"
+    },
+    {
+      "name": "Jade (1080p)",
+      "url": "http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Mei Ah Movie Channel (1080p)",
+      "url": "http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Mei Ah Movie Channel (1080p)",
+      "url": "http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Mei Ah Movie Channel (1080p)",
+      "url": "http://103.172.187.30:12000/stream/mytv/null-10/master.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Thrill (540p)",
@@ -4461,12 +4496,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4516,7 +4551,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN (1080p)",
@@ -4606,32 +4641,32 @@
     {
       "name": "beIN Sports 1",
       "url": "http://86.192.195.47:9034/stream/1/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "beIN Sports 2",
       "url": "http://86.192.195.47:9034/stream/2/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "beIN Sports 5",
       "url": "http://86.192.195.47:9034/stream/6/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "beIN Sports 6",
       "url": "http://86.192.195.47:9034/stream/7/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "beIN Sports 7",
       "url": "http://86.192.195.47:9034/stream/8/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "beIN Sports 8",
       "url": "http://86.192.195.47:9034/stream/9/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Bollywood Classic Romania",
@@ -4657,6 +4692,11 @@
       "name": "Disney Junior",
       "url": "https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "LiraTV (720p)",
+      "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Mooz Dance HD (1080i) [Geo-blocked]",
@@ -5336,7 +5376,7 @@
     {
       "name": "Univers TV (720p)",
       "url": "https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Asia TV (720p)",
@@ -5741,7 +5781,7 @@
     {
       "name": "Sky Sports News (576p)",
       "url": "https://cdn.stmify.com/out/v1/SKY_SPORTS_PREMIER_LEAGUE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 403"
     },
     {
       "name": "A&E (720p)",
@@ -5946,6 +5986,11 @@
     {
       "name": "ESPN (432p)",
       "url": "http://tvsen7.aynascope.net/espn/index.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "ESPN 2 Latin America (1080p)",
+      "url": "https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8",
       "reason": "URLError"
     },
     {
