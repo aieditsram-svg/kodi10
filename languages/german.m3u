@@ -1,15 +1,24 @@
 #EXTM3U
-# Working German channels, updated 2026-11-08 00:15 UTC
+# Working German channels, updated 2026-11-08 01:13 UTC
 #EXTINF:-1 tvg-id="AdriaMusicTelevision.de@SD" x-categories="Music" tvg-logo="https://i.imgur.com/QoDpnKg.png" x-category="Music" tvg-language="German" group-title="German",Adria Music Television
 https://adriaapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="AntenneKaernten.at@SD" x-categories="Music" tvg-logo="https://i.imgur.com/nUKFDsb.jpeg" x-category="Music" tvg-language="German" group-title="German" height="720",Antenne Kaernten (720p)
 https://60efd7a2b4d02.streamlock.net/a_kaernten/ngrp:livestream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AntenneSteiermark.at@SD" x-categories="Music" tvg-logo="https://i.imgur.com/qnappvd.jpeg" x-category="Music" tvg-language="German" group-title="German" height="720",Antenne Steiermark (720p)
 https://60efd7a2b4d02.streamlock.net/a_steiermark/ngrp:livestream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="AXNBlack.de@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/Peo1QiZ.png" x-category="Movies" tvg-language="German" group-title="German",AXN Black
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://46.244.99.71:8181/stream/35/index.m3u8
+#EXTINF:-1 tvg-id="AXNWhite.de@HD" x-categories="Shows & Series" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/AXN_White_logo_%282015%29.svg" x-category="Shows & Series" tvg-language="German" group-title="German",AXN White
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://46.244.99.71:8181/stream/50/index.m3u8
 #EXTINF:-1 tvg-id="BabyFirst.us@US" x-categories="Kids" tvg-logo="https://i.imgur.com/WxLHBwu.png" x-category="Kids" tvg-language="German" group-title="German" height="1080",BabyFirst (720p)
 https://cdn.fast.jwp.services/v1/channel/1_jB6940Ei_TvhvIHDL/manifest.m3u8
 #EXTINF:-1 tvg-id="BibelTVMusik.de@SD" x-categories="Music" tvg-logo="https://i.imgur.com/yIqOcP5.png" x-category="Music" tvg-language="German" group-title="German" height="1080",Bibel TV Musik (720p)
 https://bibeltv03.iptv-playoutcenter.de/bibeltv03/bibeltv03.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@Germany" x-categories="Anime & Animation;Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" x-category="Anime & Animation" tvg-language="German" group-title="German",Cartoon Network CEE Germany
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://94.130.48.67:8042/stream/109/index.m3u8
 #EXTINF:-1 tvg-id="ComedyCentral.de@SD" x-categories="Comedy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/960px-Comedy_Central_2018.svg.png" x-category="Comedy" tvg-language="German" group-title="German",Comedy Central
 https://ma.anixa.tv/clips/stream/comedy_central/playlist.php
 #EXTINF:-1 tvg-id="DASDING908.de@SD" x-categories="Music" tvg-logo="https://i.imgur.com/BmklHs8.png" x-category="Music" tvg-language="German" group-title="German" height="1080",DASDING 90.8 (720p)
@@ -57,6 +66,9 @@ https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 http://90.183.52.46:4000/play/a046/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.de@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/E84jnP8.png" x-category="Kids" tvg-language="German" group-title="German",Nickelodeon
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
+#EXTINF:-1 tvg-id="Nicktoons.de@SD" x-categories="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" x-category="Kids" tvg-language="German" group-title="German",Nicktoons
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://94.130.48.67:8042/stream/112/index.m3u8
 #EXTINF:-1 tvg-id="Nitro.de@SD" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Nitro_Logo.svg/960px-Nitro_Logo.svg.png" x-category="Entertainment" tvg-language="German" group-title="German",Nitro
 https://dash4.antik.sk/live/test_rtl_nitro_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="OneAdria.de@SD" x-categories="Music" tvg-logo="https://i.imgur.com/NYkMamU.png" x-category="Music" tvg-language="German" group-title="German",One Adria
@@ -81,6 +93,24 @@ https://rictv.iptv-playoutcenter.de/rictv/rictv-web/chunks.m3u8
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
 #EXTINF:-1 tvg-id="ServusTV.at@SD" x-categories="Movies" tvg-logo="https://i.imgur.com/6W637Gn.png" x-category="Movies" tvg-language="German" group-title="German" height="576",ServusTV (576p)
 https://s6.hopslan.com/servuz1/index.m3u8
+#EXTINF:-1 tvg-id="SkySportF1.de@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/960px-Sky_Sport_F1_-_Logo_2020.svg.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport F1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/49/index.m3u8
+#EXTINF:-1 tvg-id="SkySportGolf.de@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/nhhbHvs.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport Golf
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/54/index.m3u8
+#EXTINF:-1 tvg-id="SkySportMix.de@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/erx02nr.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport Mix
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/51/index.m3u8
+#EXTINF:-1 tvg-id="SkySportNews.de@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/960px-Sky_Sport_News_2020.svg.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport News
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/47/index.m3u8
+#EXTINF:-1 tvg-id="SkySportTennis.de@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/960px-Sky_Sport_Tennis.svg.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport Tennis
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/53/index.m3u8
+#EXTINF:-1 tvg-id="SkySportTopEvent.de@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/kQ6cVNx.png" x-category="Sports" tvg-language="German" group-title="German",Sky Sport Top Event
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://45.142.104.86/stream/48/index.m3u8
 #EXTINF:-1 tvg-id="TVBozsikeHamburgHD.de@HD" x-categories="Music" tvg-logo="https://radiobozsike.com/img/icons/android-chrome-512x512.png" x-category="Music" tvg-language="German" group-title="German" height="1080",TV Bozsike Hamburg HD (1080p)
 https://rtmp.radiobozsike.com/hls/stream1.m3u8
 #EXTINF:-1 tvg-id="VolksmusikTV.de@SD" x-categories="Music" tvg-logo="https://i.imgur.com/EsWuCJ3.png" x-category="Music" tvg-language="German" group-title="German" height="1080",Volksmusik TV (1080p)
