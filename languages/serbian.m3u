@@ -1,11 +1,14 @@
 #EXTM3U
-# Working Serbian channels, updated 2026-11-08 08:29 UTC
+# Working Serbian channels, updated 2026-11-08 09:15 UTC
 #EXTINF:-1 tvg-id="DMSat.rs@SD" x-categories="Music" tvg-logo="https://i.imgur.com/LdeA1Cn.png" x-category="Music" tvg-language="Serbian" group-title="Serbian",DM Sat
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://85.14.32.26:8800/udp/239.100.10.40:5000
 #EXTINF:-1 tvg-id="DMSat.rs@SD" x-categories="Music" tvg-logo="https://i.imgur.com/LdeA1Cn.png" x-category="Music" tvg-language="Serbian" group-title="Serbian" height="576",DM Sat (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 https://shift03.isp.bg/DMSat/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Serbia" x-categories="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png" x-category="Sports" tvg-language="Serbian" group-title="Serbian",Eurosport 1 Serbia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://87.238.211.217:2209/stream/99/index.m3u8
 #EXTINF:-1 tvg-id="RadioHitFMTV.rs@SD" x-categories="Music" tvg-logo="https://i.imgur.com/gP2OT4S.png" x-category="Music" tvg-language="Serbian" group-title="Serbian" height="720",Radio Hit FM TV (720p)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
 #EXTINF:-1 tvg-id="RadioKarolinaTV.rs@SD" x-categories="Music" tvg-logo="https://i.imgur.com/g2HpLX1.png" x-category="Music" tvg-language="Serbian" group-title="Serbian" height="720",Radio Karolina TV (720p)
