@@ -1,5 +1,5 @@
 #EXTM3U
-# Working Spanish channels, updated 2026-11-09 11:24 UTC
+# Working Spanish channels, updated 2026-11-09 12:18 UTC
 #EXTINF:-1 tvg-id="123TV.ve@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/xXGeZms.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="480",123TV (480p)
 http://200.59.191.177:8000/play/a0lb/index.m3u8
 #EXTINF:-1 tvg-id="13Festival.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/Ymk6j5o.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",13 Festival (1080p)
@@ -18,7 +18,7 @@ http://190.93.224.42/AYE/index.m3u8
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="AdultSwim.us@West" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",Adult Swim West [Not 24/7;Geo-blocked]
 https://turnerlive.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-id="AERadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/425dj2i.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",AE Radio TV (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="AERadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/425dj2i.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",AE Radio TV (720p) [Not 24/7]
 https://tls-cl.cdnz.cl/aeradio/live/playlist.m3u8
 #EXTINF:-1 tvg-id="AguacateTV.ve@SD" x-categories="Entertainment" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Aguacate TV (1080p)
 https://stream.aguacatetv.com:3949/hybrid/play.m3u8
@@ -159,6 +159,8 @@ http://45.167.1.138:8000/play/a00w
 http://45.173.12.70:8000/play/a0hh
 #EXTINF:-1 tvg-id="CDNDeportes.do@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/yU5LqTL.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",CDN Deportes (720p) [Not 24/7]
 https://hls.tvabierta.net/hls/036.m3u8
+#EXTINF:-1 tvg-id="CEACOMTV.bo@SD" x-categories="News;Lifestyle;Music;General" tvg-logo="https://i.imgur.com/hutdRfk.png" x-category="News" tvg-language="Spanish" group-title="Spanish" height="1080",CEACOM TV (1080p) [Not 24/7]
+https://eu1.servers10.com:8081/ceacom/index.m3u8
 #EXTINF:-1 tvg-id="ChamameTV.ar@SD" x-categories="Music" tvg-logo="https://i.imgur.com/JigzJck.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Chamame TV
 https://srv4.zcast.com.br/chamametv/chamametv/playlist.m3u8
 #EXTINF:-1 tvg-id="Chikitoonz.pe@SD" x-categories="Kids" tvg-logo="https://chikitoonz.com/site/wp-content/uploads/2024/08/logochikitoonz2.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="1080",Chikitoonz (1080p)
@@ -407,8 +409,6 @@ https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8
 https://stream.farra.com.py/live/farra_low.m3u8
 #EXTINF:-1 tvg-id="FarraPlay.py@SD" x-categories="Music" tvg-logo="https://i.imgur.com/bXWzstH.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Farra Play (720p) [Not 24/7]
 http://159.203.148.226/live/farra.m3u8
-#EXTINF:-1 tvg-id="FiestaTV.co@SD" x-categories="Music" tvg-logo="https://i.imgur.com/42wImV2.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Fiesta TV
-https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@HispanicAmerica" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",FIFA+ Hispanic America (720p)
 https://6c849fb3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctbXhfRklGQVBsdXNTcGFuaXNoLTFfSExT/playlist.m3u8
 #EXTINF:-1 tvg-id="FIFAPlus.uk@Spain" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/FIFA%2B_%282025%29.svg" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",FIFA+ Spain (720p)
@@ -586,6 +586,10 @@ https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u
 http://iptv.makrodigitaltv.makrodigital.com:8081/makrodigitaltelevision/iptv/playlist.m3u8
 #EXTINF:-1 tvg-id="Mas23TV.pa@SD" x-categories="Music" tvg-logo="https://i.imgur.com/y0h8dlX.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Mas23 TV
 https://movil.ejeserver.com/live/mas23tv.m3u8
+#EXTINF:-1 tvg-id="MasMusicaFM.co@SD" x-categories="Music" tvg-logo="https://i.imgur.com/tCg7owd.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",MasMusica FM (720p)
+https://movil.ejeserver.com/live/masmusica.m3u8
+#EXTINF:-1 tvg-id="MasMusicaFM.co@SD" x-categories="Music" tvg-logo="https://i.imgur.com/tCg7owd.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",MasMusica FM (720p)
+https://video.ejeserver.com/live/masmusica.m3u8
 #EXTINF:-1 tvg-id="MAXAnime.ve@SD" x-categories="Anime & Animation" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="1080",MAX Anime (1080p)
 https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MAXAnime.ve@SD" x-categories="Anime & Animation" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="720",MAX Anime (720p)
@@ -610,7 +614,7 @@ http://181.78.8.199:8000/play/a0fr/index.m3u8
 https://vs20.live.opencaster.com/metaleitortv_423d3342/index.m3u8
 #EXTINF:-1 tvg-id="MetroTV.ar@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/7f7M7zl.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Metro TV (720p)
 https://streamtv12.ddns.net:5443/LiveApp/streams/193945633734205616732920.m3u8
-#EXTINF:-1 tvg-id="MetroTV.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/BqS8BHi.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="756",Metro TV (720p)
+#EXTINF:-1 tvg-id="MetroTV.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/BqS8BHi.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Metro TV (720p)
 https://s.emisoras.tv:8081/metrotv/index.m3u8
 #EXTINF:-1 tvg-id="MetropoliMediosTV.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/yID5T2S.jpg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Metropoli Medios TV (720p)
 https://eu1.servers10.com:8081/8214/index.m3u8
@@ -692,7 +696,7 @@ http://45.173.231.22:8000/play/a06n/index.m3u8
 http://45.224.97.181:9999/Pasiones/index.m3u8
 #EXTINF:-1 tvg-id="PasionesLatinAmerica.us@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/VGnbWjO.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",Pasiones Latin America (1080p)
 http://190.93.224.42/PASIONES/index.m3u8
-#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Patagonia Radio TV (720p)
+#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Patagonia Radio TV (720p)
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/UAKLJAt.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Pauta (1080p)
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
@@ -755,6 +759,10 @@ https://live.ondadigitaltv.com/RADIOODTV/index.m3u8
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioRealpolitik.ar@SD" x-categories="Music" tvg-logo="https://i.imgur.com/L9KCdTX.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Realpolitik (720p)
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
+#EXTINF:-1 tvg-id="RadioRumbaTV.pe@SD" x-categories="Music" tvg-logo="https://i.imgur.com/BYcxI03.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Rumba TV (720p)
+https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioRumbaTV.pe@SD" x-categories="Music" tvg-logo="https://i.imgur.com/BYcxI03.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Rumba TV (720p)
+https://tv.sistemasandinos.org/rumbatv/video.m3u8
 #EXTINF:-1 tvg-id="RadioSanCristobal887FM.py@SD" x-categories="Music" tvg-logo="https://i.imgur.com/zaJhBdj.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Radio San Cristobal 88.7 FM
 https://video.wilohosting.com:19360/sancristobalfm/sancristobalfm.m3u8
 #EXTINF:-1 tvg-id="RadioSuyaiTV.cl@HD" x-categories="Culture;Music" tvg-logo="https://stream-tools.zenomedia.com/content/stations/883465cc-a2ee-418a-972d-2c937707687d/image/?keep=w&lu=1775615385000&resize=350x350" x-category="Culture" tvg-language="Spanish" group-title="Spanish" height="1080",Radio Suyai TV (1080p)
@@ -917,6 +925,10 @@ https://televisioncaribe.com/index.m3u8
 https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
 #EXTINF:-1 tvg-id="TigoSports.gt@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",Tigo Sports (1080p)
 http://168.196.127.137:6001/play/a0b0/index.m3u8
+#EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1280",Tigo Sports+ (1280p)
+#EXTVLCOPT:http-referrer=https://www.tigosports.com.py/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37
+https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TigueritoTV.do@HD" x-categories="Anime & Animation;Kids" tvg-logo="https://dominicanchannels.com/wp-content/uploads/tigueritos-tv.jpg" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="720",Tiguerito TV (720p) [Not 24/7]
 https://ss2.tvrdomi.com:1936/tigueritostv/tigueritostv/playlist.m3u8
 #EXTINF:-1 tvg-id="TlnovelasLatinAmerica.mx@SD" x-categories="Shows & Series" tvg-logo="https://i.imgur.com/Rvm38Mu.png" x-category="Shows & Series" tvg-language="Spanish" group-title="Spanish" height="1080",Tlnovelas Latin America (1080p)

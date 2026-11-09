@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-09 11:24 UTC",
-  "fingerprint": "0c7a6e5f896b5d7c16109e2bdd6c7bf2",
+  "updated_at": "2026-11-09 12:18 UTC",
+  "fingerprint": "bfb2a93aeecebe3ffc225078bba595da",
   "total": 4723,
-  "working": 3475,
-  "in_grace_period": 51,
-  "dead": 1248,
-  "hd_channels": 1750,
+  "working": 3478,
+  "in_grace_period": 40,
+  "dead": 1245,
+  "hd_channels": 1753,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 36,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 219,
-      "working": 130,
-      "hd": 70
+      "working": 127,
+      "hd": 68
     },
     "Persian": {
       "total": 19,
@@ -239,7 +239,7 @@
     },
     "Punjabi": {
       "total": 147,
-      "working": 128,
+      "working": 129,
       "hd": 53
     },
     "Romanian": {
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 387,
-      "working": 288,
-      "hd": 118
+      "working": 286,
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -259,7 +259,7 @@
     },
     "Serbian": {
       "total": 14,
-      "working": 7,
+      "working": 6,
       "hd": 4
     },
     "Sinhala": {
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 762,
-      "working": 536,
-      "hd": 356
+      "working": 541,
+      "hd": 360
     },
     "Swahili": {
       "total": 3,
@@ -309,8 +309,8 @@
     },
     "Turkish": {
       "total": 51,
-      "working": 33,
-      "hd": 28
+      "working": 34,
+      "hd": 29
     },
     "Ukrainian": {
       "total": 73,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 219,
-      "working": 175
+      "working": 176
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 439,
-      "working": 297
+      "working": 298
     },
     "Legislative": {
       "total": 8,
@@ -399,19 +399,19 @@
     },
     "Lifestyle": {
       "total": 29,
-      "working": 19
+      "working": 20
     },
     "Movies": {
       "total": 614,
-      "working": 437
+      "working": 435
     },
     "Music": {
       "total": 850,
-      "working": 650
+      "working": 654
     },
     "News": {
       "total": 717,
-      "working": 623
+      "working": 624
     },
     "Outdoor": {
       "total": 18,
@@ -467,11 +467,6 @@
       "name": "9X Tashan (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn39XTASHAN/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "9X Tashan (576p)",
-      "url": "https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "9XM (1080p)",
@@ -2324,11 +2319,6 @@
       "reason": "URLError"
     },
     {
-      "name": "CEACOM TV (1080p) [Not 24/7]",
-      "url": "https://eu1.servers10.com:8081/ceacom/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Cinerama Television (720p)",
       "url": "https://live.cineramatvbo.com/hls/stream.m3u8",
       "reason": "HTTP 404"
@@ -2731,7 +2721,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2824,6 +2814,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Fiesta TV",
+      "url": "https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
       "reason": "HTTP 404"
@@ -2832,16 +2827,6 @@
       "name": "La Kalle (1080p)",
       "url": "http://200.122.223.13:55000/play/la-kalle-tdt/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "MasMusica FM (720p)",
-      "url": "https://movil.ejeserver.com/live/masmusica.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "MasMusica FM (720p)",
-      "url": "https://video.ejeserver.com/live/masmusica.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "MaxTV [Not 24/7]",
@@ -3231,6 +3216,11 @@
     {
       "name": "W9 (720p)",
       "url": "https://origin-m6web.live.6cloud.fr/out/v1/6play/6play-w9/cmaf_q2hyb21h/hls-short-hd720.m3u8",
+      "reason": "HTTP 403"
+    },
+    {
+      "name": "Eurosport 1 Serbia",
+      "url": "http://87.238.211.217:2209/stream/99/index.m3u8",
       "reason": "HTTP 403"
     },
     {
@@ -3742,6 +3732,16 @@
       "name": "Ritmu TV",
       "url": "https://659605a54e9a6.streamlock.net:8443/live/livestream/playlist.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "312 Кино (406p)",
+      "url": "http://176.126.166.43:1935/live/312kino/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "312 ТВ (406p)",
+      "url": "http://176.126.166.43:1935/live/312musik/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Manas TV",
@@ -4379,11 +4379,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Tigo Sports+ (1280p)",
-      "url": "https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "Tigo Sports+ (1080p) [Not 24/7]",
       "url": "https://lbgo.bozztv.com/ssh101/ssh101/events2py/playlist.m3u8",
       "reason": "URLError"
@@ -4479,16 +4474,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Radio Rumba TV (720p)",
-      "url": "https://live-evg7.tv360.bitel.com.pe/bitel/rumba/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Radio Rumba TV (720p)",
-      "url": "https://tv.sistemasandinos.org/rumbatv/video.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Radio San Borja TV (1080p)",
       "url": "https://stream.mediacorp.pe/srt/3/playlist.m3u8",
       "reason": "HTTP 404"
@@ -4521,12 +4506,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -5199,6 +5184,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Isango TV (480p) [Not 24/7]",
+      "url": "http://80.241.215.175:1935/isangostar/isangostar/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Jeddah Radio (1080p)",
       "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
       "reason": "HTTP 404"
@@ -5544,11 +5534,6 @@
       "reason": "HTTP 401"
     },
     {
-      "name": "TRT Cocuk (1440p)",
-      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "TRT Spor (720p)",
       "url": "https://corestream.siteyaptim.live/trt-spor/index.m3u8",
       "reason": "URLError"
@@ -5557,11 +5542,6 @@
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "FORT TV (480p)",
-      "url": "https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
@@ -6256,7 +6236,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -6527,6 +6507,11 @@
       "name": "Lifetime",
       "url": "https://tvsen7.aynascope.net/lifetime/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "AXN Adria (576p)",
+      "url": "http://87.238.211.217:2209/stream/104/index.m3u8",
+      "reason": "HTTP 403"
     },
     {
       "name": "BIZ Cinema (1080p)",
