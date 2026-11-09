@@ -1,5 +1,5 @@
 #EXTM3U
-# News channels, one link per channel, all languages, updated 2026-11-09 06:23 UTC
+# News channels, one link per channel, all languages, updated 2026-11-09 07:51 UTC
 #EXTINF:-1 tvg-id="AsomLive24.in@SD" x-categories="News" tvg-logo="https://papaji.freetvindia.com/media/channels/asom_live_24x7.png" x-category="News" tvg-language="Assamese" group-title="Assamese",Asom Live 24
 https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8
 #EXTINF:-1 tvg-id="AssamTalks.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Assamese" group-title="Assamese" height="720",Assam Talks
@@ -84,8 +84,9 @@ https://fta.ektv.in/live/381/master.m3u8
 https://skynewsau-live-premium.akamaized.net/hls/live/2105307/foxsportsnews/live_1080p.m3u8
 #EXTINF:-1 tvg-id="HollyWire.us@SD" x-categories="Entertainment;News" tvg-logo="https://i.imgur.com/oVNjFoj.png" x-category="Entertainment" tvg-language="English" group-title="English",HollyWire
 https://bozztv.com/hwotta/playlist/playlist.m3u8
-#EXTINF:-1 tvg-id="HornbillTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/7Y4vQnG.png" x-category="News" tvg-language="English" group-title="English" height="396",Hornbill TV
-https://d1msejlow1t3l4.cloudfront.net/fta/hornbilltv/playlist.m3u8
+#EXTINF:-1 tvg-id="HornbillTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/7Y4vQnG.png" x-category="News" tvg-language="English" group-title="English" height="576",Hornbill TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/710/master.m3u8
 #EXTINF:-1 tvg-id="IndiaAhead.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/hBkTmf9.png" x-category="News" tvg-language="English" group-title="English" height="720",India Ahead
 https://mumt05.tangotv.in/87NeALx2INDIAAHEAD/index.m3u8
 #EXTINF:-1 tvg-id="IndiaToday.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143197_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="English" group-title="English" height="720",India Today
@@ -298,7 +299,7 @@ https://stream.ottlive.co.in/newsindia/index.m3u8
 https://stream.ottlive.co.in/newsleader/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News Nation
 https://cc-52950m0v2qv0p.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-52950m0v2qv0p/nntv/national/index.m3u8
-#EXTINF:-1 tvg-id="NewsNation81.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png" x-category="News" tvg-language="Hindi" group-title="Hindi",News Nation 81
+#EXTINF:-1 tvg-id="NewsNation81.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News Nation 81
 https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8
 #EXTINF:-1 tvg-id="NewsStateMPCHG.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/KS5xcx2.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",News State MP & CHG
 https://jmp2.uk/stvp-IN4000012ML
@@ -581,8 +582,9 @@ https://edge.enhdtv.com/8192/index.m3u8
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/KalaignarSeithigal.m3u8
 #EXTINF:-1 tvg-id="MNaduTV.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/M_Nadu.png" x-category="News" tvg-language="Tamil" group-title="Tamil" height="720",M Nadu TV
 https://cloudcdnplayer.mslivestream.net/mslivecdn/mnadu/index.m3u8
-#EXTINF:-1 tvg-id="MadhimugamTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/YKCo0hU.png" x-category="News" tvg-language="Tamil" group-title="Tamil" height="396",Madhimugam TV
-https://yuppparoriglin.akamaized.net/181224/smil:mathimugam.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b
+#EXTINF:-1 tvg-id="MadhimugamTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/YKCo0hU.png" x-category="News" tvg-language="Tamil" group-title="Tamil" height="576",Madhimugam TV
+#EXTVLCOPT:http-user-agent=#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/711/master.m3u8
 #EXTINF:-1 tvg-id="MalaiMurasuTV.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143297_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Tamil" group-title="Tamil" height="1080",Malai Murasu TV
 https://amg17783-amg17783c1-amgplt0173.playout.now3.amagi.tv/playlist/amg17783-amg17783c1-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-id="MoonTV.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/3l25EZI.png" x-category="News" tvg-language="Tamil" group-title="Tamil" height="720",Moon TV
