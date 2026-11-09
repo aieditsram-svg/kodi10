@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-09 21:27 UTC",
-  "fingerprint": "d485e165515ec831a8b9e6bcb74d2146",
+  "updated_at": "2026-11-09 22:09 UTC",
+  "fingerprint": "a0377b10b025f9329c5689276466f73d",
   "total": 4723,
-  "working": 3516,
-  "in_grace_period": 52,
-  "dead": 1207,
-  "hd_channels": 1764,
+  "working": 3514,
+  "in_grace_period": 43,
+  "dead": 1209,
+  "hd_channels": 1766,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 755,
       "working": 602,
-      "hd": 213
+      "hd": 214
     },
     "Hungarian": {
       "total": 57,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 219,
-      "working": 130,
-      "hd": 69
+      "working": 131,
+      "hd": 70
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 85,
-      "working": 70,
-      "hd": 31
+      "working": 69,
+      "hd": 30
     },
     "Russian": {
       "total": 387,
-      "working": 286,
-      "hd": 117
+      "working": 285,
+      "hd": 118
     },
     "Santali": {
       "total": 1,
@@ -304,7 +304,7 @@
     },
     "Thai": {
       "total": 12,
-      "working": 8,
+      "working": 7,
       "hd": 2
     },
     "Turkish": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 902,
-      "working": 639
+      "working": 638
     },
     "Family": {
       "total": 11,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 614,
-      "working": 439
+      "working": 438
     },
     "Music": {
       "total": 850,
@@ -431,7 +431,7 @@
     },
     "Shows & Series": {
       "total": 144,
-      "working": 100
+      "working": 99
     },
     "Sports": {
       "total": 573,
@@ -1011,7 +1011,7 @@
     {
       "name": "Harvest USA (576p)",
       "url": "https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestusa/d57ffba6564caea2fee3f4085f19a098.sdp/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Hi Dost! (576p)",
@@ -2094,6 +2094,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Canal Pulpo TV",
+      "url": "https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8",
+      "reason": "HTTP 403"
+    },
+    {
       "name": "Caras TV",
       "url": "http://190.61.90.17:40000/play/a043/index.m3u8",
       "reason": "HTTP 404"
@@ -2252,6 +2257,11 @@
       "name": "T Sports (1080p)",
       "url": "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
+      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -3451,7 +3461,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "Film Mania",
@@ -3501,7 +3511,7 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "URLError"
     },
     {
       "name": "5Plus (1080p)",
@@ -4344,11 +4354,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Galactica TV",
-      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Karibena",
       "url": "http://201.77.61.226:8000/play/a0qd/index.m3u8",
       "reason": "URLError"
@@ -4632,6 +4637,11 @@
       "name": "Nicktoons",
       "url": "http://178.76.68.60:7442/80/mpegts",
       "reason": "URLError"
+    },
+    {
+      "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
+      "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Radio Romania Resita (576p) [Not 24/7]",
@@ -5164,6 +5174,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "AXN Asia Thailand",
+      "url": "http://103.253.74.210:7070/stream/89/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "TVCARiB (720p) [Not 24/7]",
       "url": "https://cdn.mycloudstream.io/hls/live/broadcast/s6nitpvn/index.m3u8",
       "reason": "HTTP 404"
@@ -5441,7 +5456,7 @@
     {
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "URLError"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
@@ -6121,7 +6136,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -6417,11 +6432,6 @@
       "name": "TVB Finance (Sports & Information Channel)",
       "url": "https://tvp22.sky4k.top/index2.php",
       "reason": "URLError"
-    },
-    {
-      "name": "Rai Sport Ⓖ",
-      "url": "https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5",
-      "reason": "HTTP 403"
     },
     {
       "name": "Esport3 Ⓖ",
