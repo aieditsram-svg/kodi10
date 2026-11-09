@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-09 23:25 UTC",
-  "fingerprint": "105ef9d6e6362ebf70469ebe75c92097",
+  "updated_at": "2026-11-09 23:58 UTC",
+  "fingerprint": "7d68075e62f844d86dbc6eaac578f63c",
   "total": 4723,
-  "working": 3500,
-  "in_grace_period": 65,
-  "dead": 1223,
-  "hd_channels": 1757,
+  "working": 3495,
+  "in_grace_period": 55,
+  "dead": 1228,
+  "hd_channels": 1754,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 751,
       "working": 538,
-      "hd": 307
+      "hd": 308
     },
     "Estonian": {
       "total": 4,
@@ -104,8 +104,8 @@
     },
     "French": {
       "total": 97,
-      "working": 63,
-      "hd": 44
+      "working": 61,
+      "hd": 43
     },
     "German": {
       "total": 73,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 131,
-      "hd": 69
+      "hd": 67
     },
     "Persian": {
       "total": 19,
@@ -239,7 +239,7 @@
     },
     "Punjabi": {
       "total": 147,
-      "working": 129,
+      "working": 130,
       "hd": 53
     },
     "Romanian": {
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 285,
-      "hd": 116
+      "hd": 115
     },
     "Santali": {
       "total": 1,
@@ -279,7 +279,7 @@
     },
     "Spanish": {
       "total": 762,
-      "working": 551,
+      "working": 547,
       "hd": 363
     },
     "Swahili": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 902,
-      "working": 636
+      "working": 634
     },
     "Family": {
       "total": 11,
@@ -407,11 +407,11 @@
     },
     "Music": {
       "total": 850,
-      "working": 664
+      "working": 660
     },
     "News": {
       "total": 717,
-      "working": 625
+      "working": 626
     },
     "Outdoor": {
       "total": 18,
@@ -1824,11 +1824,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "World Punjabi TV (576p)",
-      "url": "https://mumt06.tangotv.in/qYyB8fXVWPNWORLDPUNJABI/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "YRF Music (1080p)",
       "url": "https://d14c63magvk61v.cloudfront.net/strm/channels/yrfmusic/master.m3u8",
       "reason": "URLError"
@@ -2036,7 +2031,7 @@
     {
       "name": "Sony Yay! (576p)",
       "url": "https://livetv.shamon-cable.net:8443/sony_yay/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "URLError"
     },
     {
       "name": "Taaza TV (576p)",
@@ -2246,7 +2241,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2564,6 +2559,16 @@
       "reason": "URLError"
     },
     {
+      "name": "Play TV (720p) [Not 24/7]",
+      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "PLEX TV",
+      "url": "http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "TR24 (720p)",
       "url": "https://stream.it-innov.com/tr24/index.m3u8",
       "reason": "HTTP 404"
@@ -2676,7 +2681,7 @@
     {
       "name": "CND Film Middle School Channel",
       "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Golden Eagle Cartoon",
@@ -2826,7 +2831,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "La Kalle (1080p)",
@@ -3476,7 +3481,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "Film Mania",
@@ -4339,6 +4344,16 @@
       "reason": "HTTP 400"
     },
     {
+      "name": "Farra Play (576p)",
+      "url": "https://stream.farra.com.py/live/farra_low.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Farra Play (720p) [Not 24/7]",
+      "url": "http://159.203.148.226/live/farra.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Popu TV (1080p)",
       "url": "http://190.108.83.69:8000/play/a070/index.m3u8",
       "reason": "HTTP 404"
@@ -4446,12 +4461,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -6444,8 +6459,18 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "KandelaTV (480p)",
+      "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "LaPuraCrema Television",
       "url": "https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Maxima TV",
+      "url": "https://maximatv.net/hls/stream.m3u8",
       "reason": "HTTP 404"
     },
     {
