@@ -1,5 +1,5 @@
 #EXTM3U
-# Music channels, one link per channel, all languages, updated 2026-11-09 07:51 UTC
+# Music channels, one link per channel, all languages, updated 2026-11-09 08:53 UTC
 #EXTINF:-1 tvg-id="BOKTV.za@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mcNjuuO.png" x-category="Music" tvg-language="Afrikaans" group-title="Afrikaans",BOKTV
 https://livestream2.bokradio.co.za/hls/Bok5c.m3u8
 #EXTINF:-1 tvg-id="TjilTV.na@SD" x-categories="Music" tvg-logo="https://i.imgur.com/iBbawJ0.png" x-category="Music" tvg-language="Afrikaans" group-title="Afrikaans" height="720",Tjil TV
@@ -287,7 +287,8 @@ https://dbbv9umqcd7cs.cloudfront.net/out/v1/db15b75c3cc0400c91961468d6a232ac/ind
 #EXTINF:-1 tvg-id="MBCLoud.sa@SD" x-categories="Music" tvg-logo="https://i.imgur.com/mptwwLs.png" x-category="Music" tvg-language="English" group-title="English",MBC Loud
 https://radio-loud-fm.mbc.net/radio-loud-fm_1.m3u8
 #EXTINF:-1 tvg-id="MezzoLive.fr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/H9ytKPN.png" x-category="Music" tvg-language="English" group-title="English",Mezzo Live
-http://stream.mcquack.net/276/index.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+http://45.84.187.172:3001/udp/239.10.10.76:5000
 #EXTINF:-1 tvg-id="MTVLive.us@SD" x-categories="Music" tvg-logo="https://i.imgur.com/3UByLqb.png" x-category="Music" tvg-language="English" group-title="English" height="1080",MTV Live
 http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
 #EXTINF:-1 tvg-id="MusicBoxClassic.cz@SD" x-categories="Music" tvg-logo="https://musicboxclassic.com/music_box_classic_logo.png" x-category="Music" tvg-language="English" group-title="English",Music Box Classic
@@ -1203,7 +1204,7 @@ https://stmv4.voxtvhd.com.br/ondastereo/ondastereo/playlist.m3u8
 https://vcp.myplaytv.com/oxigenotv/oxigenotv/playlist.m3u8
 #EXTINF:-1 tvg-id="ParrandaVallenata.co@SD" x-categories="Music" tvg-logo="https://i.imgur.com/BzBX7Qx.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish",Parranda Vallenata
 https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
-#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="480",Patagonia Radio TV
+#EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/oFuWBZO.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="360",Patagonia Radio TV
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/UAKLJAt.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Pauta
 https://redirector.rudo.video/hls-video/ey6283je82983je9823je8jowowiekldk9838274/pautatv/pautatv.smil/playlist.m3u8
@@ -1220,7 +1221,7 @@ https://streamlov.alsolnet.com/planet1009fm/live/playlist.m3u8
 https://183.bozztv.com/ssh101/ssh101/pratteltvperu/playlist.m3u8
 #EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar@SD" x-categories="Music" tvg-logo="https://i.imgur.com/RO9Dz3X.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Quiero Musica en mi Idioma
 http://158.172.155.130:8000/play/a00a/index.m3u8
-#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/IvZtqyz.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="360",Radio Bonita 106.7
+#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/IvZtqyz.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Radio Bonita 106.7
 https://cloudvideo.servers10.com:8081/8154/index.m3u8
 #EXTINF:-1 tvg-id="RadioCarnavalTV.es@SD" x-categories="Music;Entertainment" tvg-logo="https://i.imgur.com/cdpbkSo.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Carnaval TV
 https://eu1.servers10.com:8081/8116/index.m3u8
@@ -1232,7 +1233,7 @@ https://ares.disfrutaenlared.com:1936/clasica/clasica/playlist.m3u8
 https://tvdatta.com:3041/live/colmenarlive.m3u8
 #EXTINF:-1 tvg-id="RadioConexionWebTV.ar@SD" x-categories="Music" tvg-logo="https://i.imgur.com/pXS38zo.png" x-category="Music" tvg-language="Spanish" group-title="Spanish",Radio Conexion Web TV
 https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8
-#EXTINF:-1 tvg-id="RadioCuencaEstereo.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/qZzSOeU.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Cuenca Estéreo
+#EXTINF:-1 tvg-id="RadioCuencaEstereo.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/qZzSOeU.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="288",Radio Cuenca Estéreo
 https://eu1.servers10.com:8081/8074/index.m3u8
 #EXTINF:-1 tvg-id="RadioDuna.cl@SD" x-categories="Music" tvg-logo="https://cdn.m3u.cl/logo/427_Radio_Duna.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Radio Duna
 https://mdstrm.com/live-stream-playlist/67ed8a8d6db4af9a0188555c.m3u8
@@ -1446,9 +1447,9 @@ https://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
 https://stream8.cinerama.uz/1208/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TRTMuzik.tr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/JgUzRH8.png" x-category="Music" tvg-language="Turkish" group-title="Turkish" height="1440",TRT Müzik
 https://tv-trtmuzik.medya.trt.com.tr/master.m3u8
-#EXTINF:-1 tvg-id="4everMusic.ua@SD" x-categories="Music" tvg-logo="https://i.imgur.com/UJ5oaeU.png" x-category="Music" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",4ever Music
+#EXTINF:-1 tvg-id="4everMusic.ua@SD" x-categories="Music" tvg-logo="https://i.imgur.com/UJ5oaeU.png" x-category="Music" tvg-language="Ukrainian" group-title="Ukrainian",4ever Music
 http://stream.mcquack.net/257/index.m3u8
-#EXTINF:-1 tvg-id="Black.ua@SD" x-categories="Music" tvg-logo="https://i.imgur.com/iSzAO32.png" x-category="Music" tvg-language="Ukrainian" group-title="Ukrainian",Black
+#EXTINF:-1 tvg-id="Black.ua@SD" x-categories="Music" tvg-logo="https://i.imgur.com/iSzAO32.png" x-category="Music" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",Black
 http://stream.mcquack.net/283/index.m3u8
 #EXTINF:-1 tvg-id="EUMusic.ua@SD" x-categories="Music" tvg-logo="https://i.imgur.com/fJdvyrG.png" x-category="Music" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",EU Music
 http://stream.mcquack.net/261/index.m3u8
