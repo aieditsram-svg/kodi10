@@ -1,5 +1,5 @@
 #EXTM3U
-# Entertainment channels, one link per channel, all languages, updated 2026-11-08 23:55 UTC
+# Entertainment channels, one link per channel, all languages, updated 2026-11-09 00:25 UTC
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/WIeZMKT.png" x-category="Entertainment" tvg-language="Albanian" group-title="Albanian" height="1080",Kanal D Drama
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01602-themahqfrance-vivekanald-samsungspain/playlist.m3u8
 #EXTINF:-1 tvg-id="TVERA.mk@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/ds0uf7A.png" x-category="Entertainment" tvg-language="Albanian" group-title="Albanian",TV ERA
@@ -266,9 +266,9 @@ https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.m
 https://lb.iptvnetwork.net/ls28/10114/playlist.m3u8
 #EXTINF:-1 tvg-id="MTV.de@SD" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" x-category="Entertainment" tvg-language="English" group-title="English",MTV
 https://ma.anixa.tv/clips/stream/mtv/playlist.php
-#EXTINF:-1 tvg-id="MTVGlobal.uk@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/n2BoU7Q.png" x-category="Entertainment" tvg-language="English" group-title="English" height="576",MTV Global
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-https://shift03.isp.bg/MTVEurope/index.m3u8
+#EXTINF:-1 tvg-id="MTVGlobal.uk@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/n2BoU7Q.png" x-category="Entertainment" tvg-language="English" group-title="English",MTV Global
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://85.14.32.26:8800/udp/239.100.10.67:5000
 #EXTINF:-1 tvg-id="MTV2.us@East" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/2/21/MTV2_logo_2013.svg/960px-MTV2_logo_2013.svg.png" x-category="Entertainment" tvg-language="English" group-title="English",MTV2
 http://198.58.104.90:8989/mtv2/index.m3u8
 #EXTINF:-1 tvg-id="MysteryTV.us@UK" x-categories="Entertainment" tvg-logo="https://i.imgur.com/K4gwstM.png" x-category="Entertainment" tvg-language="English" group-title="English",Mystery TV
@@ -382,8 +382,6 @@ https://mediaserver1.castpin.com/hls/taltv/index.m3u8
 https://tv2.fastcast4u.com:3238/live/radiotelebostonlive.m3u8
 #EXTINF:-1 tvg-id="TeleMIX.us@SD" x-categories="Entertainment" tvg-logo="https://i.ibb.co/HpX99Ks/unnamed.jpg" x-category="Entertainment" tvg-language="French" group-title="French",TeleMIX
 https://haititivi.com/haiti/telemix1/index.m3u8
-#EXTINF:-1 tvg-id="TF1.fr@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/QxHt9NC.png" x-category="Entertainment" tvg-language="French" group-title="French",TF1
-http://149.62.177.107:9999/TF1/index.m3u8
 #EXTINF:-1 tvg-id="TR24Television.cm@SD" x-categories="Entertainment" tvg-logo="https://i.ibb.co/fQrBY1M/tr24-telepack.jpg" x-category="Entertainment" tvg-language="French" group-title="French",TR24
 https://stream.it-innov.com/tr24/index.m3u8
 #EXTINF:-1 tvg-id="TVCARiB.sx@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/fvGlwKo.png" x-category="Entertainment" tvg-language="French" group-title="French",TVCARiB
@@ -703,7 +701,7 @@ https://mmtvs.exliatycl.online/mchannel/stream.m3u8
 https://stream8.cinerama.uz/1497/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ManasTV.kg@SD" x-categories="Education;Culture;Entertainment" tvg-logo="https://i.ibb.co/2Kvcj5Q/manas.jpg" x-category="Education" tvg-language="Other" group-title="Other",Manas TV
 http://212.42.111.152:8080/hls/manas.m3u8
-#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/c9q6oT0.png" x-category="Entertainment" tvg-language="Other" group-title="Other",MRTV Entertainment
+#EXTINF:-1 tvg-id="MRTVEntertainment.mm@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/c9q6oT0.png" x-category="Entertainment" tvg-language="Other" group-title="Other" height="1080",MRTV Entertainment
 https://mrtvott.com/cache/MRTV-Ent-HD/master.m3u8
 #EXTINF:-1 tvg-id="MTVAva.fi@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/WxNCiAk.png" x-category="Entertainment" tvg-language="Other" group-title="Other",MTV Ava
 https://live-fi.tvkaista.net/ava/live.m3u8
@@ -780,7 +778,7 @@ https://stream.ichibansys.com:3230/hybrid/play.m3u8
 http://79.127.238.228:14551
 #EXTINF:-1 tvg-id="AdultSwimLatinAmerica.us@Brazil" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Adult_Swim_2003_logo.svg/960px-Adult_Swim_2003_logo.svg.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese" height="720",Adult Swim Latin America Brazil
 http://45.162.64.114/ADULT_SWIM/index.m3u8
-#EXTINF:-1 tvg-id="AXNWhite.us@Portugal" x-categories="Entertainment" tvg-logo="https://i.imgur.com/47IKxmt.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese" height="1080",AXN White Portugal
+#EXTINF:-1 tvg-id="AXNWhite.us@Portugal" x-categories="Entertainment" tvg-logo="https://i.imgur.com/47IKxmt.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese",AXN White Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://50.7.120.34:8080/AXN_WHITE/index.m3u8
 #EXTINF:-1 tvg-id="Blitstv.br@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/FO4QTRf.jpeg" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese",Blitstv
@@ -832,7 +830,7 @@ https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
 https://stmv1.srvif.com/tvvitoriamz/tvvitoriamz/playlist.m3u8
 #EXTINF:-1 tvg-id="TVVicosa.br@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/TZF55f9.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese" height="480",TV Viçosa
 http://wz4.dnip.com.br/fratevitv/fratevitv.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="TVZoom.br@SD" x-categories="Entertainment;News" tvg-logo="https://i.imgur.com/jCGrjf5.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese",TV Zoom
+#EXTINF:-1 tvg-id="TVZoom.br@SD" x-categories="Entertainment;News" tvg-logo="https://i.imgur.com/jCGrjf5.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese" height="1080",TV Zoom
 https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlusPet.br@SD" x-categories="Entertainment" tvg-logo="https://www.tvmaispet.com.br/images/tvpet-logo.png" x-category="Entertainment" tvg-language="Portuguese" group-title="Portuguese",TV+Pet
 https://stmv5.samcast.com.br/tvmaispet6354/tvmaispet6354/playlist.m3u8
@@ -888,7 +886,7 @@ https://live77cdn2.antenaplay.ro/live2_sdi05/live2_sdi05.m3u8
 https://radiolive.trm.md:8001/hls_rmt/tineret.m3u8
 #EXTINF:-1 tvg-id="ROTVValencia.es@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/0TDnVQ4.png" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian",ROTV Valencia
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
-#EXTINF:-1 tvg-id="black.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Q4A6ci4.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",.black
+#EXTINF:-1 tvg-id="black.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Q4A6ci4.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian",.black
 http://stream.mcquack.net/263/index.m3u8
 #EXTINF:-1 tvg-id="red.ru@HD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/GET9Qut.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",.red HD
 http://178.134.1.158:8081/red/index.m3u8
@@ -948,7 +946,7 @@ http://stream.mcquack.net/135/index.m3u8
 http://stream.mcquack.net/106/index.m3u8
 #EXTINF:-1 tvg-id="TNT4International.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/gBokU5i.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian",TNT4 International
 https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="TV3.ru@HD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/JLAvq8O.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian",TV-3 HD
+#EXTINF:-1 tvg-id="TV3.ru@HD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/JLAvq8O.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="1080",TV-3 HD
 http://stream.mcquack.net/136/index.m3u8
 #EXTINF:-1 tvg-id="U.ru@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/KDZvt0Q.png" x-category="Entertainment" tvg-language="Russian" group-title="Russian" height="720",U
 https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?e=2066519758&s=9cPc1rCGu6M932eqrifRhQ&scheme=https
@@ -992,7 +990,7 @@ https://video.hostingcaaguazu.com:19360/altmedia/altmedia.m3u8
 https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="AMCenEspanol.us@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/L1h6W5Q.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",AMC en Espanol
 https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AmericaTeVe.pr@SD" x-categories="General;Entertainment" tvg-logo="https://i.imgur.com/K9o3mLP.png" x-category="General" tvg-language="Spanish" group-title="Spanish",América TeVé
+#EXTINF:-1 tvg-id="AmericaTeVe.pr@SD" x-categories="General;Entertainment" tvg-logo="https://i.imgur.com/K9o3mLP.png" x-category="General" tvg-language="Spanish" group-title="Spanish" height="1080",América TeVé
 https://live.gideo.video/americateve2/master.m3u8
 #EXTINF:-1 tvg-id="ANCTelevision.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/xjTU14t.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",ANC Television
 https://live.amelbatv.co:81/anctvlive/index.m3u8
@@ -1068,6 +1066,8 @@ http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/20.m3u8
 http://168.196.127.137:6001/play/a097/index.m3u8
 #EXTINF:-1 tvg-id="ELatinAmerica.us@South" x-categories="Entertainment;News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",E! Latin America
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="ELatinAmerica.us@Colombia" x-categories="Entertainment;News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",E! Latin America Colombia
+http://38.134.250.110:8000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="ELatinAmerica.us@Mexico" x-categories="Entertainment;News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",E! Latin America Mexico
 http://72.1.184.5:8089/play/a05d/index.m3u8
 #EXTINF:-1 tvg-id="EDNTV.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/5fPsYTz.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",EDN TV
@@ -1210,7 +1210,7 @@ https://cloud2.streaminglivehd.com:1936/8072/8072/playlist.m3u8
 https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="RadioUniversitariaSanAndres.bo@SD" x-categories="Culture;Education;Entertainment" tvg-logo="https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg" x-category="Culture" tvg-language="Spanish" group-title="Spanish" height="720",Radio Universitaria San Andres
 https://edge.enhdtv.com/8054/index.m3u8
-#EXTINF:-1 tvg-id="RadioYguazuTV.ar@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/kVi0ICm.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="480",Radio Yguazú TV
+#EXTINF:-1 tvg-id="RadioYguazuTV.ar@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/kVi0ICm.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",Radio Yguazú TV
 https://live.enhdtv.com:8081/radioiguazutv/index.m3u8
 #EXTINF:-1 tvg-id="RakutenViki.us@Spain" x-categories="Entertainment;Shows & Series" tvg-logo="https://i.imgur.com/pbyd1g2.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",Rakuten Viki
 https://newidco-rakutenviki-2-eu.xiaomi.wurl.tv/playlist.m3u8
@@ -1400,7 +1400,7 @@ http://stream.mcquack.net/158/index.m3u8
 #EXTINF:-1 tvg-id="ICTV2.ua@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/J4zlRGv.png" x-category="Entertainment" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",ICTV2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/368/index.m3u8
-#EXTINF:-1 tvg-id="K1.ua@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/uuRGpEn.png" x-category="Entertainment" tvg-language="Ukrainian" group-title="Ukrainian" height="1080",K1
+#EXTINF:-1 tvg-id="K1.ua@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/uuRGpEn.png" x-category="Entertainment" tvg-language="Ukrainian" group-title="Ukrainian",K1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/270/index.m3u8
 #EXTINF:-1 tvg-id="K2.ua@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/NMhydr5.png" x-category="Entertainment" tvg-language="Ukrainian" group-title="Ukrainian" height="720",K2
