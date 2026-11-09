@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-09 13:30 UTC",
-  "fingerprint": "966a021182aee0a25b3ae2012d3a268f",
+  "updated_at": "2026-11-09 14:31 UTC",
+  "fingerprint": "bfd804fc6c0b772093be710f86b49fc6",
   "total": 4723,
-  "working": 3490,
-  "in_grace_period": 71,
-  "dead": 1233,
-  "hd_channels": 1754,
+  "working": 3493,
+  "in_grace_period": 60,
+  "dead": 1230,
+  "hd_channels": 1758,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 755,
-      "working": 602,
+      "working": 603,
       "hd": 214
     },
     "Hungarian": {
@@ -194,8 +194,8 @@
     },
     "Malayalam": {
       "total": 121,
-      "working": 89,
-      "hd": 34
+      "working": 90,
+      "hd": 35
     },
     "Marathi": {
       "total": 54,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 128,
-      "hd": 69
+      "hd": 68
     },
     "Persian": {
       "total": 19,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 286,
-      "hd": 117
+      "hd": 118
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 762,
-      "working": 546,
-      "hd": 362
+      "working": 549,
+      "hd": 365
     },
     "Swahili": {
       "total": 3,
@@ -294,12 +294,12 @@
     },
     "Tamil": {
       "total": 188,
-      "working": 134,
-      "hd": 64
+      "working": 135,
+      "hd": 65
     },
     "Telugu": {
       "total": 173,
-      "working": 129,
+      "working": 127,
       "hd": 51
     },
     "Thai": {
@@ -309,8 +309,8 @@
     },
     "Turkish": {
       "total": 51,
-      "working": 34,
-      "hd": 29
+      "working": 33,
+      "hd": 28
     },
     "Ukrainian": {
       "total": 73,
@@ -331,7 +331,7 @@
   "categories": {
     "Anime & Animation": {
       "total": 140,
-      "working": 97
+      "working": 96
     },
     "Auto": {
       "total": 4,
@@ -363,7 +363,7 @@
     },
     "Devotional": {
       "total": 253,
-      "working": 216
+      "working": 217
     },
     "Documentary": {
       "total": 15,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 902,
-      "working": 635
+      "working": 637
     },
     "Family": {
       "total": 11,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 439,
-      "working": 298
+      "working": 296
     },
     "Legislative": {
       "total": 8,
@@ -403,15 +403,15 @@
     },
     "Movies": {
       "total": 614,
-      "working": 440
+      "working": 439
     },
     "Music": {
       "total": 850,
-      "working": 656
+      "working": 659
     },
     "News": {
       "total": 717,
-      "working": 624
+      "working": 625
     },
     "Outdoor": {
       "total": 18,
@@ -624,11 +624,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Bharat Samachar (576p)",
-      "url": "https://tvsen3.aynaott.com/m94BZDYb/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "BRK News (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HBRKNEWS/index.m3u8",
       "reason": "HTTP 403"
@@ -722,6 +717,11 @@
       "name": "DD Urdu (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/DDUrdu/index.m3u8",
       "reason": "TimeoutError"
+    },
+    {
+      "name": "DD Yadagiri (576p)",
+      "url": "https://fta.ektv.in/live/678/master.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Deewana HD (540p)",
@@ -862,6 +862,11 @@
       "name": "ETV Andhra Pradesh (1080p)",
       "url": "https://mumbai-edge.smartplaytv.in/ETVAP/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "ETV Cinema (396p)",
+      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Cinema HD (1080p)",
@@ -1404,11 +1409,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Oli TV (1080p)",
-      "url": "https://live.olidigital.in/olitv/olitv/index.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "Pasand TV (576p)",
       "url": "https://mumt01.tangotv.in/O5aw8Zn3PASANDTV/index.m3u8",
       "reason": "HTTP 403"
@@ -1801,11 +1801,6 @@
     {
       "name": "Vasanth TV (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/VasanthTV/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "VCV (720p) [Not 24/7]",
-      "url": "https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -2874,11 +2869,6 @@
       "reason": "URLError"
     },
     {
-      "name": "XperTV (1080p)",
-      "url": "http://45.163.139.42:8000/play/a02x/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Zona Music TV (1080p)",
       "url": "https://acceso.radiosportstv.online:3022/stream/play.m3u8",
       "reason": "URLError"
@@ -3591,12 +3581,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3606,7 +3596,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3642,6 +3632,11 @@
       "name": "Balapan (576p)",
       "url": "https://fs.uplink.kz/balapan/mono.m3u8?token=onlinetv",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Balapan International (1080p)",
+      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
+      "reason": "HTTP 503"
     },
     {
       "name": "KinoBoevik (1080p)",
@@ -4359,11 +4354,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Galactica TV",
-      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Karibena",
       "url": "http://201.77.61.226:8000/play/a0qd/index.m3u8",
       "reason": "URLError"
@@ -4581,11 +4571,6 @@
     {
       "name": "Buena TV (1080p)",
       "url": "https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Nueva Vida TV (720p)",
-      "url": "https://stream.nuevavidafm.net:3937/live/nuevavidalive.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -5124,11 +5109,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Isango TV (480p) [Not 24/7]",
-      "url": "http://80.241.215.175:1935/isangostar/isangostar/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Jeddah Radio (1080p)",
       "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
       "reason": "HTTP 404"
@@ -5467,6 +5447,11 @@
       "name": "S Sport 2",
       "url": "https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/6415845530001/profile_0/chunklist.m3u8",
       "reason": "HTTP 400"
+    },
+    {
+      "name": "Spacetoon Turkey (720p) [Not 24/7]",
+      "url": "https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "TJK TV 2 (1080p) [Not 24/7]",
@@ -6176,7 +6161,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -6546,7 +6531,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "not a valid HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
