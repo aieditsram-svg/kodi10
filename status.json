@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-10 23:00 UTC",
-  "fingerprint": "590cdf5347afd655d89c94227d72021a",
+  "updated_at": "2026-11-10 23:29 UTC",
+  "fingerprint": "0bc31f2b16ff48831cf04ef4e83db139",
   "total": 4718,
   "working": 3523,
-  "in_grace_period": 78,
+  "in_grace_period": 67,
   "dead": 1195,
-  "hd_channels": 1779,
+  "hd_channels": 1784,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,8 +34,8 @@
     },
     "Bengali": {
       "total": 134,
-      "working": 94,
-      "hd": 46
+      "working": 93,
+      "hd": 45
     },
     "Bhojpuri": {
       "total": 33,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 21,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 36,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 739,
       "working": 598,
-      "hd": 220
+      "hd": 221
     },
     "Hungarian": {
       "total": 57,
@@ -139,8 +139,8 @@
     },
     "Indonesian": {
       "total": 18,
-      "working": 9,
-      "hd": 7
+      "working": 10,
+      "hd": 8
     },
     "Italian": {
       "total": 82,
@@ -215,12 +215,12 @@
     "Odia": {
       "total": 34,
       "working": 26,
-      "hd": 10
+      "hd": 9
     },
     "Other": {
       "total": 219,
       "working": 131,
-      "hd": 68
+      "hd": 67
     },
     "Persian": {
       "total": 19,
@@ -239,7 +239,7 @@
     },
     "Punjabi": {
       "total": 147,
-      "working": 134,
+      "working": 135,
       "hd": 53
     },
     "Romanian": {
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 276,
-      "hd": 114
+      "hd": 117
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 767,
-      "working": 549,
-      "hd": 361
+      "working": 548,
+      "hd": 362
     },
     "Swahili": {
       "total": 3,
@@ -363,7 +363,7 @@
     },
     "Devotional": {
       "total": 253,
-      "working": 224
+      "working": 225
     },
     "Documentary": {
       "total": 15,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 907,
-      "working": 636
+      "working": 634
     },
     "Family": {
       "total": 11,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 439,
-      "working": 294
+      "working": 295
     },
     "Legislative": {
       "total": 8,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 851,
-      "working": 670
+      "working": 669
     },
     "News": {
       "total": 717,
@@ -1149,11 +1149,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Namdhari (404p) [Not 24/7]",
-      "url": "https://namdhari.tv/live/sbs1.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Naxatra News (576p)",
       "url": "https://fta.ektv.in/live/668/master.m3u8",
       "reason": "HTTP 404"
@@ -1491,7 +1486,7 @@
     {
       "name": "SVBC 4 (1080p)",
       "url": "https://player.mslivestream.net/mslive/13a2927187b9700ae7ea82d7841d5b68.sdp/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Swadesh News (576p)",
@@ -2032,6 +2027,11 @@
       "name": "Maasranga TV (720p)",
       "url": "http://tvsen5.aynascope.net/maasrangatv/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Rupashi Bangla TV (720p)",
+      "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2936,7 +2936,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Eurosport 1 Turkiye",
@@ -3284,11 +3284,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Kids TV",
-      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "My Kidz (720p)",
       "url": "https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd",
       "reason": "HTTP 403"
@@ -3426,12 +3421,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3441,7 +3436,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -4129,6 +4124,11 @@
       "reason": "HTTP 400"
     },
     {
+      "name": "GO TV (720p)",
+      "url": "https://rds3.desdeparaguay.net/gotv/gotv/playlist.m3u8",
+      "reason": "TimeoutError"
+    },
+    {
       "name": "Nande Portetepe TV",
       "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
       "reason": "HTTP 404"
@@ -4246,12 +4246,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4306,7 +4306,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN (1080p)",
@@ -5926,7 +5926,7 @@
     {
       "name": "GMTV (1080p)",
       "url": "https://livechannel.mdc.akamaized.net/stitch/livechannel/1341/master1400000.m3u8;session=live_stream_1341",
-      "reason": "HTTP 502"
+      "reason": "HTTP 404"
     },
     {
       "name": "Golf Channel Latin America (1080p)",
@@ -6301,7 +6301,7 @@
     {
       "name": "LaPuraCrema Television",
       "url": "https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Maxima TV",
