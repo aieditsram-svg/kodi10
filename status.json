@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-11-10 04:00 UTC",
-  "fingerprint": "7e1591926a78547cc0b7ee7d92fba1fb",
+  "updated_at": "2026-11-10 04:44 UTC",
+  "fingerprint": "23facd46d6b5c23db0e3a0384a4a5f98",
   "total": 4718,
-  "working": 3472,
-  "in_grace_period": 38,
-  "dead": 1246,
+  "working": 3477,
+  "in_grace_period": 32,
+  "dead": 1241,
   "hd_channels": 1751,
   "languages": {
     "Afrikaans": {
@@ -19,7 +19,7 @@
     },
     "Arabic": {
       "total": 81,
-      "working": 59,
+      "working": 60,
       "hd": 49
     },
     "Assamese": {
@@ -64,8 +64,8 @@
     },
     "Chinese": {
       "total": 58,
-      "working": 18,
-      "hd": 12
+      "working": 22,
+      "hd": 14
     },
     "Croatian": {
       "total": 7,
@@ -90,7 +90,7 @@
     "English": {
       "total": 753,
       "working": 537,
-      "hd": 308
+      "hd": 307
     },
     "Estonian": {
       "total": 4,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 739,
-      "working": 590,
+      "working": 589,
       "hd": 211
     },
     "Hungarian": {
@@ -139,8 +139,8 @@
     },
     "Indonesian": {
       "total": 18,
-      "working": 9,
-      "hd": 7
+      "working": 10,
+      "hd": 8
     },
     "Italian": {
       "total": 82,
@@ -219,7 +219,7 @@
     },
     "Other": {
       "total": 219,
-      "working": 129,
+      "working": 130,
       "hd": 69
     },
     "Persian": {
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 147,
       "working": 80,
-      "hd": 50
+      "hd": 49
     },
     "Punjabi": {
       "total": 147,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 285,
-      "hd": 115
+      "hd": 117
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 767,
-      "working": 545,
-      "hd": 362
+      "working": 544,
+      "hd": 361
     },
     "Swahili": {
       "total": 3,
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 173,
-      "working": 126,
+      "working": 127,
       "hd": 51
     },
     "Thai": {
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 439,
-      "working": 294
+      "working": 296
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 607,
-      "working": 425
+      "working": 428
     },
     "Music": {
       "total": 851,
@@ -827,11 +827,6 @@
       "name": "ETV Andhra Pradesh (1080p)",
       "url": "https://mumbai-edge.smartplaytv.in/ETVAP/index.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "ETV Cinema (396p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvcinema.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Cinema HD (1080p)",
@@ -2054,6 +2049,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Goldmines (576p)",
+      "url": "https://tvsen6.aynaott.com/hKrngve2/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Taaza TV (576p)",
       "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8",
       "reason": "HTTP 403"
@@ -2711,7 +2711,7 @@
     {
       "name": "Jilin Movie Channel",
       "url": "https://lsfb.avap.jilintv.cn/zqvk7vpj/channel/906341e6f19b4c4bacdc89941eb85d12/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 567"
     },
     {
       "name": "QTV-3",
@@ -2841,7 +2841,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "La Kalle (1080p)",
@@ -3027,6 +3027,11 @@
       "name": "Super7FM (720p)",
       "url": "https://tv.livestreaminggroup.info:3295/live/super7tvlive.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Super7FM",
+      "url": "https://stream.haislin.com/super7fm/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Tom And Jerry (720p)",
@@ -3464,26 +3469,6 @@
       "reason": "HTTP 401"
     },
     {
-      "name": "Jade (1080p)",
-      "url": "http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Mei Ah Movie Channel (1080p)",
-      "url": "http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Mei Ah Movie Channel (1080p)",
-      "url": "http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Mei Ah Movie Channel (1080p)",
-      "url": "http://103.172.187.30:12000/stream/mytv/null-10/master.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Thrill (540p)",
       "url": "https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd",
       "reason": "HTTP 403"
@@ -3534,11 +3519,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Kids TV",
-      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "My Kidz (720p)",
       "url": "https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd",
       "reason": "HTTP 403"
@@ -3571,7 +3551,7 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Afarin Baxcha (1080p)",
@@ -3681,12 +3661,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3696,7 +3676,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -3842,11 +3822,6 @@
       "name": "Пингвин (720p)",
       "url": "https://sirius.greenhosting.ru/PingvinRu/video.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Taha TV (576p)",
-      "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "LRT Plius (1080p) [Geo-blocked]",
@@ -4506,7 +4481,7 @@
     {
       "name": "Neo TV (720p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Prattel TV (720p)",
@@ -4601,7 +4576,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Canal+ Sport",
@@ -5601,7 +5576,7 @@
     {
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
