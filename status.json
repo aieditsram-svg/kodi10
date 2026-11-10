@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-10 01:38 UTC",
-  "fingerprint": "db7254f25c2b3a4abe481614ce50e2ae",
+  "updated_at": "2026-11-10 02:30 UTC",
+  "fingerprint": "91261760ef52f360da40177c381d4219",
   "total": 4718,
-  "working": 3484,
-  "in_grace_period": 49,
-  "dead": 1234,
-  "hd_channels": 1755,
+  "working": 3481,
+  "in_grace_period": 45,
+  "dead": 1237,
+  "hd_channels": 1754,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 134,
-      "working": 83,
+      "working": 82,
       "hd": 42
     },
     "Bhojpuri": {
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 753,
-      "working": 538,
+      "working": 537,
       "hd": 309
     },
     "Estonian": {
@@ -220,7 +220,7 @@
     "Other": {
       "total": 219,
       "working": 129,
-      "hd": 68
+      "hd": 69
     },
     "Persian": {
       "total": 19,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 387,
-      "working": 286,
-      "hd": 117
+      "working": 285,
+      "hd": 116
     },
     "Santali": {
       "total": 1,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 767,
-      "working": 552,
-      "hd": 364
+      "working": 551,
+      "hd": 363
     },
     "Swahili": {
       "total": 3,
@@ -294,7 +294,7 @@
     },
     "Tamil": {
       "total": 188,
-      "working": 134,
+      "working": 135,
       "hd": 65
     },
     "Telugu": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 907,
-      "working": 632
+      "working": 629
     },
     "Family": {
       "total": 11,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 219,
-      "working": 175
+      "working": 176
     },
     "Interactive": {
       "total": 1,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 439,
-      "working": 295
+      "working": 294
     },
     "Legislative": {
       "total": 8,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 851,
-      "working": 660
+      "working": 661
     },
     "News": {
       "total": 717,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 577,
-      "working": 351
+      "working": 350
     },
     "Travel": {
       "total": 7,
@@ -512,11 +512,6 @@
       "name": "AmarUjala (1080p)",
       "url": "https://amarujala.ottlive.co.in/amarujala/index.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "AMN TV (576p)",
-      "url": "https://live.onecloudlive.in/amn/amntv/index.m3u8",
-      "reason": "HTTP 503"
     },
     {
       "name": "Anand Wari TV (576p)",
@@ -1614,6 +1609,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Star Jalsha (1080p) [Geo-blocked]",
+      "url": "http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805",
+      "reason": "HTTP 458"
+    },
+    {
       "name": "Star Sports Select 2 HD (720p)",
       "url": "http://tvsen7.aynascope.net/ssport2hd/index.m3u8",
       "reason": "HTTP 404"
@@ -2256,7 +2256,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "URLError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2649,11 +2649,6 @@
       "reason": "HTTP 400"
     },
     {
-      "name": "Chocolate FM (720p)",
-      "url": "https://5eaccbab48461.streamlock.net:1936/8180/8180/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "EnerGeek (720p) [Not 24/7]",
       "url": "https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=ZZDemoIPTVGH",
       "reason": "URLError"
@@ -2751,7 +2746,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3036,6 +3031,11 @@
     {
       "name": "TV Canal Sur (720p) [Not 24/7]",
       "url": "https://streamtvs.tvcanalsur.com.do/hls/index_720.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "TVS (540p) [Not 24/7]",
+      "url": "https://imagenuniversaltv.net:3741/live/tvslive.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -3351,7 +3351,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 401"
+      "reason": "HTTP 404"
     },
     {
       "name": "RHT Guadeloupe (720p)",
@@ -3417,6 +3417,11 @@
       "name": "RSV Honduras",
       "url": "https://live20.bozztv.com/dvrfl03/hondu/hondu-rsvhonduras/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Telerayo (1080p)",
+      "url": "https://s.emisoras.tv:8081/telerayo/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Tigo Sports (1080p)",
@@ -3656,12 +3661,12 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (1080p)",
@@ -3671,7 +3676,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "SuperTennis (1080p)",
@@ -5194,6 +5199,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Volleyball (1080p)",
+      "url": "https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8",
+      "reason": "not a valid HLS manifest"
+    },
+    {
       "name": "Jeddah Radio (1080p)",
       "url": "https://live.kwikmotion.com/sbrksajeddahradiolive/srpksajeddahradio/chunks.m3u8",
       "reason": "HTTP 404"
@@ -6292,6 +6302,11 @@
       "name": "Nickelodeon Latin America (1080p)",
       "url": "http://190.234.82.52:8000/play/a0ke/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Nicktoons (720p)",
+      "url": "http://41.205.93.154/NICKTOONS/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Nicktoons (720p)",
