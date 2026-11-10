@@ -1,5 +1,5 @@
 #EXTM3U
-# Working Romanian channels, updated 2026-11-09 23:58 UTC
+# Working Romanian channels, updated 2026-11-10 00:32 UTC
 #EXTINF:-1 tvg-id="Acasa.ro@SD" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Acasa_2022_flat.png/960px-Acasa_2022_flat.png" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian" height="1080",Acasa (1080p)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="AcasaGold.ro@SD" x-categories="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Acasa_Gold_2022.svg/revision/latest/scale-to-width-down/512" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian" height="1080",Acasa Gold (1080p)
@@ -43,6 +43,8 @@ https://hls01ns.antenaplay.ro/hls/cinewow-sd/index.m3u8
 https://stream1.antenaplay.ro/live/ComedyPlay/chunklist.m3u8
 #EXTINF:-1 tvg-id="DeParintiro.ro@SD" x-categories="Education;Kids" tvg-logo="https://assets.antenaplay.ro/2023/11/21/EO57SfnF8caVPEaQFs4Z.png" x-category="Education" tvg-language="Romanian" group-title="Romanian" height="576",DeParinti.ro (576p)
 https://live77cdn2.antenaplay.ro/live2_fast/ch4/stream.m3u8
+#EXTINF:-1 tvg-id="DiscoveryChannel.ro@SD" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian",Discovery Channel
+http://92.180.26.103:80/stream/28/index.m3u8
 #EXTINF:-1 tvg-id="EMITV.ro@SD" x-categories="Music" tvg-logo="https://i.imgur.com/B5zssCz.png" x-category="Music" tvg-language="Romanian" group-title="Romanian",EMI TV
 https://astra.emitv.ro/hls/emi/index.m3u8
 #EXTINF:-1 tvg-id="EMITV.ro@SD" x-categories="Music" tvg-logo="https://i.imgur.com/B5zssCz.png" x-category="Music" tvg-language="Romanian" group-title="Romanian" height="576",EMI TV (576i)
@@ -79,8 +81,12 @@ https://live77cdn2.antenaplay.ro/live2_fast/ch2/stream.m3u8
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
 #EXTINF:-1 tvg-id="MagicTV.ro@SD" x-categories="Music" tvg-logo="https://i.imgur.com/9izrr4d.png" x-category="Music" tvg-language="Romanian" group-title="Romanian" height="720",Magic TV (720p)
 https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
+#EXTINF:-1 tvg-id="Mireasa.ro@SD" x-categories="Shows & Series" tvg-logo="https://i.imgur.com/k0VO0LH.png" x-category="Shows & Series" tvg-language="Romanian" group-title="Romanian" height="480",Mireasa (480p)
+https://live77cdn2.antenaplay.ro/live2_mireasaunu/live2_mireasaunu.m3u8
 #EXTINF:-1 tvg-id="Mireasa.ro@SD" x-categories="Shows & Series" tvg-logo="https://i.imgur.com/k0VO0LH.png" x-category="Shows & Series" tvg-language="Romanian" group-title="Romanian" height="720",Mireasa (720p)
 https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
+#EXTINF:-1 tvg-id="MireasaPlus.ro@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/URwmGuY.png" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian" height="480",Mireasa+ (480p)
+https://live77cdn2.antenaplay.ro/live2_mireasadoi/live2_mireasadoi.m3u8
 #EXTINF:-1 tvg-id="NorocTV.md@SD" x-categories="Music" tvg-logo="https://i.imgur.com/XvYqpqG.png" x-category="Music" tvg-language="Romanian" group-title="Romanian",Noroc TV
 https://media.noroc.tv/noroc/bitrate_1080p.m3u8
 #EXTINF:-1 tvg-id="NostalgiaTV.ro@HD" x-categories="Movies" tvg-logo="https://assets.antenaplay.ro/2026/03/10/fX5tvuPLymvvR8lQmwO7.png" x-category="Movies" tvg-language="Romanian" group-title="Romanian" height="1080",Nostalgia TV (1080p)
@@ -118,6 +124,8 @@ https://stream1.antenaplay.ro/zurtv/rfmprem/chunklist.m3u8
 https://rotv.romediavalencia.com:3839/live/rotvlive.m3u8
 #EXTINF:-1 tvg-id="SmartRadio.ro@SD" x-categories="Music" tvg-logo="https://www.smartradio.ro/wp-content/themes/smart-radio/img/Logo_SmartRadio.png" x-category="Music" tvg-language="Romanian" group-title="Romanian" height="576",Smart Radio (576p)
 https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="SportExtra.ro@HD" x-categories="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fa/Sport_Extra_horizontal.svg/revision/latest/scale-to-width-down/1000?cb=20220425110755" x-category="Sports" tvg-language="Romanian" group-title="Romanian",Sport Extra HD
+http://92.180.26.103:80/stream/93/index.m3u8
 #EXTINF:-1 tvg-id="SportTotalFM.ro@SD" x-categories="Sports" tvg-logo="https://sptfm.ro/wp-content/uploads/2021/05/logo-sport-total-fm-01.png" x-category="Sports" tvg-language="Romanian" group-title="Romanian" height="720",Sport Total FM (576i)
 https://livesptfm.com/SPTFM/Live/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperTV.ro@SD" x-categories="Music" tvg-logo="https://i.imgur.com/pzxUE0O.png" x-category="Music" tvg-language="Romanian" group-title="Romanian" height="576",Super TV (576p)
