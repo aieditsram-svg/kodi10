@@ -1,5 +1,5 @@
 #EXTM3U
-# General channels, one link per channel, all languages, updated 2026-11-11 04:11 UTC
+# General channels, one link per channel, all languages, updated 2026-11-11 05:03 UTC
 #EXTINF:-1 tvg-id="Prime.sy@HD" x-categories="General;Sports" tvg-logo="https://prime1tv.com/wp-content/uploads/2025/12/7-1.png" x-category="General" tvg-language="Arabic" group-title="Arabic",Prime
 https://cdn.bestream.io/prime/prime.m3u8
 #EXTINF:-1 tvg-id="DDAssam.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142777_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Assamese" group-title="Assamese",DD Assam
@@ -176,7 +176,7 @@ https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8
 https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="VCV.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/KbU36xI.png" x-category="General" tvg-language="Malayalam" group-title="Malayalam",VCV
 https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
-#EXTINF:-1 tvg-id="Vision.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/YozqNL3.jpg" x-category="General" tvg-language="Malayalam" group-title="Malayalam" height="576",Vision
+#EXTINF:-1 tvg-id="Vision.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/YozqNL3.jpg" x-category="General" tvg-language="Malayalam" group-title="Malayalam",Vision
 http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 #EXTINF:-1 tvg-id="DDGoa.in@SD" x-categories="General" tvg-logo="https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/DD-Goa-Logo_2000_X_1125_Transpharent.png" x-category="General" tvg-language="Marathi" group-title="Marathi",DD Goa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -216,11 +216,10 @@ https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
 http://185.228.163.146:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="TVParaense.br@HD" x-categories="General;Family;Entertainment;News" tvg-logo="https://duckduckgo.com/i/e408ea02.png" x-category="General" tvg-language="Portuguese" group-title="Portuguese",TV Paraense
 https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
-#EXTINF:-1 tvg-id="Fast1.in@SD" tvg-logo="https://papaji.freetvindia.com/media/channels/fast1.png" x-categories="General" x-category="General" tvg-language="Punjabi" group-title="Punjabi" height="576",Fast1
-https://cdn.pishow.tv/ott/live/10008/master.m3u8
-#EXTINF:-1 tvg-id="MHOne.in@SD" x-categories="General" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/mh1_Music.png" x-category="General" tvg-language="Punjabi" group-title="Punjabi" height="576",MH One
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-https://fta.ektv.in/live/353/master.m3u8
+#EXTINF:-1 tvg-id="Fast1.in@SD" tvg-logo="https://papaji.freetvindia.com/media/channels/fast1.png" x-categories="General" x-category="General" tvg-language="Punjabi" group-title="Punjabi" height="720",Fast1
+https://samitaorigin.tangotv.in/FAST1/SAMITAORIGIN/index.m3u8
+#EXTINF:-1 tvg-id="MHOne.in@SD" x-categories="General" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/mh1_Music.png" x-category="General" tvg-language="Punjabi" group-title="Punjabi" height="720",MH One
+https://samitaorigin.tangotv.in/MHONE/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="RadioRomaniaIasi.ro@SD" x-categories="General;Music" tvg-logo="https://www.radioiasi.ro/wp-content/themes/radioiasi/images/custom/logo-iasi.svg" x-category="General" tvg-language="Romanian" group-title="Romanian",Radio Romania Iasi
 https://stream3.srr.ro/live/radio-iasi/chunklist_w1565024915.m3u8
 #EXTINF:-1 tvg-id="RadioRomaniaOlteniaCraiova.ro@SD" x-categories="General;Music" tvg-logo="https://www.rador.ro/wp-content/uploads/2017/06/logo-radio-oltenia-craiova.png" x-category="General" tvg-language="Romanian" group-title="Romanian",Radio Romania Oltenia-Craiova
