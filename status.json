@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 15:15 UTC",
-  "fingerprint": "387f2fb28922c1c0b95de1c4cfd4037e",
+  "updated_at": "2026-11-13 15:58 UTC",
+  "fingerprint": "7bcd1cac2473e5d76666ce6fa99ce961",
   "total": 4800,
-  "working": 3674,
-  "in_grace_period": 69,
-  "dead": 1126,
-  "hd_channels": 1830,
+  "working": 3672,
+  "in_grace_period": 53,
+  "dead": 1128,
+  "hd_channels": 1828,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -49,7 +49,7 @@
     },
     "Bulgarian": {
       "total": 52,
-      "working": 50,
+      "working": 51,
       "hd": 9
     },
     "Catalan": {
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 749,
-      "working": 552,
+      "working": 551,
       "hd": 317
     },
     "Estonian": {
@@ -99,8 +99,8 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 3,
-      "hd": 3
+      "working": 4,
+      "hd": 4
     },
     "French": {
       "total": 99,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 763,
-      "working": 644,
+      "working": 642,
       "hd": 232
     },
     "Hungarian": {
@@ -220,7 +220,7 @@
     "Other": {
       "total": 222,
       "working": 135,
-      "hd": 72
+      "hd": 70
     },
     "Persian": {
       "total": 19,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 748,
-      "working": 559,
-      "hd": 370
+      "working": 557,
+      "hd": 369
     },
     "Swahili": {
       "total": 3,
@@ -294,8 +294,8 @@
     },
     "Tamil": {
       "total": 181,
-      "working": 140,
-      "hd": 67
+      "working": 142,
+      "hd": 68
     },
     "Telugu": {
       "total": 173,
@@ -314,8 +314,8 @@
     },
     "Ukrainian": {
       "total": 71,
-      "working": 58,
-      "hd": 41
+      "working": 57,
+      "hd": 40
     },
     "Urdu": {
       "total": 48,
@@ -403,15 +403,15 @@
     },
     "Movies": {
       "total": 609,
-      "working": 440
+      "working": 442
     },
     "Music": {
       "total": 850,
-      "working": 678
+      "working": 676
     },
     "News": {
       "total": 791,
-      "working": 713
+      "working": 711
     },
     "Outdoor": {
       "total": 18,
@@ -1084,6 +1084,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "News 1 India (576p)",
+      "url": "https://tvsen6.aynaott.com/TaVfw58T/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "News 1st (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HNEWS1STKANNADA/index.m3u8",
       "reason": "HTTP 403"
@@ -1164,11 +1169,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Oli TV (1080p)",
-      "url": "https://live.olidigital.in/olitv/olitv/index.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "Peace of Mind TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HPEACEOFMIND/index.m3u8",
       "reason": "HTTP 403"
@@ -1196,6 +1196,11 @@
     {
       "name": "Public First (576p)",
       "url": "https://fta.ektv.in/live/237/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Public First (576p)",
+      "url": "https://samitaorigin.tangotv.in/PUBLICFIRST/SAMITAORIGIN/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1684,11 +1689,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Oli TV (1080p)",
-      "url": "https://hlslive.olidigital.in/olitv/olitv/index.m3u8",
-      "reason": "HTTP 403"
-    },
-    {
       "name": "Asianet News Telugu Ⓨ",
       "url": "https://www.youtube.com/@AsianetNewsTelugu/live",
       "reason": "returned HTML page"
@@ -2139,11 +2139,6 @@
       "reason": "URLError"
     },
     {
-      "name": "TV1000",
-      "url": "http://stream.mcquack.net/100/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "D Music (1280p) [Not 24/7]",
       "url": "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8",
       "reason": "URLError"
@@ -2544,6 +2539,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Cibaeña TV (720p)",
+      "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "COCO TV (1080p) [Not 24/7]",
       "url": "https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8",
       "reason": "HTTP 404"
@@ -2571,7 +2571,7 @@
     {
       "name": "Mega Cine TV (1080p)",
       "url": "https://cnn.hostlagarto.com/megacinetv/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Pula TV (1080p) [Not 24/7]",
@@ -2667,11 +2667,6 @@
       "name": "Vantage Music (720p) [Geo-blocked]",
       "url": "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Hero (720p) [Not 24/7]",
-      "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
-      "reason": "HTTP 404"
     },
     {
       "name": "MTV Ava (720p)",
@@ -3874,6 +3869,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Fabulosa Estéreo 100.5 FM (720p)",
+      "url": "https://www.streaming507.net:19360/videofabulosa/videofabulosa.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "LaXitosa Panamá (360p) [Not 24/7]",
       "url": "https://stmvideo2.livecastv.com/lax953/lax953/playlist.m3u8",
       "reason": "URLError"
@@ -3941,7 +3941,7 @@
     {
       "name": "La Tele (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Movistar Deportes (1080p)",
@@ -5089,6 +5089,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "FORT TV (480p)",
+      "url": "https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Galaxy TV (720p) [Not 24/7]",
       "url": "https://stream.castr.com/6463248048d6cd3e143655b2/live_43351ad0f3b411ed81c78fcc31887c54/index.fmp4.m3u8",
       "reason": "HTTP 403"
@@ -5117,6 +5122,11 @@
       "name": "M1 (1080p)",
       "url": "http://dtv.vol.net.ua/M1-HD/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "M1 (1080p)",
+      "url": "http://stream.mcquack.net/218/index.m3u8",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Megogo Music",
