@@ -1,5 +1,5 @@
 #EXTM3U
-# Sports channels, one link per channel, all languages, updated 2026-11-12 23:53 UTC
+# Sports channels, one link per channel, all languages, updated 2026-11-13 00:31 UTC
 #EXTINF:-1 tvg-id="RTSHSport.al@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/J6NKXyJ.png" x-category="Sports" tvg-language="Albanian" group-title="Albanian",RTSH Sport
 http://178.33.11.6:8696/live/rtshsport/playlist.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaSport.iq@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/DrrlxTO.png" x-category="Sports" tvg-language="Arabic" group-title="Arabic",Al Iraqia Sport
@@ -10,6 +10,8 @@ http://149.100.11.252:8000/play/a065/index.m3u8
 https://5c7b683162943.streamlock.net/live/ngrp:sportsone_all/playlist.m3u8
 #EXTINF:-1 tvg-id="BahrainSports2.bh@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ZkuZmIo.png" x-category="Sports" tvg-language="Arabic" group-title="Arabic" height="720",Bahrain Sports 2
 https://5c7b683162943.streamlock.net/live/ngrp:bahrainsportstwo_all/playlist.m3u8
+#EXTINF:-1 tvg-id="beINSports1.qa@MENA" x-categories="Sports" tvg-logo="https://i.imgur.com/Vtk2cGI.png" x-category="Sports" tvg-language="Arabic" group-title="Arabic",beIN Sports 1
+https://vg162.adcdsd123321.shop/7.m3u8
 #EXTINF:-1 tvg-id="ElHeddafTV.dz@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/cDkIDIA.png" x-category="Sports" tvg-language="Arabic" group-title="Arabic",El-Heddaf TV
 https://live.elheddaftv.com:8081/elheddaftv/index.m3u8
 #EXTINF:-1 tvg-id="JordanSport.jo@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/2EmrZPQ.png" x-category="Sports" tvg-language="Arabic" group-title="Arabic",Jordan Sport
@@ -130,10 +132,13 @@ http://212.5.144.156:8080/espn/index.m3u8
 http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" x-categories="Sports" tvg-logo="https://i.imgur.com/HiBrysh.png" x-category="Sports" tvg-language="English" group-title="English" height="720",ESPNU HD
 http://85.237.89.160:9590/usa-s/ESPN-U-HD/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport.fr@Asia" x-categories="Sports" tvg-logo="https://i.imgur.com/s4jDnJh.png" x-category="Sports" tvg-language="English" group-title="English",Eurosport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
+http://103.253.74.210:7070/stream/122/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@UK" x-categories="Sports" tvg-logo="https://i.imgur.com/olQJgm7.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Eurosport 1 UK
+http://85.117.37.43/eurosport1/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport4K.fr@Romania" x-categories="Sports" tvg-logo="https://i.imgur.com/0o3zjC7.png" x-category="Sports" tvg-language="English" group-title="English",Eurosport 4K Romania
 https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8
-#EXTINF:-1 tvg-id="Eurosport.in@HD" x-categories="Sports" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" x-category="Sports" tvg-language="English" group-title="English",Eurosport HD
-https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8
 #EXTINF:-1 tvg-id="EurovisionSport.uk@Europe" x-categories="Sports" tvg-logo="https://images.ctfassets.net/2b1dkanupt14/1A1Z8Gcn2NkbJRzTjxuj6h/2c14436cdc5b78e746a256e9f0c11a70/eurovision-icon.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Eurovision Sport
 https://amg26268-amg26268c34-amgplt0018.playout.now3.amagi.tv/ts-us-e2-n1/playlist/amg26268-amg26268c34-amgplt0018/playlist.m3u8
 #EXTINF:-1 tvg-id="F1Channel.ie@US" x-categories="Sports" tvg-logo="https://i.imgur.com/cjXzWsI.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",F1 Channel
@@ -153,6 +158,8 @@ https://d12a2vxqkkh1bo.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 tvg-id="FightBox.nl@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/mRsnztA.png" x-category="Sports" tvg-language="English" group-title="English" height="720",FightBox
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 https://webtvstream.bhtelecom.ba/fightbox.m3u8
+#EXTINF:-1 tvg-id="Formula1AntenaPlay.ro@SD" x-categories="Sports" tvg-logo="https://assets.antenaplay.ro/2024/02/23/XUKfJwir4MxNeP4nHtG7.png" x-category="Sports" tvg-language="English" group-title="English",Formula 1 AntenaPlay
+https://stream1.antenaplay.ro/promo/formula-1-las-vegas-20-2211/chunklist.m3u8
 #EXTINF:-1 tvg-id="FoxDeportes.us@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/FOX_Deportes_logo.png/960px-FOX_Deportes_logo.png" x-category="Sports" tvg-language="English" group-title="English",Fox Deportes
 http://23.237.104.106:8080/USA_FOX_DEPORTES/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports1.us@HD" x-categories="Sports" tvg-logo="https://i.imgur.com/O9BapV9.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Fox Sports 1
@@ -224,12 +231,14 @@ https://bcovlive-a.akamaihd.net/29c60f23ea4840ba8726925a77fcfd0b/eu-central-1/64
 #EXTINF:-1 tvg-id="SetantaSports.uk@SD" x-categories="Sports" tvg-logo="https://scontent.flwo7-1.fna.fbcdn.net/v/t39.30808-6/364716463_853281776306116_3365262792418742642_n.jpg?stp=dst-webp_p843x403_q70&_nc_cat=109&ccb=1-7&_nc_sid=cc3e7e&_nc_ohc=cdryMbRE2MwQ7kNvwFeyihF&_nc_oc=Adqncj9xKrtg2aNKgZmuX6LGZlSfpAmh_HQEEkBciEg1tXwQqFuMtohNjM8-Z8hU_Ho&_nc_zt=23&_nc_ht=scontent.flwo7-1.fna&_nc_gid=nGCZSHk6GKFYzjwKY-aGWw&_nc_ss=7b289&oh=00_AQFswjCYfEBKcXRO2DpTL1Dz7arAN-82K47gi8qtwljzrw&oe=6A862750" x-category="Sports" tvg-language="English" group-title="English",Setanta Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/313/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/zlJK7ca.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Setanta Sports 1 Eurasia
+#EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/zlJK7ca.png" x-category="Sports" tvg-language="English" group-title="English",Setanta Sports 1 Eurasia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/234/index.m3u8
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ouHunnK.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Setanta Sports 2 Eurasia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsPlusGeorgia.ge@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ZtoZQUV.png" x-category="Sports" tvg-language="English" group-title="English" height="1080",Setanta Sports+ Georgia
+http://85.117.61.84/setanta2/index.m3u8
 #EXTINF:-1 tvg-id="SharjahSports.ae@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/CsEElsJ.png" x-category="Sports" tvg-language="English" group-title="English",Sharjah Sports
 https://svs.itworkscdn.net/smc4sportslive/smc4tv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SkyRacing1.au@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/Hf0EiaW.png" x-category="Sports" tvg-language="English" group-title="English" height="720",Sky Racing 1
@@ -308,9 +317,9 @@ http://109.104.153.220/TSN-4/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsbowling/index.m3u8
 #EXTINF:-1 tvg-id="TVSBoxing.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/30ZoF75.png" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Boxing
 https://rpn.bozztv.com/gusa/gusa-tvsboxing/index.m3u8
-#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/auR0Mi6.png" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Classic Sports
+#EXTINF:-1 tvg-id="TVSClassicSports.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/auR0Mi6.png" x-category="Sports" tvg-language="English" group-title="English" height="360",TVS Classic Sports
 https://rpn.bozztv.com/gusa/gusa-tvs/index.m3u8
-#EXTINF:-1 tvg-id="TVSSports.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/Lwwq62E.png" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Sports
+#EXTINF:-1 tvg-id="TVSSports.us@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/Lwwq62E.png" x-category="Sports" tvg-language="English" group-title="English" height="480",TVS Sports
 https://rpn.bozztv.com/gusa/gusa-tvssports/index.m3u8
 #EXTINF:-1 tvg-id="TVSSportsBureau.us@SD" x-categories="Sports" x-category="Sports" tvg-language="English" group-title="English" height="720",TVS Sports Bureau
 https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
@@ -548,12 +557,13 @@ https://racingvic-i.akamaized.net/hls/live/598695/racingvic/1500.m3u8
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-name="Rete 8 Sport" tvg-logo="https://i.imgur.com/uUAjWlF.png" tvg-country="IT" x-categories="Sports" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",Rete 8 Sport
 https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
-#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" x-categories="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/Setanta_Sports_3_2023.svg/revision/latest?cb=20230804060013" x-category="Sports" tvg-language="Other" group-title="Other",Setanta Sports 3
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_3
+#EXTINF:-1 tvg-id="SetantaSports3.ge@SD" x-categories="Sports" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bc/Setanta_Sports_3_2023.svg/revision/latest?cb=20230804060013" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",Setanta Sports 3
+http://85.117.61.84/setanta3/index.m3u8
+#EXTINF:-1 tvg-id="SetantaSportsPlusGeorgia.ge@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ZtoZQUV.png" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",Setanta Sports+ Georgia
+http://85.117.61.84/setanta2/index.m3u8
 #EXTINF:-1 tvg-name="Sharjah Sports" tvg-logo="https://i.imgur.com/IaRaabJ.jpg" tvg-id="SharjahSports.ae" tvg-chno="2" tvg-country="AE" x-categories="Sports" x-category="Sports" tvg-language="Other" group-title="Other",Sharjah Sports
 https://svs.itworkscdn.net/smc4sportslive/smc4.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Sport.uz@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/2WJE9CM.png" x-category="Sports" tvg-language="Other" group-title="Other" height="1080",Sport
+#EXTINF:-1 tvg-id="Sport.uz@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/2WJE9CM.png" x-category="Sports" tvg-language="Other" group-title="Other",Sport
 https://stream8.cinerama.uz/1004/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-name="Sport – Pluto TV" tvg-logo="https://i.imgur.com/o2psAYW.png" tvg-id="PlutoTVSportItaly.it" x-categories="Sports" x-category="Sports" tvg-language="Other" group-title="Other",Sport – Pluto TV
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608030eff4b6f70007e1684c/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
@@ -731,15 +741,9 @@ http://178.124.179.122:8080/Setanta1/index.m3u8
 http://stream.mcquack.net/493/index.m3u8
 #EXTINF:-1 tvg-id="RussianExtremeUltra.ru@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/Dk8VbAc.png" x-category="Sports" tvg-language="Russian" group-title="Russian",Russian Extreme Ultra
 http://46.53.200.153:7777/play/test_krask1/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports1.ru@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/8ANUZAu.png" x-category="Sports" tvg-language="Russian" group-title="Russian",Setanta Sports 1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_georgia
-#EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/zlJK7ca.png" x-category="Sports" tvg-language="Russian" group-title="Russian" height="1080",Setanta Sports 1 Eurasia
+#EXTINF:-1 tvg-id="SetantaSports1Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/zlJK7ca.png" x-category="Sports" tvg-language="Russian" group-title="Russian",Setanta Sports 1 Eurasia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/234/index.m3u8
-#EXTINF:-1 tvg-id="SetantaSports2.ru@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/NOBACb6.png" x-category="Sports" tvg-language="Russian" group-title="Russian",Setanta Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
-http://158.101.222.193:88/georgia_play.php?id=setanta_sports_plus_georgia
 #EXTINF:-1 tvg-id="SetantaSports2Eurasia.ie@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ouHunnK.png" x-category="Sports" tvg-language="Russian" group-title="Russian" height="1080",Setanta Sports 2 Eurasia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/235/index.m3u8
@@ -760,7 +764,7 @@ https://fonbet.mediacdn.ru/live/volleyball/playlist.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/BKaEtqL.png" x-category="Sports" tvg-language="Russian" group-title="Russian" height="1080",Астрахань.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@Internet" x-categories="Sports" tvg-logo="https://i.imgur.com/NJsRFud.png" x-category="Sports" tvg-language="Russian" group-title="Russian" height="1080",Беларусь 5 Интернет
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
+https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport.kg@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/ORCu0w0.png" x-category="Sports" tvg-language="Russian" group-title="Russian",УТРК Спорт
 https://st2.mediabay.tv/KG_KTRK-Sport/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSport1Premium.rs@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/csv6YsL.png" x-category="Sports" tvg-language="Serbian" group-title="Serbian",Arena Sport 1 Premium
@@ -814,10 +818,14 @@ https://mgv-awapa.akamaized.net/hls/live/2104282/MGV_CHANNEL15/master.m3u8
 http://168.196.127.137:6001/play/a06v/index.m3u8
 #EXTINF:-1 tvg-id="AztecaDeportesNetwork.mx@SD" x-categories="Sports" tvg-logo="https://match-images.icdb.tv/5913207f2494844101287828e87625eb.jpg" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",Azteca Deportes Network
 https://live-manifest.production-public.tubi.io/live/6bf131c3-d664-424c-93c9-49188a788980/playlist.m3u8
+#EXTINF:-1 tvg-id="BicolorPlus.pe@SD" x-categories="Sports" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790182833200/6a8e1eb7f5d6_640_360.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",Bicolor+
+https://live-evg10.tv360.bitel.com.pe/bitel/bicolorfree_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="BicolorPlusPremium.pe@SD" x-categories="Sports" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790183086681/1dff7002a22a_640_360.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",Bicolor+ Premium
 https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium_abr/bitel/bicolorpremium_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="BicolorPlusPremium2.pe@SD" x-categories="Sports" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/03/1790194132371/1e57475a9a6b_640_360.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",Bicolor+ Premium 2
 https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium2_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="BicolorPlusPremium3.pe@SD" x-categories="Sports" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/03/1790194198636/d91910da3254_640_360.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",Bicolor+ Premium 3
+https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium3_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/0L9tW3Z.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",Canal Showsport
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="CDNDeportes.do@SD" x-categories="Sports" tvg-logo="https://i.imgur.com/yU5LqTL.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",CDN Deportes
@@ -837,7 +845,7 @@ http://158.172.155.130:8000/play/a09y/index.m3u8
 #EXTINF:-1 tvg-id="DSports.us@Panregional" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",DSports
 http://45.186.254.75:8000/play/a0en/index.m3u8
 #EXTINF:-1 tvg-id="DSports2.us@Panregional" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",DSports 2
-http://187.102.208.209:8000/play/a0bq/index.m3u8
+http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@South" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="1080",ESPN 2 Latin America
 https://barinaslive1.boldmss.com/ESPN_2/ESPN_2.isml/ESPN_2.m3u8
 #EXTINF:-1 tvg-id="ESPN2LatinAmerica.us@Argentina" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/960px-ESPN2_logo.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",ESPN 2 Latin America Argentina
@@ -1044,9 +1052,9 @@ https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
 https://tvsen7.aynascope.net/Sports1/index.m3u8
 #EXTINF:-1 tvg-id="DongNaiTV2.vn@SD" x-categories="Sports;Entertainment" tvg-logo="https://i.imgur.com/tNKPSkO.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",Dong Nai TV 2
 https://freem3u.xyz/api/live/play.m3u8?vid=255
-#EXTINF:-1 tvg-id="HTVSports.vn@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese",HTV Sports
+#EXTINF:-1 tvg-id="HTVSports.vn@SD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/vi/3/3f/HTV_THETHAO_2014.png" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",HTV Sports
 https://vmttv.dpdns.org/tv360?id=htv-the-thao
-#EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" x-categories="Culture;Travel;Sports;Entertainment" tvg-logo="https://i.imgur.com/ARhIkvR.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese",Vinh Long TV 4
+#EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" x-categories="Culture;Travel;Sports;Entertainment" tvg-logo="https://i.imgur.com/ARhIkvR.png" x-category="Culture" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",Vinh Long TV 4
 https://dethich.pw/thvl4/index.m3u8
-#EXTINF:-1 tvg-id="VTV6.vn@HD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/VTV6_new_logo_2026.webp" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese",VTV6
+#EXTINF:-1 tvg-id="VTV6.vn@HD" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/VTV6_new_logo_2026.webp" x-category="Sports" tvg-language="Vietnamese" group-title="Vietnamese" height="1080",VTV6
 https://dethich.pw/vtv6/index.m3u8
