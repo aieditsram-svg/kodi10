@@ -1,5 +1,5 @@
 #EXTM3U
-# News channels, one link per channel, all languages, updated 2026-11-13 08:44 UTC
+# News channels, one link per channel, all languages, updated 2026-11-13 09:39 UTC
 #EXTINF:-1 tvg-id="AsomLive24.in@SD" x-categories="News" tvg-logo="https://papaji.freetvindia.com/media/channels/asom_live_24x7.png" x-category="News" tvg-language="Assamese" group-title="Assamese",Asom Live 24
 https://mumt06.tangotv.in/qYyB8fXVASHOMLIVE/index.m3u8
 #EXTINF:-1 tvg-id="AssamTalks.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Assamese" group-title="Assamese" height="720",Assam Talks
@@ -116,7 +116,7 @@ https://server.thelegitpro.in/northeastlive/northeastlive/index.fmp4.m3u8
 https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="RepublicTV.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s143723_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="English" group-title="English" height="1080",Republic TV
 https://raw.githubusercontent.com/amazeyourself/adaptive-streams/refs/heads/main/streams/in/YuppTV/RepublicTV.m3u8
-#EXTINF:-1 tvg-id="RTIndia.in@HD" x-categories="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" x-category="News" tvg-language="English" group-title="English",RT India
+#EXTINF:-1 tvg-id="RTIndia.in@HD" x-categories="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a0/Russia-today-logo.svg" x-category="News" tvg-language="English" group-title="English" height="1080",RT India
 https://mumbai-edge.smartplaytv.in/RTIndia/index.m3u8
 #EXTINF:-1 tvg-id="TimesNow.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144006_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="English" group-title="English",Times Now
 #EXTVLCOPT:http-referrer=https://www.timesnownews.com/
@@ -154,7 +154,8 @@ https://stream.ottlive.co.in/sandeshnews/index.m3u8
 #EXTINF:-1 tvg-id="TV13Gujarati.in@SD" x-categories="News" tvg-logo="https://www.tv13gujarati.com/assets/front/img/footer-logo.jpg" x-category="News" tvg-language="Gujarati" group-title="Gujarati" height="480",TV13 Gujarati
 https://live.wrencdn.in/wrencdn/hls/tv13_web/index.m3u8
 #EXTINF:-1 tvg-id="TV9Gujarati.in@SD" x-categories="News" tvg-logo="https://dtil.tmsimg.com/assets/s144028_ld_h15_aa.png?lock=720x540" x-category="News" tvg-language="Gujarati" group-title="Gujarati" height="1080",TV9 Gujarati
-https://amg01106-amg01106c6-amgplt0747.playout.now3.amagi.tv/amg01106c6/hls.m3u8
+#EXTVLCOPT:http-user-agent=#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/652/master.m3u8
 #EXTINF:-1 tvg-id="VRLive.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/VRLive.png" x-category="News" tvg-language="Gujarati" group-title="Gujarati",VR Live
 https://channel.vrlivegujarat.com/hls/vrchannel.m3u8
 #EXTINF:-1 tvg-id="VTVNews.in@SD" x-categories="News" tvg-logo="https://i.imgur.com/Ni8pZLF.png" x-category="News" tvg-language="Gujarati" group-title="Gujarati" height="504",VTV News
@@ -378,7 +379,7 @@ https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/a5ee7c4e7a2a4b15a22a3bcf523b9776/in
 https://server.thelegitpro.in/tnpnews/tnpnews/index.m3u8
 #EXTINF:-1 tvg-id="TTN24.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TTN24.png" x-category="News" tvg-language="Hindi" group-title="Hindi",TTN24
 https://stream.joytvindia.com/stream/hls/ttn24/index.m3u8
-#EXTINF:-1 tvg-id="TV27News.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV27_News.png" x-category="News" tvg-language="Hindi" group-title="Hindi",TV27 News
+#EXTINF:-1 tvg-id="TV27News.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV27_News.png" x-category="News" tvg-language="Hindi" group-title="Hindi" height="1080",TV27 News
 https://stream.ottlive.co.in/tv27/index.m3u8
 #EXTINF:-1 tvg-id="TV30India.in@SD" x-categories="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TV30India.png" x-category="News" tvg-language="Hindi" group-title="Hindi",TV30 India
 https://stream.tv30bharat.com/hls/shree/bhattji.m3u8
