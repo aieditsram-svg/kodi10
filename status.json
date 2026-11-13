@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-13 23:26 UTC",
-  "fingerprint": "9ae220ba5f43c324816b442bea748acc",
+  "updated_at": "2026-11-13 23:58 UTC",
+  "fingerprint": "2bf47fa460a7ae9b56bdbc3b10db9cd0",
   "total": 4800,
-  "working": 3643,
-  "in_grace_period": 26,
-  "dead": 1157,
-  "hd_channels": 1815,
+  "working": 3644,
+  "in_grace_period": 29,
+  "dead": 1156,
+  "hd_channels": 1812,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 749,
       "working": 556,
-      "hd": 318
+      "hd": 319
     },
     "Estonian": {
       "total": 4,
@@ -114,8 +114,8 @@
     },
     "Greek": {
       "total": 22,
-      "working": 18,
-      "hd": 13
+      "working": 17,
+      "hd": 12
     },
     "Gujarati": {
       "total": 47,
@@ -140,7 +140,7 @@
     "Indonesian": {
       "total": 17,
       "working": 9,
-      "hd": 8
+      "hd": 7
     },
     "Italian": {
       "total": 91,
@@ -235,11 +235,11 @@
     "Portuguese": {
       "total": 135,
       "working": 76,
-      "hd": 49
+      "hd": 48
     },
     "Punjabi": {
       "total": 169,
-      "working": 156,
+      "working": 157,
       "hd": 58
     },
     "Romanian": {
@@ -249,7 +249,7 @@
     },
     "Russian": {
       "total": 391,
-      "working": 276,
+      "working": 277,
       "hd": 118
     },
     "Santali": {
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 748,
       "working": 536,
-      "hd": 354
+      "hd": 353
     },
     "Swahili": {
       "total": 3,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 850,
-      "working": 672
+      "working": 673
     },
     "News": {
       "total": 791,
@@ -462,11 +462,6 @@
       "name": "9X Jhakaas (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3H9XJHAKAAS/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "9X Tashan (576p)",
-      "url": "https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "9XM (1080p)",
@@ -1746,7 +1741,7 @@
     {
       "name": "Canal Pulpo TV",
       "url": "https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Disney Channel Latin America (1080p)",
@@ -2366,7 +2361,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2944,6 +2939,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Ellinikos FM (720p)",
+      "url": "https://rtmp.win:3603/live/ellinikosfmlive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
       "reason": "HTTP 401"
@@ -3246,17 +3246,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Top Crime [Geo-blocked]",
@@ -4056,12 +4056,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4116,7 +4116,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Canal+ Sport",
@@ -4317,11 +4317,6 @@
       "name": "BRIDGE Classic (576p)",
       "url": "https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "BRIDGE Hits (576p)",
-      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Carousel (576p)",
@@ -5866,7 +5861,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
