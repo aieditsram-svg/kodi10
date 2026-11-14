@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-14 05:32 UTC",
-  "fingerprint": "6529fc36ffc207441d1afa5b5c483c77",
+  "updated_at": "2026-11-14 06:19 UTC",
+  "fingerprint": "2a7695298260818e76cde6926f647bd3",
   "total": 4804,
-  "working": 3643,
-  "in_grace_period": 27,
-  "dead": 1161,
-  "hd_channels": 1810,
+  "working": 3646,
+  "in_grace_period": 45,
+  "dead": 1158,
+  "hd_channels": 1813,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -19,7 +19,7 @@
     },
     "Arabic": {
       "total": 74,
-      "working": 59,
+      "working": 60,
       "hd": 49
     },
     "Assamese": {
@@ -104,8 +104,8 @@
     },
     "French": {
       "total": 101,
-      "working": 63,
-      "hd": 45
+      "working": 65,
+      "hd": 47
     },
     "German": {
       "total": 73,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 22,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 47,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 760,
       "working": 641,
-      "hd": 230
+      "hd": 231
     },
     "Hungarian": {
       "total": 57,
@@ -144,8 +144,8 @@
     },
     "Italian": {
       "total": 91,
-      "working": 69,
-      "hd": 43
+      "working": 68,
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -218,9 +218,9 @@
       "hd": 11
     },
     "Other": {
-      "total": 223,
-      "working": 133,
-      "hd": 69
+      "total": 225,
+      "working": 134,
+      "hd": 71
     },
     "Persian": {
       "total": 19,
@@ -234,8 +234,8 @@
     },
     "Portuguese": {
       "total": 135,
-      "working": 76,
-      "hd": 48
+      "working": 75,
+      "hd": 49
     },
     "Punjabi": {
       "total": 169,
@@ -248,9 +248,9 @@
       "hd": 32
     },
     "Russian": {
-      "total": 390,
-      "working": 277,
-      "hd": 118
+      "total": 388,
+      "working": 278,
+      "hd": 117
     },
     "Santali": {
       "total": 2,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 752,
       "working": 532,
-      "hd": 351
+      "hd": 350
     },
     "Swahili": {
       "total": 3,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 433,
-      "working": 289
+      "working": 290
     },
     "Legislative": {
       "total": 8,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 850,
-      "working": 667
+      "working": 670
     },
     "News": {
       "total": 791,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 576,
-      "working": 359
+      "working": 358
     },
     "Travel": {
       "total": 7,
@@ -1964,6 +1964,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Blitstv",
+      "url": "https://stmv1.transmissaodigital.com/blitstv/blitstv/playlist.m3u8",
+      "reason": "HTTP 403"
+    },
+    {
       "name": "Cabo Frio TV (720p)",
       "url": "https://59f2354c05961.streamlock.net:1443/ararutv/_definst_/ararutv/playlist.m3u8",
       "reason": "URLError"
@@ -2169,16 +2174,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Play TV (720p) [Not 24/7]",
-      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "PLEX TV",
-      "url": "http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "TR24 (720p)",
       "url": "https://stream.it-innov.com/tr24/index.m3u8",
       "reason": "HTTP 404"
@@ -2341,7 +2336,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -3096,7 +3091,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "empty HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "Film Mania",
@@ -3229,6 +3224,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Lazio Style Channel HD (720p)",
+      "url": "https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Nick Jr.",
       "url": "https://streamer-jv9.pages.dev/italy/nickjr.m3u",
       "reason": "not a valid HLS manifest"
@@ -3246,17 +3246,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Top Crime [Geo-blocked]",
@@ -3397,11 +3397,6 @@
       "name": "OneFM (720p) [Not 24/7]",
       "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
       "reason": "HTTP 500"
-    },
-    {
-      "name": "Taha TV (576p)",
-      "url": "https://stream.starmenajo.com/hls/app/live/ts:fhd.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "LRT Plius (1080p) [Geo-blocked]",
@@ -4101,12 +4096,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4161,7 +4156,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Canal+ Sport",
@@ -4357,11 +4352,6 @@
       "name": "BRIDGE Classic (576p)",
       "url": "https://fs.uplink.kz/bridge_classic/mono.m3u8?token=onlinetv",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "BRIDGE Hits (576p)",
-      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Carousel (576p)",
@@ -4807,11 +4797,6 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Шансон ТВ (512p) [Geo-blocked]",
-      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
-      "reason": "HTTP 403"
     },
     {
       "name": "Star Cinema (576p)",
