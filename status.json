@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-14 21:23 UTC",
-  "fingerprint": "8f7ea138e609cdd8393175ea1d0b0b22",
+  "updated_at": "2026-11-14 21:57 UTC",
+  "fingerprint": "369f22b3c989b3b6637e64ee3fbefeb1",
   "total": 4805,
-  "working": 3638,
-  "in_grace_period": 33,
-  "dead": 1167,
-  "hd_channels": 1811,
+  "working": 3636,
+  "in_grace_period": 42,
+  "dead": 1169,
+  "hd_channels": 1805,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 749,
-      "working": 557,
-      "hd": 320
+      "working": 556,
+      "hd": 318
     },
     "Estonian": {
       "total": 4,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 760,
-      "working": 639,
+      "working": 640,
       "hd": 228
     },
     "Hungarian": {
@@ -139,13 +139,13 @@
     },
     "Indonesian": {
       "total": 17,
-      "working": 8,
-      "hd": 7
+      "working": 6,
+      "hd": 6
     },
     "Italian": {
       "total": 91,
       "working": 69,
-      "hd": 43
+      "hd": 42
     },
     "Japanese": {
       "total": 4,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 225,
       "working": 136,
-      "hd": 73
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 135,
       "working": 75,
-      "hd": 49
+      "hd": 48
     },
     "Punjabi": {
       "total": 169,
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 388,
       "working": 277,
-      "hd": 117
+      "hd": 116
     },
     "Santali": {
       "total": 2,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 434,
-      "working": 294
+      "working": 293
     },
     "Legislative": {
       "total": 8,
@@ -407,11 +407,11 @@
     },
     "Music": {
       "total": 850,
-      "working": 668
+      "working": 667
     },
     "News": {
       "total": 791,
-      "working": 708
+      "working": 709
     },
     "Outdoor": {
       "total": 18,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 576,
-      "working": 356
+      "working": 355
     },
     "Travel": {
       "total": 7,
@@ -941,11 +941,6 @@
     {
       "name": "India News Punjab/Himachal (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HINDIANEWSPBHPJ&K/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "India Voice (576p)",
-      "url": "https://mumt04.tangotv.in/m18aqlK4INDIAVOICE/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -2780,6 +2775,11 @@
     },
     {
       "name": "Mezzo Live",
+      "url": "http://45.84.187.172:3001/udp/239.10.10.76:5000",
+      "reason": "HTTP 401"
+    },
+    {
+      "name": "Mezzo Live",
       "url": "https://test.946985.filegear-sg.me/proxy/749755700e4ed9c6",
       "reason": "URLError"
     },
@@ -3044,11 +3044,6 @@
       "reason": "URLError"
     },
     {
-      "name": "TV Centro 27.2 HD (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Asian Drama (1080p)",
       "url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
       "reason": "URLError"
@@ -3127,6 +3122,16 @@
       "name": "Biznet Kids (1080p)",
       "url": "http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Ficom Channel (720p)",
+      "url": "https://v3.siar.us/ficomchannel/live/playlist.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "Kids TV",
+      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
+      "reason": "HTTP 503"
     },
     {
       "name": "Lingkar TV",
@@ -3552,6 +3557,11 @@
       "name": "TV Cuatro 4.3 (1080p)",
       "url": "https://5ca3e84a76d30.streamlock.net/tv43gto/tv43gto.smil/.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Sky Sports 2 (1080p)",
+      "url": "http://200.115.120.1:8000/play/ca82266/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Noroc TV (576p) [Not 24/7]",
@@ -4111,12 +4121,12 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN Spin",
       "url": "http://92.114.85.87:8010/play/a00b/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -5921,7 +5931,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
