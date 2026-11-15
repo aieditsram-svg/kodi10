@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-15 13:59 UTC",
-  "fingerprint": "84b4e56005ed32e25d8e9ee1ea41a49a",
+  "updated_at": "2026-11-15 14:35 UTC",
+  "fingerprint": "90cacca8eaa8880760ed67a241161844",
   "total": 4840,
-  "working": 3668,
-  "in_grace_period": 46,
-  "dead": 1172,
-  "hd_channels": 1814,
+  "working": 3665,
+  "in_grace_period": 36,
+  "dead": 1175,
+  "hd_channels": 1811,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -90,7 +90,7 @@
     "English": {
       "total": 762,
       "working": 561,
-      "hd": 317
+      "hd": 316
     },
     "Estonian": {
       "total": 4,
@@ -99,8 +99,8 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 4,
-      "hd": 4
+      "working": 3,
+      "hd": 3
     },
     "French": {
       "total": 107,
@@ -140,7 +140,7 @@
     "Indonesian": {
       "total": 17,
       "working": 8,
-      "hd": 7
+      "hd": 6
     },
     "Italian": {
       "total": 95,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 228,
       "working": 138,
-      "hd": 72
+      "hd": 74
     },
     "Persian": {
       "total": 19,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 387,
-      "working": 276,
-      "hd": 116
+      "working": 275,
+      "hd": 117
     },
     "Santali": {
       "total": 2,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 764,
-      "working": 536,
-      "hd": 353
+      "working": 535,
+      "hd": 351
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 915,
-      "working": 639
+      "working": 637
     },
     "Family": {
       "total": 12,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 850,
-      "working": 664
+      "working": 663
     },
     "News": {
       "total": 787,
@@ -2569,6 +2569,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Nitida TV (720p) [Not 24/7]",
+      "url": "https://vs20.live.opencaster.com/bznudxxdtppv/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Pula TV (1080p) [Not 24/7]",
       "url": "https://fox.hostlagarto.com:8081/pulatv/index.m3u8",
       "reason": "HTTP 404"
@@ -2662,6 +2667,11 @@
       "name": "Vantage Music (720p) [Geo-blocked]",
       "url": "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Liv (720p)",
+      "url": "https://live-fi.tvkaista.net/liv/live.m3u8?hd=true",
+      "reason": "HTTP 404"
     },
     {
       "name": "MTV Ava (720p)",
@@ -2891,7 +2901,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 401"
+      "reason": "HTTP 404"
     },
     {
       "name": "ANT1 Satellite",
@@ -3051,7 +3061,7 @@
     {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "empty HLS manifest"
     },
     {
       "name": "Film Mania",
@@ -4121,7 +4131,7 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4166,12 +4176,12 @@
     {
       "name": "Radio RAM (1080p)",
       "url": "https://1888165924.rsc.cdn77.org/live/RadioRAM/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "Canal+ Sport",
@@ -4346,7 +4356,7 @@
     {
       "name": "Digi Sport 1 HD",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3174529991",
-      "reason": "HTTP 403"
+      "reason": "HTTP 502"
     },
     {
       "name": "1HD Music Television (1080p)",
@@ -4832,6 +4842,11 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Шансон ТВ (512p) [Geo-blocked]",
+      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
+      "reason": "HTTP 403"
     },
     {
       "name": "Star Cinema (576p)",
@@ -5896,7 +5911,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -6236,7 +6251,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "not a valid HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
