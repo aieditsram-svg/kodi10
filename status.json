@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-15 00:25 UTC",
-  "fingerprint": "898473ecdaf62dcb1a2e0c3eb25af9c4",
+  "updated_at": "2026-11-15 01:35 UTC",
+  "fingerprint": "ff2d981b927865c63839d1eb23bb2457",
   "total": 4840,
-  "working": 3677,
-  "in_grace_period": 32,
-  "dead": 1163,
-  "hd_channels": 1817,
+  "working": 3681,
+  "in_grace_period": 41,
+  "dead": 1159,
+  "hd_channels": 1819,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -64,12 +64,12 @@
     },
     "Chinese": {
       "total": 58,
-      "working": 17,
+      "working": 18,
       "hd": 12
     },
     "Croatian": {
       "total": 10,
-      "working": 5,
+      "working": 3,
       "hd": 3
     },
     "Czech": {
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 759,
-      "working": 639,
+      "working": 640,
       "hd": 228
     },
     "Hungarian": {
@@ -139,8 +139,8 @@
     },
     "Indonesian": {
       "total": 17,
-      "working": 7,
-      "hd": 6
+      "working": 8,
+      "hd": 7
     },
     "Italian": {
       "total": 95,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 228,
       "working": 137,
-      "hd": 73
+      "hd": 71
     },
     "Persian": {
       "total": 19,
@@ -229,7 +229,7 @@
     },
     "Polish": {
       "total": 60,
-      "working": 43,
+      "working": 44,
       "hd": 20
     },
     "Portuguese": {
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 764,
       "working": 543,
-      "hd": 358
+      "hd": 359
     },
     "Swahili": {
       "total": 3,
@@ -304,7 +304,7 @@
     },
     "Thai": {
       "total": 13,
-      "working": 8,
+      "working": 9,
       "hd": 2
     },
     "Turkish": {
@@ -324,8 +324,8 @@
     },
     "Vietnamese": {
       "total": 27,
-      "working": 25,
-      "hd": 20
+      "working": 26,
+      "hd": 21
     }
   },
   "categories": {
@@ -375,11 +375,11 @@
     },
     "Entertainment": {
       "total": 915,
-      "working": 648
+      "working": 649
     },
     "Family": {
       "total": 12,
-      "working": 4
+      "working": 5
     },
     "General": {
       "total": 228,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 449,
-      "working": 309
+      "working": 308
     },
     "Legislative": {
       "total": 8,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 607,
-      "working": 439
+      "working": 443
     },
     "Music": {
       "total": 850,
@@ -431,7 +431,7 @@
     },
     "Shows & Series": {
       "total": 143,
-      "working": 98
+      "working": 100
     },
     "Sports": {
       "total": 589,
@@ -1674,11 +1674,6 @@
       "reason": "TimeoutError"
     },
     {
-      "name": "Goldmines (576p)",
-      "url": "https://tvsen6.aynaott.com/hKrngve2/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Taaza TV (576p)",
       "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8",
       "reason": "HTTP 403"
@@ -2289,11 +2284,6 @@
       "reason": "HTTP 500"
     },
     {
-      "name": "CCTV-6 (1080p)",
-      "url": "http://69.30.245.50/live/cctv6.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "CCTV-6 [Geo-blocked]",
       "url": "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
       "reason": "HTTP 500"
@@ -2366,7 +2356,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2537,6 +2527,16 @@
       "name": "Nick Jr. (540p)",
       "url": "http://176.61.157.250/NickJr/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Nickelodeon (720p)",
+      "url": "http://5.175.174.49:1234/stream/maxtvhr/nickelodeonhr/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Nick Jr. (576p)",
+      "url": "http://5.175.174.49:1234/stream/maxtvhr/nickjrhr/master.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Nicktoons Adria (528p)",
@@ -3094,11 +3094,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Kids TV",
-      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "Lingkar TV",
       "url": "https://lingkartv.my.id/hls/lingkartv.m3u8",
       "reason": "HTTP 404"
@@ -3231,17 +3226,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Top Crime [Geo-blocked]",
@@ -4101,7 +4096,7 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Eurosport 1 Polska (1080p)",
@@ -4151,7 +4146,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Canal+ Sport",
@@ -4177,11 +4172,6 @@
       "name": "Disney Junior (576p)",
       "url": "http://111.88.7.92:8000/play/a00o/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Paramount Network",
-      "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3390498693",
-      "reason": "HTTP 403"
     },
     {
       "name": "AXN (1080p)",
@@ -4952,11 +4942,6 @@
       "name": "ZooMoo (1080p)",
       "url": "http://168.196.127.137:6001/play/a03k/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "AXN Asia Thailand",
-      "url": "http://103.253.74.210:7070/stream/89/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "TVCARiB (720p) [Not 24/7]",
@@ -6162,11 +6147,6 @@
       "name": "Vinh Long TV 2 (1080p)",
       "url": "https://1011154949.vnns.net/CDN-FPT02/THVL2-HD-1080p/playlist.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "ON V Family (480p)",
-      "url": "https://vmttv.dpdns.org/tv360?id=187",
-      "reason": "HTTP 404"
     },
     {
       "name": "Racing.com",
