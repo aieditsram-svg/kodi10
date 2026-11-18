@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-18 15:27 UTC",
-  "fingerprint": "8c06e8ef5380d52b0f1c7c1bf1abc7fc",
+  "updated_at": "2026-11-18 16:27 UTC",
+  "fingerprint": "06960ef648440ecba086c8cb9a93fd76",
   "total": 4855,
-  "working": 3710,
-  "in_grace_period": 56,
-  "dead": 1145,
-  "hd_channels": 1849,
+  "working": 3711,
+  "in_grace_period": 60,
+  "dead": 1144,
+  "hd_channels": 1850,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -84,7 +84,7 @@
     },
     "Dutch": {
       "total": 69,
-      "working": 32,
+      "working": 31,
       "hd": 23
     },
     "English": {
@@ -105,7 +105,7 @@
     "French": {
       "total": 121,
       "working": 94,
-      "hd": 62
+      "hd": 61
     },
     "German": {
       "total": 74,
@@ -200,7 +200,7 @@
     "Marathi": {
       "total": 53,
       "working": 45,
-      "hd": 20
+      "hd": 19
     },
     "Nepali": {
       "total": 11,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 228,
-      "working": 139,
-      "hd": 73
+      "working": 138,
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -249,8 +249,8 @@
     },
     "Russian": {
       "total": 387,
-      "working": 307,
-      "hd": 120
+      "working": 306,
+      "hd": 122
     },
     "Santali": {
       "total": 2,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 765,
-      "working": 541,
-      "hd": 365
+      "working": 545,
+      "hd": 366
     },
     "Swahili": {
       "total": 3,
@@ -331,7 +331,7 @@
   "categories": {
     "Anime & Animation": {
       "total": 136,
-      "working": 88
+      "working": 89
     },
     "Auto": {
       "total": 3,
@@ -391,7 +391,7 @@
     },
     "Kids": {
       "total": 448,
-      "working": 302
+      "working": 303
     },
     "Legislative": {
       "total": 8,
@@ -403,11 +403,11 @@
     },
     "Movies": {
       "total": 609,
-      "working": 464
+      "working": 462
     },
     "Music": {
       "total": 852,
-      "working": 674
+      "working": 675
     },
     "News": {
       "total": 780,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 603,
-      "working": 364
+      "working": 365
     },
     "Travel": {
       "total": 7,
@@ -2286,7 +2286,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2376,7 +2376,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "La Kalle (1080p)",
@@ -2416,11 +2416,6 @@
     {
       "name": "Win Sports (576p)",
       "url": "http://168.228.44.241:9999/play/a050/index.m3u8",
-      "reason": "URLError"
-    },
-    {
-      "name": "Win+ Futbol (1080p)",
-      "url": "http://190.61.42.218:9000/play/a01s/index.m3u8",
       "reason": "URLError"
     },
     {
@@ -3031,7 +3026,7 @@
     {
       "name": "TVRI Sport (1080p)",
       "url": "http://202.150.172.59/TVRISport/index.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "VTV HD (1080p)",
@@ -3529,6 +3524,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Canal+ Action Europe Czechia",
+      "url": "http://46.149.191.219:9106/play/a01g",
+      "reason": "URLError"
+    },
+    {
       "name": "Canal+ Action Europe Slovakia (720p)",
       "url": "http://151.80.18.177:86/Canal+_Family_HD/index.m3u8",
       "reason": "URLError"
@@ -3602,6 +3602,11 @@
       "name": "Film1 Premiere",
       "url": "http://86.87.15.10:8008/play/a01n/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "FILMBOX+ One Nederland",
+      "url": "http://46.149.191.219:9100/play/a015",
+      "reason": "URLError"
     },
     {
       "name": "FILMBOX+ One Ukraine & Baltics (450p) [Geo-blocked]",
@@ -3909,11 +3914,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Radio Colmenar 92.5 FM",
-      "url": "https://tvdatta.com:3041/live/colmenarlive.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Tigo Sports+ (1280p)",
       "url": "https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8",
       "reason": "HTTP 404"
@@ -3967,11 +3967,6 @@
       "name": "La Tele (1080p)",
       "url": "https://cablered.iptvperu.tv:1936/cablered/la_tele.stream/playlist.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Metropolitana del Cuzco",
-      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Monterrico TV",
@@ -4126,7 +4121,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN (1080p)",
@@ -4386,6 +4381,11 @@
     {
       "name": "BRIDGE Classic (576p)",
       "url": "http://5.188.159.128:8070/Bridge_TV_Classic/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "BRIDGE Hits (576p)",
+      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -5801,7 +5801,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Movies! (480p)",
@@ -5937,11 +5937,6 @@
       "name": "TNT Series Latin America South",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "Tooncast SouthAmerica (480p)",
-      "url": "http://190.61.42.218:9000/play/a06i/index.m3u8",
-      "reason": "URLError"
     },
     {
       "name": "Tooncast SouthAmerica (480p)",
