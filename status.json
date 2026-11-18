@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-18 07:49 UTC",
-  "fingerprint": "9efc10f87547e57e9ffd85d266188d63",
+  "updated_at": "2026-11-18 08:45 UTC",
+  "fingerprint": "5bebe93bc93f1cf3df7d742de0271b4a",
   "total": 4855,
-  "working": 3679,
-  "in_grace_period": 29,
-  "dead": 1176,
-  "hd_channels": 1830,
+  "working": 3682,
+  "in_grace_period": 63,
+  "dead": 1173,
+  "hd_channels": 1832,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 757,
-      "working": 556,
-      "hd": 318
+      "working": 557,
+      "hd": 317
     },
     "Estonian": {
       "total": 4,
@@ -130,7 +130,7 @@
     "Hindi": {
       "total": 752,
       "working": 641,
-      "hd": 233
+      "hd": 232
     },
     "Hungarian": {
       "total": 57,
@@ -219,8 +219,8 @@
     },
     "Other": {
       "total": 228,
-      "working": 137,
-      "hd": 69
+      "working": 138,
+      "hd": 72
     },
     "Persian": {
       "total": 19,
@@ -239,7 +239,7 @@
     },
     "Punjabi": {
       "total": 167,
-      "working": 157,
+      "working": 158,
       "hd": 58
     },
     "Romanian": {
@@ -250,7 +250,7 @@
     "Russian": {
       "total": 387,
       "working": 312,
-      "hd": 121
+      "hd": 122
     },
     "Santali": {
       "total": 2,
@@ -279,8 +279,8 @@
     },
     "Spanish": {
       "total": 765,
-      "working": 520,
-      "hd": 348
+      "working": 521,
+      "hd": 350
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 920,
-      "working": 632
+      "working": 633
     },
     "Family": {
       "total": 12,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 852,
-      "working": 666
+      "working": 668
     },
     "News": {
       "total": 780,
@@ -462,11 +462,6 @@
       "name": "9X Jhakaas (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3H9XJHAKAAS/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "9X Tashan (576p)",
-      "url": "https://tvsen6.aynaott.com/sMqhLN6n/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "9XM (1080p)",
@@ -2921,7 +2916,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 401"
     },
     {
       "name": "Gardenias TV (720p) [Not 24/7]",
@@ -3809,11 +3804,6 @@
       "reason": "ConnectionResetError"
     },
     {
-      "name": "HMTV (720p)",
-      "url": "https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f409951e98/manifest/video.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "Kingsview TV (1080p)",
       "url": "https://j78dp6reyq5r-hls-live.5centscdn.com/4896_push_1963_001/00cb1f2e4ff89048f2e77e26940c00e6.sdp/playlist.m3u8",
       "reason": "HTTP 503"
@@ -4011,11 +4001,6 @@
     {
       "name": "Nande Portetepe TV",
       "url": "https://video.hostingcaaguazu.com:19360/nandeportetepe/nandeportetepe.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "Oasis TV (720p)",
-      "url": "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -4326,7 +4311,7 @@
     {
       "name": "Buena TV (1080p)",
       "url": "https://59825a54e4454.streamlock.net:8443/papo351/papo351/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "WAPA-TV 4.2 (720p) [Not 24/7]",
@@ -5941,7 +5926,7 @@
     {
       "name": "MLB Strike Zone (720p)",
       "url": "http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Movies! (480p)",
@@ -6256,7 +6241,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "not a valid HLS manifest"
+      "reason": "TimeoutError"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
