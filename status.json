@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-19 21:40 UTC",
-  "fingerprint": "9617990715044d564be5b313bd45442e",
+  "updated_at": "2026-11-19 22:28 UTC",
+  "fingerprint": "adbbe1241887a9936581fd661c92a250",
   "total": 4909,
-  "working": 3600,
-  "in_grace_period": 24,
-  "dead": 1309,
-  "hd_channels": 1782,
+  "working": 3595,
+  "in_grace_period": 20,
+  "dead": 1314,
+  "hd_channels": 1781,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -19,8 +19,8 @@
     },
     "Arabic": {
       "total": 75,
-      "working": 60,
-      "hd": 50
+      "working": 59,
+      "hd": 49
     },
     "Assamese": {
       "total": 40,
@@ -90,7 +90,7 @@
     "English": {
       "total": 761,
       "working": 544,
-      "hd": 308
+      "hd": 307
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 766,
-      "working": 657,
-      "hd": 236
+      "working": 653,
+      "hd": 234
     },
     "Hungarian": {
       "total": 57,
@@ -235,21 +235,21 @@
     "Portuguese": {
       "total": 134,
       "working": 73,
-      "hd": 47
+      "hd": 48
     },
     "Punjabi": {
       "total": 169,
-      "working": 160,
+      "working": 159,
       "hd": 59
     },
     "Romanian": {
       "total": 106,
-      "working": 80,
-      "hd": 31
+      "working": 81,
+      "hd": 32
     },
     "Russian": {
       "total": 388,
-      "working": 215,
+      "working": 214,
       "hd": 70
     },
     "Santali": {
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 770,
       "working": 543,
-      "hd": 367
+      "hd": 368
     },
     "Swahili": {
       "total": 3,
@@ -299,7 +299,7 @@
     },
     "Telugu": {
       "total": 195,
-      "working": 165,
+      "working": 166,
       "hd": 64
     },
     "Thai": {
@@ -355,7 +355,7 @@
     },
     "Cricket": {
       "total": 22,
-      "working": 14
+      "working": 15
     },
     "Culture": {
       "total": 38,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 929,
-      "working": 637
+      "working": 636
     },
     "Family": {
       "total": 12,
@@ -407,11 +407,11 @@
     },
     "Music": {
       "total": 862,
-      "working": 662
+      "working": 661
     },
     "News": {
       "total": 789,
-      "working": 715
+      "working": 711
     },
     "Outdoor": {
       "total": 18,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 605,
-      "working": 347
+      "working": 348
     },
     "Travel": {
       "total": 7,
@@ -1384,11 +1384,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Star Sports 2 Telugu HD (576p)",
-      "url": "https://real-vk.proxy.nellaiiptv.com/SDMEDIA/index.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "Starnet (480p)",
       "url": "https://5a1178b42cc03.streamlock.net/8220/8220/playlist.m3u8",
       "reason": "HTTP 404"
@@ -1454,6 +1449,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Tabbar Hits (576p)",
+      "url": "https://streams.tangotv.in/TABBARHITS/ORIGIN/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Tarang TV (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/tarang/index.m3u8",
       "reason": "TimeoutError"
@@ -1497,6 +1497,26 @@
       "name": "TV5 Kannada (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/tv5kannada/index.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "TV7 Bharat (1080p)",
+      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/797fcff8-10d6-4c9c-a409-8d0c4fa5c8dd/index.m3u8",
+      "reason": "HTTP 503"
+    },
+    {
+      "name": "TV7 Bharat (576p)",
+      "url": "https://stream.ottlive.co.in/tv7bharat/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "TV7 National (1080p)",
+      "url": "https://stream.ottlive.co.in/tv7national/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "TV7 National (1080p)",
+      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/05ceedc9-7ebd-4417-ba99-654f805a6b9a/index.m3u8",
+      "reason": "HTTP 503"
     },
     {
       "name": "Valam TV Dayro (576p)",
@@ -1836,7 +1856,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2431,7 +2451,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "La Kalle (1080p)",
@@ -2581,6 +2601,11 @@
     {
       "name": "COCO TV (1080p) [Not 24/7]",
       "url": "https://mlb.essastream.com:8081/canalcocotv/tracks-v1a1/mono.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Galaxia TV (360p)",
+      "url": "https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -3301,17 +3326,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "URLError"
     },
     {
       "name": "SuperTennis",
@@ -4014,6 +4039,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Falastini TV (1080p)",
+      "url": "https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Corazon TV (720p)",
       "url": "http://181.79.86.130:8000/play/a05d/index.m3u8",
       "reason": "URLError"
@@ -4089,11 +4119,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Galactica TV",
-      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Karibena (720p)",
       "url": "http://187.102.210.46/KARIBENA/index.m3u8",
       "reason": "TimeoutError"
@@ -4131,7 +4156,7 @@
     {
       "name": "Neo TV (720p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Prattel TV (720p)",
@@ -4402,11 +4427,6 @@
       "name": "E!",
       "url": "http://sultanios.alwaysdata.net/vavo.php?ID=3166915380",
       "reason": "URLError"
-    },
-    {
-      "name": "LiraTV (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Mooz Dance HD (1080i) [Geo-blocked]",
@@ -5232,6 +5252,11 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Шансон ТВ (512p) [Geo-blocked]",
+      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
+      "reason": "HTTP 403"
     },
     {
       "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
@@ -6221,7 +6246,7 @@
     {
       "name": "Boomerang (720p)",
       "url": "http://23.237.104.106:8080/USA_BOOMERANG/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Boomerang (720p) [Geo-blocked]",
@@ -6276,7 +6301,7 @@
     {
       "name": "CMT (720p)",
       "url": "http://23.237.104.106:8080/USA_CMT/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "DHE (1080p)",
@@ -6671,7 +6696,7 @@
     {
       "name": "Paramount Network (1080p)",
       "url": "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Pasiones Latin America (1080p)",
