@@ -1,5 +1,5 @@
 #EXTM3U
-# General channels, one link per channel, all languages, updated 2026-11-19 05:35 UTC
+# General channels, one link per channel, all languages, updated 2026-11-19 06:31 UTC
 #EXTINF:-1 tvg-id="Prime.sy@HD" x-categories="General;Sports" tvg-logo="https://prime1tv.com/wp-content/uploads/2025/12/7-1.png" x-category="General" tvg-language="Arabic" group-title="Arabic",Prime
 https://cdn.bestream.io/prime/prime.m3u8
 #EXTINF:-1 tvg-id="DDAssam.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142777_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Assamese" group-title="Assamese",DD Assam
@@ -42,8 +42,9 @@ http://193.46.58.239:8080/CbeebiesHD/index.m3u8
 #EXTINF:-1 tvg-id="DDAssam.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142777_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="English" group-title="English",DD Assam
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/672/master.m3u8
-#EXTINF:-1 tvg-id="DDIndia.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="English" group-title="English" height="1080",DD India
-https://mumbai-edge.smartplaytv.in/DDIndia/index.m3u8
+#EXTINF:-1 tvg-id="DDIndia.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s158251_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="English" group-title="English",DD India
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+https://fta.ektv.in/live/119/119_0.m3u8
 #EXTINF:-1 tvg-id="DDNagaland.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/HUL4aF6.png" x-category="General" tvg-language="English" group-title="English",DD Nagaland
 #EXTVLCOPT:http-user-agent=#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/670/master.m3u8
@@ -71,10 +72,10 @@ https://cdn.pishow.tv/ott/live/32/master.m3u8
 #EXTINF:-1 tvg-id="DDBihar.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142780_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Bihar
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/172/master.m3u8
-#EXTINF:-1 tvg-id="DDChhattisgarh.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/zBg6Iuv.png" x-category="General" tvg-language="Hindi" group-title="Hindi",DD Chhattisgarh
+#EXTINF:-1 tvg-id="DDChhattisgarh.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/zBg6Iuv.png" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Chhattisgarh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/577/master.m3u8
-#EXTINF:-1 tvg-id="DDHaryana.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/1T92u0F.jpeg" x-category="General" tvg-language="Hindi" group-title="Hindi",DD Haryana
+#EXTINF:-1 tvg-id="DDHaryana.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/1T92u0F.jpeg" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Haryana
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/580/master.m3u8
 #EXTINF:-1 tvg-id="DDHimachalPradesh.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142785_ld_h9_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Himachal Pradesh
@@ -84,7 +85,7 @@ https://fta.ektv.in/live/575/master.m3u8
 https://cdn.pishow.tv/ott/live/1617/master.m3u8
 #EXTINF:-1 tvg-id="DDKashir.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142788_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Kashir
 https://cdn.pishow.tv/ott/live/16/master.m3u8
-#EXTINF:-1 tvg-id="DDMadhyaPradesh.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="504",DD Madhya Pradesh
+#EXTINF:-1 tvg-id="DDMadhyaPradesh.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142790_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="216",DD Madhya Pradesh
 https://mumbai-edge.smartplaytv.in/ddmadhyapradesh/index.m3u8
 #EXTINF:-1 tvg-id="DDManipur.in@SD" x-categories="General" tvg-logo="https://i.imgur.com/CvmIwPF.png" x-category="General" tvg-language="Hindi" group-title="Hindi",DD Manipur
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
@@ -96,7 +97,7 @@ https://mumbai-edge.smartplaytv.in/DDUrdu/index.m3u8
 #EXTINF:-1 tvg-id="DDUttarPradesh.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142807_ld_h9_ab.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Uttar Pradesh
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/263/master.m3u8
-#EXTINF:-1 tvg-id="DDUttarakhand.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142809_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi",DD Uttarakhand
+#EXTINF:-1 tvg-id="DDUttarakhand.in@SD" x-categories="General" tvg-logo="https://dtil.tmsimg.com/assets/s142809_ld_h15_aa.png?lock=720x540" x-category="General" tvg-language="Hindi" group-title="Hindi" height="576",DD Uttarakhand
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
 https://fta.ektv.in/live/576/master.m3u8
 #EXTINF:-1 tvg-id="DishaTV.in@SD" tvg-logo="https://i.imgur.com/U4W0Rw8.png" x-categories="General" x-category="General" tvg-language="Hindi" group-title="Hindi" height="396",Disha TV
