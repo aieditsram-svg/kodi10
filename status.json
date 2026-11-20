@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-20 21:25 UTC",
-  "fingerprint": "ccfc78433971b2cad12099bcabf9ad30",
+  "updated_at": "2026-11-20 22:12 UTC",
+  "fingerprint": "29a1711581b78486e68b645757cbae29",
   "total": 4950,
-  "working": 3644,
-  "in_grace_period": 24,
-  "dead": 1306,
-  "hd_channels": 1797,
+  "working": 3642,
+  "in_grace_period": 38,
+  "dead": 1308,
+  "hd_channels": 1801,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 781,
-      "working": 577,
-      "hd": 329
+      "working": 576,
+      "hd": 332
     },
     "Estonian": {
       "total": 4,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 22,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 48,
@@ -140,12 +140,12 @@
     "Indonesian": {
       "total": 17,
       "working": 9,
-      "hd": 8
+      "hd": 7
     },
     "Italian": {
       "total": 97,
       "working": 60,
-      "hd": 41
+      "hd": 40
     },
     "Japanese": {
       "total": 7,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 229,
       "working": 136,
-      "hd": 69
+      "hd": 73
     },
     "Persian": {
       "total": 19,
@@ -244,13 +244,13 @@
     },
     "Romanian": {
       "total": 106,
-      "working": 82,
-      "hd": 33
+      "working": 80,
+      "hd": 32
     },
     "Russian": {
       "total": 399,
       "working": 226,
-      "hd": 74
+      "hd": 75
     },
     "Santali": {
       "total": 2,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 771,
       "working": 540,
-      "hd": 364
+      "hd": 363
     },
     "Swahili": {
       "total": 3,
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 944,
-      "working": 652
+      "working": 651
     },
     "Family": {
       "total": 12,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 859,
-      "working": 658
+      "working": 656
     },
     "News": {
       "total": 788,
@@ -435,7 +435,7 @@
     },
     "Sports": {
       "total": 604,
-      "working": 347
+      "working": 348
     },
     "Travel": {
       "total": 7,
@@ -1856,7 +1856,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -1877,11 +1877,6 @@
       "name": "Sport TV (1080p)",
       "url": "http://178.124.179.122:8080/SportTV/mpegts",
       "reason": "HTTP 400"
-    },
-    {
-      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
-      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
-      "reason": "RemoteDisconnected"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -2259,11 +2254,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Patagonia Radio TV (720p)",
-      "url": "https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
       "name": "Radio Edelweiss (720p)",
       "url": "https://vmix.dyndns.biz/Edelweiss/index.m3u8",
       "reason": "URLError"
@@ -2321,7 +2311,7 @@
     {
       "name": "CND Film Middle School Channel",
       "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Golden Eagle Cartoon",
@@ -2381,7 +2371,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2471,7 +2461,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "La Kalle (1080p)",
@@ -2612,6 +2602,11 @@
       "name": "Antena 21 (480p)",
       "url": "https://alba-do-antena7-c21.stream.mediatiquestream.com/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Claro Visión TV (720p)",
+      "url": "https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "COCO TV (1080p) [Not 24/7]",
@@ -3336,17 +3331,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Super TV (720p)",
@@ -3436,7 +3431,7 @@
     {
       "name": "Manas TV",
       "url": "http://120.70.60.179:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=0",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "УТРК Музыка (480p) [Not 24/7]",
@@ -4134,11 +4129,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Galactica TV",
-      "url": "https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Karibena (720p)",
       "url": "http://187.102.210.46/KARIBENA/index.m3u8",
       "reason": "TimeoutError"
@@ -4494,9 +4484,19 @@
       "reason": "URLError"
     },
     {
+      "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
+      "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Radio Romania Resita (576p) [Not 24/7]",
       "url": "https://stream3.srr.ro/RadioResita/live/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Smart Radio (576p)",
+      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Sport Extra HD",
@@ -5267,6 +5267,11 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Шансон ТВ (512p) [Geo-blocked]",
+      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
+      "reason": "HTTP 403"
     },
     {
       "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
@@ -6396,7 +6401,7 @@
     {
       "name": "ESPN 2 Latin America Argentina",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn2-mux/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "ESPN 3 Latin America (1080p)",
@@ -6421,7 +6426,7 @@
     {
       "name": "ESPN 5 Latin America (720p)",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn5-mux/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "ESPN 6 Latin America (1080p)",
@@ -6431,7 +6436,7 @@
     {
       "name": "ESPN 6 Latin America (720p)",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn6-mux/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "ESPN 7 Latin America (1080p)",
@@ -6831,6 +6836,11 @@
     {
       "name": "Italianissimo (360p) [Not 24/7]",
       "url": "https://vcp.myplaytv.com/italianissimo/italianissimo/playlist.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "KandelaTV (480p)",
+      "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
       "reason": "HTTP 404"
     },
     {
