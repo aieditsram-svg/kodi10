@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-20 04:19 UTC",
-  "fingerprint": "342350a98df45de484dcc8296cb713b8",
+  "updated_at": "2026-11-20 05:19 UTC",
+  "fingerprint": "448db10e22f3334e1b623ab858439a62",
   "total": 4949,
-  "working": 3622,
-  "in_grace_period": 26,
-  "dead": 1327,
-  "hd_channels": 1792,
+  "working": 3627,
+  "in_grace_period": 25,
+  "dead": 1322,
+  "hd_channels": 1793,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,8 +34,8 @@
     },
     "Bengali": {
       "total": 140,
-      "working": 93,
-      "hd": 47
+      "working": 94,
+      "hd": 48
     },
     "Bhojpuri": {
       "total": 33,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 781,
-      "working": 566,
-      "hd": 321
+      "working": 567,
+      "hd": 320
     },
     "Estonian": {
       "total": 4,
@@ -129,8 +129,8 @@
     },
     "Hindi": {
       "total": 783,
-      "working": 662,
-      "hd": 246
+      "working": 665,
+      "hd": 248
     },
     "Hungarian": {
       "total": 57,
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 771,
       "working": 540,
-      "hd": 364
+      "hd": 363
     },
     "Swahili": {
       "total": 3,
@@ -359,7 +359,7 @@
     },
     "Culture": {
       "total": 38,
-      "working": 23
+      "working": 24
     },
     "Devotional": {
       "total": 279,
@@ -371,11 +371,11 @@
     },
     "Education": {
       "total": 21,
-      "working": 16
+      "working": 17
     },
     "Entertainment": {
       "total": 943,
-      "working": 639
+      "working": 640
     },
     "Family": {
       "total": 12,
@@ -403,7 +403,7 @@
     },
     "Movies": {
       "total": 626,
-      "working": 426
+      "working": 425
     },
     "Music": {
       "total": 859,
@@ -411,7 +411,7 @@
     },
     "News": {
       "total": 788,
-      "working": 709
+      "working": 713
     },
     "Outdoor": {
       "total": 18,
@@ -517,6 +517,11 @@
       "name": "Awakening TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "B4U Kadak (576p)",
+      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "B4U Movies (576p)",
@@ -1344,11 +1349,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Shiksha TV (720p)",
-      "url": "http://103.89.46.106:8080/hls/shikshatvhd/index.m3u8",
-      "reason": "empty HLS manifest"
-    },
-    {
       "name": "Shubh Cinema TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HSHUBHCINEMA/index.m3u8",
       "reason": "HTTP 403"
@@ -1542,26 +1542,6 @@
       "name": "TV5 Kannada (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/tv5kannada/index.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "TV7 Bharat (1080p)",
-      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/797fcff8-10d6-4c9c-a409-8d0c4fa5c8dd/index.m3u8",
-      "reason": "HTTP 503"
-    },
-    {
-      "name": "TV7 Bharat (576p)",
-      "url": "https://stream.ottlive.co.in/tv7bharat/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "TV7 National (1080p)",
-      "url": "https://stream.ottlive.co.in/tv7national/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "TV7 National (1080p)",
-      "url": "https://vglivessai.akamaized.net/sg/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/05ceedc9-7ebd-4417-ba99-654f805a6b9a/index.m3u8",
-      "reason": "HTTP 503"
     },
     {
       "name": "Valam TV Dayro (576p)",
@@ -1896,7 +1876,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 500"
     },
     {
       "name": "T Sports (1080p)",
@@ -4211,7 +4191,7 @@
     {
       "name": "Neo TV (720p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Prattel TV (720p)",
@@ -5764,11 +5744,6 @@
       "reason": "URLError"
     },
     {
-      "name": "FORT TV (480p)",
-      "url": "https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Galaxy TV (720p) [Not 24/7]",
       "url": "https://stream.castr.com/6463248048d6cd3e143655b2/live_43351ad0f3b411ed81c78fcc31887c54/index.fmp4.m3u8",
       "reason": "HTTP 403"
@@ -6361,7 +6336,7 @@
     {
       "name": "Cinemax Classics (1080p)",
       "url": "http://23.237.104.106:8080/USA_5STARMAX/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Clubbing TV France",
@@ -6611,7 +6586,7 @@
     {
       "name": "IFC (1080p)",
       "url": "http://23.237.104.106:8080/USA_IFC/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "ION TV (720p)",
@@ -6761,7 +6736,7 @@
     {
       "name": "Paramount Network (1080p)",
       "url": "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Pasiones Latin America (1080p)",
@@ -6806,7 +6781,7 @@
     {
       "name": "SYFY (720p)",
       "url": "http://23.237.104.106:8080/USA_SYFY/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "SYFY (720p)",
@@ -6946,7 +6921,7 @@
     {
       "name": "LaPuraCrema Television",
       "url": "https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Maxima TV",
