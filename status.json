@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-20 01:45 UTC",
-  "fingerprint": "37f9385d9dcaad5c87b2ad0dadd95925",
+  "updated_at": "2026-11-20 02:36 UTC",
+  "fingerprint": "eeee2addc52697a62113db8941e301de",
   "total": 4949,
-  "working": 3639,
-  "in_grace_period": 31,
-  "dead": 1310,
-  "hd_channels": 1798,
+  "working": 3636,
+  "in_grace_period": 44,
+  "dead": 1313,
+  "hd_channels": 1789,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 781,
-      "working": 565,
-      "hd": 319
+      "working": 564,
+      "hd": 318
     },
     "Estonian": {
       "total": 4,
@@ -105,7 +105,7 @@
     "French": {
       "total": 121,
       "working": 93,
-      "hd": 65
+      "hd": 64
     },
     "German": {
       "total": 74,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 22,
       "working": 18,
-      "hd": 13
+      "hd": 14
     },
     "Gujarati": {
       "total": 48,
@@ -129,7 +129,7 @@
     },
     "Hindi": {
       "total": 783,
-      "working": 673,
+      "working": 672,
       "hd": 248
     },
     "Hungarian": {
@@ -145,7 +145,7 @@
     "Italian": {
       "total": 97,
       "working": 62,
-      "hd": 42
+      "hd": 41
     },
     "Japanese": {
       "total": 7,
@@ -220,7 +220,7 @@
     "Other": {
       "total": 228,
       "working": 136,
-      "hd": 73
+      "hd": 71
     },
     "Persian": {
       "total": 19,
@@ -235,7 +235,7 @@
     "Portuguese": {
       "total": 135,
       "working": 74,
-      "hd": 49
+      "hd": 48
     },
     "Punjabi": {
       "total": 170,
@@ -244,12 +244,12 @@
     },
     "Romanian": {
       "total": 106,
-      "working": 81,
+      "working": 80,
       "hd": 32
     },
     "Russian": {
       "total": 399,
-      "working": 227,
+      "working": 226,
       "hd": 74
     },
     "Santali": {
@@ -280,7 +280,7 @@
     "Spanish": {
       "total": 771,
       "working": 543,
-      "hd": 367
+      "hd": 364
     },
     "Swahili": {
       "total": 3,
@@ -325,7 +325,7 @@
     "Vietnamese": {
       "total": 27,
       "working": 26,
-      "hd": 21
+      "hd": 20
     }
   },
   "categories": {
@@ -375,7 +375,7 @@
     },
     "Entertainment": {
       "total": 943,
-      "working": 646
+      "working": 645
     },
     "Family": {
       "total": 12,
@@ -383,7 +383,7 @@
     },
     "General": {
       "total": 230,
-      "working": 192
+      "working": 191
     },
     "Interactive": {
       "total": 2,
@@ -407,7 +407,7 @@
     },
     "Music": {
       "total": 859,
-      "working": 662
+      "working": 661
     },
     "News": {
       "total": 788,
@@ -1435,6 +1435,11 @@
     },
     {
       "name": "Taaza TV (576p)",
+      "url": "https://tvsen3.aynaott.com/yRMLky2j/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Taaza TV (576p)",
       "url": "https://tvsen7.aynaott.com/TaazaTV/index.m3u8",
       "reason": "HTTP 403"
     },
@@ -1741,7 +1746,7 @@
     {
       "name": "Nos Isla TV (1080p) [Not 24/7]",
       "url": "https://backend-server-dot-telearuba-app.appspot.com/media/livestream23/playlist.m3u8",
-      "reason": "HTTP 503"
+      "reason": "HTTP 500"
     },
     {
       "name": "VIP TV (720p)",
@@ -1841,7 +1846,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2341,7 +2346,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2691,7 +2696,7 @@
     {
       "name": "MTV Ava (720p)",
       "url": "https://live-fi.tvkaista.net/ava/live.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "YleX Studio Live (720p)",
@@ -3301,17 +3306,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis",
@@ -4459,6 +4464,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Smart Radio (576p)",
+      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
+      "reason": "not a valid HLS manifest"
+    },
+    {
       "name": "Sport Extra HD",
       "url": "http://92.180.26.103/stream/93/index.m3u8",
       "reason": "HTTP 403"
@@ -4557,6 +4567,11 @@
       "name": "BRIDGE Deluxe HD (576p)",
       "url": "http://stream.mcquack.net/92/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "BRIDGE Hits (576p)",
+      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "BRIDGE Hits (576p)",
@@ -6531,7 +6546,7 @@
     {
       "name": "ION TV (720p)",
       "url": "http://23.237.104.106:8080/USA_ION/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Kartoon Channel! (720p)",
@@ -6631,7 +6646,7 @@
     {
       "name": "MTV Live (720p)",
       "url": "http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 404"
     },
     {
       "name": "NBA TV (720p)",
@@ -6676,7 +6691,7 @@
     {
       "name": "Paramount Network (1080p)",
       "url": "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "TimeoutError"
     },
     {
       "name": "Pasiones Latin America (1080p)",
@@ -6844,13 +6859,13 @@
       "reason": "URLError"
     },
     {
-      "name": "Italianissimo (360p) [Not 24/7]",
-      "url": "https://vcp.myplaytv.com/italianissimo/italianissimo/playlist.m3u8",
+      "name": "AbejalesTV (720p)",
+      "url": "https://streaming5.globalhostla.com/rtplive/abejales/playlist.m3u8",
       "reason": "HTTP 404"
     },
     {
-      "name": "KandelaTV (480p)",
-      "url": "https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8",
+      "name": "Italianissimo (360p) [Not 24/7]",
+      "url": "https://vcp.myplaytv.com/italianissimo/italianissimo/playlist.m3u8",
       "reason": "HTTP 404"
     },
     {
