@@ -1,5 +1,5 @@
 #EXTM3U
-# Working Spanish channels, updated 2026-11-21 23:00 UTC
+# Working Spanish channels, updated 2026-11-21 23:30 UTC
 #EXTINF:-1 tvg-id="123TV.ve@SD" x-categories="Kids" tvg-logo="https://i.imgur.com/xXGeZms.png" x-category="Kids" tvg-language="Spanish" group-title="Spanish" height="480",123TV (480p)
 http://200.59.191.177:8000/play/a0lb/index.m3u8
 #EXTINF:-1 tvg-id="13Festival.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/Ymk6j5o.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",13 Festival (1080p)
@@ -320,6 +320,8 @@ http://138.121.15.230:9002/DISTRITO-COMEDIA/index.m3u8
 http://190.61.47.54:8000/play/a028/index.m3u8
 #EXTINF:-1 tvg-id="DreikoTV.pa@SD" x-categories="Anime & Animation" tvg-logo="https://i.imgur.com/k8U0e0b.png" x-category="Anime & Animation" tvg-language="Spanish" group-title="Spanish" height="720",Dreiko TV (720p) [Not 24/7]
 https://cloudvideo.servers10.com:8081/8020/index.m3u8
+#EXTINF:-1 tvg-id="DSports.us@Panregional" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/DirecTV_Sports_Latin_America_%282018%29.png/960px-DirecTV_Sports_Latin_America_%282018%29.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",DSports
+http://45.186.254.75:8000/play/a0en/index.m3u8
 #EXTINF:-1 tvg-id="DSports2.us@Panregional" x-categories="Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/DIRECTV_Sports_2_Latin_America_%282018%29.svg/960px-DIRECTV_Sports_2_Latin_America_%282018%29.svg.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish",DSports 2
 http://45.134.141.161:2200/ARG/DTV_SP2/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ELatinAmerica.us@Colombia" x-categories="Entertainment;News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/E%21_Logo_2012.svg/500px-E%21_Logo_2012.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",E! Latin America Colombia (1080p)
@@ -417,8 +419,6 @@ http://15.204.246.24:8080/FXHD/index.m3u8
 http://168.196.127.137:6001/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="FXLatinAmerica.us@Panregional" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/FX_International_logo.svg/960px-FX_International_logo.svg.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",FX Latin America (1080p)
 http://190.93.224.42/FX/index.m3u8
-#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" x-categories="Music" tvg-logo="https://i.imgur.com/byL1zCV.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish",Galactica TV
-https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-id="GalaxiATeVe.do@SD" x-categories="Entertainment" tvg-logo="https://grupomediosdelnorte.com/iptv/galaxia.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="360",Galaxia TV (360p)
 https://streaming.grupomediosdelnorte.com:19360/galaxiateve/galaxiateve.m3u8
 #EXTINF:-1 tvg-id="GenialTV.cl@SD" x-categories="Music" tvg-logo="https://i.imgur.com/uBC8e96.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Genial TV (720p)
@@ -715,7 +715,7 @@ https://srspsn.live/live/livestream.m3u8
 http://158.172.155.130:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="RETV.do@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/HpKQYp3.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="800",R&E TV (480p) [Not 24/7]
 https://cloud2.streaminglivehd.com:1936/8072/8072/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/IvZtqyz.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Radio Bonita 106.7 (720p)
+#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/IvZtqyz.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Bonita 106.7 (720p)
 https://cloudvideo.servers10.com:8081/8154/index.m3u8
 #EXTINF:-1 tvg-id="RadioCarnavalTV.es@SD" x-categories="Music;Entertainment" tvg-logo="https://i.imgur.com/cdpbkSo.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Radio Carnaval TV (720p) [Not 24/7]
 https://eu1.servers10.com:8081/8116/index.m3u8
@@ -967,8 +967,6 @@ https://tvturf4.janus.cl/playlist/stream.m3u8?d=w&id=
 https://183.giatvcdn.com/giatvplayout7/giatv-208343/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCanalSur.do@SD" x-categories="Entertainment" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",TV Canal Sur (720p) [Not 24/7]
 https://streamtvs.tvcanalsur.com.do/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TvCarigso.bo@SD" x-categories="Music" tvg-logo="https://i.imgur.com/nhg1uM9.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Tv Carigso (720p)
-https://183.giatvcdn.com/ssh101/ssh101/carigsotv2026/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCentro272HD.hn@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Wo2scQf.jpg" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",TV Centro 27.2 HD (720p)
 https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/Nd5axnS.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish",TV Golfo Uraba
@@ -1016,9 +1014,9 @@ https://capomo01-enitv.eninetworks.com/locales_vbmedia_publico/index.m3u8
 http://186.148.196.100:8000/play/a01d
 #EXTINF:-1 tvg-id="VenusMedia.py@SD" x-categories="Music" tvg-logo="https://i.imgur.com/XwmUbfp.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="1080",Venus Media (1080p)
 https://tigocloud.desdeparaguay.net/venusmedia/venusmedia/playlist.m3u8
-#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/zEi8eMC.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="480",Video Tour Channel
+#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/zEi8eMC.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Video Tour Channel
 https://59ef525c24caa.streamlock.net/videotour/videotour/playlist.m3u8
-#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/zEi8eMC.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="480",Video Tour Channel (480p) [Not 24/7]
+#EXTINF:-1 tvg-id="VideoTourChannel.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/zEi8eMC.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Video Tour Channel (480p) [Not 24/7]
 http://k4.usastreams.com/videotour/videotour/playlist.m3u8
 #EXTINF:-1 tvg-id="VintageMusic.cr@SD" x-categories="Music" tvg-logo="https://i.imgur.com/KImqYnN.jpeg" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Vintage Music (720p)
 https://59ef525c24caa.streamlock.net/vmtv/tvvintage/playlist.m3u8
@@ -1034,6 +1032,8 @@ https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 https://cloudvideo.servers10.com:8081/8198/index.m3u8
 #EXTINF:-1 tvg-id="VosyTV.ec@SD" x-categories="Music" tvg-logo="https://i.imgur.com/294FDCB.png" x-category="Music" tvg-language="Spanish" group-title="Spanish" height="720",Vos y TV (720p) [Not 24/7]
 https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
+#EXTINF:-1 tvg-id="WAPATV42.pr@HD" x-categories="Sports" tvg-logo="https://i.imgur.com/5WNBFmp.png" x-category="Sports" tvg-language="Spanish" group-title="Spanish" height="720",WAPA-TV 4.2 (720p) [Not 24/7]
+https://wapa.hostless.app/WAPA-TV-4-2.m3u8
 #EXTINF:-1 tvg-id="WarnerChannel.us@Colombia" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",Warner Channel Colombia (1080p)
 http://38.134.250.110:8000/play/a029/index.m3u8
 #EXTINF:-1 tvg-id="WarnerChannel.us@Mexico" x-categories="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png" x-category="Movies" tvg-language="Spanish" group-title="Spanish" height="1080",Warner Channel Mexico (1080p) [Geo-blocked]
@@ -1074,7 +1074,3 @@ https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
 https://tele-stream.telecasa.net/live/st1/yunavision-hd/index.m3u8
 #EXTINF:-1 tvg-id="ZAZ.mx@SD" x-categories="Entertainment" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",ZAZ (1080p)
 https://cloud.fastchannel.es/mic/manifiest/hls/zaztv/zaztv.m3u8
-#EXTINF:-1 tvg-id="OPA.cr@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/300c1ZH.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="1080",¡OPA! (1080i) [Geo-blocked]
-https://5fc584f3f19c9.streamlock.net/genteopa/videogenteopa/playlist.m3u8
-#EXTINF:-1 tvg-id="OPA.cr@SD" x-categories="Entertainment" tvg-logo="https://i.imgur.com/300c1ZH.png" x-category="Entertainment" tvg-language="Spanish" group-title="Spanish" height="720",¡OPA! (720p)
-https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8
