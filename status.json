@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-21 21:11 UTC",
-  "fingerprint": "39254414ea4a23c9245ee16de9c9c478",
+  "updated_at": "2026-11-21 21:46 UTC",
+  "fingerprint": "62affa5c7885e3938cb33920df6632d3",
   "total": 5019,
   "working": 3682,
   "in_grace_period": 30,
@@ -135,7 +135,7 @@
     "Hindi": {
       "total": 820,
       "working": 704,
-      "hd": 265
+      "hd": 266
     },
     "Hungarian": {
       "total": 57,
@@ -225,7 +225,7 @@
     "Other": {
       "total": 224,
       "working": 134,
-      "hd": 71
+      "hd": 70
     },
     "Persian": {
       "total": 19,
@@ -240,7 +240,7 @@
     "Portuguese": {
       "total": 142,
       "working": 74,
-      "hd": 49
+      "hd": 48
     },
     "Punjabi": {
       "total": 171,
@@ -254,7 +254,7 @@
     },
     "Russian": {
       "total": 402,
-      "working": 230,
+      "working": 228,
       "hd": 75
     },
     "Santali": {
@@ -284,8 +284,8 @@
     },
     "Spanish": {
       "total": 769,
-      "working": 531,
-      "hd": 356
+      "working": 532,
+      "hd": 357
     },
     "Swahili": {
       "total": 3,
@@ -304,7 +304,7 @@
     },
     "Telugu": {
       "total": 209,
-      "working": 179,
+      "working": 180,
       "hd": 72
     },
     "Thai": {
@@ -380,7 +380,7 @@
     },
     "Entertainment": {
       "total": 958,
-      "working": 649
+      "working": 650
     },
     "Family": {
       "total": 12,
@@ -396,7 +396,7 @@
     },
     "Kids": {
       "total": 464,
-      "working": 285
+      "working": 284
     },
     "Legislative": {
       "total": 8,
@@ -412,7 +412,7 @@
     },
     "Music": {
       "total": 860,
-      "working": 655
+      "working": 656
     },
     "News": {
       "total": 810,
@@ -440,7 +440,7 @@
     },
     "Sports": {
       "total": 604,
-      "working": 356
+      "working": 355
     },
     "Travel": {
       "total": 7,
@@ -494,11 +494,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "All Time Movies (576p)",
-      "url": "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "AMN TV (576p)",
       "url": "https://live.onecloudlive.in/amn/amntv/index.m3u8",
       "reason": "TimeoutError"
@@ -532,6 +527,11 @@
       "name": "Awakening TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "B4U Kadak (576p)",
+      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "B4U Movies (576p)",
@@ -777,11 +777,6 @@
       "name": "ETV Music (1080p)",
       "url": "https://mumbai-edge.smartplaytv.in/ETVABHIRUCHI/index.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "ETV Plus (396p)",
-      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "ETV Plus HD (1080p)",
@@ -1939,6 +1934,11 @@
       "reason": "HTTP 400"
     },
     {
+      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
+      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
+      "reason": "RemoteDisconnected"
+    },
+    {
       "name": "Bel RTL (1080p)",
       "url": "https://bel-live-hls.akamaized.net/hls/live/2038650/BEL-Live-HLS/master.m3u8",
       "reason": "HTTP 400"
@@ -2012,11 +2012,6 @@
       "name": "Tigo Sports (720p) [Geo-blocked]",
       "url": "https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8",
       "reason": "not a valid HLS manifest"
-    },
-    {
-      "name": "Tv Carigso (720p)",
-      "url": "https://183.giatvcdn.com/ssh101/ssh101/carigsotv2026/playlist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Voz Di Bonaire TV (720p)",
@@ -2371,7 +2366,7 @@
     {
       "name": "CND Film Middle School Channel",
       "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Golden Eagle Cartoon",
@@ -2431,7 +2426,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "ConnectionResetError"
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2521,7 +2516,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "La Kalle (1080p)",
@@ -3051,7 +3046,7 @@
     {
       "name": "ERT3 (1080p)",
       "url": "https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8",
-      "reason": "HTTP 401"
+      "reason": "HTTP 404"
     },
     {
       "name": "Gardenias TV (720p) [Not 24/7]",
@@ -3189,11 +3184,6 @@
       "reason": "empty HLS manifest"
     },
     {
-      "name": "K100 (1080p)",
-      "url": "https://k100streymi.mbl.is/beint/k100/index.m3u8",
-      "reason": "not a valid HLS manifest"
-    },
-    {
       "name": "Biznet Kids (1080p)",
       "url": "http://livestream.biznetvideo.net/biznet_kids/smil:kids.smil/index.m3u8",
       "reason": "URLError"
@@ -3241,7 +3231,7 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Afarin Baxcha (1080p)",
@@ -3469,6 +3459,11 @@
       "reason": "HTTP 400"
     },
     {
+      "name": "Balapan International (1080p)",
+      "url": "https://live-3.otcnet.ru/Balapan/index.m3u8",
+      "reason": "HTTP 503"
+    },
+    {
       "name": "Manas TV (1080p)",
       "url": "http://212.42.111.152:8080/hls/manas.m3u8",
       "reason": "URLError"
@@ -3516,7 +3511,7 @@
     {
       "name": "Manas TV",
       "url": "http://120.70.60.179:9901/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=0",
-      "reason": "TimeoutError"
+      "reason": "URLError"
     },
     {
       "name": "УТРК Музыка (480p) [Not 24/7]",
@@ -5294,6 +5289,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Шансон ТВ (512p) [Geo-blocked]",
+      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
+      "reason": "HTTP 403"
+    },
+    {
       "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
       "url": "https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8",
       "reason": "HTTP 403"
@@ -5741,7 +5741,7 @@
     {
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
