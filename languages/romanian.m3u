@@ -1,5 +1,5 @@
 #EXTM3U
-# Working Romanian channels, updated 2026-11-20 23:32 UTC
+# Working Romanian channels, updated 2026-11-21 00:17 UTC
 #EXTINF:-1 tvg-id="Acasa.ro@SD" x-categories="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Acasa_2022_flat.png/960px-Acasa_2022_flat.png" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian" height="1080",Acasa (1080p)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-pro2/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="AcasaGold.ro@SD" x-categories="Entertainment" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/f/fb/Acasa_Gold_2022.svg/revision/latest/scale-to-width-down/512" x-category="Entertainment" tvg-language="Romanian" group-title="Romanian" height="1080",Acasa Gold (1080p)
@@ -102,6 +102,11 @@ https://media.noroc.tv/noroc/bitrate_1080p.m3u8
 https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8
 #EXTINF:-1 tvg-id="OrizontTV.ro@SD" x-categories="Music" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8b/Orizont_TV.svg/revision/latest/scale-to-width-down/1000?cb=20241219232954" x-category="Music" tvg-language="Romanian" group-title="Romanian" height="576",Orizont TV (576i)
 https://hls01ns.antenaplay.ro/hls/orizont-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="PrimaSport1.ro@HD" x-categories="Sports" tvg-logo="https://static.wikia.nocookie.net/tvfanon6528/images/5/52/Prima_Sport_1_%282022-.n.v.%29.png/revision/latest/scale-to-width-down/1000?cb=20240205121905" x-category="Sports" tvg-language="Romanian" group-title="Romanian",Prima Sport 1 HD
+#EXTVLCOPT:http-referrer=https://rundle.tv/
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk1%2Fusergenrx0cir27aq-got.htm
+#EXTINF:-1 tvg-id="PrimaSport2.ro@HD" x-categories="Sports" tvg-logo="https://i.imgur.com/hROcepe.png" x-category="Sports" tvg-language="Romanian" group-title="Romanian",Prima Sport 2 HD
+https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk2%2Fusergenrnd0clv03fyt-got.htm
 #EXTINF:-1 tvg-id="PrimaSportPPV1.ro@SD" x-categories="Sports" x-category="Sports" tvg-language="Romanian" group-title="Romanian",Prima Sport PPV 1
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fpulse1.sanseny001.shop%2Fpuki1%2Fusergendx6kal0r2bsm-got.htm
 #EXTINF:-1 tvg-id="PrimaSportPPV2.ro@SD" x-categories="Sports" x-category="Sports" tvg-language="Romanian" group-title="Romanian",Prima Sport PPV 2
