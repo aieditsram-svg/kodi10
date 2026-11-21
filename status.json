@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-21 04:44 UTC",
-  "fingerprint": "085330050337eab5dfb29131d313275a",
+  "updated_at": "2026-11-21 05:38 UTC",
+  "fingerprint": "cd42f7b3a07bd8a24eb8ee234c4b5ee0",
   "total": 5022,
-  "working": 3733,
-  "in_grace_period": 103,
-  "dead": 1289,
-  "hd_channels": 1820,
+  "working": 3729,
+  "in_grace_period": 74,
+  "dead": 1293,
+  "hd_channels": 1844,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -25,7 +25,7 @@
     "Assamese": {
       "total": 44,
       "working": 40,
-      "hd": 12
+      "hd": 13
     },
     "Belarusian": {
       "total": 3,
@@ -35,7 +35,7 @@
     "Bengali": {
       "total": 145,
       "working": 99,
-      "hd": 50
+      "hd": 51
     },
     "Bhojpuri": {
       "total": 34,
@@ -84,13 +84,13 @@
     },
     "Dutch": {
       "total": 65,
-      "working": 32,
+      "working": 31,
       "hd": 23
     },
     "English": {
       "total": 793,
-      "working": 590,
-      "hd": 334
+      "working": 591,
+      "hd": 339
     },
     "Estonian": {
       "total": 4,
@@ -135,12 +135,12 @@
     "Hindi": {
       "total": 820,
       "working": 705,
-      "hd": 264
+      "hd": 265
     },
     "Hungarian": {
       "total": 57,
-      "working": 51,
-      "hd": 9
+      "working": 52,
+      "hd": 10
     },
     "Indonesian": {
       "total": 17,
@@ -160,7 +160,7 @@
     "Kannada": {
       "total": 88,
       "working": 72,
-      "hd": 29
+      "hd": 35
     },
     "Konkani": {
       "total": 3,
@@ -199,8 +199,8 @@
     },
     "Malayalam": {
       "total": 132,
-      "working": 110,
-      "hd": 40
+      "working": 108,
+      "hd": 46
     },
     "Marathi": {
       "total": 59,
@@ -224,8 +224,8 @@
     },
     "Other": {
       "total": 226,
-      "working": 136,
-      "hd": 70
+      "working": 135,
+      "hd": 68
     },
     "Persian": {
       "total": 19,
@@ -255,7 +255,7 @@
     "Russian": {
       "total": 402,
       "working": 230,
-      "hd": 75
+      "hd": 74
     },
     "Santali": {
       "total": 2,
@@ -284,7 +284,7 @@
     },
     "Spanish": {
       "total": 770,
-      "working": 534,
+      "working": 533,
       "hd": 359
     },
     "Swahili": {
@@ -300,12 +300,12 @@
     "Tamil": {
       "total": 200,
       "working": 166,
-      "hd": 80
+      "hd": 86
     },
     "Telugu": {
       "total": 209,
       "working": 180,
-      "hd": 71
+      "hd": 72
     },
     "Thai": {
       "total": 13,
@@ -380,7 +380,7 @@
     },
     "Entertainment": {
       "total": 959,
-      "working": 658
+      "working": 657
     },
     "Family": {
       "total": 12,
@@ -408,7 +408,7 @@
     },
     "Movies": {
       "total": 638,
-      "working": 454
+      "working": 453
     },
     "Music": {
       "total": 861,
@@ -416,7 +416,7 @@
     },
     "News": {
       "total": 810,
-      "working": 733
+      "working": 731
     },
     "Outdoor": {
       "total": 18,
@@ -674,6 +674,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "DD Kashir (576p)",
+      "url": "https://fta.ektv.in/live/248/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "DD Manipur (576p)",
       "url": "https://fta.ektv.in/live/671/master.m3u8",
       "reason": "HTTP 404"
@@ -914,11 +919,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "HSTV (720p)",
-      "url": "https://live.castmaxcloud.com/live/hstv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "IBC 24 (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HC10/index.m3u8",
       "reason": "HTTP 403"
@@ -957,6 +957,16 @@
       "name": "Janam TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HJANAMTV/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "Janam TV (576p)",
+      "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtv/playlist.m3u8",
+      "reason": "HTTP 503"
+    },
+    {
+      "name": "Janam TV (576p)",
+      "url": "https://yuppmedtaorire.akamaized.net/v1/master/a0d007312bfd99c47f76b77ae26b1ccdaae76cb1/janamtv_nim_https/140622/janamtvdev/playlist.m3u8",
+      "reason": "HTTP 503"
     },
     {
       "name": "Jaya Plus (576p)",
@@ -1714,6 +1724,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Canal Pulpo TV",
+      "url": "https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Disney Channel Latin America (1080p)",
       "url": "https://barinaslive1.boldmss.com/DISNEY/DISNEY.isml/DISNEY.m3u8",
       "reason": "HTTP 403"
@@ -2201,7 +2216,7 @@
     {
       "name": "Komsan TV [Not 24/7]",
       "url": "http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "My TV (576p)",
@@ -2761,7 +2776,7 @@
     {
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
-      "reason": "TimeoutError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Eurosport",
@@ -3109,11 +3124,6 @@
       "reason": "HTTP 503"
     },
     {
-      "name": "MAX4 (1080p)",
-      "url": "http://141.94.193.53/MAX4_HD/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Zuglo TV (360p)",
       "url": "https://cloudfront44.lexanetwork.com:1344/freerelay/zuglotv.sdp/playlist.m3u8",
       "reason": "empty HLS manifest"
@@ -3346,17 +3356,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Super TV (720p)",
@@ -3679,6 +3689,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Canal+ Action Europe Czechia",
+      "url": "http://46.149.191.219:9106/play/a01g",
+      "reason": "URLError"
+    },
+    {
       "name": "Canal+ Action Europe Slovakia (720p)",
       "url": "http://151.80.18.177:86/Canal+_Family_HD/index.m3u8",
       "reason": "URLError"
@@ -3731,6 +3746,11 @@
     {
       "name": "FightBox Poland (576p)",
       "url": "http://205.237.104.26:8080/stream/356/index.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "FILMBOX+ One Nederland",
+      "url": "http://46.149.191.219:9100/play/a015",
       "reason": "URLError"
     },
     {
@@ -4201,7 +4221,7 @@
     {
       "name": "Riku TV (720p)",
       "url": "https://live-evg7.tv360.bitel.com.pe/bitel/riku/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 504"
     },
     {
       "name": "Turbo Mix Radio TV (720p)",
@@ -4226,7 +4246,7 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Disney Junior (576p)",
@@ -4281,7 +4301,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN (1080p)",
@@ -4517,6 +4537,11 @@
       "name": "BRIDGE Deluxe HD (576p)",
       "url": "http://stream.mcquack.net/92/index.m3u8",
       "reason": "HTTP 403"
+    },
+    {
+      "name": "BRIDGE Hits (576p)",
+      "url": "http://5.188.159.128:8070/Bridge_TV_Hits/index.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "BRIDGE Hits (576p)",
@@ -5187,11 +5212,6 @@
       "name": "Шансон ТВ (576p) [Geo-blocked]",
       "url": "https://uiptv.do.am/1ufc/602079679/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Шансон ТВ (512p) [Geo-blocked]",
-      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
-      "reason": "HTTP 403"
     },
     {
       "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
@@ -6191,7 +6211,7 @@
     {
       "name": "Cartoon Network Latin America",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cartoonnetwork.stream/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Cine Familiar (1080p)",
@@ -6291,7 +6311,7 @@
     {
       "name": "E! Latin America (1080p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/entertainment.stream/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "E! Latin America Mexico (720p)",
@@ -6406,7 +6426,7 @@
     {
       "name": "FX Latin America South",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/fx-key/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Gagsnetwork (576p)",
@@ -6446,12 +6466,12 @@
     {
       "name": "HBO Mundi Latin America",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/cinemax.stream/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "HBO Xtreme Latin America",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/HBO_Xtreme/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Kartoon Channel! (720p)",
@@ -6616,7 +6636,7 @@
     {
       "name": "Star Channel Latin America (1080i)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/StarChannel.stream/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Starz Cinema (720p)",
@@ -6656,7 +6676,7 @@
     {
       "name": "TNT Series Latin America South",
       "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/TNTseries.stream/chunks.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Tooncast SouthAmerica (480p)",
@@ -6671,7 +6691,7 @@
     {
       "name": "Universal Comedy (1080p)",
       "url": "http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/universalcomedy/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "Universal Crime (1080p)",
