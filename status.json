@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-21 23:30 UTC",
-  "fingerprint": "ca784e43e765733b2ada13b22f2726d1",
+  "updated_at": "2026-11-22 00:04 UTC",
+  "fingerprint": "1bd5dbe73f81e03133ff88c38f27e5be",
   "total": 5019,
-  "working": 3686,
+  "working": 3698,
   "in_grace_period": 14,
-  "dead": 1333,
-  "hd_channels": 1813,
+  "dead": 1321,
+  "hd_channels": 1816,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,7 +34,7 @@
     },
     "Bengali": {
       "total": 145,
-      "working": 99,
+      "working": 98,
       "hd": 50
     },
     "Bhojpuri": {
@@ -64,7 +64,7 @@
     },
     "Chinese": {
       "total": 58,
-      "working": 17,
+      "working": 18,
       "hd": 12
     },
     "Croatian": {
@@ -84,12 +84,12 @@
     },
     "Dutch": {
       "total": 65,
-      "working": 30,
-      "hd": 22
+      "working": 29,
+      "hd": 21
     },
     "English": {
       "total": 793,
-      "working": 566,
+      "working": 567,
       "hd": 318
     },
     "Estonian": {
@@ -104,8 +104,8 @@
     },
     "French": {
       "total": 124,
-      "working": 93,
-      "hd": 66
+      "working": 96,
+      "hd": 68
     },
     "German": {
       "total": 74,
@@ -134,8 +134,8 @@
     },
     "Hindi": {
       "total": 820,
-      "working": 704,
-      "hd": 266
+      "working": 705,
+      "hd": 265
     },
     "Hungarian": {
       "total": 57,
@@ -145,11 +145,11 @@
     "Indonesian": {
       "total": 17,
       "working": 8,
-      "hd": 7
+      "hd": 6
     },
     "Italian": {
       "total": 97,
-      "working": 62,
+      "working": 63,
       "hd": 42
     },
     "Japanese": {
@@ -159,7 +159,7 @@
     },
     "Kannada": {
       "total": 88,
-      "working": 71,
+      "working": 70,
       "hd": 34
     },
     "Konkani": {
@@ -225,7 +225,7 @@
     "Other": {
       "total": 224,
       "working": 134,
-      "hd": 72
+      "hd": 71
     },
     "Persian": {
       "total": 19,
@@ -234,13 +234,13 @@
     },
     "Polish": {
       "total": 60,
-      "working": 45,
-      "hd": 21
+      "working": 48,
+      "hd": 24
     },
     "Portuguese": {
       "total": 142,
-      "working": 74,
-      "hd": 48
+      "working": 79,
+      "hd": 47
     },
     "Punjabi": {
       "total": 171,
@@ -249,7 +249,7 @@
     },
     "Romanian": {
       "total": 99,
-      "working": 82,
+      "working": 83,
       "hd": 32
     },
     "Russian": {
@@ -284,8 +284,8 @@
     },
     "Spanish": {
       "total": 769,
-      "working": 528,
-      "hd": 355
+      "working": 529,
+      "hd": 358
     },
     "Swahili": {
       "total": 3,
@@ -304,7 +304,7 @@
     },
     "Telugu": {
       "total": 209,
-      "working": 180,
+      "working": 179,
       "hd": 72
     },
     "Thai": {
@@ -314,8 +314,8 @@
     },
     "Turkish": {
       "total": 53,
-      "working": 35,
-      "hd": 29
+      "working": 36,
+      "hd": 30
     },
     "Ukrainian": {
       "total": 70,
@@ -336,7 +336,7 @@
   "categories": {
     "Anime & Animation": {
       "total": 141,
-      "working": 92
+      "working": 94
     },
     "Auto": {
       "total": 4,
@@ -368,7 +368,7 @@
     },
     "Devotional": {
       "total": 286,
-      "working": 263
+      "working": 262
     },
     "Documentary": {
       "total": 16,
@@ -396,7 +396,7 @@
     },
     "Kids": {
       "total": 464,
-      "working": 289
+      "working": 294
     },
     "Legislative": {
       "total": 8,
@@ -408,15 +408,15 @@
     },
     "Movies": {
       "total": 638,
-      "working": 442
+      "working": 447
     },
     "Music": {
       "total": 860,
-      "working": 655
+      "working": 654
     },
     "News": {
       "total": 810,
-      "working": 727
+      "working": 726
     },
     "Outdoor": {
       "total": 18,
@@ -436,11 +436,11 @@
     },
     "Shows & Series": {
       "total": 149,
-      "working": 93
+      "working": 94
     },
     "Sports": {
       "total": 604,
-      "working": 357
+      "working": 362
     },
     "Travel": {
       "total": 7,
@@ -769,6 +769,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "ETV Plus (396p)",
+      "url": "https://yupplivegcpusa.yuppcdn.net/100823/smil:etvplus.smil/playlist.m3u8?hdnts=st=1735898689~exp=1835898688~acl=*~hmac=f5fe24724fe05481e3841f9eb5ab8efdee0a3dd83645ae9dcf45703f525bab7b",
+      "reason": "not a valid HLS manifest"
+    },
+    {
       "name": "ETV Plus HD (1080p)",
       "url": "https://d12ee3o8yfkkhd.cloudfront.net/c6a4b411295f47f48c908d2ac0605bad/index.m3u8",
       "reason": "URLError"
@@ -851,6 +856,11 @@
     {
       "name": "Good News Today (720p)",
       "url": "https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Grace TV (360p)",
+      "url": "https://samitaorigin.tangotv.in/GRACETV/SAMITAORIGIN/index.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1219,6 +1229,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Power TV (576p)",
+      "url": "https://mumt06.tangotv.in/qYyB8fXVPOWERTV/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Pradesh24 Gujarati (1080p)",
       "url": "https://stream2.livebox.co.in/pradesh24hls/live.m3u8",
       "reason": "HTTP 404"
@@ -1252,11 +1267,6 @@
       "name": "Public Music (576p)",
       "url": "https://mumbai-edge.smartplaytv.in/publicmusickannada/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Q TV (576p) [Geo-blocked]",
-      "url": "https://tvsen6.aynaott.com/3PjZZahm/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "R Plus Gold (576p)",
@@ -1437,6 +1447,11 @@
       "name": "Star Bharat HD (1080p)",
       "url": "http://103.135.253.32:8080/STAR-BHARAT/index.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Star Jalsha (1080p) [Geo-blocked]",
+      "url": "http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805",
+      "reason": "HTTP 458"
     },
     {
       "name": "Star Jalsha HD (1080p)",
@@ -2364,11 +2379,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "CND Film Middle School Channel",
-      "url": "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Golden Eagle Cartoon",
       "url": "http://1.24.190.98:10080/hls/51/index.m3u8",
       "reason": "URLError"
@@ -2809,16 +2819,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Canal J (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F3860888136d301b247640b",
-      "reason": "HTTP 429"
-    },
-    {
-      "name": "Cine+ Classic (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F1398934027",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "Cine+ Classic",
       "url": "http://99.27.51.147/CineClassic/index.m3u8",
       "reason": "TimeoutError"
@@ -2827,11 +2827,6 @@
       "name": "Cine+ Frisson (1080p)",
       "url": "http://99.27.51.147:8080/CineFrisson/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "Disney Channel",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F11741266772bc970bcdea5",
-      "reason": "HTTP 429"
     },
     {
       "name": "Eurosport",
@@ -3389,11 +3384,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Sky Sport F1",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F22890389722acc4573933d",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "Sportitalia (1080p)",
       "url": "https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8",
       "reason": "HTTP 404"
@@ -3411,7 +3401,7 @@
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "HTTP 404"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis",
@@ -3807,6 +3797,11 @@
       "name": "Qmusic (Netherlands) (720p)",
       "url": "https://dpp-qmusicnl-live.akamaized.net/streamx/QmusicNL.m3u8",
       "reason": "HTTP 400"
+    },
+    {
+      "name": "Radio JND (1080p)",
+      "url": "https://radiojnd.cdn.hostin.cc/radiojnd/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "Radio Stad den Haag (720p)",
@@ -4274,16 +4269,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Eurosport 3 Polska (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5121596371c5191ed9b35",
-      "reason": "HTTP 429"
-    },
-    {
-      "name": "Eurosport 4 Polska (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2896573317d9d69e0e2d72",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "FILMBOX+ Emotion Romania",
       "url": "https://onyx1.mofta1.cfd/fboye/usergendlg8sl1ks0tv7sr8n.m3u8",
       "reason": "URLError"
@@ -4297,11 +4282,6 @@
       "name": "FILMBOX+ One Romania",
       "url": "https://atlantida1.aquax1.cfd/fboz/usergendx7tc9brnd.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Paramount Network (1080p)",
-      "url": "https://guard.sekobes.workers.dev/?url=https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F3390498693",
-      "reason": "HTTP 429"
     },
     {
       "name": "Polsat Film HD",
@@ -4339,11 +4319,6 @@
       "reason": "URLError"
     },
     {
-      "name": "AXN",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F538838100d0590731cf6d",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "Disney Channel (1080p)",
       "url": "http://151.80.18.177:86/Disney_Channel_HD/index.m3u8",
       "reason": "URLError"
@@ -4357,11 +4332,6 @@
       "name": "Famatv (1080p) [Not 24/7]",
       "url": "https://tv2.fastcast4u.com:3310/live/famatvlive.m3u8",
       "reason": "HTTP 500"
-    },
-    {
-      "name": "Nickelodeon",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F398241518529a84217dd1f",
-      "reason": "HTTP 429"
     },
     {
       "name": "NPC Rádio e TV (720p)",
@@ -4422,11 +4392,6 @@
       "name": "beIN Sports 1",
       "url": "https://vg162.adcdsd123321.shop/7.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "AntenaSport",
-      "url": "https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "Bollywood Classic Romania",
@@ -5434,11 +5399,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "AXN (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fgeil.to%2Flive%2Fplay%2F4238619703",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "AXN CEE Bulgary",
       "url": "http://85.11.144.9:4222/AXN",
       "reason": "URLError"
@@ -5652,11 +5612,6 @@
       "name": "NW Magazine (576p)",
       "url": "https://hls.newworldtv.com/nw-magazine/video/live.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "beIN Sports 1 Turk (1080p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F300113394ceebba66c8ad",
-      "reason": "HTTP 429"
     },
     {
       "name": "Disney Jr. (1080p) [Geo-blocked]",
@@ -6069,16 +6024,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Cartoon Network Western Europe Portugal (576p)",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F327818589842dbaee1327c",
-      "reason": "HTTP 429"
-    },
-    {
-      "name": "Cartoon Network Western Europe Portugal",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F2672740913728a31b548ec",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "CBBC HD",
       "url": "https://cdn.stmify.com/bbc/stream/CBBC/hevc_iptv_mse_v0.mpd",
       "reason": "HTTP 404"
@@ -6277,11 +6222,6 @@
       "name": "AXN White Portugal (480p)",
       "url": "http://50.7.120.34:8080/AXN_WHITE/index.m3u8",
       "reason": "TimeoutError"
-    },
-    {
-      "name": "AXN White Portugal",
-      "url": "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F328698532772b83e8ca83a",
-      "reason": "HTTP 429"
     },
     {
       "name": "Best of Dr Phil",
