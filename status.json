@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-22 12:36 UTC",
-  "fingerprint": "485dcfd6540a93c1f52bc1bab9bb6dcb",
+  "updated_at": "2026-11-22 13:36 UTC",
+  "fingerprint": "af10f86dc96b227fb6baff85b750a39c",
   "total": 5015,
   "working": 3647,
-  "in_grace_period": 36,
+  "in_grace_period": 55,
   "dead": 1368,
-  "hd_channels": 1810,
+  "hd_channels": 1807,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,7 +89,7 @@
     },
     "English": {
       "total": 794,
-      "working": 539,
+      "working": 541,
       "hd": 302
     },
     "Estonian": {
@@ -99,13 +99,13 @@
     },
     "Finnish": {
       "total": 5,
-      "working": 1,
-      "hd": 1
+      "working": 2,
+      "hd": 2
     },
     "French": {
       "total": 124,
       "working": 96,
-      "hd": 69
+      "hd": 68
     },
     "German": {
       "total": 74,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 22,
       "working": 18,
-      "hd": 14
+      "hd": 13
     },
     "Gujarati": {
       "total": 49,
@@ -145,7 +145,7 @@
     "Indonesian": {
       "total": 17,
       "working": 8,
-      "hd": 7
+      "hd": 6
     },
     "Italian": {
       "total": 97,
@@ -224,7 +224,7 @@
     },
     "Other": {
       "total": 225,
-      "working": 136,
+      "working": 137,
       "hd": 78
     },
     "Persian": {
@@ -240,7 +240,7 @@
     "Portuguese": {
       "total": 142,
       "working": 79,
-      "hd": 48
+      "hd": 47
     },
     "Punjabi": {
       "total": 171,
@@ -249,7 +249,7 @@
     },
     "Romanian": {
       "total": 102,
-      "working": 85,
+      "working": 86,
       "hd": 32
     },
     "Russian": {
@@ -284,12 +284,12 @@
     },
     "Spanish": {
       "total": 760,
-      "working": 529,
-      "hd": 357
+      "working": 528,
+      "hd": 356
     },
     "Swahili": {
       "total": 3,
-      "working": 2,
+      "working": 3,
       "hd": 2
     },
     "Swedish": {
@@ -299,7 +299,7 @@
     },
     "Tamil": {
       "total": 200,
-      "working": 149,
+      "working": 148,
       "hd": 73
     },
     "Telugu": {
@@ -330,7 +330,7 @@
     "Vietnamese": {
       "total": 27,
       "working": 26,
-      "hd": 19
+      "hd": 20
     }
   },
   "categories": {
@@ -380,7 +380,7 @@
     },
     "Entertainment": {
       "total": 952,
-      "working": 640
+      "working": 641
     },
     "Family": {
       "total": 12,
@@ -412,11 +412,11 @@
     },
     "Music": {
       "total": 860,
-      "working": 649
+      "working": 648
     },
     "News": {
       "total": 810,
-      "working": 730
+      "working": 729
     },
     "Outdoor": {
       "total": 18,
@@ -1680,6 +1680,11 @@
     },
     {
       "name": "Suriyan TV (576p)",
+      "url": "https://hlslive.olidigital.in/suriyantv/suriyantv/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Suriyan TV (576p)",
       "url": "https://stream.sscloud7.com/live/suriyantv/index.m3u8",
       "reason": "URLError"
     },
@@ -2444,11 +2449,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "RTNB Divertissement",
-      "url": "https://tv2-stream.rtnb.bi/hls/master.m3u8",
-      "reason": "URLError"
-    },
-    {
       "name": "D Music (1280p) [Not 24/7]",
       "url": "http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8",
       "reason": "HTTP 404"
@@ -2472,6 +2472,11 @@
       "name": "My TV (576p)",
       "url": "https://live.happywatch99.com/mytvhdtv/c83cc584a878608f6b36a9717bd7a8ab.sdp/playlist.m3u8",
       "reason": "URLError"
+    },
+    {
+      "name": "Play TV (720p) [Not 24/7]",
+      "url": "http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8",
+      "reason": "HTTP 404"
     },
     {
       "name": "TR24 (720p)",
@@ -2651,7 +2656,7 @@
     {
       "name": "宁夏卫视 (576p)",
       "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
-      "reason": "RemoteDisconnected"
+      "reason": "ConnectionResetError"
     },
     {
       "name": "宁夏卫视 (576p)",
@@ -2741,7 +2746,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "La Kalle (1080p)",
@@ -2997,11 +3002,6 @@
       "name": "Vantage Music (720p) [Geo-blocked]",
       "url": "https://cdn-backup.lulzy.eu/vrock_stream/index.m3u8",
       "reason": "URLError"
-    },
-    {
-      "name": "Hero (720p) [Not 24/7]",
-      "url": "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true",
-      "reason": "HTTP 404"
     },
     {
       "name": "Jim (720p)",
@@ -3431,7 +3431,7 @@
     {
       "name": "YourTime TV",
       "url": "https://hls.yourtime.live/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Afarin Baxcha (1080p)",
@@ -3611,17 +3611,17 @@
     {
       "name": "Sportitalia (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sportitaliahd.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Motori (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "Sportitalia Solocalcio (720p) [Geo-blocked]",
       "url": "https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:sisolocalcio.smil/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 403"
     },
     {
       "name": "SuperTennis",
@@ -4677,11 +4677,6 @@
       "name": "Radio Romania Resita (576p) [Not 24/7]",
       "url": "https://stream3.srr.ro/RadioResita/live/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Smart Radio (576p)",
-      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
-      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Sport Extra HD",
@@ -5749,6 +5744,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Onda Valencia (720p)",
+      "url": "https://cloudvideo.servers10.com:8081/8116/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Pequeradio (720p) [Not 24/7]",
       "url": "https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8",
       "reason": "URLError"
@@ -5901,7 +5901,7 @@
     {
       "name": "ACW UG TV (480p)",
       "url": "https://live.acwugtv.com/hls/stream.m3u8",
-      "reason": "URLError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Galaxy TV (720p) [Not 24/7]",
