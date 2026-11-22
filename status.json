@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-22 10:35 UTC",
-  "fingerprint": "9e2434552c8d10a9b7d2b87c8bd4e708",
+  "updated_at": "2026-11-22 11:19 UTC",
+  "fingerprint": "4fd6b5604ec4c0632bd56ca139d1602f",
   "total": 5015,
-  "working": 3704,
-  "in_grace_period": 61,
-  "dead": 1311,
-  "hd_channels": 1830,
+  "working": 3705,
+  "in_grace_period": 121,
+  "dead": 1310,
+  "hd_channels": 1839,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -89,8 +89,8 @@
     },
     "English": {
       "total": 794,
-      "working": 568,
-      "hd": 321
+      "working": 569,
+      "hd": 323
     },
     "Estonian": {
       "total": 4,
@@ -134,8 +134,8 @@
     },
     "Hindi": {
       "total": 820,
-      "working": 705,
-      "hd": 257
+      "working": 706,
+      "hd": 265
     },
     "Hungarian": {
       "total": 57,
@@ -150,7 +150,7 @@
     "Italian": {
       "total": 97,
       "working": 63,
-      "hd": 42
+      "hd": 41
     },
     "Japanese": {
       "total": 7,
@@ -225,7 +225,7 @@
     "Other": {
       "total": 225,
       "working": 135,
-      "hd": 79
+      "hd": 78
     },
     "Persian": {
       "total": 19,
@@ -240,7 +240,7 @@
     "Portuguese": {
       "total": 142,
       "working": 79,
-      "hd": 47
+      "hd": 48
     },
     "Punjabi": {
       "total": 171,
@@ -285,7 +285,7 @@
     "Spanish": {
       "total": 760,
       "working": 526,
-      "hd": 353
+      "hd": 354
     },
     "Swahili": {
       "total": 3,
@@ -388,7 +388,7 @@
     },
     "General": {
       "total": 237,
-      "working": 196
+      "working": 197
     },
     "Interactive": {
       "total": 2,
@@ -532,11 +532,6 @@
       "name": "Awakening TV (576p)",
       "url": "https://mumt03.tangotv.in/Dsly5z3HAWAKENINGTV/index.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "B4U Kadak (576p)",
-      "url": "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8",
-      "reason": "HTTP 404"
     },
     {
       "name": "B4U Movies (576p)",
@@ -874,6 +869,11 @@
       "reason": "HTTP 403"
     },
     {
+      "name": "Goldmines Movies (576p)",
+      "url": "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Good News Today (720p)",
       "url": "https://aajtaklive.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/3196cced-ce29-4219-9809-f07ccdaa02b9/vglive-sk-848805/master.m3u8",
       "reason": "HTTP 404"
@@ -921,11 +921,6 @@
     {
       "name": "Hosanna TV Hindi (720p)",
       "url": "https://mumbai-edge.smartplaytv.in/HosannaTV/index.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
-      "name": "HSTV (720p)",
-      "url": "https://live.castmaxcloud.com/live/hstv.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -1896,7 +1891,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "TimeoutError"
+      "reason": "URLError"
     },
     {
       "name": "T Sports (1080p)",
@@ -3091,7 +3086,7 @@
     {
       "name": "AXN Spin",
       "url": "https://cronos.mangora1.cfd/spyn/usergencs85ja0j1rrnd.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "HTTP 429"
     },
     {
       "name": "AXN Spin Poland",
@@ -4216,7 +4211,7 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "Disney Junior (576p)",
@@ -4271,7 +4266,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "HTTP 404"
+      "reason": "URLError"
     },
     {
       "name": "AXN (1080p)",
@@ -4366,7 +4361,7 @@
     {
       "name": "Bollywood Classic Romania",
       "url": "https://flash1.bogulus1.cfd/boly/usergenr9j8s2t.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "HTTP 429"
     },
     {
       "name": "Bollywood HD (1080p)",
@@ -5381,7 +5376,7 @@
     {
       "name": "AXN CEE Romania",
       "url": "https://cronos.mangora1.cfd/axy/usergend3h5jkc9rnd.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "HTTP 429"
     },
     {
       "name": "AXN HD (1080p)",
@@ -5916,7 +5911,7 @@
     {
       "name": "Viasat Kino Romania",
       "url": "https://flash1.bogulus1.cfd/tivi10/usergenrxs4f7zc.m3u8",
-      "reason": "not a valid HLS manifest"
+      "reason": "HTTP 429"
     },
     {
       "name": "Zoom (1080p)",
