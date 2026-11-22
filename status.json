@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-22 18:25 UTC",
-  "fingerprint": "fe92c99173ebcd8113d3486bf32e6631",
+  "updated_at": "2026-11-22 19:17 UTC",
+  "fingerprint": "3f9cdda766674e3d19b5ede5cc7f6181",
   "total": 5015,
   "working": 3624,
-  "in_grace_period": 35,
+  "in_grace_period": 32,
   "dead": 1391,
-  "hd_channels": 1790,
+  "hd_channels": 1794,
   "languages": {
     "Afrikaans": {
       "total": 2,
@@ -34,8 +34,8 @@
     },
     "Bengali": {
       "total": 145,
-      "working": 96,
-      "hd": 48
+      "working": 94,
+      "hd": 47
     },
     "Bhojpuri": {
       "total": 34,
@@ -84,13 +84,13 @@
     },
     "Dutch": {
       "total": 65,
-      "working": 32,
+      "working": 31,
       "hd": 23
     },
     "English": {
       "total": 794,
-      "working": 536,
-      "hd": 298
+      "working": 535,
+      "hd": 299
     },
     "Estonian": {
       "total": 4,
@@ -115,7 +115,7 @@
     "Greek": {
       "total": 22,
       "working": 18,
-      "hd": 14
+      "hd": 13
     },
     "Gujarati": {
       "total": 49,
@@ -144,8 +144,8 @@
     },
     "Indonesian": {
       "total": 17,
-      "working": 8,
-      "hd": 6
+      "working": 9,
+      "hd": 7
     },
     "Italian": {
       "total": 97,
@@ -224,7 +224,7 @@
     },
     "Other": {
       "total": 225,
-      "working": 136,
+      "working": 135,
       "hd": 78
     },
     "Persian": {
@@ -239,7 +239,7 @@
     },
     "Portuguese": {
       "total": 142,
-      "working": 73,
+      "working": 74,
       "hd": 48
     },
     "Punjabi": {
@@ -254,7 +254,7 @@
     },
     "Russian": {
       "total": 402,
-      "working": 222,
+      "working": 220,
       "hd": 88
     },
     "Santali": {
@@ -284,8 +284,8 @@
     },
     "Spanish": {
       "total": 760,
-      "working": 518,
-      "hd": 348
+      "working": 521,
+      "hd": 351
     },
     "Swahili": {
       "total": 3,
@@ -314,8 +314,8 @@
     },
     "Turkish": {
       "total": 53,
-      "working": 33,
-      "hd": 28
+      "working": 34,
+      "hd": 29
     },
     "Ukrainian": {
       "total": 70,
@@ -380,7 +380,7 @@
     },
     "Entertainment": {
       "total": 952,
-      "working": 636
+      "working": 638
     },
     "Family": {
       "total": 12,
@@ -396,7 +396,7 @@
     },
     "Kids": {
       "total": 464,
-      "working": 281
+      "working": 283
     },
     "Legislative": {
       "total": 8,
@@ -408,11 +408,11 @@
     },
     "Movies": {
       "total": 638,
-      "working": 421
+      "working": 419
     },
     "Music": {
       "total": 860,
-      "working": 649
+      "working": 647
     },
     "News": {
       "total": 810,
@@ -1399,6 +1399,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Sangeet Bangla (576p) [Geo-blocked]",
+      "url": "https://tvsen6.aynaott.com/hT5jHczt/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Sansad TV 1 HD (1080p)",
       "url": "https://mumbai-edge.smartplaytv.in/Sansad1/index.m3u8",
       "reason": "TimeoutError"
@@ -1819,6 +1824,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "ZB Music (720p)",
+      "url": "https://server.zillarbarta.com/zbmusic/index.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
       "name": "Zee 24 Ghanta (576p)",
       "url": "https://tvsen6.aynaott.com/DpPnXP9r/index.m3u8",
       "reason": "TimeoutError"
@@ -1999,11 +2009,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Más FM 95.9 (720p)",
-      "url": "https://vivo.solumedia.com:19360/masfm/masfm.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "MusicTop (1080p)",
       "url": "http://190.128.214.97:64333/play/a06o/index.m3u8",
       "reason": "HTTP 403"
@@ -2156,7 +2161,7 @@
     {
       "name": "Rupashi Bangla TV (720p)",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/ruposhibangla.stream/playlist.m3u8",
-      "reason": "URLError"
+      "reason": "TimeoutError"
     },
     {
       "name": "T Sports (1080p)",
@@ -2177,6 +2182,11 @@
       "name": "Sport TV (1080p)",
       "url": "http://178.124.179.122:8080/SportTV/mpegts",
       "reason": "HTTP 400"
+    },
+    {
+      "name": "Беларусь 5 Интернет (1080p) [Not 24/7]",
+      "url": "https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8",
+      "reason": "RemoteDisconnected"
     },
     {
       "name": "Bel RTL (1080p)",
@@ -2761,7 +2771,7 @@
     {
       "name": "La Hermandad Salsera (1080p) [Not 24/7]",
       "url": "https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8",
-      "reason": "HTTP 403"
+      "reason": "HTTP 404"
     },
     {
       "name": "La Kalle (1080p)",
@@ -2921,6 +2931,11 @@
     {
       "name": "Cibaeña TV (720p)",
       "url": "https://streamunoapp.com:3958/live/cibaenatvlive.m3u8",
+      "reason": "HTTP 404"
+    },
+    {
+      "name": "Claro Visión TV (720p)",
+      "url": "https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8",
       "reason": "HTTP 404"
     },
     {
@@ -3344,11 +3359,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "TV Centro 27.2 HD (720p)",
-      "url": "https://cloud2.streaminglivehd.com:1936/8004/8004/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Asian Drama (1080p)",
       "url": "http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8",
       "reason": "URLError"
@@ -3432,11 +3442,6 @@
       "name": "Ficom Channel (720p)",
       "url": "https://v3.siar.us/ficomchannel/live/playlist.m3u8",
       "reason": "HTTP 404"
-    },
-    {
-      "name": "Kids TV",
-      "url": "http://origin5.mediacdn.ru/live/kidstv/index.m3u8",
-      "reason": "HTTP 503"
     },
     {
       "name": "My Kidz (720p)",
@@ -3796,7 +3801,7 @@
     {
       "name": "OneFM (720p) [Not 24/7]",
       "url": "https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8",
-      "reason": "HTTP 500"
+      "reason": "TimeoutError"
     },
     {
       "name": "LRT Plius (1080p)",
@@ -3979,6 +3984,11 @@
       "reason": "URLError"
     },
     {
+      "name": "Canal+ Action Europe Czechia",
+      "url": "http://46.149.191.219:9106/play/a01g",
+      "reason": "URLError"
+    },
+    {
       "name": "Canal+ Action Europe Slovakia (720p)",
       "url": "http://151.80.18.177:86/Canal+_Family_HD/index.m3u8",
       "reason": "URLError"
@@ -4031,6 +4041,11 @@
     {
       "name": "FightBox Poland (576p)",
       "url": "http://205.237.104.26:8080/stream/356/index.m3u8",
+      "reason": "URLError"
+    },
+    {
+      "name": "FILMBOX+ One Nederland",
+      "url": "http://46.149.191.219:9100/play/a015",
       "reason": "URLError"
     },
     {
@@ -4379,11 +4394,6 @@
       "reason": "HTTP 404"
     },
     {
-      "name": "Oasis TV (720p)",
-      "url": "https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Popu TV (1080p)",
       "url": "http://190.108.83.69:8000/play/a070/index.m3u8",
       "reason": "HTTP 404"
@@ -4454,11 +4464,6 @@
       "reason": "HTTP 403"
     },
     {
-      "name": "Metropolitana del Cuzco",
-      "url": "https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8",
-      "reason": "HTTP 404"
-    },
-    {
       "name": "Movistar Deportes (1080p)",
       "url": "http://195.178.110.110/movistar/index.m3u8",
       "reason": "HTTP 403"
@@ -4521,7 +4526,7 @@
     {
       "name": "Antena HD",
       "url": "http://92.114.85.87:8010/play/a00g/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "Disney Junior (576p)",
@@ -4596,7 +4601,7 @@
     {
       "name": "TeenNick (576i)",
       "url": "http://92.114.85.87:8010/play/a009/index.m3u8",
-      "reason": "URLError"
+      "reason": "HTTP 404"
     },
     {
       "name": "AXN (1080p)",
@@ -4744,11 +4749,6 @@
       "reason": "URLError"
     },
     {
-      "name": "Prima Sport 1 HD",
-      "url": "https://rundle.tv/proxy5.php?src=https%3A%2F%2Firon1.xn--x2rw19a.space%2Fpuk1%2Fusergenrx0cir27aq-got.htm",
-      "reason": "HTTP 429"
-    },
-    {
       "name": "Radio Romania Antena Satelor (720p) [Not 24/7]",
       "url": "https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8",
       "reason": "HTTP 404"
@@ -4757,6 +4757,11 @@
       "name": "Radio Romania Resita (576p) [Not 24/7]",
       "url": "https://stream3.srr.ro/RadioResita/live/playlist.m3u8",
       "reason": "HTTP 404"
+    },
+    {
+      "name": "Smart Radio (576p)",
+      "url": "https://streamw.m.ro/Regie/radio.stream/chunklist.m3u8",
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "Sport Extra HD",
@@ -5569,6 +5574,11 @@
       "reason": "HTTP 404"
     },
     {
+      "name": "Шансон ТВ (512p) [Geo-blocked]",
+      "url": "http://hls.shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8",
+      "reason": "HTTP 403"
+    },
+    {
       "name": "Rotana Cinema KSA (1080p) [Geo-blocked]",
       "url": "https://rotana.hibridcdn.net/rotananet/cinema_net-7Y83PP5adWixDF93/playlist.m3u8",
       "reason": "HTTP 403"
@@ -5972,11 +5982,6 @@
       "name": "TJK TV 2 (1080p) [Not 24/7]",
       "url": "https://tjktv-live.tjk.org/tjktv2/tjktv2.m3u8",
       "reason": "HTTP 401"
-    },
-    {
-      "name": "TRT Cocuk (1440p)",
-      "url": "https://tv-trtcocuk.medya.trt.com.tr/master.m3u8",
-      "reason": "HTTP 403"
     },
     {
       "name": "TRT Spor (720p)",
@@ -6517,11 +6522,6 @@
       "name": "A&E (1080p)",
       "url": "https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8",
       "reason": "HTTP 403"
-    },
-    {
-      "name": "A&E Latin America Brazil (720p)",
-      "url": "http://170.83.16.50/AeE/index.m3u8",
-      "reason": "TimeoutError"
     },
     {
       "name": "AMC (1080p) [Geo-blocked]",
@@ -7336,7 +7336,7 @@
     {
       "name": "ČT sport Plus",
       "url": "https://sktv.mxnticek.eu/new/stream.php?ch=%C4%8CT%20sport%20Plus",
-      "reason": "TimeoutError"
+      "reason": "not a valid HLS manifest"
     },
     {
       "name": "TVB Finance (Sports & Information Channel)",
